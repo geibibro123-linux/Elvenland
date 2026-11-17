@@ -14,7 +14,7 @@ Der Nutzer erlaubt einen eigenen Aufbau mit Godot oder Unity. Empfohlen ist Godo
 
 Die für dieses Repository vorbereiteten Projektdateien enthalten die lesbaren Unterlagen, geprüften Tabellen und wiederholbaren Werkzeuge. Die großen dekodierten Medien liegen in der Gesamt-ZIP als einzelne Dateien. Ihre Rohquellen bleiben anhand der ursprünglichen APKs und Hashlisten nachvollziehbar. Die kompakte Gesamt-ZIP verdoppelt diese Medien nicht durch zusätzlich beigelegte Rohcontainer.
 
-Das bestätigte Zielrepository [geibibro123-linux/Elvenland](https://github.com/geibibro123-linux/Elvenland) existiert, ist verbunden und derzeit **privat**. Der Upload der Projektdateien läuft; ein Release ist noch offen. Anonymer Zugriff ist nicht nachgewiesen und bei der aktuellen privaten Sichtbarkeit nicht verfügbar. Der genaue Stand steht in [docs/GITHUB_PUBLICATION.md](docs/GITHUB_PUBLICATION.md).
+Die Projektdateien sind in **Elvenland** gespeichert. 253 importierte Dateien wurden gegen ihre Git-Hashes geprüft; die 13 vorhandenen Kerndateien blieben erhalten. Das [KI-Startpaket v1](https://github.com/geibibro123-linux/Elvenland/releases/tag/elvenland-ki-startpaket-v1) ist als geprüftes 4,69-MB-Release vorhanden. Es enthält die Unterlagen und Indizes. Das vollständige Medienarchiv ist noch nicht als GitHub-Release bereitgestellt. Das Repository ist weiterhin **privat**, daher ist anonymer Zugriff noch nicht verfügbar. Der aktuelle Stand steht in [docs/GITHUB_PUBLICATION.md](docs/GITHUB_PUBLICATION.md).
 
 Dieses Paket ist kein spielbares Offline-Spiel. Ein vollständiger Original-Forschungsbaum, vollständige Gebäudekosten und Produktionsrezepte sind noch nicht nachgewiesen. Unbekannte Werte bleiben offen. Die genaue Datenlage steht in [data/reference/README_HISTORICAL_DATA.md](data/reference/README_HISTORICAL_DATA.md).
 
@@ -22,4 +22,9 @@ Die Originalgrafiken und Originalmusik behalten ihre Herkunft und ihre Rechte. E
 
 ## Repository und Archivstand
 
-Die Quellarchive sind unveränderte Erstellungssnapshots vom 17. November 2026. Der Materialumfang bleibt unverändert. Diese Repository-Fassung aktualisiert den Veröffentlichungsstand. `INDEX.json` und die Medienindizes beschreiben weiterhin das vollständige Medienpaket; die großen Medien liegen nicht im kleinen Git-Dateibestand. Archivbezogene SHA-Listen und Archivmanifeste werden hier nicht als aktuelle Repository-Prüfsummen übernommen. `KI_START_HERE.md` beschreibt den ursprünglichen kleinen Archivbestand; für den aktuellen Einstieg gelten diese README, `START_HERE.md` und `STATUS.json`.
+Die Quellarchive sind unveränderte Erstellungssnapshots vom 17. November 2026. Der Materialumfang bleibt unverändert. Diese Repository-Fassung aktualisiert den Veröffentlichungsstand. `INDEX.json` und die Medienindizes beschreiben weiterhin das vollständige Medienpaket; die großen Medien liegen nicht im kleinen Git-Dateibestand. Archivbezogene SHA-Listen und Archivmanifeste werden hier nicht als aktuelle Repository-Prüfsummen übernommen. Die im kleinen ZIP enthaltene Datei `KI_START_HERE.md` erläutert dessen Umfang; im Repository gelten diese README, `START_HERE.md` und `STATUS.json`.
+
+
+## Vollständiges Medienpaket erneut erstellen
+
+Der vorbereitete [Ressourcen-Workflow](docs/FULL_RESOURCE_WORKFLOW.md) kann die gesamte ZIP aus der geprüften Quell-APK als Release-Anhang in diesem Repository erzeugen. Er wurde noch nicht auf GitHub ausgeführt. Er baut keine neue Android-App. Die korrigierten Werkzeuge wurden lokal für die vollständige Wiederherstellung verwendet; siehe [Prüfbericht](verification/restored_package_20261117.json).

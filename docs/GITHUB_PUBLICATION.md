@@ -2,39 +2,44 @@
 
 Stand: 17. November 2026.
 
-## Aktuelle Verbindung
+## Tatsächlich abgeschlossen
 
-Das vom Nutzer bestätigte Ziel [geibibro123-linux/Elvenland](https://github.com/geibibro123-linux/Elvenland) existiert und ist mit dem GitHub-Zugang verbunden. Schreibzugriff wurde bestätigt. Das Repository ist derzeit **privat**; der Standardbranch heißt `main`.
+Das bestätigte Ziel [geibibro123-linux/Elvenland](https://github.com/geibibro123-linux/Elvenland) ist verbunden und weiterhin **privat**.
 
-Der Upload der vorbereiteten Projektdateien läuft. Ein Elvenland-Release ist noch offen. Ein erfolgreicher Upload oder ein vorhandener Repository-Link allein bestätigt keinen anonymen Zugriff. `anonymous_github_access_verified` bleibt `false`.
+* 253 Tabellen, Indizes, Referenzmodule und Werkzeuge wurden einzeln importiert. Alle 253 Git-Blob-Hashes stimmen mit dem geprüften Startpaket überein. Die 13 vorhandenen Kerndateien wurden erhalten.
+* Der [Importlauf](https://github.com/geibibro123-linux/Elvenland/actions/runs/44181480446) wurde erfolgreich abgeschlossen. Sein Inhaltscommit lautet `74a254ee1ed47ee0926ba1a7aec1ed80d22f1714`.
+* Das [KI-Startpaket v1](https://github.com/geibibro123-linux/Elvenland/releases/tag/elvenland-ki-startpaket-v1) ist mit 4.686.083 Bytes und SHA-256 `3aea47b37907ea7bf168139f6d10957deffdca933afe8870325b17524898169b` als Release gespeichert.
+* Der vollständige Medienbestand wurde lokal erneut erzeugt. Die aktuelle ZIP enthält 25.662 Dateien bei 673.087.419 Bytes. Alle 11.452 Medien-Dateien sind byte-identisch zum vorherigen geprüften Paket. Belege stehen unter `verification/restored_package_20261117.json` und `verification/restored_package_file_comparison_20261117.json`.
 
-Die Archive bleiben unveränderte Erstellungssnapshots vom 17. November 2026. Der Materialumfang wurde nicht geändert. Die aktuelle Repository-Fassung aktualisiert ausschließlich die Publikationsangaben und enthält die kleinen lesbaren Projektdateien. Große Medien werden getrennt bereitgestellt.
+## Noch offen
 
-Das frühere private Repository `geibibro123-linux/Farm-elvenar-` bleibt eine historische Quelle. Der jetzt autorisierte Upload hat das ausdrücklich benannte Ziel `geibibro123-linux/Elvenland`.
+Die große ZIP ist noch nicht als GitHub-Release gespeichert. Die GitHub-Anbindung stellte keinen direkten Upload für binäre Release-Dateien bereit. Die zusätzliche Browser-Anmeldung wurde abgebrochen; danach war keine angemeldete Browser-Sitzung verfügbar. Der zusätzliche dauerhafte Dateispeicherversuch lieferte kein erfolgreiches Ergebnis. Die kleine ZIP und die GitHub-Dateien sind davon getrennt erfolgreich gespeichert.
 
-## Dateiablage und gewünschter anonymer Zugriff
+Das Repository ist privat. Ein erfolgreicher Upload ist deshalb noch kein anonymer Zugriff. `anonymous_github_access_verified` bleibt `false`. Die Sichtbarkeit kann mit den vorhandenen GitHub-Werkzeugen nicht geändert werden.
 
-- `README.md`, `START_HERE.md`, `MASTER_PROMPT.md`, `STATUS.json`, `INDEX.json`, `AGENTS.md`, Daten, Dokumente und Teilindizes als gewöhnliche lesbare Dateien.
-- Die große ZIP als Release-Datei, mit passender SHA-256-Datei und Prüfbericht.
-- Keine Signaturschlüssel, Kontodaten, Zugangstokens oder unbearbeiteten privaten Startantworten veröffentlichen.
-- Einzelne Text-/JSON-Dateien über ihre tatsächlichen Raw-URLs prüfen. ZIP-Download ohne Anmeldung prüfen und dessen SHA-256 gegen das Release-Manifest abgleichen.
-- Nur bei tatsächlichem erfolgreichen anonymen Abruf `anonymous_github_access_verified` auf `true` setzen.
+## Vorbereiteter Weg zum vollständigen Medien-Release
 
-GitHub blockiert einzelne Dateien über 100 MiB im normalen Git-Verlauf. Release-Assets dürfen laut der am 17.11.2026 geprüften Dokumentation jeweils unter 2 GiB groß sein. Für die spätere Veröffentlichung ist die Medien-ZIP deshalb als Release-Asset vorgesehen [1][2]. Die Erstellung dieses Releases ist noch offen.
+Die Anleitung steht unter [FULL_RESOURCE_WORKFLOW.md](FULL_RESOURCE_WORKFLOW.md). Der neue Workflow `.github/workflows/elvenland-resources.yml` liest die exakt geprüfte Datei `Elvenar_Lab04_SkriptTest03.apk` als Anhang eines **unveröffentlichten Release-Entwurfs** aus demselben Repository Elvenland. Er wird ausschließlich manuell gestartet und verlangt, dass die Quell-Release ein Entwurf bleibt. Er benötigt keinen zusätzlichen dauerhaften Zugriffsschlüssel. Er prüft den APK-Hash, erzeugt die Medien-ZIP und veröffentlicht ihre tatsächlich gemessene Prüfsumme. Er wurde noch nicht auf GitHub ausgeführt.
 
-## Wiederholbarer Paketbau
+Die Quell-APK liegt bisher in der wiederhergestellten Dateisammlung und im anderen privaten Quellrepository. Das kurzlebige Token von Elvenland kann nicht automatisch das andere private Repository lesen. Daher muss die Quell-APK zunächst als Anhang eines unveröffentlichten Release-Entwurfs in Elvenland liegen. Die Quell-APK bleibt im Entwurf, während das geprüfte erzeugte Ressourcenpaket separat veröffentlicht wird. Draft-Releases sind nur für Konten mit Push-Zugriff sichtbar [3]. Die vorhandene Vorlage `github/elvenland-package.yml` bleibt eine ältere Alternative für öffentlich abrufbare APK-URLs; für den aktuellen Weg gilt die neue Anleitung.
 
-Die konkrete Vorlage liegt unter `github/elvenland-package.yml`. Sie wurde noch nicht auf GitHub ausgeführt und startet ausschließlich manuell über `workflow_dispatch`. Der Nutzer muss beim Start eine öffentlich abrufbare HTTPS-URL zur Eingabe-APK angeben. Anschließend wird der APK-Hash gegen die verifizierten Quellen geprüft. Das Paketskript verwendet die in `provenance/source_media_files.json` ausgewählten Quelldateien.
+Der Workflow erstellt ein Ressourcenpaket. Eine neue spielbare Android-App wurde nicht erstellt.
 
-Diese Vorlage greift nicht auf das private Baseline-Release zu und benötigt keinen privaten Quelltoken. Die angegebene HTTPS-Quelle muss ohne Anmeldung tatsächlich erreichbar sein. Das bloße Vorhandensein der Workflow-Datei ist kein Nachweis eines erfolgreichen Downloads oder eines ausgeführten GitHub-Builds.
+## Anonymen Zugriff abschließen
 
-Für einen lokalen Neubau kann eine der in `provenance/SOURCE_INPUTS.json` verifizierten APKs unmittelbar als Eingabedatei übergeben werden. Dieser Weg benötigt keinen öffentlichen APK-Link. Die Gesamt-ZIP enthält die dekodierten Medien bereits und benötigt für den neuen Spielbau keine erneute Verbindung zum Spielserver.
+Nach Umstellung des Repositorys auf Public müssen die tatsächlichen Text- und Downloadlinks ohne Anmeldung geprüft werden. Erst dann darf der anonyme Zugriff als bestätigt gelten. Keine Zugangstokens in Prompts oder Dokumente aufnehmen. Die bestehenden Hinweise zur Herkunft und zu Rechten an Originalmedien bleiben unter `THIRD_PARTY_NOTICE.md` erhalten.
 
-Der lokale Paketbau ist der unmittelbar verfügbare Weg. Die veröffentlichbare ZIP enthält ausschließlich die geprüften konvertierten Ausgaben und zugehörigen Unterlagen. Unveränderte Rohcontainer bleiben in der eigenen verifizierten APK beziehungsweise im privaten Eingabeverzeichnis. Hinweise zur Übergabe der vorbereiteten Dateien an KI-Chats stehen in `docs/AI_HANDOFF.md`.
+GitHub blockiert einzelne Dateien über 100 MiB im normalen Git-Verlauf. Release-Assets dürfen jeweils unter 2 GiB groß sein; die große ZIP passt daher als Release-Datei [1][2].
 
-Laufzeit-, Kompressions- und Werkzeugmetadaten können zwischen zwei erneuten Paketbauten variieren. Maßgeblich ist die SHA-256-Datei der jeweils tatsächlich heruntergeladenen ZIP und das darin enthaltene Dateimanifest. Keinen Hash einer lokalen ZIP für ein unabhängig neu erzeugtes Release-Archiv ausgeben.
+## Archivstände und Prüfsummen
+
+Das kleine Startpaket bleibt ein unveränderter Erstellungssnapshot vom 17. November 2026. Damalige Zugangshinweise im ZIP sind historisch. Für den aktuellen Veröffentlichungsstand gelten diese Datei, README und STATUS im Repository. Medienindizes beschreiben den vollständigen Bestand, auch wenn die Medien nicht im kleinen Git-Dateibestand liegen.
+
+Die aktuelle wiederhergestellte lokale Medien-ZIP hat SHA-256 `651d0600107835b45ecac198a858aed5f21bd1335764c436d10d1c5035aca822`. Der ältere Hash `595290ed0ffc7b78440605f802df514c3aede50ee83f8647628df7fe58c3d797` gehört zur früheren ZIP und darf nicht dafür verwendet werden. Gemessene Laufzeiten und geänderte Dokumentation können bei weiteren Builds andere Archiv-Hashes erzeugen. Maßgeblich ist immer der Prüfbericht der tatsächlich gelieferten Datei.
 
 ## Quellen
 
 1. https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github
 2. https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases
+
+3. https://docs.github.com/en/rest/releases/releases

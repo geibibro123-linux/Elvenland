@@ -1,19 +1,11 @@
-# Vorlage für das eigene Repository elvenland
+# Paketbau für Elvenland
 
-Diese Dateien sind vorbereitet. Sie wurden nicht auf GitHub ausgeführt. Der GitHub-Zugriff für das angefragte Ziel fehlt derzeit; Einzelheiten stehen in `docs/GITHUB_PUBLICATION.md`.
+Das Repository `geibibro123-linux/Elvenland` ist verbunden. Die lesbaren Projektdateien sind gespeichert und das kleine KI-Startpaket wurde als Release veröffentlicht. Es enthält Unterlagen und Indizes; das große Medienarchiv ist getrennt bereitzustellen.
 
-## Lesbare Projektdateien und vollständiges Medienarchiv
+Für den aktuellen vorbereiteten Ressourcenbau gilt [docs/FULL_RESOURCE_WORKFLOW.md](../docs/FULL_RESOURCE_WORKFLOW.md). Der aktive Workflow liegt unter `.github/workflows/elvenland-resources.yml` und verwendet eine exakt geprüfte Quell-APK im selben Repository. Eine Ausführung dieses vollständigen Ressourcenbaus auf GitHub steht noch aus.
 
-Das kleine KI-Startpaket entpacken und die Dateien innerhalb seines Ordners `elvenland/` als Wurzel des neuen Repositorys verwenden. Prompt, Dokumente, Daten und Indizes können dadurch einzeln gelesen werden. Die Dateien des vollständigen Medienpakets bleiben im vollständigen ZIP und werden als Release-Anhang veröffentlicht. Ein öffentliches Repository und ein tatsächlich öffentliches Release sind für den gewünschten Zugriff ohne Anmeldung erforderlich.
+Die Datei `github/elvenland-package.yml` bleibt eine ältere, nicht aktivierte Vorlage für eine öffentlich abrufbare HTTPS-APK-Quelle. Sie ist für den aktuellen Weg nicht erforderlich. Keine geheimen Download-URLs oder Zugriffstokens in ihre Eingaben schreiben.
 
-Die vorhandenen ZIP-Dateien lassen sich direkt als Release-Dateien bereitstellen. Ein erneuter Export aus der APK ist dafür nicht nötig. Zusammen mit dem großen ZIP die zugehörige `.sha256` und `.verification.json` veröffentlichen. Den konkreten Release-Link anschließend ohne Anmeldung prüfen; erst danach den Veröffentlichungsstatus ändern.
+Der lokal ausgeführte Paketbau ist unter [docs/REPRODUCE.md](../docs/REPRODUCE.md) dokumentiert. Der aktuelle Prüfbericht der vollständigen Wiederherstellung liegt unter `verification/restored_package_20261117.json`.
 
-## Optionaler Neubau mit GitHub Actions
-
-Die Vorlage `github/elvenland-package.yml` ist für ein Repository vorbereitet, dessen Wurzel die Elvenland-Dateien enthält. Zur Aktivierung an `.github/workflows/elvenland-package.yml` kopieren und mit dem Repository speichern. Sie wird ausschließlich manuell über **Run workflow** gestartet.
-
-Der Workflow erwartet eine öffentlich herunterladbare HTTPS-URL zu einer bereits geprüften Quell-APK. Er verwendet keinen privaten Zugriffstoken für das alte Repository. Eine private GitHub-Release-URL funktioniert in dieser Vorlage nicht ohne eine eigene Zugriffslösung. Keine Zugangsdaten oder geheimen Download-URLs in das Eingabefeld schreiben.
-
-`tools/build_package.py` prüft den SHA-256-Wert vor der Extraktion gegen `provenance/SOURCE_INPUTS.json` und akzeptiert nur bekannte Versionen. Eine neue APK-Version muss zuerst unabhängig geprüft und dokumentiert werden. Die Vorlage installiert Python-Abhängigkeiten und Medienwerkzeuge, erzeugt das große Ressourcenpaket und das kleine Startpaket und veröffentlicht beide als Release.
-
-Dieser Workflow baut Ressourcen-ZIPs. Er erstellt keine Godot-Anwendung und keine Android-APK. Seine Ausführung auf GitHub ist noch nicht nachgewiesen. Für den lokalen, tatsächlich ausgeführten Paketbau siehe `docs/REPRODUCE.md` und `verification/`.
+Diese Abläufe erzeugen Ressourcen-ZIPs. Der Godot-Spielkern und eine neue Android-APK sind nachfolgende Entwicklungsarbeit. Für anonyme Lesbarkeit muss die Sichtbarkeit des Repositorys separat stimmen und ein Abruf ohne Anmeldung geprüft werden.

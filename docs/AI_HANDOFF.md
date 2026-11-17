@@ -2,7 +2,7 @@
 
 Geprüfter Informationsstand: **17. November 2026**. Dateiannahme, Entpacken und vollständige Verarbeitung sind getrennte Fähigkeiten. Ein erfolgreicher Upload beweist noch nicht, dass eine Sitzung sämtliche enthaltenen Medien lesen kann.
 
-Nach Ergänzung der zuvor fehlenden Unity-Ressourcen wird das Hauptarchiv voraussichtlich größer als 512 MB. Die endgültige Größe ergibt sich erst aus dem fertigen Paket und seinem Prüfbericht. **Das Hauptarchiv wird deshalb nicht als direkt in einen KI-Chat hochladbare Datei zugesagt. Das kleine KI-Startpaket ist der empfohlene Einstieg.**
+Die vollständig wiederhergestellte lokale Medien-ZIP hat 673.087.419 Bytes. Ihr aktueller Prüfbericht liegt unter `verification/restored_package_20261117.json`. Das kleine KI-Startpaket hat 4.686.083 Bytes und ist als GitHub-Release vorhanden. **Das Hauptarchiv wird deshalb nicht als direkt in einen KI-Chat hochladbare Datei zugesagt. Das kleine KI-Startpaket ist der empfohlene Einstieg.**
 
 ## Empfohlener Einstieg
 
@@ -37,3 +37,4 @@ Alle 20 Sprachen bleiben im Vollpaket erhalten. Die kompakten Referenztabellen f
 1. OpenAI, **Uploading files and audio to ChatGPT**: https://help.openai.com/en/articles/8555545-uploading-files-and-audio-to-chatgpt
 2. Anthropic, **Upload files to Claude**, Seitendatum 23. Juli 2026: https://support.claude.com/en/articles/8241126-upload-files-to-claude
 3. Anthropic, **Create and edit files with Claude**: https://support.claude.com/en/articles/12111783-create-and-edit-files-with-claude
+

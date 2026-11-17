@@ -1,0 +1,15 @@
+{
+  "files_manifested": 25659,
+  "manifested_bytes": 889269895,
+  "json_files_parsed": 14137,
+  "manifest_excludes_itself_and_validation": true,
+  "signing_material_included": false,
+  "raw_private_startup_included": false,
+  "apk_included": false,
+  "gameplay_validated": false,
+  "android_validated": false,
+  "zip_entries": 25662,
+  "zip_crc_verified": true,
+  "zip_bytes": 673087419,
+  "zip_sha256": "651d0600107835b45ecac198a858aed5f21bd1335764c436d10d1c5035aca822"
+}

@@ -318,6 +318,20 @@ def seal_package(package: Path, output: Path) -> dict:
     return validation
 
 
+def write_visual_verification(package: Path) -> None:
+    """Include the same visual audit files for fresh and reused exports."""
+    visual = package / 'assets/visuals'
+    shutil.copy2(SEED / 'verification/font_texture_gaps.json', visual / 'source_empty_textures.json')
+    files = []
+    for path in sorted(visual.rglob('*')):
+        if not path.is_file() or path.name == 'SHA256_MANIFEST.json':
+            continue
+        if path.is_symlink():
+            raise ValueError('Visual export contains a symlink')
+        files.append({'path': path.relative_to(visual).as_posix(), 'bytes': path.stat().st_size, 'sha256': digest(path)})
+    write_json(visual / 'SHA256_MANIFEST.json', {'schema_version': 1, 'root': 'assets/visuals', 'file_count': len(files), 'total_bytes': sum(row['bytes'] for row in files), 'scope': 'Converted visual outputs and their verification metadata; excludes this manifest itself.', 'files': files})
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--apk', type=Path, required=True)
@@ -352,6 +366,7 @@ def main() -> None:
     expected_empty_fonts = {str(item['object_id']) for item in json.loads((SEED / 'verification/font_texture_gaps.json').read_text())}
     if len(errors) != 4 or {str(item.get('object_id')) for item in errors} != expected_empty_fonts or any(item.get('type') != 'Texture2D' or item.get('name') != 'Font Texture' for item in errors):
         raise ValueError('Unexpected visual extraction gap beyond the four empty font objects')
+    write_visual_verification(package)
     audio_result = export_audio(package)
     additional_result = export_additional_assets(package, args.reuse_data, args.reuse_localization, args.workers)
     android_result = export_android_references(args.apk.resolve(), package, source_result['source_apk_sha256'])

@@ -1,0 +1,46 @@
+{
+  "previous_manifest_files": 25659,
+  "current_files_checked": 25659,
+  "matched_files": 25652,
+  "media_files_checked": 11452,
+  "media_bytes_match_previous_files": 11452,
+  "missing": [],
+  "changed": [
+    {
+      "path": "STATUS.json",
+      "old_sha256": "b04bfefdcc6479cf1845e7070fcc17a1ec4c5763ea8ea831a86d439076ff94d6",
+      "new_sha256": "dd0acb33b518193cbfb427d3e8fa5c94dc55c683af02e1e068829c0da692cdb3"
+    },
+    {
+      "path": "assets/unity_data/SHA256_MANIFEST.json",
+      "old_sha256": "d9b73c7cbb26f27eab93190587fc1627cb0a303d67f395c46f8f066b71a7a478",
+      "new_sha256": "14433283590939f46c84d8527ca39e6cae1279b9bd6441e059f132dc0c26fb00"
+    },
+    {
+      "path": "assets/unity_data/data_summary.json",
+      "old_sha256": "c3fd813b0d17e91150b42705dbbfcb2c78035d320102c9c8dc71eda4ecda6f77",
+      "new_sha256": "ef114ee23c51653743d28f46ce0575660e36285a503c3cc9537849cebcb7969a"
+    },
+    {
+      "path": "assets/visuals/SHA256_MANIFEST.json",
+      "old_sha256": "3a61a4eae09805294c8f0f25dd5c616411736142aa28390283c9b8dcddc5817a",
+      "new_sha256": "2cf2804d07769d61b7fb71c153a9b0c967fc3336574f480fcc8c2ac9a1078acd"
+    },
+    {
+      "path": "assets/visuals/bundles_summary.json",
+      "old_sha256": "ef5c6c4d2a63b118656a57aa097e8189deef269079d55ad19765804af26ceaac",
+      "new_sha256": "178bb563a52911bac576f2a16e0d6a013f149c6dcef728b3781774f66a26a8bc"
+    },
+    {
+      "path": "tools/build_package.py",
+      "old_sha256": "cb02bb122dfbbecbd74b35e67e404346cad65ccbd998107af993bd7d4a89319d",
+      "new_sha256": "62fd4facfc1f34ccaae08a129fc0d12b536da03fe9317301bb0a73b6e832cf42"
+    },
+    {
+      "path": "verification/unity_data_export.json",
+      "old_sha256": "657843fb0ff8bdb927290efbc9211eae989f885b39fd6a5ca09c7bba45645c64",
+      "new_sha256": "3d743e17dcb0ccb7794579cd10431d1eaaf247868fa1fb40522f09b6121b027a"
+    }
+  ],
+  "extra": []
+}

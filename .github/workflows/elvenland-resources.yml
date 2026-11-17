@@ -1,0 +1,209 @@
+name: Rebuild verified Elvenland resources
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_release_tag:
+        description: 'Draft release tag in this repository containing Elvenar_Lab04_SkriptTest03.apk'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: elvenland-resources-v1
+  cancel-in-progress: false
+
+jobs:
+  resources:
+    if: >-
+      github.repository == 'geibibro123-linux/Elvenland' &&
+      github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: geibibro123-linux/Elvenland
+      ELVENLAND_SOURCE_TAG: ${{ inputs.source_release_tag }}
+      ELVENLAND_TARGET_TAG: elvenland-resources-v1
+    steps:
+      - name: Check out the current verified build tools
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: main
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+
+      - name: Require a draft source, the corrected builder and an unused output release
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib, json, os, subprocess
+          from pathlib import Path
+          repo = os.environ['GH_REPO']
+          tag = os.environ['ELVENLAND_SOURCE_TAG']
+          target = os.environ['ELVENLAND_TARGET_TAG']
+          if not tag or tag.startswith('-') or tag != tag.strip():
+              raise SystemExit('Provide a valid source release tag in Elvenland')
+          subprocess.run(['git', 'check-ref-format', 'refs/tags/' + tag], check=True)
+          builder = Path('tools/build_package.py')
+          expected = '62fd4facfc1f34ccaae08a129fc0d12b536da03fe9317301bb0a73b6e832cf42'
+          if hashlib.sha256(builder.read_bytes()).hexdigest() != expected:
+              raise SystemExit('Install the reviewed corrected builder before running this workflow')
+          tags = subprocess.check_output([
+              'gh', 'api', '--paginate', 'repos/' + repo + '/releases?per_page=100',
+              '--jq', '.[].tag_name'], text=True).splitlines()
+          if target in tags:
+              raise SystemExit('Target release already exists; no existing release is overwritten')
+          refs = json.loads(subprocess.check_output([
+              'gh', 'api', 'repos/' + repo + '/git/matching-refs/tags/' + target], text=True))
+          if any(item['ref'] == 'refs/tags/' + target for item in refs):
+              raise SystemExit('Target tag already exists; inspect it before choosing a new version')
+          source = json.loads(subprocess.check_output([
+              'gh', 'release', 'view', tag, '--repo', repo, '--json', 'tagName,isDraft,assets'], text=True))
+          if source.get('isDraft') is not True:
+              raise SystemExit('Source APK must be kept in an unpublished draft release')
+          assets = [x for x in source['assets'] if x['name'] == 'Elvenar_Lab04_SkriptTest03.apk']
+          if len(assets) != 1 or assets[0]['size'] != 232466424:
+              raise SystemExit('Source release must contain the exact named 232466424-byte APK asset')
+          PY
+
+      - name: Download the source APK from the draft release and verify it
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir "$RUNNER_TEMP/elvenland-input"
+          gh release download "$ELVENLAND_SOURCE_TAG" \
+            --repo "$GH_REPO" \
+            --pattern 'Elvenar_Lab04_SkriptTest03.apk' \
+            --dir "$RUNNER_TEMP/elvenland-input"
+          python - <<'PY'
+          import hashlib, os
+          from pathlib import Path
+          apk = Path(os.environ['RUNNER_TEMP']) / 'elvenland-input/Elvenar_Lab04_SkriptTest03.apk'
+          with apk.open('rb') as stream:
+              actual = hashlib.file_digest(stream, 'sha256').hexdigest()
+          expected = 'd77de38720bde3c0894493b519cdcca6183d7d020d3377d40e2096516d6d247c'
+          if actual != expected:
+              raise SystemExit('Source APK SHA-256 mismatch; extraction was not started')
+          print('Verified source APK SHA-256:', actual)
+          PY
+
+      - name: Install pinned extraction packages and media decoders
+        shell: bash
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg libogg0 libvorbis0a
+          python -m pip install --disable-pip-version-check -r requirements-extraction.txt
+
+      - name: Stage the 266 content files without transport parts or source APK
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib, json, os, shutil, subprocess
+          from pathlib import Path, PurePosixPath
+          repo = Path.cwd().resolve()
+          seed = Path(os.environ['RUNNER_TEMP']) / 'elvenland-source'
+          if seed.exists():
+              raise SystemExit('Fresh staging directory required')
+          manifest_bytes = (repo / 'handoff/starter_transport_manifest.json').read_bytes()
+          if hashlib.sha256(manifest_bytes).hexdigest() != '9280e9da44a52254278626244238365938a35f17202c4ceb9578f8c7937595e5':
+              raise SystemExit('Starter transport file list differs from the reviewed manifest')
+          manifest = json.loads(manifest_bytes)
+          if manifest['source_archive_sha256'] != '3aea47b37907ea7bf168139f6d10957deffdca933afe8870325b17524898169b':
+              raise SystemExit('Unexpected starter provenance')
+          skip = {'SHA256SUMS.txt', 'KI_STARTER_MANIFEST.json', 'KI_START_HERE.md', 'verification/package_validation.json'}
+          paths = [x['path'] for x in manifest['archive_entries'] if x['path'] not in skip]
+          if len(paths) != 266 or len(set(paths)) != 266:
+              raise SystemExit('Expected the complete imported starter content')
+          sources = []
+          for name in paths:
+              relative = PurePosixPath(name)
+              if relative.is_absolute() or str(relative) != name or '\\' in name or any(x in {'.', '..', '.git', '.github', 'handoff'} for x in relative.parts):
+                  raise SystemExit('Unsafe staging path')
+              source = repo.joinpath(*relative.parts)
+              if source.is_symlink() or not source.is_file() or not source.resolve().is_relative_to(repo):
+                  raise SystemExit('Missing or unsafe content file: ' + name)
+              sources.append((source, seed.joinpath(*relative.parts)))
+          seed.mkdir()
+          for source, destination in sources:
+              destination.parent.mkdir(parents=True, exist_ok=True)
+              shutil.copy2(source, destination)
+          commit = subprocess.check_output(['git', 'rev-parse', 'HEAD'], text=True).strip()
+          with open(os.environ['GITHUB_ENV'], 'a') as handle:
+              handle.write('ELVENLAND_BUILD_COMMIT=' + commit + '\n')
+          PY
+
+      - name: Rebuild and validate the complete resource package
+        shell: bash
+        run: |
+          set -euo pipefail
+          python "$RUNNER_TEMP/elvenland-source/tools/build_package.py" \
+            --apk "$RUNNER_TEMP/elvenland-input/Elvenar_Lab04_SkriptTest03.apk" \
+            --package-dir "$RUNNER_TEMP/elvenland-package/elvenland" \
+            --zip "$RUNNER_TEMP/elvenland-dist/Elvenland_Offline_Neubaupaket_v1.zip" \
+            --workers 2
+
+      - name: Prepare release notes from the actual verification result
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          dist = Path(os.environ['RUNNER_TEMP']) / 'elvenland-dist'
+          report = json.loads((dist / 'Elvenland_Offline_Neubaupaket_v1.verification.json').read_text())
+          if report.get('zip_crc_verified') is not True:
+              raise SystemExit('ZIP verification was not successful')
+          if any(report.get(x) is not False for x in ['apk_included', 'signing_material_included', 'raw_private_startup_included', 'gameplay_validated', 'android_validated']):
+              raise SystemExit('Unexpected scope or validation flags')
+          notes = '\n'.join([
+              '# Elvenland: vollständiges Ressourcenpaket', '',
+              'Dieses Release enthält einzeln lesbare extrahierte Medien, Daten, Dokumentation und Werkzeuge für den geplanten Offline-Neubau.',
+              'Es enthält keine Quell-APK und keine neu erstellte oder spielbare Android-App.', '',
+              'Die Extraktion wurde aus der exakt geprüften APK im selben Repository durchgeführt.',
+              'Die Quell-APK wurde aus einer unveröffentlichten Draft-Release gelesen. Dieser Workflow veröffentlicht oder löscht diese Quelle nicht.',
+              'Quell-APK SHA-256: `d77de38720bde3c0894493b519cdcca6183d7d020d3377d40e2096516d6d247c`',
+              'Build-Commit: `' + os.environ['ELVENLAND_BUILD_COMMIT'] + '`', '',
+              'ZIP-Dateien: ' + str(report['zip_entries']),
+              'ZIP-Größe in Bytes: ' + str(report['zip_bytes']),
+              'ZIP SHA-256: `' + report['zip_sha256'] + '`', '',
+              'Die Prüfsumme gehört zu dieser tatsächlich erstellten ZIP. Gemessene Laufzeiten und aktualisierte Dokumentation können sie gegenüber anderen Builds ändern.',
+              'Die Sichtbarkeit des Repositorys wird nicht verändert. Ein privates Repository ermöglicht keinen anonymen Zugriff.',
+              'Vollständige Forschungs-, Gebäude- und Kampfdaten bleiben dort offen, wo sie nicht belegt sind.', '',
+          ])
+          (dist / 'RELEASE_NOTES.md').write_text(notes, encoding='utf-8')
+          PY
+
+      - name: Publish a new resource release without replacing an existing one
+        shell: bash
+        run: |
+          set -euo pipefail
+          gh release create "$ELVENLAND_TARGET_TAG" \
+            "$RUNNER_TEMP/elvenland-dist/Elvenland_Offline_Neubaupaket_v1.zip" \
+            "$RUNNER_TEMP/elvenland-dist/Elvenland_Offline_Neubaupaket_v1.sha256" \
+            "$RUNNER_TEMP/elvenland-dist/Elvenland_Offline_Neubaupaket_v1.verification.json" \
+            --repo "$GH_REPO" \
+            --target "$ELVENLAND_BUILD_COMMIT" \
+            --title 'Elvenland Ressourcenpaket v1, keine spielbare APK' \
+            --notes-file "$RUNNER_TEMP/elvenland-dist/RELEASE_NOTES.md" \
+            --prerelease
+
+      - name: Report completion
+        shell: bash
+        run: |
+          {
+            echo '## Elvenland Ressourcenpaket'
+            echo 'Die vollständige Ressourcen-ZIP, ihre Prüfsumme und der Prüfbericht wurden als neues Release elvenland-resources-v1 hochgeladen.'
+            echo 'Die Quell-APK befindet sich nicht in der erzeugten ZIP. Eine spielbare APK wurde nicht erstellt.'
+            echo 'Die Quell-Draft-Release wurde nicht veröffentlicht oder gelöscht.'
+            echo 'Anonymer Zugriff setzt weiterhin ein öffentliches Repository voraus.'
+          } >> "$GITHUB_STEP_SUMMARY"

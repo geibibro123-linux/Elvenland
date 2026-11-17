@@ -54,17 +54,34 @@
     "write_access_verified": true,
     "admin_access_reported": true,
     "upload_status": "IN_PROGRESS",
-    "files_uploaded_to_github": false,
-    "github_release_created": false,
+    "files_uploaded_to_github": true,
+    "github_release_created": true,
     "anonymous_github_access_verified": false,
     "anonymous_access_available_with_current_visibility": false,
     "requested_visibility": "public_for_anonymous_reading",
     "archive_snapshot_date": "2026-11-17",
     "material_scope_changed": false,
-    "required_next_action": "Finish the authorized project-file upload, then report the separately verified release and visibility state.",
-    "prepared_workflow": "github/elvenland-package.yml",
-    "github_workflow_executed": false,
-    "historical_source_repository": "geibibro123-linux/Farm-elvenar-"
+    "required_next_action": "Create an unpublished draft release in Elvenland containing Elvenar_Lab04_SkriptTest03.apk; manually run the prepared resource workflow with its source_release_tag. Keep the source APK in the draft. Make the reviewed repository content public and verify anonymous reading.",
+    "prepared_workflow": ".github/workflows/elvenland-resources.yml",
+    "github_workflow_executed": true,
+    "historical_source_repository": "geibibro123-linux/Farm-elvenar-",
+    "project_file_upload_status": "VERIFIED",
+    "starter_release_url": "https://github.com/geibibro123-linux/Elvenland/releases/tag/elvenland-ki-startpaket-v1",
+    "starter_release_size_bytes": 4686083,
+    "starter_release_sha256": "3aea47b37907ea7bf168139f6d10957deffdca933afe8870325b17524898169b",
+    "imported_content_files_verified": 253,
+    "preserved_core_files": 13,
+    "full_media_archive_uploaded_to_github": false,
+    "upload_blocker": "Full media release pending. The GitHub connection did not expose binary release-asset upload. The separate browser sign-in was cancelled and no authenticated browser session was available. The prepared same-repository rebuild workflow needs the verified source APK as an Elvenland release asset.",
+    "starter_import_workflow": {
+      "run_id": 44181480446,
+      "status": "completed",
+      "conclusion": "success",
+      "content_commit": "74a254ee1ed47ee0926ba1a7aec1ed80d22f1714"
+    },
+    "full_resource_workflow_executed": false,
+    "source_apk_must_remain_draft": true,
+    "full_resource_workflow_trigger": "manual_workflow_dispatch_only"
   },
   "next_gate": "Implement one complete local build-production-save loop using verified definitions or a separate, clearly labelled prototype configuration with ARBEITSWERT values. Preserve missing original values as OPEN/null and keep confirmed values unchanged. Ask only when alternatives have materially different consequences. Record actual Android evidence separately.",
   "measured_export": {
@@ -304,5 +321,17 @@
     "counts_are_files_or_objects_not_unique_gameplay_entities": true
   },
   "coverage_summary": "docs/PACKAGE_COVERAGE.md",
-  "raw_source_assets_included": false
+  "raw_source_assets_included": false,
+  "restored_full_package": {
+    "name": "Elvenland_Offline_Neubaupaket_v1_wiederhergestellt.zip",
+    "size_bytes": 673087419,
+    "sha256": "651d0600107835b45ecac198a858aed5f21bd1335764c436d10d1c5035aca822",
+    "zip_entries": 25662,
+    "zip_crc_verified": true,
+    "media_files_byte_identical_to_previous_package": 11452,
+    "saved_as_github_release": false,
+    "durable_file_save_confirmed": false,
+    "verification": "verification/restored_package_20261117.json",
+    "comparison": "verification/restored_package_file_comparison_20261117.json"
+  }
 }

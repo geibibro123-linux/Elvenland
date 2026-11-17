@@ -1,6 +1,6 @@
 # Elvenland: Einstieg für ChatGPT, Claude und Entwickler
 
-Materialstand: 17. November 2026. Die Archive bleiben historische Erstellungssnapshots dieses Stands. Das bestätigte Zielrepository [geibibro123-linux/Elvenland](https://github.com/geibibro123-linux/Elvenland) existiert, ist verbunden und derzeit privat. Der Upload läuft; ein Release ist noch offen und anonymer Zugriff ist nicht nachgewiesen. Der Materialumfang bleibt unverändert. Es handelt sich noch nicht um ein spielbares Spiel; eine installierbare Elvenland-APK ist nicht enthalten.
+Materialstand: 17. November 2026. Die Archive bleiben historische Erstellungssnapshots dieses Stands. Das bestätigte Zielrepository [geibibro123-linux/Elvenland](https://github.com/geibibro123-linux/Elvenland) existiert, ist verbunden und derzeit privat. Die lesbaren Projektdateien und das kleine KI-Startpaket sind auf GitHub gespeichert. Das vollständige Medien-Release und anonymer Zugriff sind noch offen. Der Materialumfang bleibt unverändert. Es handelt sich noch nicht um ein spielbares Spiel; eine installierbare Elvenland-APK ist nicht enthalten.
 
 ## In dieser Reihenfolge lesen
 
@@ -53,10 +53,17 @@ Der Katalog enthält 139 visuelle Stadtreferenzen: 138 mit 272 Qualitätsvariant
 
 Unverschlüsselte UTF-8-Dateien, PNG, WAV, OGG und JSON sind technisch vorbereitet. Anonymer Abruf ist zusätzlich eine Eigenschaft des Hosting-Zugriffs. Ein privates GitHub-Repository wird durch eine passende ZIP-Struktur nicht öffentlich.
 
-Das verbundene Ziel `geibibro123-linux/Elvenland` ist derzeit privat. Der Upload der Projektdateien läuft; die Bereitstellung eines Releases ist noch offen. Für anonymes Lesen müsste das Ziel öffentlich erreichbar sein, und die tatsächlichen Raw-/Downloadlinks müssten ohne Anmeldung geprüft werden. Die aktuelle Veröffentlichungslage steht in `STATUS.json` und `docs/GITHUB_PUBLICATION.md`. Niemals einen privaten Link als anonym geprüft bezeichnen und niemals Zugriffstokens in den Prompt schreiben.
+Das verbundene Ziel `geibibro123-linux/Elvenland` ist derzeit privat. Die Projektdateien und das kleine Release `elvenland-ki-startpaket-v1` sind geprüft vorhanden. Das vollständige Medienarchiv ist noch nicht als Release gespeichert. Für anonymes Lesen müsste das Ziel öffentlich erreichbar sein, und die tatsächlichen Raw-/Downloadlinks müssten ohne Anmeldung geprüft werden. Die aktuelle Veröffentlichungslage steht in `STATUS.json` und `docs/GITHUB_PUBLICATION.md`. Niemals einen privaten Link als anonym geprüft bezeichnen und niemals Zugriffstokens in den Prompt schreiben.
 
 Ein KI-Chat kann eine ZIP nur verarbeiten, wenn die Datei in seiner Sitzung zugänglich ist und Werkzeuge zum Entpacken vorhanden sind. Deshalb werden die Startdateien, der Prompt, Daten und Teilindizes zusätzlich einzeln bereitgestellt. Zum Einstieg das kleine KI-Startpaket oder einzelne Text-/JSON-Dateien verwenden. Auch eine kleine ZIP muss vom jeweiligen Chat unterstützt werden. Die dokumentierten Größenlimits und ihre Grenzen stehen in `docs/AI_HANDOFF.md`. Es gibt keine Garantie, dass jede ChatGPT- oder Claude-Sitzung automatisch alle Medien lesen kann.
 
 ## Nächster sinnvoller Entwicklungsschritt
 
 Ein kleiner vollständiger lokaler Spielkreislauf: Stadt anzeigen, Gebäude platzieren, Kosten gemeinsam mit der Zustandsänderung buchen, Produktion starten und einsammeln, speichern und nach Neustart fortsetzen. Dafür belegte Definitionen oder eine getrennte, klar als ARBEITSWERT gekennzeichnete Prototypkonfiguration verwenden. Fehlende Originalwerte bleiben OFFEN; Prototypwerte ersetzen weder Originaldaten noch bestehende FEST-Werte. Forschung und weitere Gebäude folgen auf derselben Datenstruktur. Nur bei deutlich unterschiedlichen Konsequenzen nachfragen, sonst mit dokumentierten Annahmen weiterarbeiten.
+
+
+## Aktueller Übergabestand
+
+Das kleine Release enthält 270 Dateien und hat 4.686.083 Bytes. Es ist der unveränderte Erstellungssnapshot. Die laufenden Publikationsangaben im Repository haben Vorrang vor damaligen Zugangshinweisen im ZIP. Die vollständige lokal wiederhergestellte ZIP enthält 25.662 Dateien bei 673.087.419 Bytes; alle 11.452 Mediendateien sind byte-identisch zum vorherigen vollständigen Paket. Ihr aktueller Hash und die belegten Grenzen stehen in `verification/restored_package_20261117.json`.
+
+Der neue Ablauf unter `docs/FULL_RESOURCE_WORKFLOW.md` kann das große Paket aus der exakt geprüften Quell-APK im selben Repository erzeugen. Er ist vorbereitet, aber noch nicht auf GitHub ausgeführt.

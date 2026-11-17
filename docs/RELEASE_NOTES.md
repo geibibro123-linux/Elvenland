@@ -1,13 +1,13 @@
-# Elvenland Ressourcen- und Übergabepaket v1: vorbereitete Veröffentlichungsnotizen
+# Elvenland: aktueller Paket- und Release-Stand
 
-Diese Notizen beschreiben das lokal vorbereitete Medien-/Datenpaket für einen eigenständigen Offline-Neuaufbau. **Ein GitHub-Release wurde noch nicht erstellt.** Das Paket enthält kein spielbares Android-Spiel und keine Test-APK.
+Stand: 17. November 2026.
 
-Enthalten sind separate Sprite-/Texture-PNGs, Audio als WAV/OGG, JSON-Animationsmetadaten, bereinigte historische Daten, Herkunfts- und Hashmanifeste, eine lokale Medienübersicht sowie ein vollständiger Arbeitsauftrag für ChatGPT und Claude.
+Das [KI-Startpaket v1](https://github.com/geibibro123-linux/Elvenland/releases/tag/elvenland-ki-startpaket-v1) ist erfolgreich als GitHub-Release gespeichert. Es hat 4.686.083 Bytes, enthält 270 Dateien und trägt SHA-256 `3aea47b37907ea7bf168139f6d10957deffdca933afe8870325b17524898169b`. Seine Unterlagen, historischen Tabellen, Kataloge, Teilindizes und Werkzeuge wurden zusätzlich einzeln in das Repository übernommen.
 
-Die Extraktion umfasst die tatsächlich gelieferten Ressourcen von Elvenar 1.244.0. Ein vollständiger Forschungsbaum, vollständige Gebäudekosten und Produktionsrezepte bleiben offen. Keine Werte wurden als angebliche Originalwerte erfunden.
+Das vollständige Medienpaket wurde lokal wiederhergestellt und geprüft: 25.662 Dateien, 673.087.419 Bytes, SHA-256 `651d0600107835b45ecac198a858aed5f21bd1335764c436d10d1c5035aca822`. Alle 11.452 Medien-Dateien stimmen bytegenau mit dem vorherigen vollständigen Bestand überein. Es ist noch nicht als GitHub-Release gespeichert. Der vorbereitete Ablauf für eine Erstellung direkt auf GitHub steht in [FULL_RESOURCE_WORKFLOW.md](FULL_RESOURCE_WORKFLOW.md).
 
-Die veröffentlichbare Fassung enthält die geprüften konvertierten Medien, Metadaten und zugehörigen Unterlagen. Unveränderte UnityFS-/FSB-Rohcontainer bleiben über ihre Quellenhashes und die eigene verifizierte Eingabe-APK nachvollziehbar und werden nicht beigelegt.
+Das vollständige Paket enthält einzelne Sprite- und Textur-PNGs, WAV-/OGG-Audio, Schriften, JSON-Animationsmetadaten, alle 20 gefundenen Sprachfassungen, bereinigte historische Daten, Herkunfts- und Hashmanifeste sowie den Arbeitsauftrag für den Offline-Neubau. Unveränderte Unity-/FSB-Rohcontainer, die Quell-APK, Signaturschlüssel und unbearbeitete private Startantworten sind nicht enthalten.
 
-Nach Download zuerst die SHA-256-Prüfsumme kontrollieren, die ZIP entpacken und `elvenland/START_HERE.md` öffnen. Die große Datei ist ein normales ZIP mit einer einzigen obersten Verzeichnisebene.
+Ein vollständiger Original-Forschungsbaum, vollständige Gebäudeökonomie und vollständige Produktions- und Kampfregeln sind weiterhin nicht nachgewiesen. Das Paket enthält keine neue spielbare Android-App.
 
-Für die gewünschte Veröffentlichung fehlen der Link zum eigenen öffentlichen Repository `elvenland` und der passende Schreibzugriff. In einem privaten Repository würden Release und Raw-Dateien weiterhin eine Anmeldung erfordern. Die tatsächliche anonyme Lesbarkeit muss nach einer Veröffentlichung geprüft werden. Bis dahin stehen die vorbereiteten Dateien zur direkten Übergabe zur Verfügung; siehe `docs/AI_HANDOFF.md`.
+Das Repository ist derzeit privat. Der erfolgreiche Upload bestätigt noch keinen anonymen Zugriff. Den jeweils aktuellen, nachgewiesenen Stand dokumentieren [GITHUB_PUBLICATION.md](GITHUB_PUBLICATION.md) und `STATUS.json`.
