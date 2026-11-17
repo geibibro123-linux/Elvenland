@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "evidence_status": "HISTORICAL_EMBEDDED_REFERENCE",
+    "current_server_values_verified": false,
+    "approved_elvenland_balance": false,
+    "source_archive": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+    "source_entry": "assets/offline_lab/reference_start_v4_v5.json",
+    "source_entry_sha256": "3c4a3ef6a6bb3da5ff6da32480d6cea05052b908479b6e814b49faab952ec4cb",
+    "extracted_on": "2026-11-17",
+    "missing_fields_policy": "Preserve absence. Do not convert absence to false, zero, empty cost, or success.",
+    "source_json_pointer": "/army_details"
+  },
+  "data": {
+    "availableUnitTypeIds": [
+      "eb_lm_1"
+    ],
+    "unitSquads": [
+      {
+        "unitTypeId": "eb_lm_1",
+        "size": 300
+      },
+      {
+        "unitTypeId": "eb_lr_1",
+        "size": 300
+      },
+      {
+        "unitTypeId": "eb_hm_1",
+        "size": 50
+      }
+    ],
+    "maxHitpointsReference": 1820,
+    "maxBaseDamageReference": 490,
+    "maxUnitWeightReference": 6,
+    "baseClusterSize": 6,
+    "battleClusterSize": 6,
+    "trainingClusterSize": 6,
+    "premiumTrainingCosts": 3
+  }
+}

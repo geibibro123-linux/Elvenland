@@ -1,0 +1,8 @@
+﻿symbol,rva,verified_function,evidence,not_proven
+BestHttpBackendConnection.HandleBackendRequest,0x38aef38,Switches real backend vs. fake tutorial backend,Native code location from 2026-11-11 review; original lib hash verified,No fully installed offline dispatcher
+FakeBackendService.Activate,0x387ba30,Activates local tutorial components,Native code from prior verified analysis,Not an offline save restore
+FakeCityMapController.RequestPlaceBuilding,0x387e41c,Locally creates a city entity and calls resource deduction in tutorial,Native code from prior verified analysis,Need normal map rules + persistent transactions
+FakeResourcesController.SubstractResources,0x387dd4c,Deducts requirements from local resource collection,Native code from prior verified analysis,Only tutorial path verified
+FakeCityMapController.RequestProductionsStart,0x387e0f8,Tutorial production starting method exists,Native code from prior verified analysis,Real timers and queue persistence open
+FakeTechTreeController,not in source report,Tutorial research controller exists,Symbol existence from 2026-11-11 review,Full local research logic not demonstrated
+RequestCityMapServicePlaceBuilding.GetRequestData,0x337eee4,"Build request contains cityEntityId,x,y not a server-authoritative price",Native code from prior verified analysis,Full server request/response still open

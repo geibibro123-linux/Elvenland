@@ -1,0 +1,43 @@
+ELVENAR OFFLINE: NACHWEISBARE DATENPAKETE UND TECHNISCHER PRUEFSTAND
+Erstellt: 2026-11-14
+Quelle: Nutzer-APK aus Elvenar_Build02_Samsung.zip
+
+DATEIEN UND FUNKTIONEN
+Original-APK: Elvenar_OfflineLab_Build02.apk, im Archiv 201050567 Byte ZIP.
+CityEntityAssets: 139 benannte Gebaeudereferenzen mit 272 Qualitaetsvarianten.
+Davon animated=True: 53.
+UIAssets: 139 benannte UI-Assets mit 138 Qualitaetsvarianten.
+BundleConfigs: 17 Gruppen, 1889 referenzierte Teilassets.
+UnityFS erfolgreich dekomprimiert: 317 Bundles, 630 interne Dateien.
+Texture2D: 1591 geparst, 4 nicht geparst.
+Texturatlanten PNG: 1538 erzeugt, 53 nicht konvertiert.
+Einzelne Sprite-Ausschnitte aus Atlanten noch nicht automatisch ausgeschnitten.
+Sprite-Objekte identifiziert: 3735 (nur Namensindex, keine PNG-Einzel-Sprites).
+AnimationClip-Objekte identifiziert: 82 (nur Metadaten/Namensindex).
+Animation-Controller-Objekte identifiziert: 57.
+Audio: 194 WAV-Dateien aus FSB5 IMA ADPCM dekodiert, 2 FSB5 Vorbis nicht dekodiert.
+
+BINAERCODE-IDENTITAET IM VERGLEICH ZU ALTEM PRUEFBERICHT
+libil2cpp.so SHA256: 51f54c5512a451554297b79db686554d7d78b263dc82c2010192b2a2aec1706e
+global-metadata.dat SHA256: be2d643d3356f6d3bb7272ae6907860bcfd035b0905eab72d8b07c349fc8d816
+Beide Werte stimmen exakt mit Elvenar_Lokalkern_Pruefstand_2026-11-11.txt ueberein.
+Die zuvor dokumentierten RVAs beziehen sich damit auf dieselben binaeren Eingabedateien.
+Diese Hash-Gleichheit beweist keine lauffaehige Offline-Anwendung.
+
+GRENZEN
+- Keine neue Android-APK gebaut, signiert oder auf einem Telefon getestet.
+- Originalserverdaten fuer alle Forschungs-/Bau-/Kampfwerte nicht vollstaendig enthalten oder nachgewiesen.
+- Keine aktive Offline-Simulation eingebaut.
+- Kein Android-Datenexport/Import nach Deinstallation implementiert.
+- Zwei Vorbis-Audiodateien, 43 PVRTC_RGB2- und 8 DXT1Crunched-Texturen erfordern Spezialdecoder.
+- Zwei Texture2D-Objekte ohne auslesbare Stream-Pfade und vier mit Parse-Problemen.
+
+NAECHSTER INTEGRATIONSTEST
+Start ohne Internet, Gebaeudepreis aus lokaler Konfiguration, Baupruefung, atomarer Ressourcenabzug,
+lokale Stadtaktualisierung, Neustart und idempotente Wiederherstellung.
+Nur nach erfolgreicher Android-Geraetepruefung als Offline-Testversion deklarieren.
+
+DATEIEN IM ARCHIV
+city_entities.csv, ui_assets.csv, bundle_asset_references.csv, sprites.csv, animation_clips.csv,
+animator_controllers.csv, png_export_index.csv, png_not_exported.csv, mechanics_roadmap.csv,
+verified_native_methods.csv, original_bundle_manifest.json, unity_texture_index.json, DEKODIERUNGSINFO.txt

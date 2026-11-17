@@ -1,0 +1,731 @@
+{
+  "format_version": 1,
+  "source_prefix": "assets/localization",
+  "source_manifest": "source_manifest.json",
+  "original_manifest": "loca_manifest_v7.json",
+  "original_manifest_sha256": "d076e92a8abeefc40f25c1ec167ee34faa60f2c78ba6ba64416e8061a412cf00",
+  "UnityPy": "1.25.4",
+  "bundle_count": 20,
+  "locale_count": 20,
+  "entry_count_all_locales": 55740,
+  "objects_by_type": {
+    "AssetBundle": 20,
+    "MonoBehaviour": 20,
+    "MonoScript": 20
+  },
+  "preferred_reference_locales": [
+    "de_de",
+    "en_dk"
+  ],
+  "topic_index": "de_en_topic_index.json",
+  "output_paths_relative_to": "assets/localization/",
+  "reference_tables": [
+    "reference_tables/de_de_key_values.json",
+    "reference_tables/en_dk_key_values.json"
+  ],
+  "complete_technology_graph_exported": false,
+  "complete_economy_exported": false,
+  "network_requests_made": false,
+  "locales": [
+    {
+      "source_path": "assets/localization/cs_cz_70d7dff0e98863c1d6ee35afdbd311ab",
+      "source_sha256": "ef2661ac799b12214af5f02425a74e6371c15ffddacad0445fc240448682c158",
+      "source_bytes": 72870,
+      "manifest_locale_id": 8,
+      "manifest_path_inside_bundle": "assets/plugins/innocore/resources/localization/cs_cz.asset",
+      "locale": "cs_cz",
+      "unity_locale_name": "cs_CZ",
+      "output_path": "locales/cs_cz.json",
+      "output_bytes": 358009,
+      "output_sha256": "f292f5bea477f7e01ca757616234d1f676d9f48643c9da5380d9a30be9331a26",
+      "entry_count": 2787,
+      "duplicate_keys": 0,
+      "translation_variant_counts": {
+        "1": 2778,
+        "3": 9
+      },
+      "topic_hit_counts": {
+        "research": 88,
+        "buildings": 138,
+        "production": 165,
+        "combat": 76
+      },
+      "metadata_paths": [
+        "metadata/cs_cz/AssetBundle__1.json",
+        "metadata/cs_cz/MonoBehaviour__7486364023563807450.json",
+        "metadata/cs_cz/MonoScript__3547517989865780434.json"
+      ],
+      "text_assets": [],
+      "objects_by_type": {
+        "AssetBundle": 1,
+        "MonoBehaviour": 1,
+        "MonoScript": 1
+      }
+    },
+    {
+      "source_path": "assets/localization/da_dk_3686dab0da6419984e983bede9929da9",
+      "source_sha256": "86c0326e9e098c320d8a82dd324592b99c459bc387614b35e44784266d6987c3",
+      "source_bytes": 69839,
+      "manifest_locale_id": 9,
+      "manifest_path_inside_bundle": "assets/plugins/innocore/resources/localization/da_dk.asset",
+      "locale": "da_dk",
+      "unity_locale_name": "da_DK",
+      "output_path": "locales/da_dk.json",
+      "output_bytes": 352524,
+      "output_sha256": "182a124509a283870426a564f204540f1efde74d0ff5069bb2b75f26d8468118",
+      "entry_count": 2787,
+      "duplicate_keys": 0,
+      "translation_variant_counts": {
+        "1": 2778,
+        "2": 9
+      },
+      "topic_hit_counts": {
+        "research": 88,
+        "buildings": 138,
+        "production": 165,
+        "combat": 76
+      },
+      "metadata_paths": [
+        "metadata/da_dk/AssetBundle__1.json",
+        "metadata/da_dk/MonoBehaviour__-4793375135636249992.json",
+        "metadata/da_dk/MonoScript__3547517989865780434.json"
+      ],
+      "text_assets": [],
+      "objects_by_type": {
+        "AssetBundle": 1,
+        "MonoBehaviour": 1,
+        "MonoScript": 1
+      }
+    },
+    {
+      "source_path": "assets/localization/de_de_d55f84822c0425f579327436b6073880",
+      "source_sha256": "5fb4f7a2f415bbbfa30edcde0fba286c042fad7918d2c683e28eeeaaed91eb7b",
+      "source_bytes": 72588,
+      "manifest_locale_id": 10,
+      "manifest_path_inside_bundle": "assets/plugins/innocore/resources/localization/de_de.asset",
+      "locale": "de_de",
+      "unity_locale_name": "de_DE",
+      "output_path": "locales/de_de.json",
+      "output_bytes": 366470,
+      "output_sha256": "d4baca285faf478addaa43ef7691ff3d2001b16fc8c53a508eb550627decd03e",
+      "entry_count": 2787,
+      "duplicate_keys": 0,
+      "translation_variant_counts": {
+        "1": 2778,
+        "2": 9
+      },
+      "topic_hit_counts": {
+        "research": 88,
+        "buildings": 138,
+        "production": 165,
+        "combat": 76
+      },
+      "metadata_paths": [
+        "metadata/de_de/AssetBundle__1.json",
+        "metadata/de_de/MonoBehaviour__2734052675776559377.json",
+        "metadata/de_de/MonoScript__3547517989865780434.json"
+      ],
+      "text_assets": [],
+      "objects_by_type": {
+        "AssetBundle": 1,
+        "MonoBehaviour": 1,
+        "MonoScript": 1
+      }
+    },
+    {
+      "source_path": "assets/localization/el_gr_be291c1f6572c08a275feccafbfe1a9a",
+      "source_sha256": "6b2d8b9f06596e99b41825e619bf696387962039b9a7b0a341a3da744d47e1f7",
+      "source_bytes": 78727,
+      "manifest_locale_id": 15,
+      "manifest_path_inside_bundle": "assets/plugins/innocore/resources/localization/el_gr.asset",
+      "locale": "el_gr",
+      "unity_locale_name": "el_GR",
+      "output_path": "locales/el_gr.json",
+      "output_bytes": 465977,
+      "output_sha256": "bcb159dcd4253558df05d677e7bfee9ae79654d5bd5615b87e11338728864093",
+      "entry_count": 2787,
+      "duplicate_keys": 0,
+      "translation_variant_counts": {
+        "1": 2778,
+        "2": 9
+      },
+      "topic_hit_counts": {
+        "research": 88,
+        "buildings": 138,
+        "production": 165,
+        "combat": 76
+      },
+      "metadata_paths": [
+        "metadata/el_gr/AssetBundle__1.json",
+        "metadata/el_gr/MonoBehaviour__4511481445191292010.json",
+        "metadata/el_gr/MonoScript__3547517989865780434.json"
+      ],
+      "text_assets": [],
+      "objects_by_type": {
+        "AssetBundle": 1,
+        "MonoBehaviour": 1,
+        "MonoScript": 1
+      }
+    },
+    {
+      "source_path": "assets/localization/en_dk_d6e6b7c7b5f721db1ecc9245a0cee47f",
+      "source_sha256": "60f40883935771ff50e083d32d5085237a3030d6883c1597711a6a4bfa29acca",
+      "source_bytes": 47701,
+      "manifest_locale_id": 11,
+      "manifest_path_inside_bundle": "assets/plugins/innocore/resources/localization/en_dk.asset",
+      "locale": "en_dk",
+      "unity_locale_name": "en_DK",
+      "output_path": "locales/en_dk.json",
+      "output_bytes": 344893,
+      "output_sha256": "80c9b6d62fa73c4e364f050414c42d56b1df58a1452badade248c2a7ca4d2020",
+      "entry_count": 2787,
+      "duplicate_keys": 0,
+      "translation_variant_counts": {
+        "1": 2778,
+        "2": 9
+      },
+      "topic_hit_counts": {
+        "research": 88,
+        "buildings": 138,
+        "production": 165,
+        "combat": 76
+      },
+      "metadata_paths": [
+        "metadata/en_dk/AssetBundle__1.json",
+        "metadata/en_dk/MonoBehaviour__-6825703505183968638.json",
+        "metadata/en_dk/MonoScript__3547517989865780434.json"
+      ],
+      "text_assets": [],
+      "objects_by_type": {
+        "AssetBundle": 1,
+        "MonoBehaviour": 1,
+        "MonoScript": 1
+      }
+    },
+    {
+      "source_path": "assets/localization/es_es_8414ca327f2bf637cd09c642564c3c70",
+      "source_sha256": "b5d4635760209d1a3cd65ce77a8cc859267c4fcbb1a9705655d9dcbe1c26c277",
+      "source_bytes": 71235,
+      "manifest_locale_id": 12,
+      "manifest_path_inside_bundle": "assets/plugins/innocore/resources/localization/es_es.asset",
+      "locale": "es_es",
+      "unity_locale_name": "es_ES",
+      "output_path": "locales/es_es.json",
+      "output_bytes": 363899,
+      "output_sha256": "e99f7eddf44fa837bf46f1e531c8dc1f437d3f4465c62384f9128e48ffb62b39",
+      "entry_count": 2787,
+      "duplicate_keys": 0,
+      "translation_variant_counts": {
+        "1": 2778,
+        "2": 9
+      },
+      "topic_hit_counts": {
+        "research": 88,
+        "buildings": 138,
+        "production": 165,
+        "combat": 76
+      },
+      "metadata_paths": [
+        "metadata/es_es/AssetBundle__1.json",
+        "metadata/es_es/MonoBehaviour__-6255216649394045968.json",
+        "metadata/es_es/MonoScript__3547517989865780434.json"
+      ],
+      "text_assets": [],
+      "objects_by_type": {
+        "AssetBundle": 1,
+        "MonoBehaviour": 1,
+        "MonoScript": 1
+      }
+    },
+    {
+      "source_path": "assets/localization/fi_fi_cac80e59ede0150c1cb46d4ee9f03afb",
+      "source_sha256": "5e67b8173f6daabb7de4afbae9c32bb3d5e5a923d73f6efafd3d59dde7275721",
+      "source_bytes": 70588,
+      "manifest_locale_id": 13,
+      "manifest_path_inside_bundle": "assets/plugins/innocore/resources/localization/fi_fi.asset",
+      "locale": "fi_fi",
+      "unity_locale_name": "fi_FI",
+      "output_path": "locales/fi_fi.json",
+      "output_bytes": 353142,
+      "output_sha256": "2147b6137e22b9f9bc647d93f43c8538d0f5ba060f4111fbb62d807985fbe73b",
+      "entry_count": 2787,
+      "duplicate_keys": 0,
+      "translation_variant_counts": {
+        "1": 2778,
+        "2": 9
+      },
+      "topic_hit_counts": {
+        "research": 88,
+        "buildings": 138,
+        "production": 165,
+        "combat": 76
+      },
+      "metadata_paths": [
+        "metadata/fi_fi/AssetBundle__1.json",
+        "metadata/fi_fi/MonoBehaviour__705077602505598139.json",
+        "metadata/fi_fi/MonoScript__3547517989865780434.json"
+      ],
+      "text_assets": [],
+      "objects_by_type": {
+        "AssetBundle": 1,
+        "MonoBehaviour": 1,
+        "MonoScript": 1
+      }
+    },
+    {
+      "source_path": "assets/localization/fr_fr_937a162fbe8e7438e96e5b1aa9990b34",
+      "source_sha256": "f53a31b93f8760a1afc717405fa99bcb2e8b6e4dab774dab2d77d4713c7113a0",
+      "source_bytes": 72192,
+      "manifest_locale_id": 14,
+      "manifest_path_inside_bundle": "assets/plugins/innocore/resources/localization/fr_fr.asset",
+      "locale": "fr_fr",
+      "unity_locale_name": "fr_FR",
+      "output_path": "locales/fr_fr.json",
+      "output_bytes": 371669,
+      "output_sha256": "84d159927c29065f20d91b447e31655d4c2016e33b6ec6cd69bf6ba8502a843a",
+      "entry_count": 2787,
+      "duplicate_keys": 0,
+      "translation_variant_counts": {
+        "1": 2778,
+        "2": 9
+      },
+      "topic_hit_counts": {
+        "research": 88,
+        "buildings": 138,
+        "production": 165,
+        "combat": 76
+      },
+      "metadata_paths": [
+        "metadata/fr_fr/AssetBundle__1.json",
+        "metadata/fr_fr/MonoBehaviour__-6205672763943200262.json",
+        "metadata/fr_fr/MonoScript__3547517989865780434.json"
+      ],
+      "text_assets": [],
+      "objects_by_type": {
+        "AssetBundle": 1,
+        "MonoBehaviour": 1,
+        "MonoScript": 1
+      }
+    },
+    {
+      "source_path": "assets/localization/hu_hu_653f9fc680f747d5fd3369787dc5566c",
+      "source_sha256": "35da41f1a046ddc595736e3560cd19cb60962a0f3d253eab38b6537c451462d4",
+      "source_bytes": 73516,
+      "manifest_locale_id": 17,
+      "manifest_path_inside_bundle": "assets/plugins/innocore/resources/localization/hu_hu.asset",
+      "locale": "hu_hu",
+      "unity_locale_name": "hu_HU",
+      "output_path": "locales/hu_hu.json",
+      "output_bytes": 363274,
+      "output_sha256": "aa5ead0c82ab357070da59a74bdc7a0ddd65093d6e99233f9614a9d275310d2a",
+      "entry_count": 2787,
+      "duplicate_keys": 0,
+      "translation_variant_counts": {
+        "1": 2778,
+        "2": 9
+      },
+      "topic_hit_counts": {
+        "research": 88,
+        "buildings": 138,
+        "production": 165,
+        "combat": 76
+      },
+      "metadata_paths": [
+        "metadata/hu_hu/AssetBundle__1.json",
+        "metadata/hu_hu/MonoBehaviour__-5271160601818856198.json",
+        "metadata/hu_hu/MonoScript__3547517989865780434.json"
+      ],
+      "text_assets": [],
+      "objects_by_type": {
+        "AssetBundle": 1,
+        "MonoBehaviour": 1,
+        "MonoScript": 1
+      }
+    },
+    {
+      "source_path": "assets/localization/it_it_3713fcb293557a15ac439c1a49fd45e9",
+      "source_sha256": "8be334411f810be5c1bfced5d7e89bc8616300835aae4828cf5d2aa256f0f086",
+      "source_bytes": 70091,
+      "manifest_locale_id": 20,
+      "manifest_path_inside_bundle": "assets/plugins/innocore/resources/localization/it_it.asset",
+      "locale": "it_it",
+      "unity_locale_name": "it_IT",
+      "output_path": "locales/it_it.json",
+      "output_bytes": 358227,
+      "output_sha256": "0d887dba822149051e80611fdd12d388001ed757a3803b5d0cc6c6c06f05a9bf",
+      "entry_count": 2787,
+      "duplicate_keys": 0,
+      "translation_variant_counts": {
+        "1": 2778,
+        "2": 9
+      },
+      "topic_hit_counts": {
+        "research": 88,
+        "buildings": 138,
+        "production": 165,
+        "combat": 76
+      },
+      "metadata_paths": [
+        "metadata/it_it/AssetBundle__1.json",
+        "metadata/it_it/MonoBehaviour__-2063286920663648368.json",
+        "metadata/it_it/MonoScript__3547517989865780434.json"
+      ],
+      "text_assets": [],
+      "objects_by_type": {
+        "AssetBundle": 1,
+        "MonoBehaviour": 1,
+        "MonoScript": 1
+      }
+    },
+    {
+      "source_path": "assets/localization/nb_no_090b30075e85e2361dfd778d79472761",
+      "source_sha256": "2dafd7ee5db8a30de218e8e64fbf713b1f549b39e58cf070bbd41b91413e9635",
+      "source_bytes": 69259,
+      "manifest_locale_id": 26,
+      "manifest_path_inside_bundle": "assets/plugins/innocore/resources/localization/nb_no.asset",
+      "locale": "nb_no",
+      "unity_locale_name": "nb_NO",
+      "output_path": "locales/nb_no.json",
+      "output_bytes": 348908,
+      "output_sha256": "7a9396ee66172b1a4f63388d425ec18ee36e4fd9699921b37784d7df110eb0e0",
+      "entry_count": 2787,
+      "duplicate_keys": 0,
+      "translation_variant_counts": {
+        "1": 2778,
+        "2": 9
+      },
+      "topic_hit_counts": {
+        "research": 88,
+        "buildings": 138,
+        "production": 165,
+        "combat": 76
+      },
+      "metadata_paths": [
+        "metadata/nb_no/AssetBundle__1.json",
+        "metadata/nb_no/MonoBehaviour__-8450162604222027399.json",
+        "metadata/nb_no/MonoScript__3547517989865780434.json"
+      ],
+      "text_assets": [],
+      "objects_by_type": {
+        "AssetBundle": 1,
+        "MonoBehaviour": 1,
+        "MonoScript": 1
+      }
+    },
+    {
+      "source_path": "assets/localization/nl_nl_22bc297bcffd9a70063fcdbcab073a01",
+      "source_sha256": "71c005d202b5a5863dd726a6b62e22280ace57d107a23d6949041b32ceba9a57",
+      "source_bytes": 70415,
+      "manifest_locale_id": 25,
+      "manifest_path_inside_bundle": "assets/plugins/innocore/resources/localization/nl_nl.asset",
+      "locale": "nl_nl",
+      "unity_locale_name": "nl_NL",
+      "output_path": "locales/nl_nl.json",
+      "output_bytes": 357941,
+      "output_sha256": "9e8ad51020d93809e57b4dd3eb8b8540558dc572a5d01af698f51bd7c78edbe8",
+      "entry_count": 2787,
+      "duplicate_keys": 0,
+      "translation_variant_counts": {
+        "1": 2778,
+        "2": 9
+      },
+      "topic_hit_counts": {
+        "research": 88,
+        "buildings": 138,
+        "production": 165,
+        "combat": 76
+      },
+      "metadata_paths": [
+        "metadata/nl_nl/AssetBundle__1.json",
+        "metadata/nl_nl/MonoBehaviour__-8686740304705769845.json",
+        "metadata/nl_nl/MonoScript__3547517989865780434.json"
+      ],
+      "text_assets": [],
+      "objects_by_type": {
+        "AssetBundle": 1,
+        "MonoBehaviour": 1,
+        "MonoScript": 1
+      }
+    },
+    {
+      "source_path": "assets/localization/pl_pl_5bc5cbe118adda3cc5b64faec5fbcebf",
+      "source_sha256": "53ff7a74f45f0a15e588e3cc7f18b47f147c79e2bf0c524b588ec2aeb4e3d67b",
+      "source_bytes": 72277,
+      "manifest_locale_id": 27,
+      "manifest_path_inside_bundle": "assets/plugins/innocore/resources/localization/pl_pl.asset",
+      "locale": "pl_pl",
+      "unity_locale_name": "pl_PL",
+      "output_path": "locales/pl_pl.json",
+      "output_bytes": 355489,
+      "output_sha256": "38cd6df776dfa18b14d3a49ede2972cc325bf7acf5a99cea0ac13a0a1660b837",
+      "entry_count": 2787,
+      "duplicate_keys": 0,
+      "translation_variant_counts": {
+        "1": 2778,
+        "3": 9
+      },
+      "topic_hit_counts": {
+        "research": 88,
+        "buildings": 138,
+        "production": 165,
+        "combat": 76
+      },
+      "metadata_paths": [
+        "metadata/pl_pl/AssetBundle__1.json",
+        "metadata/pl_pl/MonoBehaviour__4286463811386583722.json",
+        "metadata/pl_pl/MonoScript__3547517989865780434.json"
+      ],
+      "text_assets": [],
+      "objects_by_type": {
+        "AssetBundle": 1,
+        "MonoBehaviour": 1,
+        "MonoScript": 1
+      }
+    },
+    {
+      "source_path": "assets/localization/pt_br_10174fd6a487c4c0afa1378fcd76a70b",
+      "source_sha256": "2560984910e107337f84ff68104cdddb09b6253eb0be2a345a6c6834122f3469",
+      "source_bytes": 71270,
+      "manifest_locale_id": 5,
+      "manifest_path_inside_bundle": "assets/plugins/innocore/resources/localization/pt_br.asset",
+      "locale": "pt_br",
+      "unity_locale_name": "pt_BR",
+      "output_path": "locales/pt_br.json",
+      "output_bytes": 361210,
+      "output_sha256": "7a75f629b190e60d46edbae376a118d0109e427d5c378eac40b3d84acf768e0a",
+      "entry_count": 2787,
+      "duplicate_keys": 0,
+      "translation_variant_counts": {
+        "1": 2778,
+        "2": 9
+      },
+      "topic_hit_counts": {
+        "research": 88,
+        "buildings": 138,
+        "production": 165,
+        "combat": 76
+      },
+      "metadata_paths": [
+        "metadata/pt_br/AssetBundle__1.json",
+        "metadata/pt_br/MonoBehaviour__649436679384852114.json",
+        "metadata/pt_br/MonoScript__3547517989865780434.json"
+      ],
+      "text_assets": [],
+      "objects_by_type": {
+        "AssetBundle": 1,
+        "MonoBehaviour": 1,
+        "MonoScript": 1
+      }
+    },
+    {
+      "source_path": "assets/localization/pt_pt_8f317d6f16ca9054e2256e0b3dc847fe",
+      "source_sha256": "a339f7b628320fe2ef3370147c23e5248ee9cf1f88066c66193f650a1f3f6c1b",
+      "source_bytes": 70776,
+      "manifest_locale_id": 28,
+      "manifest_path_inside_bundle": "assets/plugins/innocore/resources/localization/pt_pt.asset",
+      "locale": "pt_pt",
+      "unity_locale_name": "pt_PT",
+      "output_path": "locales/pt_pt.json",
+      "output_bytes": 361562,
+      "output_sha256": "777eb70a77ef441a72346c2435f27952cf19918d823994a4cfe97df25b9e04a2",
+      "entry_count": 2787,
+      "duplicate_keys": 0,
+      "translation_variant_counts": {
+        "1": 2778,
+        "2": 9
+      },
+      "topic_hit_counts": {
+        "research": 88,
+        "buildings": 138,
+        "production": 165,
+        "combat": 76
+      },
+      "metadata_paths": [
+        "metadata/pt_pt/AssetBundle__1.json",
+        "metadata/pt_pt/MonoBehaviour__-3383036055798510847.json",
+        "metadata/pt_pt/MonoScript__3547517989865780434.json"
+      ],
+      "text_assets": [],
+      "objects_by_type": {
+        "AssetBundle": 1,
+        "MonoBehaviour": 1,
+        "MonoScript": 1
+      }
+    },
+    {
+      "source_path": "assets/localization/ro_ro_c549cf07e1492dfcfb6bbc97c868ad96",
+      "source_sha256": "166c54f35702ed864dd8aed761b77cb60d15d36ad89957d47bf2b5efbcd9d542",
+      "source_bytes": 71674,
+      "manifest_locale_id": 29,
+      "manifest_path_inside_bundle": "assets/plugins/innocore/resources/localization/ro_ro.asset",
+      "locale": "ro_ro",
+      "unity_locale_name": "ro_RO",
+      "output_path": "locales/ro_ro.json",
+      "output_bytes": 365030,
+      "output_sha256": "31b602bb16b8aa27eed60ab6e6bd564ccce86e6a7e943998d3ffa3054a2256ec",
+      "entry_count": 2787,
+      "duplicate_keys": 0,
+      "translation_variant_counts": {
+        "1": 2778,
+        "3": 9
+      },
+      "topic_hit_counts": {
+        "research": 88,
+        "buildings": 138,
+        "production": 165,
+        "combat": 76
+      },
+      "metadata_paths": [
+        "metadata/ro_ro/AssetBundle__1.json",
+        "metadata/ro_ro/MonoBehaviour__2043745842787420871.json",
+        "metadata/ro_ro/MonoScript__3547517989865780434.json"
+      ],
+      "text_assets": [],
+      "objects_by_type": {
+        "AssetBundle": 1,
+        "MonoBehaviour": 1,
+        "MonoScript": 1
+      }
+    },
+    {
+      "source_path": "assets/localization/ru_ru_4e59fd2cb13a1e39cfa1d7c19d738a73",
+      "source_sha256": "896d95752760896ca4867e118f4de21e01f7c10839ca606ad2d00f342f12dec2",
+      "source_bytes": 75608,
+      "manifest_locale_id": 31,
+      "manifest_path_inside_bundle": "assets/plugins/innocore/resources/localization/ru_ru.asset",
+      "locale": "ru_ru",
+      "unity_locale_name": "ru_RU",
+      "output_path": "locales/ru_ru.json",
+      "output_bytes": 438526,
+      "output_sha256": "b21237443bc0e0fcb004f3d7d4cf1a530ecf1be367234d310b5e90b426f174b5",
+      "entry_count": 2787,
+      "duplicate_keys": 0,
+      "translation_variant_counts": {
+        "1": 2778,
+        "3": 9
+      },
+      "topic_hit_counts": {
+        "research": 88,
+        "buildings": 138,
+        "production": 165,
+        "combat": 76
+      },
+      "metadata_paths": [
+        "metadata/ru_ru/AssetBundle__1.json",
+        "metadata/ru_ru/MonoBehaviour__8672372622879090006.json",
+        "metadata/ru_ru/MonoScript__3547517989865780434.json"
+      ],
+      "text_assets": [],
+      "objects_by_type": {
+        "AssetBundle": 1,
+        "MonoBehaviour": 1,
+        "MonoScript": 1
+      }
+    },
+    {
+      "source_path": "assets/localization/sk_sk_5b547f2bb25c5a99ad487f248b203164",
+      "source_sha256": "18ba0abd42c9d1e196b91676b71d289b4fb2a0fed87334dd24f001f1db158641",
+      "source_bytes": 73391,
+      "manifest_locale_id": 34,
+      "manifest_path_inside_bundle": "assets/plugins/innocore/resources/localization/sk_sk.asset",
+      "locale": "sk_sk",
+      "unity_locale_name": "sk_SK",
+      "output_path": "locales/sk_sk.json",
+      "output_bytes": 358822,
+      "output_sha256": "182ba1bf40ee272ab00a5d779ceb2b15bc4ffc43dd8443d74f3ee4de8e6e6bf4",
+      "entry_count": 2787,
+      "duplicate_keys": 0,
+      "translation_variant_counts": {
+        "1": 2778,
+        "3": 9
+      },
+      "topic_hit_counts": {
+        "research": 88,
+        "buildings": 138,
+        "production": 165,
+        "combat": 76
+      },
+      "metadata_paths": [
+        "metadata/sk_sk/AssetBundle__1.json",
+        "metadata/sk_sk/MonoBehaviour__-296177411323058172.json",
+        "metadata/sk_sk/MonoScript__3547517989865780434.json"
+      ],
+      "text_assets": [],
+      "objects_by_type": {
+        "AssetBundle": 1,
+        "MonoBehaviour": 1,
+        "MonoScript": 1
+      }
+    },
+    {
+      "source_path": "assets/localization/sv_se_39f27d6ee82930c5882f8eaa3677d6ca",
+      "source_sha256": "e9ca59cb30f487992fed295d59cf58e7febfd4dfd4150b5d0f1d74f100a0241a",
+      "source_bytes": 69442,
+      "manifest_locale_id": 35,
+      "manifest_path_inside_bundle": "assets/plugins/innocore/resources/localization/sv_se.asset",
+      "locale": "sv_se",
+      "unity_locale_name": "sv_SE",
+      "output_path": "locales/sv_se.json",
+      "output_bytes": 352949,
+      "output_sha256": "13cd05e8d9dce0bec03c6758e6310f1a5a93e3d434a5a5bb27354dbdce0d87ea",
+      "entry_count": 2787,
+      "duplicate_keys": 0,
+      "translation_variant_counts": {
+        "1": 2778,
+        "2": 9
+      },
+      "topic_hit_counts": {
+        "research": 88,
+        "buildings": 138,
+        "production": 165,
+        "combat": 76
+      },
+      "metadata_paths": [
+        "metadata/sv_se/AssetBundle__1.json",
+        "metadata/sv_se/MonoBehaviour__-237221260367633271.json",
+        "metadata/sv_se/MonoScript__3547517989865780434.json"
+      ],
+      "text_assets": [],
+      "objects_by_type": {
+        "AssetBundle": 1,
+        "MonoBehaviour": 1,
+        "MonoScript": 1
+      }
+    },
+    {
+      "source_path": "assets/localization/tr_tr_aa4f1a1d690030647cfd5e4538f43c1b",
+      "source_sha256": "395a87e387fe28556e6d72c705ec0c8b2523c4b16a3321c980f608cf6f572085",
+      "source_bytes": 70780,
+      "manifest_locale_id": 37,
+      "manifest_path_inside_bundle": "assets/plugins/innocore/resources/localization/tr_tr.asset",
+      "locale": "tr_tr",
+      "unity_locale_name": "tr_TR",
+      "output_path": "locales/tr_tr.json",
+      "output_bytes": 356167,
+      "output_sha256": "c9072d0228a585c8a7df33a989353645326bfe5e14d0ba8a5ea739df51d5dc18",
+      "entry_count": 2787,
+      "duplicate_keys": 0,
+      "translation_variant_counts": {
+        "1": 2778,
+        "2": 9
+      },
+      "topic_hit_counts": {
+        "research": 88,
+        "buildings": 138,
+        "production": 165,
+        "combat": 76
+      },
+      "metadata_paths": [
+        "metadata/tr_tr/AssetBundle__1.json",
+        "metadata/tr_tr/MonoBehaviour__-5741876730262639296.json",
+        "metadata/tr_tr/MonoScript__3547517989865780434.json"
+      ],
+      "text_assets": [],
+      "objects_by_type": {
+        "AssetBundle": 1,
+        "MonoBehaviour": 1,
+        "MonoScript": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,7002 @@
+{
+  "_meta": {
+    "evidence_status": "HISTORICAL_EMBEDDED_REFERENCE",
+    "current_server_values_verified": false,
+    "approved_elvenland_balance": false,
+    "source_archive": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+    "source_entry": "assets/offline_lab/reference_start_v4_v5.json",
+    "source_entry_sha256": "3c4a3ef6a6bb3da5ff6da32480d6cea05052b908479b6e814b49faab952ec4cb",
+    "extracted_on": "2026-11-17",
+    "missing_fields_policy": "Preserve absence. Do not convert absence to false, zero, empty cost, or success.",
+    "source_json_pointer": "/resourceSets"
+  },
+  "data": [
+    {
+      "id": "all",
+      "resourceIds": [
+        "money",
+        "supplies",
+        "orcs",
+        "seeds",
+        "unurium",
+        "mana",
+        "nox",
+        "work",
+        "canned_goods",
+        "finity_gear",
+        "dragon_steel",
+        "hb_lm",
+        "hb_lr",
+        "hb_ma",
+        "hb_hm",
+        "hb_hr",
+        "eb_lm",
+        "eb_lr",
+        "eb_ma",
+        "eb_hm",
+        "eb_hr",
+        "tg_lm",
+        "tg_lr",
+        "tg_ma",
+        "tg_hm",
+        "tg_hr",
+        "mc_lm",
+        "mc_lr",
+        "mc_ma",
+        "mc_hm",
+        "mc_hr",
+        "event_currency_1",
+        "event_currency_2",
+        "event_payback",
+        "medals",
+        "episodic_reward_reroll_charge",
+        "tile_event_reveal_charge",
+        "special_package_double_reward_charge",
+        "special_package_reveal_charge",
+        "tile_event_tool_single",
+        "tile_event_tool_column",
+        "tile_event_tool_adjacent",
+        "badge_brewery",
+        "badge_carpenters",
+        "badge_farmers",
+        "badge_blacksmith",
+        "golden_bracelet",
+        "diamond_necklace",
+        "elegant_statue",
+        "witch_hat",
+        "druid_staff",
+        "badge_wonderhelper",
+        "badge_unit",
+        "money_sack",
+        "arcane_residue",
+        "recycled_potion",
+        "enchanted_tiara",
+        "ghost_in_a_bottle",
+        "craft_spell_fragments",
+        "guardian_essence",
+        "combiningcatalyst",
+        "craft_payback",
+        "royalrestoration",
+        "blueprint",
+        "broken_shards",
+        "crafting_slots_refresh",
+        "volatile_sigils",
+        "spire_diplomacy_joker",
+        "eldian_sapphire",
+        "radiant_stones",
+        "shattered_orbs",
+        "guild_progression_free_kp",
+        "b_all_spire_aw_shards",
+        "b_all_aw1_shards",
+        "b_all_aw2_shards",
+        "b_all_aw3_shards",
+        "b_all_aw4_shards",
+        "b_humans_aw1_shards",
+        "b_humans_aw2_shards",
+        "b_elves_aw1_shards",
+        "b_elves_aw2_shards",
+        "b_all_aw5_shards",
+        "b_all_aw6_shards",
+        "b_dwarfs_aw1_shards",
+        "b_dwarfs_aw2_shards",
+        "b_fairies_aw1_shards",
+        "b_fairies_aw2_shards",
+        "b_orcs_aw1_shards",
+        "b_orcs_aw2_shards",
+        "b_gr4_aw1_shards",
+        "b_gr4_aw2_shards",
+        "b_gr5_aw1_shards",
+        "b_gr5_aw2_shards",
+        "b_gr6_aw1_shards",
+        "b_gr6_aw2_shards",
+        "b_gr7_aw1_shards",
+        "b_gr7_aw2_shards",
+        "b_gr8_aw1_shards",
+        "b_gr8_aw2_shards",
+        "b_gr9_aw1_shards",
+        "b_gr9_aw2_shards",
+        "b_gr10_aw1_shards",
+        "b_gr10_aw2_shards",
+        "b_gr11_aw1_shards",
+        "b_gr11_aw2_shards",
+        "b_ch17_aw1_shards",
+        "b_ch17_aw2_shards",
+        "b_ch18_aw1_shards",
+        "b_ch18_aw2_shards",
+        "b_ch19_aw1_shards",
+        "b_ch19_aw2_shards",
+        "b_ch20_aw1_shards",
+        "b_ch20_aw2_shards",
+        "b_ch21_aw1_shards",
+        "b_ch21_aw2_shards",
+        "b_ch22_aw1_shards",
+        "b_ch22_aw2_shards",
+        "b_ch23_aw1_shards",
+        "b_ch23_aw2_shards",
+        "b_ch24_aw1_shards",
+        "b_ch24_aw2_shards",
+        "b_ch25_aw1_shards",
+        "b_ch25_aw2_shards",
+        "b_ch26_aw1_shards",
+        "b_ch26_aw2_shards",
+        "b_ch27_aw1_shards",
+        "b_ch27_aw2_shards",
+        "b_ch28_aw1_shards",
+        "b_ch28_aw2_shards",
+        "b_ch29_aw1_shards",
+        "b_ch29_aw2_shards",
+        "b_ch30_aw1_shards",
+        "b_ch30_aw2_shards",
+        "b_ch31_aw1_shards",
+        "b_ch31_aw2_shards",
+        "b_ch32_aw1_shards",
+        "b_ch32_aw2_shards",
+        "b_ch33_aw1_shards",
+        "b_ch33_aw2_shards",
+        "b_ch34_aw1_shards",
+        "b_ch34_aw2_shards",
+        "b_ch35_aw1_shards",
+        "b_ch35_aw2_shards",
+        "b_ch36_aw1_shards",
+        "b_ch36_aw2_shards",
+        "b_ch37_aw1_shards",
+        "b_ch37_aw2_shards",
+        "b_ch38_aw1_shards",
+        "b_ch38_aw2_shards",
+        "b_ch39_aw1_shards",
+        "b_ch39_aw2_shards",
+        "b_ch40_aw1_shards",
+        "b_ch40_aw2_shards",
+        "cauldron_witchpoints",
+        "tournament_goblets",
+        "researchtree_diplomas",
+        "dwarfs_granite",
+        "dwarfs_copper",
+        "fairies_sunflower",
+        "fairies_velvet",
+        "fairies_cocoons",
+        "fairies_ambrosia",
+        "fairies_nightshade",
+        "fairies_fireflies",
+        "fairies_dreamsheep",
+        "fairies_soma",
+        "orcs_hardshroom",
+        "orcs_psychoshroom",
+        "orcs_powershroom",
+        "orcs_shroomofwisdom",
+        "orcs_armament",
+        "orcs_dung",
+        "orcs_debris",
+        "orcs_loot",
+        "gr4_manatears",
+        "gr4_refinedmarble",
+        "gr4_refinedsteel",
+        "gr4_refinedplanks",
+        "gr4_woodghosts",
+        "gr4_windchimes",
+        "gr4_treantsprouts",
+        "gr5_crystalflasks",
+        "gr5_arcanescrolls",
+        "gr5_soulcatchers",
+        "gr5_apprentices",
+        "gr5_alchemists",
+        "gr5_arcanologists",
+        "gr5_necromancers",
+        "gr5_arcanealchemists",
+        "gr5_necroalchemists",
+        "gr5_arcanenecromancers",
+        "gr6_grain",
+        "gr6_carrots",
+        "gr6_pumpkins",
+        "gr6_apples",
+        "gr6_fertilizer",
+        "gr6_bread",
+        "gr6_soup",
+        "gr6_jam",
+        "gr7_toll",
+        "gr7_airartefacts",
+        "gr7_fireartefacts",
+        "gr7_earthartefacts",
+        "gr7_waterartefacts",
+        "gr7_essence",
+        "gr8_gravegoods",
+        "gr8_traps",
+        "gr9_constructzero",
+        "gr9_constructa",
+        "gr9_constructb",
+        "gr9_constructc",
+        "gr9_constructd",
+        "gr9_elvenarin",
+        "gr9_nutria",
+        "gr9_nutrib",
+        "gr9_nutric",
+        "gr9_nutrid",
+        "gr9_humanium",
+        "gr9_elvarium",
+        "gr10_ideas",
+        "gr10_workforce",
+        "gr10_livingpaintings",
+        "gr10_sculptures",
+        "gr10_crystalballs",
+        "gr10_plants",
+        "gr10_designs",
+        "gr10_constructs",
+        "gr10_humancollections",
+        "gr10_humanracemanifest",
+        "gr10_elvencollections",
+        "gr10_elvenracemanifest",
+        "gr11_draftlaws",
+        "gr11_dwarvenpropositions",
+        "gr11_fairypropositions",
+        "gr11_strawberrybeer",
+        "gr11_purpletea",
+        "gr11_dwarvenamendments",
+        "gr11_fairyamendments",
+        "gr11_inspirations",
+        "gr11_statutes",
+        "ch17_elvenarinzero",
+        "ch17_luxuries",
+        "ch17_delicacies",
+        "ch17_artifacts",
+        "ch18_humans",
+        "ch18_elves",
+        "ch18_elvenar",
+        "ch18_water",
+        "ch18_fire",
+        "ch18_wind",
+        "ch18_earth",
+        "ch18_medal1",
+        "ch18_medal2",
+        "ch18_medal3",
+        "ch18_medal4",
+        "ch18_medal5",
+        "ch18_medal6",
+        "ch18_badge",
+        "ch19_magic1",
+        "ch19_magic2",
+        "ch19_matter1",
+        "ch19_matter2",
+        "ch19_creatures1",
+        "ch19_creatures2",
+        "ch19_creatures3",
+        "ch20_bars",
+        "ch20_songs",
+        "ch20_strings",
+        "ch20_flutes",
+        "ch20_drums",
+        "ch21_prey",
+        "ch21_scales",
+        "ch21_shells",
+        "ch21_dragon",
+        "ch21_bones",
+        "ch21_furniture",
+        "ch21_glass",
+        "ch21_art",
+        "ch21_oblations1",
+        "ch21_oblations2",
+        "ch21_oblations3",
+        "ch21_oblations4",
+        "ch22_seafood",
+        "ch22_fish",
+        "ch22_fruits",
+        "ch22_salt",
+        "ch22_shrimps",
+        "ch22_snails",
+        "ch22_weed",
+        "ch22_eels",
+        "ch22_sponges",
+        "ch23_unicornblossoms",
+        "ch23_dwarvenspirits",
+        "ch23_fairyspirits",
+        "ch23_orcspirits",
+        "ch23_halflingspirits",
+        "ch23_mithril",
+        "ch23_queenhoney",
+        "ch23_dragonteeth",
+        "ch23_flowerwreaths",
+        "ch24_servants",
+        "ch24_warriors",
+        "ch24_farmers",
+        "ch24_workers",
+        "ch24_motivation",
+        "ch24_prophecies",
+        "ch24_studies",
+        "ch25_xpg_1",
+        "ch25_xpg_2",
+        "ch25_xps_kid",
+        "ch25_xps_adult",
+        "ch25_xps_elder",
+        "ch25_wisdom_kid",
+        "ch25_wisdom_adult",
+        "ch25_wisdom_elder",
+        "ch25_wisdom_life",
+        "ch26_water",
+        "ch26_fire",
+        "ch26_earth",
+        "ch26_wind",
+        "ch26_vials",
+        "ch26_fiwa",
+        "ch26_eawa",
+        "ch26_wiwa",
+        "ch26_eafi",
+        "ch26_wifi",
+        "ch26_eawi",
+        "ch19_matter3",
+        "relic_marble",
+        "relic_steel",
+        "relic_planks",
+        "relic_crystal",
+        "relic_scrolls",
+        "relic_silk",
+        "relic_elixir",
+        "relic_magic_dust",
+        "relic_gems",
+        "season_xp",
+        "season_daily_keys",
+        "season_quest_reroll_charge",
+        "season_blessing",
+        "marble",
+        "steel",
+        "planks",
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "crystal",
+        "scrolls",
+        "silk",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "elixir",
+        "magic_dust",
+        "gems",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems",
+        "spell_supply_production_boost_1",
+        "spell_neighborly_help_boost_1",
+        "spell_good_production_boost_1",
+        "spell_settlement_production_boost_1",
+        "spell_knowledge_boost_1",
+        "spell_pet_food_1",
+        "spell_teleport_1",
+        "culture",
+        "population",
+        "prestige",
+        "prosperity",
+        "ch20_melody",
+        "ch20_accompaniment",
+        "ch20_rhythm",
+        "knowledge_points",
+        "expansions",
+        "premium",
+        "ins_tr_amt_1",
+        "ins_tr_amt_3",
+        "ins_tr_amt_7",
+        "ins_tr_amt_10",
+        "ins_tr_amt_15",
+        "ins_tr_amt_20",
+        "ins_tr_amt_30",
+        "ins_tr_amt_45",
+        "ins_tr_amt_60",
+        "ins_tr_amt_120",
+        "ins_tr_amt_300",
+        "ins_tr_amt_480",
+        "ins_tr_amt_840",
+        "ins_tr_amt_1200",
+        "ins_tr_amt_2400",
+        "ins_rf_cn_5",
+        "ins_rf_cn_10",
+        "ins_rf_cn_15",
+        "ins_rf_cn_20",
+        "ins_rf_cn_25",
+        "ins_rf_cn_33",
+        "ins_rf_cn_50",
+        "ins_rf_cn_100",
+        "ins_rf_spl_5",
+        "ins_rf_spl_10",
+        "ins_rf_spl_15",
+        "ins_rf_spl_20",
+        "ins_rf_spl_25",
+        "ins_rf_spl_33",
+        "ins_rf_spl_50",
+        "ins_rf_spl_100",
+        "ins_rf_grr_5",
+        "ins_rf_grr_10",
+        "ins_rf_grr_15",
+        "ins_rf_grr_20",
+        "ins_rf_grr_25",
+        "ins_rf_grr_33",
+        "ins_rf_grr_50",
+        "ins_rf_grr_100",
+        "ins_rev_sqd_5",
+        "ins_rev_sqd_10",
+        "ins_rev_sqd_25",
+        "ins_rev_sqd_50",
+        "ins_rev_sqd_75",
+        "ins_rev_sqd_100",
+        "ins_kp_aw_1",
+        "ins_kp_aw_3",
+        "ins_kp_aw_5",
+        "ins_kp_aw_7",
+        "ins_kp_aw_10",
+        "ins_kp_aw_15",
+        "ins_kp_aw_20",
+        "ins_kp_aw_30",
+        "ins_ex_1",
+        "ins_unit_lm_5",
+        "ins_unit_lm_10",
+        "ins_unit_lm_15",
+        "ins_unit_lm_25",
+        "ins_unit_lr_5",
+        "ins_unit_lr_10",
+        "ins_unit_lr_15",
+        "ins_unit_lr_25",
+        "ins_unit_ma_5",
+        "ins_unit_ma_10",
+        "ins_unit_ma_15",
+        "ins_unit_ma_25",
+        "ins_unit_hm_5",
+        "ins_unit_hm_10",
+        "ins_unit_hm_15",
+        "ins_unit_hm_25",
+        "ins_unit_hr_5",
+        "ins_unit_hr_10",
+        "ins_unit_hr_15",
+        "ins_unit_hr_25",
+        "ins_unit_tg_lm_5",
+        "ins_unit_tg_lm_10",
+        "ins_unit_tg_lm_15",
+        "ins_unit_tg_lm_25",
+        "ins_unit_tg_lr_5",
+        "ins_unit_tg_lr_10",
+        "ins_unit_tg_lr_15",
+        "ins_unit_tg_lr_25",
+        "ins_unit_tg_ma_5",
+        "ins_unit_tg_ma_10",
+        "ins_unit_tg_ma_15",
+        "ins_unit_tg_ma_25",
+        "ins_unit_tg_hm_5",
+        "ins_unit_tg_hm_10",
+        "ins_unit_tg_hm_15",
+        "ins_unit_tg_hm_25",
+        "ins_unit_tg_hr_5",
+        "ins_unit_tg_hr_10",
+        "ins_unit_tg_hr_15",
+        "ins_unit_tg_hr_25",
+        "ins_unit_mc_lm_5",
+        "ins_unit_mc_lm_10",
+        "ins_unit_mc_lm_15",
+        "ins_unit_mc_lm_25",
+        "ins_unit_mc_lr_5",
+        "ins_unit_mc_lr_10",
+        "ins_unit_mc_lr_15",
+        "ins_unit_mc_lr_25",
+        "ins_unit_mc_ma_5",
+        "ins_unit_mc_ma_10",
+        "ins_unit_mc_ma_15",
+        "ins_unit_mc_ma_25",
+        "ins_unit_mc_hm_5",
+        "ins_unit_mc_hm_10",
+        "ins_unit_mc_hm_15",
+        "ins_unit_mc_hm_25",
+        "ins_unit_mc_hr_5",
+        "ins_unit_mc_hr_10",
+        "ins_unit_mc_hr_15",
+        "ins_unit_mc_hr_25",
+        "ins_grow_guardian_xxv_naturion_the_awakened",
+        "ins_grow_guardian_xxvi_ursalith_the_ascendant",
+        "ins_grow_guardian_xxvi_zeraphis_the_highstride",
+        "ins_grow_guardian_xxvi_lutrion_the_gleamkeeper",
+        "ins_evo_autumn_xix",
+        "ins_evo_easter_xix",
+        "ins_evo_summer_xix",
+        "ins_evo_mm_xix",
+        "ins_evo_winter_xix",
+        "ins_evo_carnival_xx",
+        "ins_evo_easter_xx",
+        "ins_evo_july_xx",
+        "ins_evo_september_xx",
+        "ins_evo_october_xx",
+        "ins_evo_december_xx",
+        "ins_evo_february_xxi",
+        "ins_evo_march_xxi",
+        "ins_evo_may_xxi",
+        "ins_evo_july_xxi",
+        "ins_evo_september_xxi",
+        "ins_evo_october_xxi",
+        "ins_evo_december_xxi",
+        "ins_evo_february_xxii",
+        "ins_evo_easter_xxii",
+        "ins_evo_may_xxii",
+        "ins_evo_july_xxii",
+        "ins_evo_september_xxii",
+        "ins_evo_october_xxii",
+        "ins_evo_december_xxii",
+        "ins_evo_january_xxiii",
+        "ins_evo_easter_xxiii",
+        "ins_evo_may_xxiii",
+        "ins_evo_shuffle_garden_xxiii",
+        "ins_evo_theater_zodiac_xxiii",
+        "ins_evo_merge_dwarvengame_xxiii",
+        "ins_evo_tile_mistyforest_xxiii",
+        "ins_evo_scroll_sorcerers_xxiv",
+        "ins_evo_theater_easter_xxiv",
+        "ins_evo_tile_amuni_xxiv",
+        "ins_evo_scroll_aquatic_xxiv",
+        "ins_evo_merge_dwarvengame_xxiv",
+        "ins_evo_theater_zodiac_xxiv",
+        "ins_evo_tile_mistyforest_xxiv",
+        "ins_evo_shuffle_postal_xxiv",
+        "ins_evo_scroll_sorcerers_xxv",
+        "ins_evo_merge_kitchen_xxv",
+        "ins_evo_theater_easter_xxv",
+        "ins_evo_tile_amuni_xxv",
+        "ins_evo_scroll_aquatic_xxv",
+        "ins_evo_merge_dwarvengame_xxv",
+        "ins_evo_theater_zodiac_xxv",
+        "ins_evo_shuffle_postal_xxv",
+        "ins_evo_scroll_sorcerers_xxvi",
+        "ins_evo_theater_easter_xxvi",
+        "ins_evo_scroll_aquatic_xxvi",
+        "ins_evo_merge_kitchen_xxvi",
+        "ins_evo_theater_zodiac_xxvi",
+        "ins_evo_shuffle_postal_xxvi"
+      ],
+      "featureIdsByResource": {
+        "work": {
+          "id": {
+            "value": "work"
+          }
+        },
+        "canned_goods": {
+          "id": {
+            "value": "canned_goods"
+          }
+        },
+        "prosperity": {
+          "id": {
+            "value": "prosperity"
+          }
+        },
+        "ch20_melody": {
+          "id": {
+            "value": "ch20_melody"
+          }
+        },
+        "ch20_accompaniment": {
+          "id": {
+            "value": "ch20_accompaniment"
+          }
+        },
+        "ch20_rhythm": {
+          "id": {
+            "value": "ch20_rhythm"
+          }
+        }
+      }
+    },
+    {
+      "id": "currencies_soft",
+      "resourceIds": [
+        "money",
+        "supplies",
+        "orcs",
+        "seeds",
+        "unurium",
+        "mana",
+        "nox",
+        "work",
+        "canned_goods",
+        "finity_gear",
+        "dragon_steel"
+      ],
+      "featureIdsByResource": {
+        "work": {
+          "id": {
+            "value": "work"
+          }
+        },
+        "canned_goods": {
+          "id": {
+            "value": "canned_goods"
+          }
+        }
+      }
+    },
+    {
+      "id": "currencies_feature",
+      "resourceIds": [
+        "hb_lm",
+        "hb_lr",
+        "hb_ma",
+        "hb_hm",
+        "hb_hr",
+        "eb_lm",
+        "eb_lr",
+        "eb_ma",
+        "eb_hm",
+        "eb_hr",
+        "tg_lm",
+        "tg_lr",
+        "tg_ma",
+        "tg_hm",
+        "tg_hr",
+        "mc_lm",
+        "mc_lr",
+        "mc_ma",
+        "mc_hm",
+        "mc_hr",
+        "event_currency_1",
+        "event_currency_2",
+        "event_payback",
+        "medals",
+        "episodic_reward_reroll_charge",
+        "tile_event_reveal_charge",
+        "special_package_double_reward_charge",
+        "special_package_reveal_charge",
+        "tile_event_tool_single",
+        "tile_event_tool_column",
+        "tile_event_tool_adjacent",
+        "badge_brewery",
+        "badge_carpenters",
+        "badge_farmers",
+        "badge_blacksmith",
+        "golden_bracelet",
+        "diamond_necklace",
+        "elegant_statue",
+        "witch_hat",
+        "druid_staff",
+        "badge_wonderhelper",
+        "badge_unit",
+        "money_sack",
+        "arcane_residue",
+        "recycled_potion",
+        "enchanted_tiara",
+        "ghost_in_a_bottle",
+        "craft_spell_fragments",
+        "guardian_essence",
+        "combiningcatalyst",
+        "craft_payback",
+        "royalrestoration",
+        "blueprint",
+        "broken_shards",
+        "crafting_slots_refresh",
+        "volatile_sigils",
+        "spire_diplomacy_joker",
+        "eldian_sapphire",
+        "radiant_stones",
+        "shattered_orbs",
+        "guild_progression_free_kp",
+        "b_all_spire_aw_shards",
+        "b_all_aw1_shards",
+        "b_all_aw2_shards",
+        "b_all_aw3_shards",
+        "b_all_aw4_shards",
+        "b_humans_aw1_shards",
+        "b_humans_aw2_shards",
+        "b_elves_aw1_shards",
+        "b_elves_aw2_shards",
+        "b_all_aw5_shards",
+        "b_all_aw6_shards",
+        "b_dwarfs_aw1_shards",
+        "b_dwarfs_aw2_shards",
+        "b_fairies_aw1_shards",
+        "b_fairies_aw2_shards",
+        "b_orcs_aw1_shards",
+        "b_orcs_aw2_shards",
+        "b_gr4_aw1_shards",
+        "b_gr4_aw2_shards",
+        "b_gr5_aw1_shards",
+        "b_gr5_aw2_shards",
+        "b_gr6_aw1_shards",
+        "b_gr6_aw2_shards",
+        "b_gr7_aw1_shards",
+        "b_gr7_aw2_shards",
+        "b_gr8_aw1_shards",
+        "b_gr8_aw2_shards",
+        "b_gr9_aw1_shards",
+        "b_gr9_aw2_shards",
+        "b_gr10_aw1_shards",
+        "b_gr10_aw2_shards",
+        "b_gr11_aw1_shards",
+        "b_gr11_aw2_shards",
+        "b_ch17_aw1_shards",
+        "b_ch17_aw2_shards",
+        "b_ch18_aw1_shards",
+        "b_ch18_aw2_shards",
+        "b_ch19_aw1_shards",
+        "b_ch19_aw2_shards",
+        "b_ch20_aw1_shards",
+        "b_ch20_aw2_shards",
+        "b_ch21_aw1_shards",
+        "b_ch21_aw2_shards",
+        "b_ch22_aw1_shards",
+        "b_ch22_aw2_shards",
+        "b_ch23_aw1_shards",
+        "b_ch23_aw2_shards",
+        "b_ch24_aw1_shards",
+        "b_ch24_aw2_shards",
+        "b_ch25_aw1_shards",
+        "b_ch25_aw2_shards",
+        "b_ch26_aw1_shards",
+        "b_ch26_aw2_shards",
+        "b_ch27_aw1_shards",
+        "b_ch27_aw2_shards",
+        "b_ch28_aw1_shards",
+        "b_ch28_aw2_shards",
+        "b_ch29_aw1_shards",
+        "b_ch29_aw2_shards",
+        "b_ch30_aw1_shards",
+        "b_ch30_aw2_shards",
+        "b_ch31_aw1_shards",
+        "b_ch31_aw2_shards",
+        "b_ch32_aw1_shards",
+        "b_ch32_aw2_shards",
+        "b_ch33_aw1_shards",
+        "b_ch33_aw2_shards",
+        "b_ch34_aw1_shards",
+        "b_ch34_aw2_shards",
+        "b_ch35_aw1_shards",
+        "b_ch35_aw2_shards",
+        "b_ch36_aw1_shards",
+        "b_ch36_aw2_shards",
+        "b_ch37_aw1_shards",
+        "b_ch37_aw2_shards",
+        "b_ch38_aw1_shards",
+        "b_ch38_aw2_shards",
+        "b_ch39_aw1_shards",
+        "b_ch39_aw2_shards",
+        "b_ch40_aw1_shards",
+        "b_ch40_aw2_shards",
+        "cauldron_witchpoints",
+        "tournament_goblets",
+        "researchtree_diplomas"
+      ]
+    },
+    {
+      "id": "currencies_feature_battle",
+      "resourceIds": [
+        "hb_lm",
+        "hb_lr",
+        "hb_ma",
+        "hb_hm",
+        "hb_hr",
+        "eb_lm",
+        "eb_lr",
+        "eb_ma",
+        "eb_hm",
+        "eb_hr",
+        "tg_lm",
+        "tg_lr",
+        "tg_ma",
+        "tg_hm",
+        "tg_hr",
+        "mc_lm",
+        "mc_lr",
+        "mc_ma",
+        "mc_hm",
+        "mc_hr"
+      ]
+    },
+    {
+      "id": "currencies_feature_event",
+      "resourceIds": [
+        "event_currency_1",
+        "event_currency_2",
+        "event_payback",
+        "medals",
+        "episodic_reward_reroll_charge",
+        "tile_event_reveal_charge",
+        "special_package_double_reward_charge",
+        "special_package_reveal_charge",
+        "tile_event_tool_single",
+        "tile_event_tool_column",
+        "tile_event_tool_adjacent"
+      ]
+    },
+    {
+      "id": "currencies_feature_fa",
+      "resourceIds": [
+        "badge_brewery",
+        "badge_carpenters",
+        "badge_farmers",
+        "badge_blacksmith",
+        "golden_bracelet",
+        "diamond_necklace",
+        "elegant_statue",
+        "witch_hat",
+        "druid_staff",
+        "badge_wonderhelper",
+        "badge_unit",
+        "money_sack",
+        "arcane_residue",
+        "recycled_potion",
+        "enchanted_tiara",
+        "ghost_in_a_bottle"
+      ]
+    },
+    {
+      "id": "currencies_feature_treasures",
+      "resourceIds": [
+        "craft_spell_fragments",
+        "guardian_essence",
+        "combiningcatalyst",
+        "craft_payback",
+        "royalrestoration",
+        "blueprint",
+        "broken_shards",
+        "crafting_slots_refresh",
+        "volatile_sigils"
+      ]
+    },
+    {
+      "id": "currencies_feature_spire",
+      "resourceIds": [
+        "spire_diplomacy_joker",
+        "eldian_sapphire",
+        "radiant_stones"
+      ]
+    },
+    {
+      "id": "currencies_feature_aw",
+      "resourceIds": [
+        "shattered_orbs",
+        "guild_progression_free_kp",
+        "b_all_spire_aw_shards",
+        "b_all_aw1_shards",
+        "b_all_aw2_shards",
+        "b_all_aw3_shards",
+        "b_all_aw4_shards",
+        "b_humans_aw1_shards",
+        "b_humans_aw2_shards",
+        "b_elves_aw1_shards",
+        "b_elves_aw2_shards",
+        "b_all_aw5_shards",
+        "b_all_aw6_shards",
+        "b_dwarfs_aw1_shards",
+        "b_dwarfs_aw2_shards",
+        "b_fairies_aw1_shards",
+        "b_fairies_aw2_shards",
+        "b_orcs_aw1_shards",
+        "b_orcs_aw2_shards",
+        "b_gr4_aw1_shards",
+        "b_gr4_aw2_shards",
+        "b_gr5_aw1_shards",
+        "b_gr5_aw2_shards",
+        "b_gr6_aw1_shards",
+        "b_gr6_aw2_shards",
+        "b_gr7_aw1_shards",
+        "b_gr7_aw2_shards",
+        "b_gr8_aw1_shards",
+        "b_gr8_aw2_shards",
+        "b_gr9_aw1_shards",
+        "b_gr9_aw2_shards",
+        "b_gr10_aw1_shards",
+        "b_gr10_aw2_shards",
+        "b_gr11_aw1_shards",
+        "b_gr11_aw2_shards",
+        "b_ch17_aw1_shards",
+        "b_ch17_aw2_shards",
+        "b_ch18_aw1_shards",
+        "b_ch18_aw2_shards",
+        "b_ch19_aw1_shards",
+        "b_ch19_aw2_shards",
+        "b_ch20_aw1_shards",
+        "b_ch20_aw2_shards",
+        "b_ch21_aw1_shards",
+        "b_ch21_aw2_shards",
+        "b_ch22_aw1_shards",
+        "b_ch22_aw2_shards",
+        "b_ch23_aw1_shards",
+        "b_ch23_aw2_shards",
+        "b_ch24_aw1_shards",
+        "b_ch24_aw2_shards",
+        "b_ch25_aw1_shards",
+        "b_ch25_aw2_shards",
+        "b_ch26_aw1_shards",
+        "b_ch26_aw2_shards",
+        "b_ch27_aw1_shards",
+        "b_ch27_aw2_shards",
+        "b_ch28_aw1_shards",
+        "b_ch28_aw2_shards",
+        "b_ch29_aw1_shards",
+        "b_ch29_aw2_shards",
+        "b_ch30_aw1_shards",
+        "b_ch30_aw2_shards",
+        "b_ch31_aw1_shards",
+        "b_ch31_aw2_shards",
+        "b_ch32_aw1_shards",
+        "b_ch32_aw2_shards",
+        "b_ch33_aw1_shards",
+        "b_ch33_aw2_shards",
+        "b_ch34_aw1_shards",
+        "b_ch34_aw2_shards",
+        "b_ch35_aw1_shards",
+        "b_ch35_aw2_shards",
+        "b_ch36_aw1_shards",
+        "b_ch36_aw2_shards",
+        "b_ch37_aw1_shards",
+        "b_ch37_aw2_shards",
+        "b_ch38_aw1_shards",
+        "b_ch38_aw2_shards",
+        "b_ch39_aw1_shards",
+        "b_ch39_aw2_shards",
+        "b_ch40_aw1_shards",
+        "b_ch40_aw2_shards"
+      ]
+    },
+    {
+      "id": "currencies_feature_cauldron",
+      "resourceIds": [
+        "cauldron_witchpoints",
+        "tournament_goblets",
+        "researchtree_diplomas"
+      ]
+    },
+    {
+      "id": "currencies_settlement",
+      "resourceIds": [
+        "dwarfs_granite",
+        "dwarfs_copper",
+        "fairies_sunflower",
+        "fairies_velvet",
+        "fairies_cocoons",
+        "fairies_ambrosia",
+        "fairies_nightshade",
+        "fairies_fireflies",
+        "fairies_dreamsheep",
+        "fairies_soma",
+        "orcs_hardshroom",
+        "orcs_psychoshroom",
+        "orcs_powershroom",
+        "orcs_shroomofwisdom",
+        "orcs_armament",
+        "orcs_dung",
+        "orcs_debris",
+        "orcs_loot",
+        "gr4_manatears",
+        "gr4_refinedmarble",
+        "gr4_refinedsteel",
+        "gr4_refinedplanks",
+        "gr4_woodghosts",
+        "gr4_windchimes",
+        "gr4_treantsprouts",
+        "gr5_crystalflasks",
+        "gr5_arcanescrolls",
+        "gr5_soulcatchers",
+        "gr5_apprentices",
+        "gr5_alchemists",
+        "gr5_arcanologists",
+        "gr5_necromancers",
+        "gr5_arcanealchemists",
+        "gr5_necroalchemists",
+        "gr5_arcanenecromancers",
+        "gr6_grain",
+        "gr6_carrots",
+        "gr6_pumpkins",
+        "gr6_apples",
+        "gr6_fertilizer",
+        "gr6_bread",
+        "gr6_soup",
+        "gr6_jam",
+        "gr7_toll",
+        "gr7_airartefacts",
+        "gr7_fireartefacts",
+        "gr7_earthartefacts",
+        "gr7_waterartefacts",
+        "gr7_essence",
+        "gr8_gravegoods",
+        "gr8_traps",
+        "gr9_constructzero",
+        "gr9_constructa",
+        "gr9_constructb",
+        "gr9_constructc",
+        "gr9_constructd",
+        "gr9_elvenarin",
+        "gr9_nutria",
+        "gr9_nutrib",
+        "gr9_nutric",
+        "gr9_nutrid",
+        "gr9_humanium",
+        "gr9_elvarium",
+        "gr10_ideas",
+        "gr10_workforce",
+        "gr10_livingpaintings",
+        "gr10_sculptures",
+        "gr10_crystalballs",
+        "gr10_plants",
+        "gr10_designs",
+        "gr10_constructs",
+        "gr10_humancollections",
+        "gr10_humanracemanifest",
+        "gr10_elvencollections",
+        "gr10_elvenracemanifest",
+        "gr11_draftlaws",
+        "gr11_dwarvenpropositions",
+        "gr11_fairypropositions",
+        "gr11_strawberrybeer",
+        "gr11_purpletea",
+        "gr11_dwarvenamendments",
+        "gr11_fairyamendments",
+        "gr11_inspirations",
+        "gr11_statutes",
+        "ch17_elvenarinzero",
+        "ch17_luxuries",
+        "ch17_delicacies",
+        "ch17_artifacts",
+        "ch18_humans",
+        "ch18_elves",
+        "ch18_elvenar",
+        "ch18_water",
+        "ch18_fire",
+        "ch18_wind",
+        "ch18_earth",
+        "ch18_medal1",
+        "ch18_medal2",
+        "ch18_medal3",
+        "ch18_medal4",
+        "ch18_medal5",
+        "ch18_medal6",
+        "ch18_badge",
+        "ch19_magic1",
+        "ch19_magic2",
+        "ch19_matter1",
+        "ch19_matter2",
+        "ch19_creatures1",
+        "ch19_creatures2",
+        "ch19_creatures3",
+        "ch20_bars",
+        "ch20_songs",
+        "ch20_strings",
+        "ch20_flutes",
+        "ch20_drums",
+        "ch21_prey",
+        "ch21_scales",
+        "ch21_shells",
+        "ch21_dragon",
+        "ch21_bones",
+        "ch21_furniture",
+        "ch21_glass",
+        "ch21_art",
+        "ch21_oblations1",
+        "ch21_oblations2",
+        "ch21_oblations3",
+        "ch21_oblations4",
+        "ch22_seafood",
+        "ch22_fish",
+        "ch22_fruits",
+        "ch22_salt",
+        "ch22_shrimps",
+        "ch22_snails",
+        "ch22_weed",
+        "ch22_eels",
+        "ch22_sponges",
+        "ch23_unicornblossoms",
+        "ch23_dwarvenspirits",
+        "ch23_fairyspirits",
+        "ch23_orcspirits",
+        "ch23_halflingspirits",
+        "ch23_mithril",
+        "ch23_queenhoney",
+        "ch23_dragonteeth",
+        "ch23_flowerwreaths",
+        "ch24_servants",
+        "ch24_warriors",
+        "ch24_farmers",
+        "ch24_workers",
+        "ch24_motivation",
+        "ch24_prophecies",
+        "ch24_studies",
+        "ch25_xpg_1",
+        "ch25_xpg_2",
+        "ch25_xps_kid",
+        "ch25_xps_adult",
+        "ch25_xps_elder",
+        "ch25_wisdom_kid",
+        "ch25_wisdom_adult",
+        "ch25_wisdom_elder",
+        "ch25_wisdom_life",
+        "ch26_water",
+        "ch26_fire",
+        "ch26_earth",
+        "ch26_wind",
+        "ch26_vials",
+        "ch26_fiwa",
+        "ch26_eawa",
+        "ch26_wiwa",
+        "ch26_eafi",
+        "ch26_wifi",
+        "ch26_eawi"
+      ]
+    },
+    {
+      "id": "currencies_settlement_ch6-8",
+      "resourceIds": [
+        "dwarfs_granite",
+        "dwarfs_copper",
+        "fairies_sunflower",
+        "fairies_velvet",
+        "fairies_cocoons",
+        "fairies_ambrosia",
+        "fairies_nightshade",
+        "fairies_fireflies",
+        "fairies_dreamsheep",
+        "fairies_soma",
+        "orcs_hardshroom",
+        "orcs_psychoshroom",
+        "orcs_powershroom",
+        "orcs_shroomofwisdom",
+        "orcs_armament",
+        "orcs_dung",
+        "orcs_debris",
+        "orcs_loot"
+      ]
+    },
+    {
+      "id": "currencies_settlement_ch9-11",
+      "resourceIds": [
+        "gr4_manatears",
+        "gr4_refinedmarble",
+        "gr4_refinedsteel",
+        "gr4_refinedplanks",
+        "gr4_woodghosts",
+        "gr4_windchimes",
+        "gr4_treantsprouts",
+        "gr5_crystalflasks",
+        "gr5_arcanescrolls",
+        "gr5_soulcatchers",
+        "gr5_apprentices",
+        "gr5_alchemists",
+        "gr5_arcanologists",
+        "gr5_necromancers",
+        "gr5_arcanealchemists",
+        "gr5_necroalchemists",
+        "gr5_arcanenecromancers",
+        "gr6_grain",
+        "gr6_carrots",
+        "gr6_pumpkins",
+        "gr6_apples",
+        "gr6_fertilizer",
+        "gr6_bread",
+        "gr6_soup",
+        "gr6_jam"
+      ]
+    },
+    {
+      "id": "currencies_settlement_ch12-14",
+      "resourceIds": [
+        "gr7_toll",
+        "gr7_airartefacts",
+        "gr7_fireartefacts",
+        "gr7_earthartefacts",
+        "gr7_waterartefacts",
+        "gr7_essence",
+        "gr8_gravegoods",
+        "gr8_traps",
+        "gr9_constructzero",
+        "gr9_constructa",
+        "gr9_constructb",
+        "gr9_constructc",
+        "gr9_constructd",
+        "gr9_elvenarin",
+        "gr9_nutria",
+        "gr9_nutrib",
+        "gr9_nutric",
+        "gr9_nutrid",
+        "gr9_humanium",
+        "gr9_elvarium"
+      ]
+    },
+    {
+      "id": "currencies_settlement_ch15-17",
+      "resourceIds": [
+        "gr10_ideas",
+        "gr10_workforce",
+        "gr10_livingpaintings",
+        "gr10_sculptures",
+        "gr10_crystalballs",
+        "gr10_plants",
+        "gr10_designs",
+        "gr10_constructs",
+        "gr10_humancollections",
+        "gr10_humanracemanifest",
+        "gr10_elvencollections",
+        "gr10_elvenracemanifest",
+        "gr11_draftlaws",
+        "gr11_dwarvenpropositions",
+        "gr11_fairypropositions",
+        "gr11_strawberrybeer",
+        "gr11_purpletea",
+        "gr11_dwarvenamendments",
+        "gr11_fairyamendments",
+        "gr11_inspirations",
+        "gr11_statutes",
+        "ch17_elvenarinzero",
+        "ch17_luxuries",
+        "ch17_delicacies",
+        "ch17_artifacts"
+      ]
+    },
+    {
+      "id": "currencies_settlement_ch18-20",
+      "resourceIds": [
+        "ch19_matter3",
+        "ch18_humans",
+        "ch18_elves",
+        "ch18_elvenar",
+        "ch18_water",
+        "ch18_fire",
+        "ch18_wind",
+        "ch18_earth",
+        "ch18_medal1",
+        "ch18_medal2",
+        "ch18_medal3",
+        "ch18_medal4",
+        "ch18_medal5",
+        "ch18_medal6",
+        "ch18_badge",
+        "ch19_magic1",
+        "ch19_magic2",
+        "ch19_matter1",
+        "ch19_matter2",
+        "ch19_creatures1",
+        "ch19_creatures2",
+        "ch19_creatures3",
+        "ch20_bars",
+        "ch20_songs",
+        "ch20_strings",
+        "ch20_flutes",
+        "ch20_drums"
+      ]
+    },
+    {
+      "id": "currencies_settlement_ch21-23",
+      "resourceIds": [
+        "ch21_prey",
+        "ch21_scales",
+        "ch21_shells",
+        "ch21_dragon",
+        "ch21_bones",
+        "ch21_furniture",
+        "ch21_glass",
+        "ch21_art",
+        "ch21_oblations1",
+        "ch21_oblations2",
+        "ch21_oblations3",
+        "ch21_oblations4",
+        "ch22_seafood",
+        "ch22_fish",
+        "ch22_fruits",
+        "ch22_salt",
+        "ch22_shrimps",
+        "ch22_snails",
+        "ch22_weed",
+        "ch22_eels",
+        "ch22_sponges",
+        "ch23_unicornblossoms",
+        "ch23_dwarvenspirits",
+        "ch23_fairyspirits",
+        "ch23_orcspirits",
+        "ch23_halflingspirits",
+        "ch23_mithril",
+        "ch23_queenhoney",
+        "ch23_dragonteeth",
+        "ch23_flowerwreaths"
+      ]
+    },
+    {
+      "id": "currencies_settlement_ch24-26",
+      "resourceIds": [
+        "ch24_servants",
+        "ch24_warriors",
+        "ch24_farmers",
+        "ch24_workers",
+        "ch24_motivation",
+        "ch24_prophecies",
+        "ch24_studies",
+        "ch25_xpg_1",
+        "ch25_xpg_2",
+        "ch25_xps_kid",
+        "ch25_xps_adult",
+        "ch25_xps_elder",
+        "ch25_wisdom_kid",
+        "ch25_wisdom_adult",
+        "ch25_wisdom_elder",
+        "ch25_wisdom_life",
+        "ch26_water",
+        "ch26_fire",
+        "ch26_earth",
+        "ch26_wind",
+        "ch26_vials",
+        "ch26_fiwa",
+        "ch26_eawa",
+        "ch26_wiwa",
+        "ch26_eafi",
+        "ch26_wifi",
+        "ch26_eawi"
+      ]
+    },
+    {
+      "id": "currencies_settlement_ch27-29",
+      "resourceIds": [
+        "dwarfs_granite"
+      ]
+    },
+    {
+      "id": "currencies_settlement_ch30-32",
+      "resourceIds": [
+        "dwarfs_granite"
+      ]
+    },
+    {
+      "id": "currencies_settlement_ch33-35",
+      "resourceIds": [
+        "dwarfs_granite"
+      ]
+    },
+    {
+      "id": "currencies_settlement_ch36-38",
+      "resourceIds": [
+        "dwarfs_granite"
+      ]
+    },
+    {
+      "id": "currencies_settlement_ch39-41",
+      "resourceIds": [
+        "dwarfs_granite"
+      ]
+    },
+    {
+      "id": "currencies_relics",
+      "resourceIds": [
+        "relic_marble",
+        "relic_steel",
+        "relic_planks",
+        "relic_crystal",
+        "relic_scrolls",
+        "relic_silk",
+        "relic_elixir",
+        "relic_magic_dust",
+        "relic_gems"
+      ]
+    },
+    {
+      "id": "currencies_seasonpass",
+      "resourceIds": [
+        "season_xp",
+        "season_daily_keys",
+        "season_quest_reroll_charge",
+        "season_blessing"
+      ]
+    },
+    {
+      "id": "goods_all",
+      "resourceIds": [
+        "marble",
+        "steel",
+        "planks",
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "crystal",
+        "scrolls",
+        "silk",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "elixir",
+        "magic_dust",
+        "gems",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "goods_standard",
+      "resourceIds": [
+        "marble",
+        "steel",
+        "planks",
+        "crystal",
+        "scrolls",
+        "silk",
+        "elixir",
+        "magic_dust",
+        "gems"
+      ]
+    },
+    {
+      "id": "goods_sentient",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "goods_ascended",
+      "resourceIds": [
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "spells_enchantments",
+      "name": "Verzauberungen",
+      "resourceIds": [
+        "spell_supply_production_boost_1",
+        "spell_neighborly_help_boost_1",
+        "spell_good_production_boost_1",
+        "spell_settlement_production_boost_1",
+        "spell_knowledge_boost_1",
+        "spell_pet_food_1",
+        "spell_teleport_1"
+      ]
+    },
+    {
+      "id": "requirements",
+      "resourceIds": [
+        "culture",
+        "population",
+        "prestige",
+        "prosperity",
+        "ch20_melody",
+        "ch20_accompaniment",
+        "ch20_rhythm"
+      ],
+      "featureIdsByResource": {
+        "prosperity": {
+          "id": {
+            "value": "prosperity"
+          }
+        },
+        "ch20_melody": {
+          "id": {
+            "value": "ch20_melody"
+          }
+        },
+        "ch20_accompaniment": {
+          "id": {
+            "value": "ch20_accompaniment"
+          }
+        },
+        "ch20_rhythm": {
+          "id": {
+            "value": "ch20_rhythm"
+          }
+        }
+      }
+    },
+    {
+      "id": "culture_boosted_resources",
+      "resourceIds": [
+        "money",
+        "supplies",
+        "work",
+        "canned_goods"
+      ],
+      "featureIdsByResource": {
+        "work": {
+          "id": {
+            "value": "work"
+          }
+        },
+        "canned_goods": {
+          "id": {
+            "value": "canned_goods"
+          }
+        }
+      }
+    },
+    {
+      "id": "non_boostable_resources",
+      "resourceIds": [
+        "ch18_badge",
+        "ch19_matter1",
+        "ch19_matter2",
+        "ch19_matter3",
+        "ch20_songs",
+        "ch24_motivation",
+        "ch25_wisdom_kid",
+        "ch25_wisdom_adult",
+        "ch25_wisdom_elder"
+      ]
+    },
+    {
+      "id": "provisions",
+      "resourceIds": [
+        "population",
+        "prosperity",
+        "prestige",
+        "ch20_melody",
+        "ch20_accompaniment",
+        "ch20_rhythm"
+      ],
+      "featureIdsByResource": {
+        "prosperity": {
+          "id": {
+            "value": "prosperity"
+          }
+        },
+        "ch20_melody": {
+          "id": {
+            "value": "ch20_melody"
+          }
+        },
+        "ch20_accompaniment": {
+          "id": {
+            "value": "ch20_accompaniment"
+          }
+        },
+        "ch20_rhythm": {
+          "id": {
+            "value": "ch20_rhythm"
+          }
+        }
+      }
+    },
+    {
+      "id": "short_logging",
+      "resourceIds": [
+        "money",
+        "supplies",
+        "knowledge_points"
+      ]
+    },
+    {
+      "id": "long_logging",
+      "resourceIds": [
+        "blueprint",
+        "event_currency_1",
+        "event_currency_2",
+        "event_payback"
+      ]
+    },
+    {
+      "id": "extended_logging",
+      "resourceIds": [
+        "season_xp",
+        "season_daily_keys",
+        "season_blessing"
+      ]
+    },
+    {
+      "id": "basic_resources",
+      "resourceIds": [
+        "money",
+        "supplies",
+        "expansions",
+        "population",
+        "premium",
+        "knowledge_points"
+      ]
+    },
+    {
+      "id": "resources",
+      "resourceIds": [
+        "orcs",
+        "seeds",
+        "unurium",
+        "mana",
+        "nox",
+        "work",
+        "canned_goods",
+        "finity_gear",
+        "dragon_steel",
+        "hb_lm",
+        "hb_lr",
+        "hb_ma",
+        "hb_hm",
+        "hb_hr",
+        "eb_lm",
+        "eb_lr",
+        "eb_ma",
+        "eb_hm",
+        "eb_hr",
+        "tg_lm",
+        "tg_lr",
+        "tg_ma",
+        "tg_hm",
+        "tg_hr",
+        "mc_lm",
+        "mc_lr",
+        "mc_ma",
+        "mc_hm",
+        "mc_hr",
+        "event_currency_1",
+        "event_currency_2",
+        "event_payback",
+        "medals",
+        "episodic_reward_reroll_charge",
+        "tile_event_reveal_charge",
+        "special_package_double_reward_charge",
+        "special_package_reveal_charge",
+        "tile_event_tool_single",
+        "tile_event_tool_column",
+        "tile_event_tool_adjacent",
+        "badge_brewery",
+        "badge_carpenters",
+        "badge_farmers",
+        "badge_blacksmith",
+        "golden_bracelet",
+        "diamond_necklace",
+        "elegant_statue",
+        "witch_hat",
+        "druid_staff",
+        "badge_wonderhelper",
+        "badge_unit",
+        "money_sack",
+        "arcane_residue",
+        "recycled_potion",
+        "enchanted_tiara",
+        "ghost_in_a_bottle",
+        "craft_spell_fragments",
+        "guardian_essence",
+        "combiningcatalyst",
+        "craft_payback",
+        "royalrestoration",
+        "blueprint",
+        "broken_shards",
+        "crafting_slots_refresh",
+        "volatile_sigils",
+        "spire_diplomacy_joker",
+        "eldian_sapphire",
+        "radiant_stones",
+        "shattered_orbs",
+        "guild_progression_free_kp",
+        "b_all_spire_aw_shards",
+        "b_all_aw1_shards",
+        "b_all_aw2_shards",
+        "b_all_aw3_shards",
+        "b_all_aw4_shards",
+        "b_humans_aw1_shards",
+        "b_humans_aw2_shards",
+        "b_elves_aw1_shards",
+        "b_elves_aw2_shards",
+        "b_all_aw5_shards",
+        "b_all_aw6_shards",
+        "b_dwarfs_aw1_shards",
+        "b_dwarfs_aw2_shards",
+        "b_fairies_aw1_shards",
+        "b_fairies_aw2_shards",
+        "b_orcs_aw1_shards",
+        "b_orcs_aw2_shards",
+        "b_gr4_aw1_shards",
+        "b_gr4_aw2_shards",
+        "b_gr5_aw1_shards",
+        "b_gr5_aw2_shards",
+        "b_gr6_aw1_shards",
+        "b_gr6_aw2_shards",
+        "b_gr7_aw1_shards",
+        "b_gr7_aw2_shards",
+        "b_gr8_aw1_shards",
+        "b_gr8_aw2_shards",
+        "b_gr9_aw1_shards",
+        "b_gr9_aw2_shards",
+        "b_gr10_aw1_shards",
+        "b_gr10_aw2_shards",
+        "b_gr11_aw1_shards",
+        "b_gr11_aw2_shards",
+        "b_ch17_aw1_shards",
+        "b_ch17_aw2_shards",
+        "b_ch18_aw1_shards",
+        "b_ch18_aw2_shards",
+        "b_ch19_aw1_shards",
+        "b_ch19_aw2_shards",
+        "b_ch20_aw1_shards",
+        "b_ch20_aw2_shards",
+        "b_ch21_aw1_shards",
+        "b_ch21_aw2_shards",
+        "b_ch22_aw1_shards",
+        "b_ch22_aw2_shards",
+        "b_ch23_aw1_shards",
+        "b_ch23_aw2_shards",
+        "b_ch24_aw1_shards",
+        "b_ch24_aw2_shards",
+        "b_ch25_aw1_shards",
+        "b_ch25_aw2_shards",
+        "b_ch26_aw1_shards",
+        "b_ch26_aw2_shards",
+        "b_ch27_aw1_shards",
+        "b_ch27_aw2_shards",
+        "b_ch28_aw1_shards",
+        "b_ch28_aw2_shards",
+        "b_ch29_aw1_shards",
+        "b_ch29_aw2_shards",
+        "b_ch30_aw1_shards",
+        "b_ch30_aw2_shards",
+        "b_ch31_aw1_shards",
+        "b_ch31_aw2_shards",
+        "b_ch32_aw1_shards",
+        "b_ch32_aw2_shards",
+        "b_ch33_aw1_shards",
+        "b_ch33_aw2_shards",
+        "b_ch34_aw1_shards",
+        "b_ch34_aw2_shards",
+        "b_ch35_aw1_shards",
+        "b_ch35_aw2_shards",
+        "b_ch36_aw1_shards",
+        "b_ch36_aw2_shards",
+        "b_ch37_aw1_shards",
+        "b_ch37_aw2_shards",
+        "b_ch38_aw1_shards",
+        "b_ch38_aw2_shards",
+        "b_ch39_aw1_shards",
+        "b_ch39_aw2_shards",
+        "b_ch40_aw1_shards",
+        "b_ch40_aw2_shards",
+        "cauldron_witchpoints",
+        "tournament_goblets",
+        "researchtree_diplomas",
+        "dwarfs_granite",
+        "dwarfs_copper",
+        "fairies_sunflower",
+        "fairies_velvet",
+        "fairies_cocoons",
+        "fairies_ambrosia",
+        "fairies_nightshade",
+        "fairies_fireflies",
+        "fairies_dreamsheep",
+        "fairies_soma",
+        "orcs_hardshroom",
+        "orcs_psychoshroom",
+        "orcs_powershroom",
+        "orcs_shroomofwisdom",
+        "orcs_armament",
+        "orcs_dung",
+        "orcs_debris",
+        "orcs_loot",
+        "gr4_manatears",
+        "gr4_refinedmarble",
+        "gr4_refinedsteel",
+        "gr4_refinedplanks",
+        "gr4_woodghosts",
+        "gr4_windchimes",
+        "gr4_treantsprouts",
+        "gr5_crystalflasks",
+        "gr5_arcanescrolls",
+        "gr5_soulcatchers",
+        "gr5_apprentices",
+        "gr5_alchemists",
+        "gr5_arcanologists",
+        "gr5_necromancers",
+        "gr5_arcanealchemists",
+        "gr5_necroalchemists",
+        "gr5_arcanenecromancers",
+        "gr6_grain",
+        "gr6_carrots",
+        "gr6_pumpkins",
+        "gr6_apples",
+        "gr6_fertilizer",
+        "gr6_bread",
+        "gr6_soup",
+        "gr6_jam",
+        "gr7_toll",
+        "gr7_airartefacts",
+        "gr7_fireartefacts",
+        "gr7_earthartefacts",
+        "gr7_waterartefacts",
+        "gr7_essence",
+        "gr8_gravegoods",
+        "gr8_traps",
+        "gr9_constructzero",
+        "gr9_constructa",
+        "gr9_constructb",
+        "gr9_constructc",
+        "gr9_constructd",
+        "gr9_elvenarin",
+        "gr9_nutria",
+        "gr9_nutrib",
+        "gr9_nutric",
+        "gr9_nutrid",
+        "gr9_humanium",
+        "gr9_elvarium",
+        "gr10_ideas",
+        "gr10_workforce",
+        "gr10_livingpaintings",
+        "gr10_sculptures",
+        "gr10_crystalballs",
+        "gr10_plants",
+        "gr10_designs",
+        "gr10_constructs",
+        "gr10_humancollections",
+        "gr10_humanracemanifest",
+        "gr10_elvencollections",
+        "gr10_elvenracemanifest",
+        "gr11_draftlaws",
+        "gr11_dwarvenpropositions",
+        "gr11_fairypropositions",
+        "gr11_strawberrybeer",
+        "gr11_purpletea",
+        "gr11_dwarvenamendments",
+        "gr11_fairyamendments",
+        "gr11_inspirations",
+        "gr11_statutes",
+        "ch17_elvenarinzero",
+        "ch17_luxuries",
+        "ch17_delicacies",
+        "ch17_artifacts",
+        "ch18_humans",
+        "ch18_elves",
+        "ch18_elvenar",
+        "ch18_water",
+        "ch18_fire",
+        "ch18_wind",
+        "ch18_earth",
+        "ch18_medal1",
+        "ch18_medal2",
+        "ch18_medal3",
+        "ch18_medal4",
+        "ch18_medal5",
+        "ch18_medal6",
+        "ch18_badge",
+        "ch19_magic1",
+        "ch19_magic2",
+        "ch19_matter1",
+        "ch19_matter2",
+        "ch19_creatures1",
+        "ch19_creatures2",
+        "ch19_creatures3",
+        "ch20_bars",
+        "ch20_songs",
+        "ch20_strings",
+        "ch20_flutes",
+        "ch20_drums",
+        "ch21_prey",
+        "ch21_scales",
+        "ch21_shells",
+        "ch21_dragon",
+        "ch21_bones",
+        "ch21_furniture",
+        "ch21_glass",
+        "ch21_art",
+        "ch21_oblations1",
+        "ch21_oblations2",
+        "ch21_oblations3",
+        "ch21_oblations4",
+        "ch22_seafood",
+        "ch22_fish",
+        "ch22_fruits",
+        "ch22_salt",
+        "ch22_shrimps",
+        "ch22_snails",
+        "ch22_weed",
+        "ch22_eels",
+        "ch22_sponges",
+        "ch23_unicornblossoms",
+        "ch23_dwarvenspirits",
+        "ch23_fairyspirits",
+        "ch23_orcspirits",
+        "ch23_halflingspirits",
+        "ch23_mithril",
+        "ch23_queenhoney",
+        "ch23_dragonteeth",
+        "ch23_flowerwreaths",
+        "ch24_servants",
+        "ch24_warriors",
+        "ch24_farmers",
+        "ch24_workers",
+        "ch24_motivation",
+        "ch24_prophecies",
+        "ch24_studies",
+        "ch25_xpg_1",
+        "ch25_xpg_2",
+        "ch25_xps_kid",
+        "ch25_xps_adult",
+        "ch25_xps_elder",
+        "ch25_wisdom_kid",
+        "ch25_wisdom_adult",
+        "ch25_wisdom_elder",
+        "ch25_wisdom_life",
+        "ch26_water",
+        "ch26_fire",
+        "ch26_earth",
+        "ch26_wind",
+        "ch26_vials",
+        "ch26_fiwa",
+        "ch26_eawa",
+        "ch26_wiwa",
+        "ch26_eafi",
+        "ch26_wifi",
+        "ch26_eawi",
+        "ch19_matter3",
+        "relic_marble",
+        "relic_steel",
+        "relic_planks",
+        "relic_crystal",
+        "relic_scrolls",
+        "relic_silk",
+        "relic_elixir",
+        "relic_magic_dust",
+        "relic_gems",
+        "season_xp",
+        "season_daily_keys",
+        "season_quest_reroll_charge",
+        "season_blessing",
+        "marble",
+        "steel",
+        "planks",
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "crystal",
+        "scrolls",
+        "silk",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "elixir",
+        "magic_dust",
+        "gems",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems",
+        "spell_supply_production_boost_1",
+        "spell_neighborly_help_boost_1",
+        "spell_good_production_boost_1",
+        "spell_settlement_production_boost_1",
+        "spell_knowledge_boost_1",
+        "spell_pet_food_1",
+        "spell_teleport_1",
+        "culture",
+        "prestige",
+        "prosperity",
+        "ch20_melody",
+        "ch20_accompaniment",
+        "ch20_rhythm",
+        "ins_tr_amt_1",
+        "ins_tr_amt_3",
+        "ins_tr_amt_7",
+        "ins_tr_amt_10",
+        "ins_tr_amt_15",
+        "ins_tr_amt_20",
+        "ins_tr_amt_30",
+        "ins_tr_amt_45",
+        "ins_tr_amt_60",
+        "ins_tr_amt_120",
+        "ins_tr_amt_300",
+        "ins_tr_amt_480",
+        "ins_tr_amt_840",
+        "ins_tr_amt_1200",
+        "ins_tr_amt_2400",
+        "ins_rf_cn_5",
+        "ins_rf_cn_10",
+        "ins_rf_cn_15",
+        "ins_rf_cn_20",
+        "ins_rf_cn_25",
+        "ins_rf_cn_33",
+        "ins_rf_cn_50",
+        "ins_rf_cn_100",
+        "ins_rf_spl_5",
+        "ins_rf_spl_10",
+        "ins_rf_spl_15",
+        "ins_rf_spl_20",
+        "ins_rf_spl_25",
+        "ins_rf_spl_33",
+        "ins_rf_spl_50",
+        "ins_rf_spl_100",
+        "ins_rf_grr_5",
+        "ins_rf_grr_10",
+        "ins_rf_grr_15",
+        "ins_rf_grr_20",
+        "ins_rf_grr_25",
+        "ins_rf_grr_33",
+        "ins_rf_grr_50",
+        "ins_rf_grr_100",
+        "ins_rev_sqd_5",
+        "ins_rev_sqd_10",
+        "ins_rev_sqd_25",
+        "ins_rev_sqd_50",
+        "ins_rev_sqd_75",
+        "ins_rev_sqd_100",
+        "ins_kp_aw_1",
+        "ins_kp_aw_3",
+        "ins_kp_aw_5",
+        "ins_kp_aw_7",
+        "ins_kp_aw_10",
+        "ins_kp_aw_15",
+        "ins_kp_aw_20",
+        "ins_kp_aw_30",
+        "ins_ex_1",
+        "ins_unit_lm_5",
+        "ins_unit_lm_10",
+        "ins_unit_lm_15",
+        "ins_unit_lm_25",
+        "ins_unit_lr_5",
+        "ins_unit_lr_10",
+        "ins_unit_lr_15",
+        "ins_unit_lr_25",
+        "ins_unit_ma_5",
+        "ins_unit_ma_10",
+        "ins_unit_ma_15",
+        "ins_unit_ma_25",
+        "ins_unit_hm_5",
+        "ins_unit_hm_10",
+        "ins_unit_hm_15",
+        "ins_unit_hm_25",
+        "ins_unit_hr_5",
+        "ins_unit_hr_10",
+        "ins_unit_hr_15",
+        "ins_unit_hr_25",
+        "ins_unit_tg_lm_5",
+        "ins_unit_tg_lm_10",
+        "ins_unit_tg_lm_15",
+        "ins_unit_tg_lm_25",
+        "ins_unit_tg_lr_5",
+        "ins_unit_tg_lr_10",
+        "ins_unit_tg_lr_15",
+        "ins_unit_tg_lr_25",
+        "ins_unit_tg_ma_5",
+        "ins_unit_tg_ma_10",
+        "ins_unit_tg_ma_15",
+        "ins_unit_tg_ma_25",
+        "ins_unit_tg_hm_5",
+        "ins_unit_tg_hm_10",
+        "ins_unit_tg_hm_15",
+        "ins_unit_tg_hm_25",
+        "ins_unit_tg_hr_5",
+        "ins_unit_tg_hr_10",
+        "ins_unit_tg_hr_15",
+        "ins_unit_tg_hr_25",
+        "ins_unit_mc_lm_5",
+        "ins_unit_mc_lm_10",
+        "ins_unit_mc_lm_15",
+        "ins_unit_mc_lm_25",
+        "ins_unit_mc_lr_5",
+        "ins_unit_mc_lr_10",
+        "ins_unit_mc_lr_15",
+        "ins_unit_mc_lr_25",
+        "ins_unit_mc_ma_5",
+        "ins_unit_mc_ma_10",
+        "ins_unit_mc_ma_15",
+        "ins_unit_mc_ma_25",
+        "ins_unit_mc_hm_5",
+        "ins_unit_mc_hm_10",
+        "ins_unit_mc_hm_15",
+        "ins_unit_mc_hm_25",
+        "ins_unit_mc_hr_5",
+        "ins_unit_mc_hr_10",
+        "ins_unit_mc_hr_15",
+        "ins_unit_mc_hr_25",
+        "ins_grow_guardian_xxv_naturion_the_awakened",
+        "ins_grow_guardian_xxvi_ursalith_the_ascendant",
+        "ins_grow_guardian_xxvi_zeraphis_the_highstride",
+        "ins_grow_guardian_xxvi_lutrion_the_gleamkeeper",
+        "ins_evo_autumn_xix",
+        "ins_evo_easter_xix",
+        "ins_evo_summer_xix",
+        "ins_evo_mm_xix",
+        "ins_evo_winter_xix",
+        "ins_evo_carnival_xx",
+        "ins_evo_easter_xx",
+        "ins_evo_july_xx",
+        "ins_evo_september_xx",
+        "ins_evo_october_xx",
+        "ins_evo_december_xx",
+        "ins_evo_february_xxi",
+        "ins_evo_march_xxi",
+        "ins_evo_may_xxi",
+        "ins_evo_july_xxi",
+        "ins_evo_september_xxi",
+        "ins_evo_october_xxi",
+        "ins_evo_december_xxi",
+        "ins_evo_february_xxii",
+        "ins_evo_easter_xxii",
+        "ins_evo_may_xxii",
+        "ins_evo_july_xxii",
+        "ins_evo_september_xxii",
+        "ins_evo_october_xxii",
+        "ins_evo_december_xxii",
+        "ins_evo_january_xxiii",
+        "ins_evo_easter_xxiii",
+        "ins_evo_may_xxiii",
+        "ins_evo_shuffle_garden_xxiii",
+        "ins_evo_theater_zodiac_xxiii",
+        "ins_evo_merge_dwarvengame_xxiii",
+        "ins_evo_tile_mistyforest_xxiii",
+        "ins_evo_scroll_sorcerers_xxiv",
+        "ins_evo_theater_easter_xxiv",
+        "ins_evo_tile_amuni_xxiv",
+        "ins_evo_scroll_aquatic_xxiv",
+        "ins_evo_merge_dwarvengame_xxiv",
+        "ins_evo_theater_zodiac_xxiv",
+        "ins_evo_tile_mistyforest_xxiv",
+        "ins_evo_shuffle_postal_xxiv",
+        "ins_evo_scroll_sorcerers_xxv",
+        "ins_evo_merge_kitchen_xxv",
+        "ins_evo_theater_easter_xxv",
+        "ins_evo_tile_amuni_xxv",
+        "ins_evo_scroll_aquatic_xxv",
+        "ins_evo_merge_dwarvengame_xxv",
+        "ins_evo_theater_zodiac_xxv",
+        "ins_evo_shuffle_postal_xxv",
+        "ins_evo_scroll_sorcerers_xxvi",
+        "ins_evo_theater_easter_xxvi",
+        "ins_evo_scroll_aquatic_xxvi",
+        "ins_evo_merge_kitchen_xxvi",
+        "ins_evo_theater_zodiac_xxvi",
+        "ins_evo_shuffle_postal_xxvi"
+      ],
+      "featureIdsByResource": {
+        "work": {
+          "id": {
+            "value": "work"
+          }
+        },
+        "canned_goods": {
+          "id": {
+            "value": "canned_goods"
+          }
+        },
+        "prosperity": {
+          "id": {
+            "value": "prosperity"
+          }
+        },
+        "ch20_melody": {
+          "id": {
+            "value": "ch20_melody"
+          }
+        },
+        "ch20_accompaniment": {
+          "id": {
+            "value": "ch20_accompaniment"
+          }
+        },
+        "ch20_rhythm": {
+          "id": {
+            "value": "ch20_rhythm"
+          }
+        }
+      }
+    },
+    {
+      "id": "money_supplies",
+      "resourceIds": [
+        "money",
+        "supplies"
+      ]
+    },
+    {
+      "id": "crafting",
+      "resourceIds": [
+        "craft_payback",
+        "craft_spell_fragments"
+      ]
+    },
+    {
+      "id": "hud_crafting_resources",
+      "resourceIds": [
+        "craft_spell_fragments",
+        "guardian_essence",
+        "combiningcatalyst",
+        "craft_payback",
+        "crafting_slots_refresh",
+        "eldian_sapphire",
+        "volatile_sigils",
+        "royalrestoration",
+        "blueprint",
+        "broken_shards"
+      ]
+    },
+    {
+      "id": "hud_royal_treasures",
+      "resourceIds": [
+        "craft_spell_fragments",
+        "guardian_essence",
+        "combiningcatalyst",
+        "craft_payback",
+        "crafting_slots_refresh",
+        "eldian_sapphire",
+        "volatile_sigils",
+        "royalrestoration",
+        "blueprint",
+        "broken_shards"
+      ]
+    },
+    {
+      "id": "goods_quality_1",
+      "resourceIds": [
+        "marble",
+        "steel",
+        "planks"
+      ]
+    },
+    {
+      "id": "goods_quality_2",
+      "resourceIds": [
+        "crystal",
+        "scrolls",
+        "silk"
+      ]
+    },
+    {
+      "id": "goods_quality_3",
+      "resourceIds": [
+        "elixir",
+        "magic_dust",
+        "gems"
+      ]
+    },
+    {
+      "id": "goods_basic",
+      "resourceIds": [
+        "marble",
+        "steel",
+        "planks",
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks"
+      ]
+    },
+    {
+      "id": "goods_refined",
+      "resourceIds": [
+        "crystal",
+        "scrolls",
+        "silk",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk"
+      ]
+    },
+    {
+      "id": "goods_precious",
+      "resourceIds": [
+        "elixir",
+        "magic_dust",
+        "gems",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "goods",
+      "resourceIds": [
+        "marble",
+        "steel",
+        "planks",
+        "crystal",
+        "scrolls",
+        "silk",
+        "elixir",
+        "magic_dust",
+        "gems"
+      ]
+    },
+    {
+      "id": "sentient_quality_1",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks"
+      ]
+    },
+    {
+      "id": "sentient_quality_2",
+      "resourceIds": [
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk"
+      ]
+    },
+    {
+      "id": "sentient_quality_3",
+      "resourceIds": [
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "sentientgoods",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "sentient_gr7",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks"
+      ]
+    },
+    {
+      "id": "sentient_gr8",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk"
+      ]
+    },
+    {
+      "id": "sentient_gr9",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "sentient_gr10",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "sentient_gr11",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "sentient_ch17",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "sentient_ch18",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "sentient_ch19",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "sentient_ch20",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "sentient_ch21",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "sentient_ch22",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "sentient_ch23",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "sentient_ch24",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "sentient_ch25",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "sentient_ch26",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "sentient_ch27",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "sentient_ch28",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "sentient_ch29",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "sentient_ch30",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "sentient_ch31",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "sentient_ch32",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "sentient_ch33",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "sentient_ch34",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "sentient_ch35",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "sentient_ch36",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "sentient_ch37",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "sentient_ch38",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "sentient_ch39",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "sentient_ch40",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "ascended_quality_1",
+      "resourceIds": [
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks"
+      ]
+    },
+    {
+      "id": "ascended_quality_2",
+      "resourceIds": [
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk"
+      ]
+    },
+    {
+      "id": "ascended_quality_3",
+      "resourceIds": [
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "ascendedgoods",
+      "resourceIds": [
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "ascended_ch18",
+      "resourceIds": [
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks"
+      ]
+    },
+    {
+      "id": "ascended_ch19",
+      "resourceIds": [
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk"
+      ]
+    },
+    {
+      "id": "ascended_ch20",
+      "resourceIds": [
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "ascended_ch21",
+      "resourceIds": [
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "ascended_ch22",
+      "resourceIds": [
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "ascended_ch23",
+      "resourceIds": [
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "ascended_ch24",
+      "resourceIds": [
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "ascended_ch25",
+      "resourceIds": [
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "ascended_ch26",
+      "resourceIds": [
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "ascended_ch27",
+      "resourceIds": [
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "ascended_ch28",
+      "resourceIds": [
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "ascended_ch29",
+      "resourceIds": [
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "ascended_ch30",
+      "resourceIds": [
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "ascended_ch31",
+      "resourceIds": [
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "ascended_ch32",
+      "resourceIds": [
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "ascended_ch33",
+      "resourceIds": [
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "ascended_ch34",
+      "resourceIds": [
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "ascended_ch35",
+      "resourceIds": [
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "ascended_ch36",
+      "resourceIds": [
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "ascended_ch37",
+      "resourceIds": [
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "ascended_ch38",
+      "resourceIds": [
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "ascended_ch39",
+      "resourceIds": [
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "ascended_ch40",
+      "resourceIds": [
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "later_resources",
+      "resourceIds": [
+        "orcs",
+        "seeds",
+        "unurium",
+        "mana",
+        "nox",
+        "work",
+        "canned_goods",
+        "finity_gear",
+        "dragon_steel"
+      ],
+      "featureIdsByResource": {
+        "work": {
+          "id": {
+            "value": "work"
+          }
+        },
+        "canned_goods": {
+          "id": {
+            "value": "canned_goods"
+          }
+        }
+      }
+    },
+    {
+      "id": "relics",
+      "name": "Relikte",
+      "resourceIds": [
+        "relic_marble",
+        "relic_steel",
+        "relic_planks",
+        "relic_crystal",
+        "relic_scrolls",
+        "relic_silk",
+        "relic_elixir",
+        "relic_magic_dust",
+        "relic_gems"
+      ]
+    },
+    {
+      "id": "dwarfs",
+      "resourceIds": [
+        "dwarfs_granite",
+        "dwarfs_copper"
+      ]
+    },
+    {
+      "id": "fairies",
+      "resourceIds": [
+        "fairies_sunflower",
+        "fairies_velvet",
+        "fairies_cocoons",
+        "fairies_ambrosia",
+        "fairies_nightshade",
+        "fairies_fireflies",
+        "fairies_dreamsheep",
+        "fairies_soma"
+      ]
+    },
+    {
+      "id": "orcs",
+      "resourceIds": [
+        "orcs_hardshroom",
+        "orcs_psychoshroom",
+        "orcs_powershroom",
+        "orcs_shroomofwisdom",
+        "orcs_armament",
+        "orcs_dung",
+        "orcs_debris",
+        "orcs_loot"
+      ]
+    },
+    {
+      "id": "gr4",
+      "resourceIds": [
+        "gr4_manatears",
+        "gr4_refinedmarble",
+        "gr4_refinedsteel",
+        "gr4_refinedplanks",
+        "gr4_woodghosts",
+        "gr4_windchimes",
+        "gr4_treantsprouts"
+      ]
+    },
+    {
+      "id": "gr5",
+      "resourceIds": [
+        "gr5_crystalflasks",
+        "gr5_arcanescrolls",
+        "gr5_soulcatchers",
+        "gr5_apprentices",
+        "gr5_alchemists",
+        "gr5_arcanologists",
+        "gr5_necromancers",
+        "gr5_arcanealchemists",
+        "gr5_necroalchemists",
+        "gr5_arcanenecromancers"
+      ]
+    },
+    {
+      "id": "gr6",
+      "resourceIds": [
+        "gr6_grain",
+        "gr6_carrots",
+        "gr6_pumpkins",
+        "gr6_apples",
+        "gr6_fertilizer",
+        "gr6_bread",
+        "gr6_soup",
+        "gr6_jam"
+      ]
+    },
+    {
+      "id": "gr7",
+      "resourceIds": [
+        "gr7_toll",
+        "gr7_airartefacts",
+        "gr7_fireartefacts",
+        "gr7_earthartefacts",
+        "gr7_waterartefacts",
+        "gr7_essence"
+      ]
+    },
+    {
+      "id": "gr8",
+      "resourceIds": [
+        "gr8_gravegoods",
+        "gr8_traps"
+      ]
+    },
+    {
+      "id": "gr9",
+      "resourceIds": [
+        "gr9_constructzero",
+        "gr9_constructa",
+        "gr9_constructb",
+        "gr9_constructc",
+        "gr9_constructd",
+        "gr9_elvenarin",
+        "gr9_nutria",
+        "gr9_nutrib",
+        "gr9_nutric",
+        "gr9_nutrid",
+        "gr9_humanium",
+        "gr9_elvarium"
+      ]
+    },
+    {
+      "id": "gr10",
+      "resourceIds": [
+        "gr10_ideas",
+        "gr10_workforce",
+        "gr10_livingpaintings",
+        "gr10_sculptures",
+        "gr10_crystalballs",
+        "gr10_plants",
+        "gr10_designs",
+        "gr10_constructs",
+        "gr10_humancollections",
+        "gr10_humanracemanifest",
+        "gr10_elvencollections",
+        "gr10_elvenracemanifest"
+      ]
+    },
+    {
+      "id": "gr11",
+      "resourceIds": [
+        "gr11_draftlaws",
+        "gr11_dwarvenpropositions",
+        "gr11_fairypropositions",
+        "gr11_strawberrybeer",
+        "gr11_purpletea",
+        "gr11_dwarvenamendments",
+        "gr11_fairyamendments",
+        "gr11_inspirations",
+        "gr11_statutes"
+      ]
+    },
+    {
+      "id": "ch17",
+      "resourceIds": [
+        "ch17_elvenarinzero",
+        "ch17_luxuries",
+        "ch17_delicacies",
+        "ch17_artifacts"
+      ]
+    },
+    {
+      "id": "ch18",
+      "resourceIds": [
+        "ch18_humans",
+        "ch18_elves",
+        "ch18_elvenar",
+        "ch18_water",
+        "ch18_fire",
+        "ch18_wind",
+        "ch18_earth",
+        "ch18_medal1",
+        "ch18_medal2",
+        "ch18_medal3",
+        "ch18_medal4",
+        "ch18_medal5",
+        "ch18_medal6",
+        "ch18_badge"
+      ]
+    },
+    {
+      "id": "ch19",
+      "resourceIds": [
+        "ch19_magic1",
+        "ch19_magic2",
+        "ch19_matter1",
+        "ch19_matter2",
+        "ch19_creatures1",
+        "ch19_creatures2",
+        "ch19_creatures3"
+      ]
+    },
+    {
+      "id": "ch20",
+      "resourceIds": [
+        "ch20_bars",
+        "ch20_songs",
+        "ch20_strings",
+        "ch20_flutes",
+        "ch20_drums"
+      ]
+    },
+    {
+      "id": "ch21",
+      "resourceIds": [
+        "ch21_prey",
+        "ch21_scales",
+        "ch21_shells",
+        "ch21_dragon",
+        "ch21_bones",
+        "ch21_furniture",
+        "ch21_glass",
+        "ch21_art",
+        "ch21_oblations1",
+        "ch21_oblations2",
+        "ch21_oblations3",
+        "ch21_oblations4"
+      ]
+    },
+    {
+      "id": "ch22",
+      "resourceIds": [
+        "ch22_seafood",
+        "ch22_fish",
+        "ch22_fruits",
+        "ch22_salt",
+        "ch22_shrimps",
+        "ch22_snails",
+        "ch22_weed",
+        "ch22_eels",
+        "ch22_sponges"
+      ]
+    },
+    {
+      "id": "ch23",
+      "resourceIds": [
+        "ch23_unicornblossoms",
+        "ch23_dwarvenspirits",
+        "ch23_fairyspirits",
+        "ch23_orcspirits",
+        "ch23_halflingspirits",
+        "ch23_mithril",
+        "ch23_queenhoney",
+        "ch23_dragonteeth",
+        "ch23_flowerwreaths"
+      ]
+    },
+    {
+      "id": "ch24",
+      "resourceIds": [
+        "ch24_servants",
+        "ch24_warriors",
+        "ch24_farmers",
+        "ch24_workers",
+        "ch24_motivation",
+        "ch24_prophecies",
+        "ch24_studies"
+      ]
+    },
+    {
+      "id": "ch25",
+      "resourceIds": [
+        "ch25_xpg_1",
+        "ch25_xpg_2",
+        "ch25_xps_kid",
+        "ch25_xps_adult",
+        "ch25_xps_elder",
+        "ch25_wisdom_kid",
+        "ch25_wisdom_adult",
+        "ch25_wisdom_elder",
+        "ch25_wisdom_life"
+      ]
+    },
+    {
+      "id": "ch26",
+      "resourceIds": [
+        "ch26_water",
+        "ch26_fire",
+        "ch26_earth",
+        "ch26_wind",
+        "ch26_vials",
+        "ch26_fiwa",
+        "ch26_eawa",
+        "ch26_wiwa",
+        "ch26_eafi",
+        "ch26_wifi",
+        "ch26_eawi"
+      ]
+    },
+    {
+      "id": "ch27",
+      "resourceIds": [
+        "dwarfs_granite"
+      ]
+    },
+    {
+      "id": "ch28",
+      "resourceIds": [
+        "dwarfs_granite"
+      ]
+    },
+    {
+      "id": "ch29",
+      "resourceIds": [
+        "dwarfs_granite"
+      ]
+    },
+    {
+      "id": "ch30",
+      "resourceIds": [
+        "dwarfs_granite"
+      ]
+    },
+    {
+      "id": "ch31",
+      "resourceIds": [
+        "dwarfs_granite"
+      ]
+    },
+    {
+      "id": "ch32",
+      "resourceIds": [
+        "dwarfs_granite"
+      ]
+    },
+    {
+      "id": "ch33",
+      "resourceIds": [
+        "dwarfs_granite"
+      ]
+    },
+    {
+      "id": "ch34",
+      "resourceIds": [
+        "dwarfs_granite"
+      ]
+    },
+    {
+      "id": "ch35",
+      "resourceIds": [
+        "dwarfs_granite"
+      ]
+    },
+    {
+      "id": "ch36",
+      "resourceIds": [
+        "dwarfs_granite"
+      ]
+    },
+    {
+      "id": "ch37",
+      "resourceIds": [
+        "dwarfs_granite"
+      ]
+    },
+    {
+      "id": "ch38",
+      "resourceIds": [
+        "dwarfs_granite"
+      ]
+    },
+    {
+      "id": "ch39",
+      "resourceIds": [
+        "dwarfs_granite"
+      ]
+    },
+    {
+      "id": "ch40",
+      "resourceIds": [
+        "dwarfs_granite"
+      ]
+    },
+    {
+      "id": "later_resources_orcs",
+      "resourceIds": [
+        "orcs"
+      ]
+    },
+    {
+      "id": "later_resources_gr4",
+      "resourceIds": [
+        "orcs",
+        "mana"
+      ]
+    },
+    {
+      "id": "later_resources_gr5",
+      "resourceIds": [
+        "orcs",
+        "mana"
+      ]
+    },
+    {
+      "id": "later_resources_gr6",
+      "resourceIds": [
+        "orcs",
+        "mana",
+        "seeds"
+      ]
+    },
+    {
+      "id": "later_resources_gr7",
+      "resourceIds": [
+        "orcs",
+        "mana",
+        "seeds"
+      ]
+    },
+    {
+      "id": "later_resources_gr8",
+      "resourceIds": [
+        "orcs",
+        "mana",
+        "seeds"
+      ]
+    },
+    {
+      "id": "later_resources_gr9",
+      "resourceIds": [
+        "orcs",
+        "mana",
+        "seeds"
+      ]
+    },
+    {
+      "id": "later_resources_gr10",
+      "resourceIds": [
+        "orcs",
+        "mana",
+        "seeds"
+      ]
+    },
+    {
+      "id": "later_resources_gr11",
+      "resourceIds": [
+        "orcs",
+        "mana",
+        "seeds"
+      ]
+    },
+    {
+      "id": "later_resources_ch17",
+      "resourceIds": [
+        "orcs",
+        "mana",
+        "seeds",
+        "unurium"
+      ]
+    },
+    {
+      "id": "later_resources_ch18",
+      "resourceIds": [
+        "orcs",
+        "mana",
+        "seeds",
+        "unurium"
+      ]
+    },
+    {
+      "id": "later_resources_ch19",
+      "resourceIds": [
+        "orcs",
+        "mana",
+        "seeds",
+        "unurium"
+      ]
+    },
+    {
+      "id": "later_resources_ch20",
+      "resourceIds": [
+        "orcs",
+        "mana",
+        "seeds",
+        "unurium"
+      ]
+    },
+    {
+      "id": "later_resources_ch21",
+      "resourceIds": [
+        "orcs",
+        "mana",
+        "seeds",
+        "unurium",
+        "work"
+      ],
+      "featureIdsByResource": {
+        "work": {
+          "id": {
+            "value": "work"
+          }
+        }
+      }
+    },
+    {
+      "id": "later_resources_ch22",
+      "resourceIds": [
+        "orcs",
+        "mana",
+        "seeds",
+        "unurium",
+        "work",
+        "canned_goods"
+      ],
+      "featureIdsByResource": {
+        "work": {
+          "id": {
+            "value": "work"
+          }
+        },
+        "canned_goods": {
+          "id": {
+            "value": "canned_goods"
+          }
+        }
+      }
+    },
+    {
+      "id": "later_resources_ch23",
+      "resourceIds": [
+        "orcs",
+        "mana",
+        "seeds",
+        "unurium",
+        "work",
+        "canned_goods"
+      ],
+      "featureIdsByResource": {
+        "work": {
+          "id": {
+            "value": "work"
+          }
+        },
+        "canned_goods": {
+          "id": {
+            "value": "canned_goods"
+          }
+        }
+      }
+    },
+    {
+      "id": "later_resources_ch24",
+      "resourceIds": [
+        "orcs",
+        "seeds",
+        "unurium",
+        "mana",
+        "nox",
+        "work",
+        "canned_goods"
+      ],
+      "featureIdsByResource": {
+        "work": {
+          "id": {
+            "value": "work"
+          }
+        },
+        "canned_goods": {
+          "id": {
+            "value": "canned_goods"
+          }
+        }
+      }
+    },
+    {
+      "id": "later_resources_ch25",
+      "resourceIds": [
+        "orcs",
+        "seeds",
+        "unurium",
+        "mana",
+        "nox",
+        "work",
+        "canned_goods",
+        "finity_gear"
+      ],
+      "featureIdsByResource": {
+        "work": {
+          "id": {
+            "value": "work"
+          }
+        },
+        "canned_goods": {
+          "id": {
+            "value": "canned_goods"
+          }
+        }
+      }
+    },
+    {
+      "id": "later_resources_ch26",
+      "resourceIds": [
+        "orcs",
+        "seeds",
+        "unurium",
+        "mana",
+        "nox",
+        "work",
+        "canned_goods",
+        "finity_gear",
+        "dragon_steel"
+      ],
+      "featureIdsByResource": {
+        "work": {
+          "id": {
+            "value": "work"
+          }
+        },
+        "canned_goods": {
+          "id": {
+            "value": "canned_goods"
+          }
+        }
+      }
+    },
+    {
+      "id": "later_resources_ch27",
+      "resourceIds": [
+        "orcs",
+        "seeds",
+        "unurium",
+        "mana",
+        "nox",
+        "work",
+        "canned_goods",
+        "finity_gear",
+        "dragon_steel"
+      ],
+      "featureIdsByResource": {
+        "work": {
+          "id": {
+            "value": "work"
+          }
+        },
+        "canned_goods": {
+          "id": {
+            "value": "canned_goods"
+          }
+        }
+      }
+    },
+    {
+      "id": "later_resources_ch28",
+      "resourceIds": [
+        "orcs",
+        "seeds",
+        "unurium",
+        "mana",
+        "nox",
+        "work",
+        "canned_goods",
+        "finity_gear",
+        "dragon_steel"
+      ],
+      "featureIdsByResource": {
+        "work": {
+          "id": {
+            "value": "work"
+          }
+        },
+        "canned_goods": {
+          "id": {
+            "value": "canned_goods"
+          }
+        }
+      }
+    },
+    {
+      "id": "later_resources_ch29",
+      "resourceIds": [
+        "orcs",
+        "seeds",
+        "unurium",
+        "mana",
+        "nox",
+        "work",
+        "canned_goods",
+        "finity_gear",
+        "dragon_steel"
+      ],
+      "featureIdsByResource": {
+        "work": {
+          "id": {
+            "value": "work"
+          }
+        },
+        "canned_goods": {
+          "id": {
+            "value": "canned_goods"
+          }
+        }
+      }
+    },
+    {
+      "id": "later_resources_ch30",
+      "resourceIds": [
+        "orcs",
+        "seeds",
+        "unurium",
+        "mana",
+        "nox",
+        "work",
+        "canned_goods",
+        "finity_gear",
+        "dragon_steel"
+      ],
+      "featureIdsByResource": {
+        "work": {
+          "id": {
+            "value": "work"
+          }
+        },
+        "canned_goods": {
+          "id": {
+            "value": "canned_goods"
+          }
+        }
+      }
+    },
+    {
+      "id": "later_resources_ch31",
+      "resourceIds": [
+        "orcs",
+        "seeds",
+        "unurium",
+        "mana",
+        "nox",
+        "work",
+        "canned_goods",
+        "finity_gear",
+        "dragon_steel"
+      ],
+      "featureIdsByResource": {
+        "work": {
+          "id": {
+            "value": "work"
+          }
+        },
+        "canned_goods": {
+          "id": {
+            "value": "canned_goods"
+          }
+        }
+      }
+    },
+    {
+      "id": "later_resources_ch32",
+      "resourceIds": [
+        "orcs",
+        "seeds",
+        "unurium",
+        "mana",
+        "nox",
+        "work",
+        "canned_goods",
+        "finity_gear",
+        "dragon_steel"
+      ],
+      "featureIdsByResource": {
+        "work": {
+          "id": {
+            "value": "work"
+          }
+        },
+        "canned_goods": {
+          "id": {
+            "value": "canned_goods"
+          }
+        }
+      }
+    },
+    {
+      "id": "later_resources_ch33",
+      "resourceIds": [
+        "orcs",
+        "seeds",
+        "unurium",
+        "mana",
+        "nox",
+        "work",
+        "canned_goods",
+        "finity_gear",
+        "dragon_steel"
+      ],
+      "featureIdsByResource": {
+        "work": {
+          "id": {
+            "value": "work"
+          }
+        },
+        "canned_goods": {
+          "id": {
+            "value": "canned_goods"
+          }
+        }
+      }
+    },
+    {
+      "id": "later_resources_ch34",
+      "resourceIds": [
+        "orcs",
+        "seeds",
+        "unurium",
+        "mana",
+        "nox",
+        "work",
+        "canned_goods",
+        "finity_gear",
+        "dragon_steel"
+      ],
+      "featureIdsByResource": {
+        "work": {
+          "id": {
+            "value": "work"
+          }
+        },
+        "canned_goods": {
+          "id": {
+            "value": "canned_goods"
+          }
+        }
+      }
+    },
+    {
+      "id": "later_resources_ch35",
+      "resourceIds": [
+        "orcs",
+        "seeds",
+        "unurium",
+        "mana",
+        "nox",
+        "work",
+        "canned_goods",
+        "finity_gear",
+        "dragon_steel"
+      ],
+      "featureIdsByResource": {
+        "work": {
+          "id": {
+            "value": "work"
+          }
+        },
+        "canned_goods": {
+          "id": {
+            "value": "canned_goods"
+          }
+        }
+      }
+    },
+    {
+      "id": "later_resources_ch36",
+      "resourceIds": [
+        "orcs",
+        "seeds",
+        "unurium",
+        "mana",
+        "nox",
+        "work",
+        "canned_goods",
+        "finity_gear",
+        "dragon_steel"
+      ],
+      "featureIdsByResource": {
+        "work": {
+          "id": {
+            "value": "work"
+          }
+        },
+        "canned_goods": {
+          "id": {
+            "value": "canned_goods"
+          }
+        }
+      }
+    },
+    {
+      "id": "later_resources_ch37",
+      "resourceIds": [
+        "orcs",
+        "seeds",
+        "unurium",
+        "mana",
+        "nox",
+        "work",
+        "canned_goods",
+        "finity_gear",
+        "dragon_steel"
+      ],
+      "featureIdsByResource": {
+        "work": {
+          "id": {
+            "value": "work"
+          }
+        },
+        "canned_goods": {
+          "id": {
+            "value": "canned_goods"
+          }
+        }
+      }
+    },
+    {
+      "id": "later_resources_ch38",
+      "resourceIds": [
+        "orcs",
+        "seeds",
+        "unurium",
+        "mana",
+        "nox",
+        "work",
+        "canned_goods",
+        "finity_gear",
+        "dragon_steel"
+      ],
+      "featureIdsByResource": {
+        "work": {
+          "id": {
+            "value": "work"
+          }
+        },
+        "canned_goods": {
+          "id": {
+            "value": "canned_goods"
+          }
+        }
+      }
+    },
+    {
+      "id": "later_resources_ch39",
+      "resourceIds": [
+        "orcs",
+        "seeds",
+        "unurium",
+        "mana",
+        "nox",
+        "work",
+        "canned_goods",
+        "finity_gear",
+        "dragon_steel"
+      ],
+      "featureIdsByResource": {
+        "work": {
+          "id": {
+            "value": "work"
+          }
+        },
+        "canned_goods": {
+          "id": {
+            "value": "canned_goods"
+          }
+        }
+      }
+    },
+    {
+      "id": "later_resources_ch40",
+      "resourceIds": [
+        "orcs",
+        "seeds",
+        "unurium",
+        "mana",
+        "nox",
+        "work",
+        "canned_goods",
+        "finity_gear",
+        "dragon_steel"
+      ],
+      "featureIdsByResource": {
+        "work": {
+          "id": {
+            "value": "work"
+          }
+        },
+        "canned_goods": {
+          "id": {
+            "value": "canned_goods"
+          }
+        }
+      }
+    },
+    {
+      "id": "provided_requirements",
+      "resourceIds": [
+        "prosperity",
+        "ch20_melody",
+        "ch20_accompaniment",
+        "ch20_rhythm"
+      ],
+      "featureIdsByResource": {
+        "prosperity": {
+          "id": {
+            "value": "prosperity"
+          }
+        },
+        "ch20_melody": {
+          "id": {
+            "value": "ch20_melody"
+          }
+        },
+        "ch20_accompaniment": {
+          "id": {
+            "value": "ch20_accompaniment"
+          }
+        },
+        "ch20_rhythm": {
+          "id": {
+            "value": "ch20_rhythm"
+          }
+        }
+      }
+    },
+    {
+      "id": "settlement_requirements_ch20",
+      "resourceIds": [
+        "ch20_melody",
+        "ch20_accompaniment",
+        "ch20_rhythm"
+      ],
+      "featureIdsByResource": {
+        "ch20_melody": {
+          "id": {
+            "value": "ch20_melody"
+          }
+        },
+        "ch20_accompaniment": {
+          "id": {
+            "value": "ch20_accompaniment"
+          }
+        },
+        "ch20_rhythm": {
+          "id": {
+            "value": "ch20_rhythm"
+          }
+        }
+      }
+    },
+    {
+      "id": "requirements_ch21",
+      "resourceIds": [
+        "culture",
+        "population",
+        "prosperity"
+      ],
+      "featureIdsByResource": {
+        "prosperity": {
+          "id": {
+            "value": "prosperity"
+          }
+        }
+      }
+    },
+    {
+      "id": "requirements_ch22",
+      "resourceIds": [
+        "culture",
+        "population",
+        "prosperity"
+      ],
+      "featureIdsByResource": {
+        "prosperity": {
+          "id": {
+            "value": "prosperity"
+          }
+        }
+      }
+    },
+    {
+      "id": "requirements_ch23",
+      "resourceIds": [
+        "culture",
+        "population",
+        "prosperity"
+      ],
+      "featureIdsByResource": {
+        "prosperity": {
+          "id": {
+            "value": "prosperity"
+          }
+        }
+      }
+    },
+    {
+      "id": "requirements_ch24",
+      "resourceIds": [
+        "culture",
+        "population",
+        "prosperity"
+      ],
+      "featureIdsByResource": {
+        "prosperity": {
+          "id": {
+            "value": "prosperity"
+          }
+        }
+      }
+    },
+    {
+      "id": "requirements_ch25",
+      "resourceIds": [
+        "culture",
+        "population",
+        "prosperity"
+      ],
+      "featureIdsByResource": {
+        "prosperity": {
+          "id": {
+            "value": "prosperity"
+          }
+        }
+      }
+    },
+    {
+      "id": "requirements_ch26",
+      "resourceIds": [
+        "culture",
+        "population",
+        "prosperity"
+      ],
+      "featureIdsByResource": {
+        "prosperity": {
+          "id": {
+            "value": "prosperity"
+          }
+        }
+      }
+    },
+    {
+      "id": "requirements_ch27",
+      "resourceIds": [
+        "culture",
+        "population",
+        "prosperity"
+      ],
+      "featureIdsByResource": {
+        "prosperity": {
+          "id": {
+            "value": "prosperity"
+          }
+        }
+      }
+    },
+    {
+      "id": "requirements_ch28",
+      "resourceIds": [
+        "culture",
+        "population",
+        "prosperity"
+      ],
+      "featureIdsByResource": {
+        "prosperity": {
+          "id": {
+            "value": "prosperity"
+          }
+        }
+      }
+    },
+    {
+      "id": "requirements_ch29",
+      "resourceIds": [
+        "culture",
+        "population",
+        "prosperity"
+      ],
+      "featureIdsByResource": {
+        "prosperity": {
+          "id": {
+            "value": "prosperity"
+          }
+        }
+      }
+    },
+    {
+      "id": "requirements_ch30",
+      "resourceIds": [
+        "culture",
+        "population",
+        "prosperity"
+      ],
+      "featureIdsByResource": {
+        "prosperity": {
+          "id": {
+            "value": "prosperity"
+          }
+        }
+      }
+    },
+    {
+      "id": "requirements_ch31",
+      "resourceIds": [
+        "culture",
+        "population",
+        "prosperity"
+      ],
+      "featureIdsByResource": {
+        "prosperity": {
+          "id": {
+            "value": "prosperity"
+          }
+        }
+      }
+    },
+    {
+      "id": "requirements_ch32",
+      "resourceIds": [
+        "culture",
+        "population",
+        "prosperity"
+      ],
+      "featureIdsByResource": {
+        "prosperity": {
+          "id": {
+            "value": "prosperity"
+          }
+        }
+      }
+    },
+    {
+      "id": "requirements_ch33",
+      "resourceIds": [
+        "culture",
+        "population",
+        "prosperity"
+      ],
+      "featureIdsByResource": {
+        "prosperity": {
+          "id": {
+            "value": "prosperity"
+          }
+        }
+      }
+    },
+    {
+      "id": "requirements_ch34",
+      "resourceIds": [
+        "culture",
+        "population",
+        "prosperity"
+      ],
+      "featureIdsByResource": {
+        "prosperity": {
+          "id": {
+            "value": "prosperity"
+          }
+        }
+      }
+    },
+    {
+      "id": "requirements_ch35",
+      "resourceIds": [
+        "culture",
+        "population",
+        "prosperity"
+      ],
+      "featureIdsByResource": {
+        "prosperity": {
+          "id": {
+            "value": "prosperity"
+          }
+        }
+      }
+    },
+    {
+      "id": "requirements_ch36",
+      "resourceIds": [
+        "culture",
+        "population",
+        "prosperity"
+      ],
+      "featureIdsByResource": {
+        "prosperity": {
+          "id": {
+            "value": "prosperity"
+          }
+        }
+      }
+    },
+    {
+      "id": "requirements_ch37",
+      "resourceIds": [
+        "culture",
+        "population",
+        "prosperity"
+      ],
+      "featureIdsByResource": {
+        "prosperity": {
+          "id": {
+            "value": "prosperity"
+          }
+        }
+      }
+    },
+    {
+      "id": "requirements_ch38",
+      "resourceIds": [
+        "culture",
+        "population",
+        "prosperity"
+      ],
+      "featureIdsByResource": {
+        "prosperity": {
+          "id": {
+            "value": "prosperity"
+          }
+        }
+      }
+    },
+    {
+      "id": "requirements_ch39",
+      "resourceIds": [
+        "culture",
+        "population",
+        "prosperity"
+      ],
+      "featureIdsByResource": {
+        "prosperity": {
+          "id": {
+            "value": "prosperity"
+          }
+        }
+      }
+    },
+    {
+      "id": "requirements_ch40",
+      "resourceIds": [
+        "culture",
+        "population",
+        "prosperity"
+      ],
+      "featureIdsByResource": {
+        "prosperity": {
+          "id": {
+            "value": "prosperity"
+          }
+        }
+      }
+    },
+    {
+      "id": "guest_races",
+      "resourceIds": [
+        "dwarfs_granite",
+        "dwarfs_copper",
+        "fairies_sunflower",
+        "fairies_velvet",
+        "fairies_cocoons",
+        "fairies_ambrosia",
+        "fairies_nightshade",
+        "fairies_fireflies",
+        "fairies_dreamsheep",
+        "fairies_soma",
+        "orcs_hardshroom",
+        "orcs_psychoshroom",
+        "orcs_powershroom",
+        "orcs_shroomofwisdom",
+        "orcs_armament",
+        "orcs_dung",
+        "orcs_debris",
+        "orcs_loot",
+        "gr4_manatears",
+        "gr4_refinedmarble",
+        "gr4_refinedsteel",
+        "gr4_refinedplanks",
+        "gr4_woodghosts",
+        "gr4_windchimes",
+        "gr4_treantsprouts",
+        "gr5_crystalflasks",
+        "gr5_arcanescrolls",
+        "gr5_soulcatchers",
+        "gr5_apprentices",
+        "gr5_alchemists",
+        "gr5_arcanologists",
+        "gr5_necromancers",
+        "gr5_arcanealchemists",
+        "gr5_necroalchemists",
+        "gr5_arcanenecromancers",
+        "gr6_grain",
+        "gr6_carrots",
+        "gr6_pumpkins",
+        "gr6_apples",
+        "gr6_fertilizer",
+        "gr6_bread",
+        "gr6_soup",
+        "gr6_jam",
+        "gr7_toll",
+        "gr7_airartefacts",
+        "gr7_fireartefacts",
+        "gr7_earthartefacts",
+        "gr7_waterartefacts",
+        "gr7_essence",
+        "gr8_gravegoods",
+        "gr8_traps",
+        "gr9_constructzero",
+        "gr9_constructa",
+        "gr9_constructb",
+        "gr9_constructc",
+        "gr9_constructd",
+        "gr9_elvenarin",
+        "gr9_nutria",
+        "gr9_nutrib",
+        "gr9_nutric",
+        "gr9_nutrid",
+        "gr9_humanium",
+        "gr9_elvarium",
+        "gr10_ideas",
+        "gr10_workforce",
+        "gr10_livingpaintings",
+        "gr10_sculptures",
+        "gr10_crystalballs",
+        "gr10_plants",
+        "gr10_designs",
+        "gr10_constructs",
+        "gr10_humancollections",
+        "gr10_humanracemanifest",
+        "gr10_elvencollections",
+        "gr10_elvenracemanifest",
+        "gr11_draftlaws",
+        "gr11_dwarvenpropositions",
+        "gr11_fairypropositions",
+        "gr11_strawberrybeer",
+        "gr11_purpletea",
+        "gr11_dwarvenamendments",
+        "gr11_fairyamendments",
+        "gr11_inspirations",
+        "gr11_statutes",
+        "ch17_elvenarinzero",
+        "ch17_luxuries",
+        "ch17_delicacies",
+        "ch17_artifacts",
+        "ch18_humans",
+        "ch18_elves",
+        "ch18_elvenar",
+        "ch18_water",
+        "ch18_fire",
+        "ch18_wind",
+        "ch18_earth",
+        "ch18_medal1",
+        "ch18_medal2",
+        "ch18_medal3",
+        "ch18_medal4",
+        "ch18_medal5",
+        "ch18_medal6",
+        "ch18_badge",
+        "ch19_magic1",
+        "ch19_magic2",
+        "ch19_matter1",
+        "ch19_matter2",
+        "ch19_creatures1",
+        "ch19_creatures2",
+        "ch19_creatures3",
+        "ch20_bars",
+        "ch20_songs",
+        "ch20_strings",
+        "ch20_flutes",
+        "ch20_drums",
+        "ch21_prey",
+        "ch21_scales",
+        "ch21_shells",
+        "ch21_dragon",
+        "ch21_bones",
+        "ch21_furniture",
+        "ch21_glass",
+        "ch21_art",
+        "ch21_oblations1",
+        "ch21_oblations2",
+        "ch21_oblations3",
+        "ch21_oblations4",
+        "ch22_seafood",
+        "ch22_fish",
+        "ch22_fruits",
+        "ch22_salt",
+        "ch22_shrimps",
+        "ch22_snails",
+        "ch22_weed",
+        "ch22_eels",
+        "ch22_sponges",
+        "ch23_unicornblossoms",
+        "ch23_dwarvenspirits",
+        "ch23_fairyspirits",
+        "ch23_orcspirits",
+        "ch23_halflingspirits",
+        "ch23_mithril",
+        "ch23_queenhoney",
+        "ch23_dragonteeth",
+        "ch23_flowerwreaths",
+        "ch24_servants",
+        "ch24_warriors",
+        "ch24_farmers",
+        "ch24_workers",
+        "ch24_motivation",
+        "ch24_prophecies",
+        "ch24_studies",
+        "ch25_xpg_1",
+        "ch25_xpg_2",
+        "ch25_xps_kid",
+        "ch25_xps_adult",
+        "ch25_xps_elder",
+        "ch25_wisdom_kid",
+        "ch25_wisdom_adult",
+        "ch25_wisdom_elder",
+        "ch25_wisdom_life",
+        "ch26_water",
+        "ch26_fire",
+        "ch26_earth",
+        "ch26_wind",
+        "ch26_vials",
+        "ch26_fiwa",
+        "ch26_eawa",
+        "ch26_wiwa",
+        "ch26_eafi",
+        "ch26_wifi",
+        "ch26_eawi"
+      ]
+    },
+    {
+      "id": "ancient_wonder_shards",
+      "name": "Runenscherben",
+      "resourceIds": [
+        "b_all_spire_aw_shards",
+        "b_all_aw1_shards",
+        "b_all_aw2_shards",
+        "b_all_aw3_shards",
+        "b_all_aw4_shards",
+        "b_humans_aw1_shards",
+        "b_humans_aw2_shards",
+        "b_elves_aw1_shards",
+        "b_elves_aw2_shards",
+        "b_all_aw5_shards",
+        "b_all_aw6_shards",
+        "b_dwarfs_aw1_shards",
+        "b_dwarfs_aw2_shards",
+        "b_fairies_aw1_shards",
+        "b_fairies_aw2_shards",
+        "b_orcs_aw1_shards",
+        "b_orcs_aw2_shards",
+        "b_gr4_aw1_shards",
+        "b_gr4_aw2_shards",
+        "b_gr5_aw1_shards",
+        "b_gr5_aw2_shards",
+        "b_gr6_aw1_shards",
+        "b_gr6_aw2_shards",
+        "b_gr7_aw1_shards",
+        "b_gr7_aw2_shards",
+        "b_gr8_aw1_shards",
+        "b_gr8_aw2_shards",
+        "b_gr9_aw1_shards",
+        "b_gr9_aw2_shards",
+        "b_gr10_aw1_shards",
+        "b_gr10_aw2_shards",
+        "b_gr11_aw1_shards",
+        "b_gr11_aw2_shards",
+        "b_ch17_aw1_shards",
+        "b_ch17_aw2_shards",
+        "b_ch18_aw1_shards",
+        "b_ch18_aw2_shards",
+        "b_ch19_aw1_shards",
+        "b_ch19_aw2_shards",
+        "b_ch20_aw1_shards",
+        "b_ch20_aw2_shards",
+        "b_ch21_aw1_shards",
+        "b_ch21_aw2_shards",
+        "b_ch22_aw1_shards",
+        "b_ch22_aw2_shards",
+        "b_ch23_aw1_shards",
+        "b_ch23_aw2_shards",
+        "b_ch24_aw1_shards",
+        "b_ch24_aw2_shards",
+        "b_ch25_aw1_shards",
+        "b_ch25_aw2_shards",
+        "b_ch26_aw1_shards",
+        "b_ch26_aw2_shards",
+        "b_ch27_aw1_shards",
+        "b_ch27_aw2_shards",
+        "b_ch28_aw1_shards",
+        "b_ch28_aw2_shards",
+        "b_ch29_aw1_shards",
+        "b_ch29_aw2_shards",
+        "b_ch30_aw1_shards",
+        "b_ch30_aw2_shards",
+        "b_ch31_aw1_shards",
+        "b_ch31_aw2_shards",
+        "b_ch32_aw1_shards",
+        "b_ch32_aw2_shards",
+        "b_ch33_aw1_shards",
+        "b_ch33_aw2_shards",
+        "b_ch34_aw1_shards",
+        "b_ch34_aw2_shards",
+        "b_ch35_aw1_shards",
+        "b_ch35_aw2_shards",
+        "b_ch36_aw1_shards",
+        "b_ch36_aw2_shards",
+        "b_ch37_aw1_shards",
+        "b_ch37_aw2_shards",
+        "b_ch38_aw1_shards",
+        "b_ch38_aw2_shards",
+        "b_ch39_aw1_shards",
+        "b_ch39_aw2_shards",
+        "b_ch40_aw1_shards",
+        "b_ch40_aw2_shards"
+      ]
+    },
+    {
+      "id": "ancient_wonder_shards_with_custom_name",
+      "resourceIds": [
+        "b_all_spire_aw_shards"
+      ]
+    },
+    {
+      "id": "tournament_aw_shards",
+      "resourceIds": [
+        "b_all_aw1_shards",
+        "b_all_aw2_shards",
+        "b_all_aw3_shards",
+        "b_all_aw4_shards",
+        "b_humans_aw1_shards",
+        "b_humans_aw2_shards",
+        "b_elves_aw1_shards",
+        "b_elves_aw2_shards",
+        "b_all_aw5_shards",
+        "b_all_aw6_shards",
+        "b_dwarfs_aw1_shards",
+        "b_dwarfs_aw2_shards",
+        "b_fairies_aw1_shards",
+        "b_fairies_aw2_shards",
+        "b_orcs_aw1_shards",
+        "b_orcs_aw2_shards",
+        "b_gr4_aw1_shards",
+        "b_gr4_aw2_shards",
+        "b_gr5_aw1_shards",
+        "b_gr5_aw2_shards",
+        "b_gr6_aw1_shards",
+        "b_gr6_aw2_shards",
+        "b_gr7_aw1_shards",
+        "b_gr7_aw2_shards",
+        "b_gr8_aw1_shards",
+        "b_gr8_aw2_shards",
+        "b_gr9_aw1_shards",
+        "b_gr9_aw2_shards",
+        "b_gr10_aw1_shards",
+        "b_gr10_aw2_shards",
+        "b_gr11_aw1_shards",
+        "b_gr11_aw2_shards",
+        "b_ch17_aw1_shards",
+        "b_ch17_aw2_shards",
+        "b_ch18_aw1_shards",
+        "b_ch18_aw2_shards",
+        "b_ch19_aw1_shards",
+        "b_ch19_aw2_shards",
+        "b_ch20_aw1_shards",
+        "b_ch20_aw2_shards",
+        "b_ch21_aw1_shards",
+        "b_ch21_aw2_shards",
+        "b_ch22_aw1_shards",
+        "b_ch22_aw2_shards",
+        "b_ch23_aw1_shards",
+        "b_ch23_aw2_shards",
+        "b_ch24_aw1_shards",
+        "b_ch24_aw2_shards",
+        "b_ch25_aw1_shards",
+        "b_ch25_aw2_shards",
+        "b_ch26_aw1_shards",
+        "b_ch26_aw2_shards",
+        "b_ch27_aw1_shards",
+        "b_ch27_aw2_shards",
+        "b_ch28_aw1_shards",
+        "b_ch28_aw2_shards",
+        "b_ch29_aw1_shards",
+        "b_ch29_aw2_shards",
+        "b_ch30_aw1_shards",
+        "b_ch30_aw2_shards",
+        "b_ch31_aw1_shards",
+        "b_ch31_aw2_shards",
+        "b_ch32_aw1_shards",
+        "b_ch32_aw2_shards",
+        "b_ch33_aw1_shards",
+        "b_ch33_aw2_shards",
+        "b_ch34_aw1_shards",
+        "b_ch34_aw2_shards",
+        "b_ch35_aw1_shards",
+        "b_ch35_aw2_shards",
+        "b_ch36_aw1_shards",
+        "b_ch36_aw2_shards",
+        "b_ch37_aw1_shards",
+        "b_ch37_aw2_shards",
+        "b_ch38_aw1_shards",
+        "b_ch38_aw2_shards",
+        "b_ch39_aw1_shards",
+        "b_ch39_aw2_shards",
+        "b_ch40_aw1_shards",
+        "b_ch40_aw2_shards"
+      ]
+    },
+    {
+      "id": "ancient_wonders",
+      "resourceIds": [
+        "broken_shards",
+        "b_all_spire_aw_shards",
+        "b_all_aw1_shards",
+        "b_all_aw2_shards",
+        "b_all_aw3_shards",
+        "b_all_aw4_shards",
+        "b_humans_aw1_shards",
+        "b_humans_aw2_shards",
+        "b_elves_aw1_shards",
+        "b_elves_aw2_shards",
+        "b_all_aw5_shards",
+        "b_all_aw6_shards",
+        "b_dwarfs_aw1_shards",
+        "b_dwarfs_aw2_shards",
+        "b_fairies_aw1_shards",
+        "b_fairies_aw2_shards",
+        "b_orcs_aw1_shards",
+        "b_orcs_aw2_shards",
+        "b_gr4_aw1_shards",
+        "b_gr4_aw2_shards",
+        "b_gr5_aw1_shards",
+        "b_gr5_aw2_shards",
+        "b_gr6_aw1_shards",
+        "b_gr6_aw2_shards",
+        "b_gr7_aw1_shards",
+        "b_gr7_aw2_shards",
+        "b_gr8_aw1_shards",
+        "b_gr8_aw2_shards",
+        "b_gr9_aw1_shards",
+        "b_gr9_aw2_shards",
+        "b_gr10_aw1_shards",
+        "b_gr10_aw2_shards",
+        "b_gr11_aw1_shards",
+        "b_gr11_aw2_shards",
+        "b_ch17_aw1_shards",
+        "b_ch17_aw2_shards",
+        "b_ch18_aw1_shards",
+        "b_ch18_aw2_shards",
+        "b_ch19_aw1_shards",
+        "b_ch19_aw2_shards",
+        "b_ch20_aw1_shards",
+        "b_ch20_aw2_shards",
+        "b_ch21_aw1_shards",
+        "b_ch21_aw2_shards",
+        "b_ch22_aw1_shards",
+        "b_ch22_aw2_shards",
+        "b_ch23_aw1_shards",
+        "b_ch23_aw2_shards",
+        "b_ch24_aw1_shards",
+        "b_ch24_aw2_shards",
+        "b_ch25_aw1_shards",
+        "b_ch25_aw2_shards",
+        "b_ch26_aw1_shards",
+        "b_ch26_aw2_shards",
+        "b_ch27_aw1_shards",
+        "b_ch27_aw2_shards",
+        "b_ch28_aw1_shards",
+        "b_ch28_aw2_shards",
+        "b_ch29_aw1_shards",
+        "b_ch29_aw2_shards",
+        "b_ch30_aw1_shards",
+        "b_ch30_aw2_shards",
+        "b_ch31_aw1_shards",
+        "b_ch31_aw2_shards",
+        "b_ch32_aw1_shards",
+        "b_ch32_aw2_shards",
+        "b_ch33_aw1_shards",
+        "b_ch33_aw2_shards",
+        "b_ch34_aw1_shards",
+        "b_ch34_aw2_shards",
+        "b_ch35_aw1_shards",
+        "b_ch35_aw2_shards",
+        "b_ch36_aw1_shards",
+        "b_ch36_aw2_shards",
+        "b_ch37_aw1_shards",
+        "b_ch37_aw2_shards",
+        "b_ch38_aw1_shards",
+        "b_ch38_aw2_shards",
+        "b_ch39_aw1_shards",
+        "b_ch39_aw2_shards",
+        "b_ch40_aw1_shards",
+        "b_ch40_aw2_shards"
+      ]
+    },
+    {
+      "id": "units",
+      "resourceIds": [
+        "hb_lm",
+        "hb_lr",
+        "hb_ma",
+        "hb_hm",
+        "hb_hr",
+        "eb_lm",
+        "eb_lr",
+        "eb_ma",
+        "eb_hm",
+        "eb_hr",
+        "tg_lm",
+        "tg_lr",
+        "tg_ma",
+        "tg_hm",
+        "tg_hr",
+        "mc_lm",
+        "mc_lr",
+        "mc_ma",
+        "mc_hm",
+        "mc_hr"
+      ]
+    },
+    {
+      "id": "good_resources",
+      "resourceIds": [
+        "orcs",
+        "seeds",
+        "unurium",
+        "mana",
+        "nox",
+        "work",
+        "canned_goods",
+        "finity_gear",
+        "dragon_steel",
+        "event_currency_1",
+        "event_currency_2",
+        "event_payback",
+        "medals",
+        "episodic_reward_reroll_charge",
+        "tile_event_reveal_charge",
+        "special_package_double_reward_charge",
+        "special_package_reveal_charge",
+        "tile_event_tool_single",
+        "tile_event_tool_column",
+        "tile_event_tool_adjacent",
+        "badge_brewery",
+        "badge_carpenters",
+        "badge_farmers",
+        "badge_blacksmith",
+        "golden_bracelet",
+        "diamond_necklace",
+        "elegant_statue",
+        "witch_hat",
+        "druid_staff",
+        "badge_wonderhelper",
+        "badge_unit",
+        "money_sack",
+        "arcane_residue",
+        "recycled_potion",
+        "enchanted_tiara",
+        "ghost_in_a_bottle",
+        "craft_spell_fragments",
+        "guardian_essence",
+        "combiningcatalyst",
+        "craft_payback",
+        "royalrestoration",
+        "blueprint",
+        "broken_shards",
+        "crafting_slots_refresh",
+        "volatile_sigils",
+        "spire_diplomacy_joker",
+        "eldian_sapphire",
+        "radiant_stones",
+        "shattered_orbs",
+        "guild_progression_free_kp",
+        "b_all_spire_aw_shards",
+        "b_all_aw1_shards",
+        "b_all_aw2_shards",
+        "b_all_aw3_shards",
+        "b_all_aw4_shards",
+        "b_humans_aw1_shards",
+        "b_humans_aw2_shards",
+        "b_elves_aw1_shards",
+        "b_elves_aw2_shards",
+        "b_all_aw5_shards",
+        "b_all_aw6_shards",
+        "b_dwarfs_aw1_shards",
+        "b_dwarfs_aw2_shards",
+        "b_fairies_aw1_shards",
+        "b_fairies_aw2_shards",
+        "b_orcs_aw1_shards",
+        "b_orcs_aw2_shards",
+        "b_gr4_aw1_shards",
+        "b_gr4_aw2_shards",
+        "b_gr5_aw1_shards",
+        "b_gr5_aw2_shards",
+        "b_gr6_aw1_shards",
+        "b_gr6_aw2_shards",
+        "b_gr7_aw1_shards",
+        "b_gr7_aw2_shards",
+        "b_gr8_aw1_shards",
+        "b_gr8_aw2_shards",
+        "b_gr9_aw1_shards",
+        "b_gr9_aw2_shards",
+        "b_gr10_aw1_shards",
+        "b_gr10_aw2_shards",
+        "b_gr11_aw1_shards",
+        "b_gr11_aw2_shards",
+        "b_ch17_aw1_shards",
+        "b_ch17_aw2_shards",
+        "b_ch18_aw1_shards",
+        "b_ch18_aw2_shards",
+        "b_ch19_aw1_shards",
+        "b_ch19_aw2_shards",
+        "b_ch20_aw1_shards",
+        "b_ch20_aw2_shards",
+        "b_ch21_aw1_shards",
+        "b_ch21_aw2_shards",
+        "b_ch22_aw1_shards",
+        "b_ch22_aw2_shards",
+        "b_ch23_aw1_shards",
+        "b_ch23_aw2_shards",
+        "b_ch24_aw1_shards",
+        "b_ch24_aw2_shards",
+        "b_ch25_aw1_shards",
+        "b_ch25_aw2_shards",
+        "b_ch26_aw1_shards",
+        "b_ch26_aw2_shards",
+        "b_ch27_aw1_shards",
+        "b_ch27_aw2_shards",
+        "b_ch28_aw1_shards",
+        "b_ch28_aw2_shards",
+        "b_ch29_aw1_shards",
+        "b_ch29_aw2_shards",
+        "b_ch30_aw1_shards",
+        "b_ch30_aw2_shards",
+        "b_ch31_aw1_shards",
+        "b_ch31_aw2_shards",
+        "b_ch32_aw1_shards",
+        "b_ch32_aw2_shards",
+        "b_ch33_aw1_shards",
+        "b_ch33_aw2_shards",
+        "b_ch34_aw1_shards",
+        "b_ch34_aw2_shards",
+        "b_ch35_aw1_shards",
+        "b_ch35_aw2_shards",
+        "b_ch36_aw1_shards",
+        "b_ch36_aw2_shards",
+        "b_ch37_aw1_shards",
+        "b_ch37_aw2_shards",
+        "b_ch38_aw1_shards",
+        "b_ch38_aw2_shards",
+        "b_ch39_aw1_shards",
+        "b_ch39_aw2_shards",
+        "b_ch40_aw1_shards",
+        "b_ch40_aw2_shards",
+        "cauldron_witchpoints",
+        "tournament_goblets",
+        "researchtree_diplomas",
+        "dwarfs_granite",
+        "dwarfs_copper",
+        "fairies_sunflower",
+        "fairies_velvet",
+        "fairies_cocoons",
+        "fairies_ambrosia",
+        "fairies_nightshade",
+        "fairies_fireflies",
+        "fairies_dreamsheep",
+        "fairies_soma",
+        "orcs_hardshroom",
+        "orcs_psychoshroom",
+        "orcs_powershroom",
+        "orcs_shroomofwisdom",
+        "orcs_armament",
+        "orcs_dung",
+        "orcs_debris",
+        "orcs_loot",
+        "gr4_manatears",
+        "gr4_refinedmarble",
+        "gr4_refinedsteel",
+        "gr4_refinedplanks",
+        "gr4_woodghosts",
+        "gr4_windchimes",
+        "gr4_treantsprouts",
+        "gr5_crystalflasks",
+        "gr5_arcanescrolls",
+        "gr5_soulcatchers",
+        "gr5_apprentices",
+        "gr5_alchemists",
+        "gr5_arcanologists",
+        "gr5_necromancers",
+        "gr5_arcanealchemists",
+        "gr5_necroalchemists",
+        "gr5_arcanenecromancers",
+        "gr6_grain",
+        "gr6_carrots",
+        "gr6_pumpkins",
+        "gr6_apples",
+        "gr6_fertilizer",
+        "gr6_bread",
+        "gr6_soup",
+        "gr6_jam",
+        "gr7_toll",
+        "gr7_airartefacts",
+        "gr7_fireartefacts",
+        "gr7_earthartefacts",
+        "gr7_waterartefacts",
+        "gr7_essence",
+        "gr8_gravegoods",
+        "gr8_traps",
+        "gr9_constructzero",
+        "gr9_constructa",
+        "gr9_constructb",
+        "gr9_constructc",
+        "gr9_constructd",
+        "gr9_elvenarin",
+        "gr9_nutria",
+        "gr9_nutrib",
+        "gr9_nutric",
+        "gr9_nutrid",
+        "gr9_humanium",
+        "gr9_elvarium",
+        "gr10_ideas",
+        "gr10_workforce",
+        "gr10_livingpaintings",
+        "gr10_sculptures",
+        "gr10_crystalballs",
+        "gr10_plants",
+        "gr10_designs",
+        "gr10_constructs",
+        "gr10_humancollections",
+        "gr10_humanracemanifest",
+        "gr10_elvencollections",
+        "gr10_elvenracemanifest",
+        "gr11_draftlaws",
+        "gr11_dwarvenpropositions",
+        "gr11_fairypropositions",
+        "gr11_strawberrybeer",
+        "gr11_purpletea",
+        "gr11_dwarvenamendments",
+        "gr11_fairyamendments",
+        "gr11_inspirations",
+        "gr11_statutes",
+        "ch17_elvenarinzero",
+        "ch17_luxuries",
+        "ch17_delicacies",
+        "ch17_artifacts",
+        "ch18_humans",
+        "ch18_elves",
+        "ch18_elvenar",
+        "ch18_water",
+        "ch18_fire",
+        "ch18_wind",
+        "ch18_earth",
+        "ch18_medal1",
+        "ch18_medal2",
+        "ch18_medal3",
+        "ch18_medal4",
+        "ch18_medal5",
+        "ch18_medal6",
+        "ch18_badge",
+        "ch19_magic1",
+        "ch19_magic2",
+        "ch19_matter1",
+        "ch19_matter2",
+        "ch19_creatures1",
+        "ch19_creatures2",
+        "ch19_creatures3",
+        "ch20_bars",
+        "ch20_songs",
+        "ch20_strings",
+        "ch20_flutes",
+        "ch20_drums",
+        "ch21_prey",
+        "ch21_scales",
+        "ch21_shells",
+        "ch21_dragon",
+        "ch21_bones",
+        "ch21_furniture",
+        "ch21_glass",
+        "ch21_art",
+        "ch21_oblations1",
+        "ch21_oblations2",
+        "ch21_oblations3",
+        "ch21_oblations4",
+        "ch22_seafood",
+        "ch22_fish",
+        "ch22_fruits",
+        "ch22_salt",
+        "ch22_shrimps",
+        "ch22_snails",
+        "ch22_weed",
+        "ch22_eels",
+        "ch22_sponges",
+        "ch23_unicornblossoms",
+        "ch23_dwarvenspirits",
+        "ch23_fairyspirits",
+        "ch23_orcspirits",
+        "ch23_halflingspirits",
+        "ch23_mithril",
+        "ch23_queenhoney",
+        "ch23_dragonteeth",
+        "ch23_flowerwreaths",
+        "ch24_servants",
+        "ch24_warriors",
+        "ch24_farmers",
+        "ch24_workers",
+        "ch24_motivation",
+        "ch24_prophecies",
+        "ch24_studies",
+        "ch25_xpg_1",
+        "ch25_xpg_2",
+        "ch25_xps_kid",
+        "ch25_xps_adult",
+        "ch25_xps_elder",
+        "ch25_wisdom_kid",
+        "ch25_wisdom_adult",
+        "ch25_wisdom_elder",
+        "ch25_wisdom_life",
+        "ch26_water",
+        "ch26_fire",
+        "ch26_earth",
+        "ch26_wind",
+        "ch26_vials",
+        "ch26_fiwa",
+        "ch26_eawa",
+        "ch26_wiwa",
+        "ch26_eafi",
+        "ch26_wifi",
+        "ch26_eawi",
+        "ch19_matter3",
+        "season_xp",
+        "season_daily_keys",
+        "season_quest_reroll_charge",
+        "season_blessing",
+        "marble",
+        "steel",
+        "planks",
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "crystal",
+        "scrolls",
+        "silk",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "elixir",
+        "magic_dust",
+        "gems",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems",
+        "spell_supply_production_boost_1",
+        "spell_neighborly_help_boost_1",
+        "spell_good_production_boost_1",
+        "spell_settlement_production_boost_1",
+        "spell_knowledge_boost_1",
+        "spell_pet_food_1",
+        "spell_teleport_1",
+        "culture",
+        "ins_tr_amt_1",
+        "ins_tr_amt_3",
+        "ins_tr_amt_7",
+        "ins_tr_amt_10",
+        "ins_tr_amt_15",
+        "ins_tr_amt_20",
+        "ins_tr_amt_30",
+        "ins_tr_amt_45",
+        "ins_tr_amt_60",
+        "ins_tr_amt_120",
+        "ins_tr_amt_300",
+        "ins_tr_amt_480",
+        "ins_tr_amt_840",
+        "ins_tr_amt_1200",
+        "ins_tr_amt_2400",
+        "ins_rf_cn_5",
+        "ins_rf_cn_10",
+        "ins_rf_cn_15",
+        "ins_rf_cn_20",
+        "ins_rf_cn_25",
+        "ins_rf_cn_33",
+        "ins_rf_cn_50",
+        "ins_rf_cn_100",
+        "ins_rf_spl_5",
+        "ins_rf_spl_10",
+        "ins_rf_spl_15",
+        "ins_rf_spl_20",
+        "ins_rf_spl_25",
+        "ins_rf_spl_33",
+        "ins_rf_spl_50",
+        "ins_rf_spl_100",
+        "ins_rf_grr_5",
+        "ins_rf_grr_10",
+        "ins_rf_grr_15",
+        "ins_rf_grr_20",
+        "ins_rf_grr_25",
+        "ins_rf_grr_33",
+        "ins_rf_grr_50",
+        "ins_rf_grr_100",
+        "ins_rev_sqd_5",
+        "ins_rev_sqd_10",
+        "ins_rev_sqd_25",
+        "ins_rev_sqd_50",
+        "ins_rev_sqd_75",
+        "ins_rev_sqd_100",
+        "ins_kp_aw_1",
+        "ins_kp_aw_3",
+        "ins_kp_aw_5",
+        "ins_kp_aw_7",
+        "ins_kp_aw_10",
+        "ins_kp_aw_15",
+        "ins_kp_aw_20",
+        "ins_kp_aw_30",
+        "ins_ex_1",
+        "ins_unit_lm_5",
+        "ins_unit_lm_10",
+        "ins_unit_lm_15",
+        "ins_unit_lm_25",
+        "ins_unit_lr_5",
+        "ins_unit_lr_10",
+        "ins_unit_lr_15",
+        "ins_unit_lr_25",
+        "ins_unit_ma_5",
+        "ins_unit_ma_10",
+        "ins_unit_ma_15",
+        "ins_unit_ma_25",
+        "ins_unit_hm_5",
+        "ins_unit_hm_10",
+        "ins_unit_hm_15",
+        "ins_unit_hm_25",
+        "ins_unit_hr_5",
+        "ins_unit_hr_10",
+        "ins_unit_hr_15",
+        "ins_unit_hr_25",
+        "ins_unit_tg_lm_5",
+        "ins_unit_tg_lm_10",
+        "ins_unit_tg_lm_15",
+        "ins_unit_tg_lm_25",
+        "ins_unit_tg_lr_5",
+        "ins_unit_tg_lr_10",
+        "ins_unit_tg_lr_15",
+        "ins_unit_tg_lr_25",
+        "ins_unit_tg_ma_5",
+        "ins_unit_tg_ma_10",
+        "ins_unit_tg_ma_15",
+        "ins_unit_tg_ma_25",
+        "ins_unit_tg_hm_5",
+        "ins_unit_tg_hm_10",
+        "ins_unit_tg_hm_15",
+        "ins_unit_tg_hm_25",
+        "ins_unit_tg_hr_5",
+        "ins_unit_tg_hr_10",
+        "ins_unit_tg_hr_15",
+        "ins_unit_tg_hr_25",
+        "ins_unit_mc_lm_5",
+        "ins_unit_mc_lm_10",
+        "ins_unit_mc_lm_15",
+        "ins_unit_mc_lm_25",
+        "ins_unit_mc_lr_5",
+        "ins_unit_mc_lr_10",
+        "ins_unit_mc_lr_15",
+        "ins_unit_mc_lr_25",
+        "ins_unit_mc_ma_5",
+        "ins_unit_mc_ma_10",
+        "ins_unit_mc_ma_15",
+        "ins_unit_mc_ma_25",
+        "ins_unit_mc_hm_5",
+        "ins_unit_mc_hm_10",
+        "ins_unit_mc_hm_15",
+        "ins_unit_mc_hm_25",
+        "ins_unit_mc_hr_5",
+        "ins_unit_mc_hr_10",
+        "ins_unit_mc_hr_15",
+        "ins_unit_mc_hr_25",
+        "ins_grow_guardian_xxv_naturion_the_awakened",
+        "ins_grow_guardian_xxvi_ursalith_the_ascendant",
+        "ins_grow_guardian_xxvi_zeraphis_the_highstride",
+        "ins_grow_guardian_xxvi_lutrion_the_gleamkeeper",
+        "ins_evo_autumn_xix",
+        "ins_evo_easter_xix",
+        "ins_evo_summer_xix",
+        "ins_evo_mm_xix",
+        "ins_evo_winter_xix",
+        "ins_evo_carnival_xx",
+        "ins_evo_easter_xx",
+        "ins_evo_july_xx",
+        "ins_evo_september_xx",
+        "ins_evo_october_xx",
+        "ins_evo_december_xx",
+        "ins_evo_february_xxi",
+        "ins_evo_march_xxi",
+        "ins_evo_may_xxi",
+        "ins_evo_july_xxi",
+        "ins_evo_september_xxi",
+        "ins_evo_october_xxi",
+        "ins_evo_december_xxi",
+        "ins_evo_february_xxii",
+        "ins_evo_easter_xxii",
+        "ins_evo_may_xxii",
+        "ins_evo_july_xxii",
+        "ins_evo_september_xxii",
+        "ins_evo_october_xxii",
+        "ins_evo_december_xxii",
+        "ins_evo_january_xxiii",
+        "ins_evo_easter_xxiii",
+        "ins_evo_may_xxiii",
+        "ins_evo_shuffle_garden_xxiii",
+        "ins_evo_theater_zodiac_xxiii",
+        "ins_evo_merge_dwarvengame_xxiii",
+        "ins_evo_tile_mistyforest_xxiii",
+        "ins_evo_scroll_sorcerers_xxiv",
+        "ins_evo_theater_easter_xxiv",
+        "ins_evo_tile_amuni_xxiv",
+        "ins_evo_scroll_aquatic_xxiv",
+        "ins_evo_merge_dwarvengame_xxiv",
+        "ins_evo_theater_zodiac_xxiv",
+        "ins_evo_tile_mistyforest_xxiv",
+        "ins_evo_shuffle_postal_xxiv",
+        "ins_evo_scroll_sorcerers_xxv",
+        "ins_evo_merge_kitchen_xxv",
+        "ins_evo_theater_easter_xxv",
+        "ins_evo_tile_amuni_xxv",
+        "ins_evo_scroll_aquatic_xxv",
+        "ins_evo_merge_dwarvengame_xxv",
+        "ins_evo_theater_zodiac_xxv",
+        "ins_evo_shuffle_postal_xxv",
+        "ins_evo_scroll_sorcerers_xxvi",
+        "ins_evo_theater_easter_xxvi",
+        "ins_evo_scroll_aquatic_xxvi",
+        "ins_evo_merge_kitchen_xxvi",
+        "ins_evo_theater_zodiac_xxvi",
+        "ins_evo_shuffle_postal_xxvi"
+      ],
+      "featureIdsByResource": {
+        "work": {
+          "id": {
+            "value": "work"
+          }
+        },
+        "canned_goods": {
+          "id": {
+            "value": "canned_goods"
+          }
+        }
+      }
+    },
+    {
+      "id": "goods_purchasable_for_premium",
+      "resourceIds": [
+        "blueprint",
+        "royalrestoration",
+        "combiningcatalyst",
+        "craft_spell_fragments",
+        "broken_shards",
+        "eldian_sapphire",
+        "ch19_matter3",
+        "marble",
+        "steel",
+        "planks",
+        "crystal",
+        "scrolls",
+        "silk",
+        "elixir",
+        "magic_dust",
+        "gems",
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems",
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems",
+        "money",
+        "supplies",
+        "dwarfs_granite",
+        "dwarfs_copper",
+        "fairies_sunflower",
+        "fairies_velvet",
+        "fairies_cocoons",
+        "fairies_ambrosia",
+        "fairies_nightshade",
+        "fairies_fireflies",
+        "fairies_dreamsheep",
+        "fairies_soma",
+        "orcs_hardshroom",
+        "orcs_psychoshroom",
+        "orcs_powershroom",
+        "orcs_shroomofwisdom",
+        "orcs_armament",
+        "orcs_dung",
+        "orcs_debris",
+        "orcs_loot",
+        "gr4_manatears",
+        "gr4_refinedmarble",
+        "gr4_refinedsteel",
+        "gr4_refinedplanks",
+        "gr4_woodghosts",
+        "gr4_windchimes",
+        "gr4_treantsprouts",
+        "gr5_crystalflasks",
+        "gr5_arcanescrolls",
+        "gr5_soulcatchers",
+        "gr5_apprentices",
+        "gr5_alchemists",
+        "gr5_arcanologists",
+        "gr5_necromancers",
+        "gr5_arcanealchemists",
+        "gr5_necroalchemists",
+        "gr5_arcanenecromancers",
+        "gr6_grain",
+        "gr6_carrots",
+        "gr6_pumpkins",
+        "gr6_apples",
+        "gr6_fertilizer",
+        "gr6_bread",
+        "gr6_soup",
+        "gr6_jam",
+        "gr7_toll",
+        "gr7_airartefacts",
+        "gr7_fireartefacts",
+        "gr7_earthartefacts",
+        "gr7_waterartefacts",
+        "gr7_essence",
+        "gr8_gravegoods",
+        "gr8_traps",
+        "gr9_constructzero",
+        "gr9_constructa",
+        "gr9_constructb",
+        "gr9_constructc",
+        "gr9_constructd",
+        "gr9_elvenarin",
+        "gr9_nutria",
+        "gr9_nutrib",
+        "gr9_nutric",
+        "gr9_nutrid",
+        "gr9_humanium",
+        "gr9_elvarium",
+        "gr10_ideas",
+        "gr10_workforce",
+        "gr10_livingpaintings",
+        "gr10_sculptures",
+        "gr10_crystalballs",
+        "gr10_plants",
+        "gr10_designs",
+        "gr10_constructs",
+        "gr10_humancollections",
+        "gr10_humanracemanifest",
+        "gr10_elvencollections",
+        "gr10_elvenracemanifest",
+        "gr11_draftlaws",
+        "gr11_dwarvenpropositions",
+        "gr11_fairypropositions",
+        "gr11_strawberrybeer",
+        "gr11_purpletea",
+        "gr11_dwarvenamendments",
+        "gr11_fairyamendments",
+        "gr11_inspirations",
+        "gr11_statutes",
+        "ch17_elvenarinzero",
+        "ch17_luxuries",
+        "ch17_delicacies",
+        "ch17_artifacts",
+        "ch18_humans",
+        "ch18_elves",
+        "ch18_elvenar",
+        "ch18_water",
+        "ch18_fire",
+        "ch18_wind",
+        "ch18_earth",
+        "ch18_medal1",
+        "ch18_medal2",
+        "ch18_medal3",
+        "ch18_medal4",
+        "ch18_medal5",
+        "ch18_medal6",
+        "ch18_badge",
+        "ch19_magic1",
+        "ch19_magic2",
+        "ch19_matter1",
+        "ch19_matter2",
+        "ch19_creatures1",
+        "ch19_creatures2",
+        "ch19_creatures3",
+        "ch20_bars",
+        "ch20_songs",
+        "ch20_strings",
+        "ch20_flutes",
+        "ch20_drums",
+        "ch21_prey",
+        "ch21_scales",
+        "ch21_shells",
+        "ch21_dragon",
+        "ch21_bones",
+        "ch21_furniture",
+        "ch21_glass",
+        "ch21_art",
+        "ch21_oblations1",
+        "ch21_oblations2",
+        "ch21_oblations3",
+        "ch21_oblations4",
+        "ch22_seafood",
+        "ch22_fish",
+        "ch22_fruits",
+        "ch22_salt",
+        "ch22_shrimps",
+        "ch22_snails",
+        "ch22_weed",
+        "ch22_eels",
+        "ch22_sponges",
+        "ch23_unicornblossoms",
+        "ch23_dwarvenspirits",
+        "ch23_fairyspirits",
+        "ch23_orcspirits",
+        "ch23_halflingspirits",
+        "ch23_mithril",
+        "ch23_queenhoney",
+        "ch23_dragonteeth",
+        "ch23_flowerwreaths",
+        "ch24_servants",
+        "ch24_warriors",
+        "ch24_farmers",
+        "ch24_workers",
+        "ch24_motivation",
+        "ch24_prophecies",
+        "ch24_studies",
+        "ch25_xpg_1",
+        "ch25_xpg_2",
+        "ch25_xps_kid",
+        "ch25_xps_adult",
+        "ch25_xps_elder",
+        "ch25_wisdom_kid",
+        "ch25_wisdom_adult",
+        "ch25_wisdom_elder",
+        "ch25_wisdom_life",
+        "ch26_water",
+        "ch26_fire",
+        "ch26_earth",
+        "ch26_wind",
+        "ch26_vials",
+        "ch26_fiwa",
+        "ch26_eawa",
+        "ch26_wiwa",
+        "ch26_eafi",
+        "ch26_wifi",
+        "ch26_eawi",
+        "orcs",
+        "seeds",
+        "unurium",
+        "mana",
+        "nox",
+        "work",
+        "canned_goods",
+        "finity_gear",
+        "dragon_steel"
+      ],
+      "featureIdsByResource": {
+        "work": {
+          "id": {
+            "value": "work"
+          }
+        },
+        "canned_goods": {
+          "id": {
+            "value": "canned_goods"
+          }
+        }
+      }
+    },
+    {
+      "id": "spells",
+      "name": "Zaubersprüche",
+      "resourceIds": [
+        "spell_knowledge_boost_1",
+        "spell_teleport_1",
+        "spell_supply_production_boost_1",
+        "spell_neighborly_help_boost_1",
+        "spell_good_production_boost_1",
+        "spell_settlement_production_boost_1",
+        "spell_pet_food_1"
+      ]
+    },
+    {
+      "id": "can_cast_spells",
+      "resourceIds": [
+        "spell_supply_production_boost_1",
+        "spell_neighborly_help_boost_1",
+        "spell_good_production_boost_1",
+        "spell_settlement_production_boost_1",
+        "spell_pet_food_1"
+      ]
+    },
+    {
+      "id": "inventory_spells",
+      "resourceIds": [
+        "spell_knowledge_boost_1",
+        "spell_teleport_1",
+        "spell_supply_production_boost_1",
+        "spell_neighborly_help_boost_1",
+        "spell_good_production_boost_1",
+        "spell_settlement_production_boost_1",
+        "spell_pet_food_1"
+      ]
+    },
+    {
+      "id": "inventory",
+      "resourceIds": [
+        "spell_knowledge_boost_1",
+        "spell_teleport_1",
+        "spell_supply_production_boost_1",
+        "spell_neighborly_help_boost_1",
+        "spell_good_production_boost_1",
+        "spell_settlement_production_boost_1",
+        "spell_pet_food_1",
+        "ins_tr_amt_1",
+        "ins_tr_amt_3",
+        "ins_tr_amt_7",
+        "ins_tr_amt_10",
+        "ins_tr_amt_15",
+        "ins_tr_amt_20",
+        "ins_tr_amt_30",
+        "ins_tr_amt_45",
+        "ins_tr_amt_60",
+        "ins_tr_amt_120",
+        "ins_tr_amt_300",
+        "ins_tr_amt_480",
+        "ins_tr_amt_840",
+        "ins_tr_amt_1200",
+        "ins_tr_amt_2400",
+        "ins_rf_cn_5",
+        "ins_rf_cn_10",
+        "ins_rf_cn_15",
+        "ins_rf_cn_20",
+        "ins_rf_cn_25",
+        "ins_rf_cn_33",
+        "ins_rf_cn_50",
+        "ins_rf_cn_100",
+        "ins_rf_spl_5",
+        "ins_rf_spl_10",
+        "ins_rf_spl_15",
+        "ins_rf_spl_20",
+        "ins_rf_spl_25",
+        "ins_rf_spl_33",
+        "ins_rf_spl_50",
+        "ins_rf_spl_100",
+        "ins_rf_grr_5",
+        "ins_rf_grr_10",
+        "ins_rf_grr_15",
+        "ins_rf_grr_20",
+        "ins_rf_grr_25",
+        "ins_rf_grr_33",
+        "ins_rf_grr_50",
+        "ins_rf_grr_100",
+        "ins_rev_sqd_5",
+        "ins_rev_sqd_10",
+        "ins_rev_sqd_25",
+        "ins_rev_sqd_50",
+        "ins_rev_sqd_75",
+        "ins_rev_sqd_100",
+        "ins_kp_aw_1",
+        "ins_kp_aw_3",
+        "ins_kp_aw_5",
+        "ins_kp_aw_7",
+        "ins_kp_aw_10",
+        "ins_kp_aw_15",
+        "ins_kp_aw_20",
+        "ins_kp_aw_30",
+        "ins_ex_1",
+        "ins_unit_lm_5",
+        "ins_unit_lm_10",
+        "ins_unit_lm_15",
+        "ins_unit_lm_25",
+        "ins_unit_lr_5",
+        "ins_unit_lr_10",
+        "ins_unit_lr_15",
+        "ins_unit_lr_25",
+        "ins_unit_ma_5",
+        "ins_unit_ma_10",
+        "ins_unit_ma_15",
+        "ins_unit_ma_25",
+        "ins_unit_hm_5",
+        "ins_unit_hm_10",
+        "ins_unit_hm_15",
+        "ins_unit_hm_25",
+        "ins_unit_hr_5",
+        "ins_unit_hr_10",
+        "ins_unit_hr_15",
+        "ins_unit_hr_25",
+        "ins_unit_tg_lm_5",
+        "ins_unit_tg_lm_10",
+        "ins_unit_tg_lm_15",
+        "ins_unit_tg_lm_25",
+        "ins_unit_tg_lr_5",
+        "ins_unit_tg_lr_10",
+        "ins_unit_tg_lr_15",
+        "ins_unit_tg_lr_25",
+        "ins_unit_tg_ma_5",
+        "ins_unit_tg_ma_10",
+        "ins_unit_tg_ma_15",
+        "ins_unit_tg_ma_25",
+        "ins_unit_tg_hm_5",
+        "ins_unit_tg_hm_10",
+        "ins_unit_tg_hm_15",
+        "ins_unit_tg_hm_25",
+        "ins_unit_tg_hr_5",
+        "ins_unit_tg_hr_10",
+        "ins_unit_tg_hr_15",
+        "ins_unit_tg_hr_25",
+        "ins_unit_mc_lm_5",
+        "ins_unit_mc_lm_10",
+        "ins_unit_mc_lm_15",
+        "ins_unit_mc_lm_25",
+        "ins_unit_mc_lr_5",
+        "ins_unit_mc_lr_10",
+        "ins_unit_mc_lr_15",
+        "ins_unit_mc_lr_25",
+        "ins_unit_mc_ma_5",
+        "ins_unit_mc_ma_10",
+        "ins_unit_mc_ma_15",
+        "ins_unit_mc_ma_25",
+        "ins_unit_mc_hm_5",
+        "ins_unit_mc_hm_10",
+        "ins_unit_mc_hm_15",
+        "ins_unit_mc_hm_25",
+        "ins_unit_mc_hr_5",
+        "ins_unit_mc_hr_10",
+        "ins_unit_mc_hr_15",
+        "ins_unit_mc_hr_25",
+        "ins_grow_guardian_xxv_naturion_the_awakened",
+        "ins_grow_guardian_xxvi_ursalith_the_ascendant",
+        "ins_grow_guardian_xxvi_zeraphis_the_highstride",
+        "ins_grow_guardian_xxvi_lutrion_the_gleamkeeper",
+        "ins_evo_autumn_xix",
+        "ins_evo_easter_xix",
+        "ins_evo_summer_xix",
+        "ins_evo_mm_xix",
+        "ins_evo_winter_xix",
+        "ins_evo_carnival_xx",
+        "ins_evo_easter_xx",
+        "ins_evo_july_xx",
+        "ins_evo_september_xx",
+        "ins_evo_october_xx",
+        "ins_evo_december_xx",
+        "ins_evo_february_xxi",
+        "ins_evo_march_xxi",
+        "ins_evo_may_xxi",
+        "ins_evo_july_xxi",
+        "ins_evo_september_xxi",
+        "ins_evo_october_xxi",
+        "ins_evo_december_xxi",
+        "ins_evo_february_xxii",
+        "ins_evo_easter_xxii",
+        "ins_evo_may_xxii",
+        "ins_evo_july_xxii",
+        "ins_evo_september_xxii",
+        "ins_evo_october_xxii",
+        "ins_evo_december_xxii",
+        "ins_evo_january_xxiii",
+        "ins_evo_easter_xxiii",
+        "ins_evo_may_xxiii",
+        "ins_evo_shuffle_garden_xxiii",
+        "ins_evo_theater_zodiac_xxiii",
+        "ins_evo_merge_dwarvengame_xxiii",
+        "ins_evo_tile_mistyforest_xxiii",
+        "ins_evo_scroll_sorcerers_xxiv",
+        "ins_evo_theater_easter_xxiv",
+        "ins_evo_tile_amuni_xxiv",
+        "ins_evo_scroll_aquatic_xxiv",
+        "ins_evo_merge_dwarvengame_xxiv",
+        "ins_evo_theater_zodiac_xxiv",
+        "ins_evo_tile_mistyforest_xxiv",
+        "ins_evo_shuffle_postal_xxiv",
+        "ins_evo_scroll_sorcerers_xxv",
+        "ins_evo_merge_kitchen_xxv",
+        "ins_evo_theater_easter_xxv",
+        "ins_evo_tile_amuni_xxv",
+        "ins_evo_scroll_aquatic_xxv",
+        "ins_evo_merge_dwarvengame_xxv",
+        "ins_evo_theater_zodiac_xxv",
+        "ins_evo_shuffle_postal_xxv",
+        "ins_evo_scroll_sorcerers_xxvi",
+        "ins_evo_theater_easter_xxvi",
+        "ins_evo_scroll_aquatic_xxvi",
+        "ins_evo_merge_kitchen_xxvi",
+        "ins_evo_theater_zodiac_xxvi",
+        "ins_evo_shuffle_postal_xxvi"
+      ]
+    },
+    {
+      "id": "crm_offer_reward_resources",
+      "resourceIds": [
+        "season_xp",
+        "spire_diplomacy_joker",
+        "eldian_sapphire",
+        "marble",
+        "steel",
+        "planks",
+        "crystal",
+        "scrolls",
+        "silk",
+        "elixir",
+        "magic_dust",
+        "gems",
+        "spell_knowledge_boost_1",
+        "spell_teleport_1",
+        "spell_supply_production_boost_1",
+        "spell_neighborly_help_boost_1",
+        "spell_good_production_boost_1",
+        "spell_settlement_production_boost_1",
+        "spell_pet_food_1",
+        "event_currency_1",
+        "event_currency_2",
+        "event_payback",
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems",
+        "b_all_aw1_shards",
+        "b_all_aw2_shards",
+        "b_all_aw3_shards",
+        "b_all_aw4_shards",
+        "b_humans_aw1_shards",
+        "b_humans_aw2_shards",
+        "b_elves_aw1_shards",
+        "b_elves_aw2_shards",
+        "b_all_aw5_shards",
+        "b_all_aw6_shards",
+        "b_dwarfs_aw1_shards",
+        "b_dwarfs_aw2_shards",
+        "b_fairies_aw1_shards",
+        "b_fairies_aw2_shards",
+        "b_orcs_aw1_shards",
+        "b_orcs_aw2_shards",
+        "b_gr4_aw1_shards",
+        "b_gr4_aw2_shards",
+        "b_gr5_aw1_shards",
+        "b_gr5_aw2_shards",
+        "b_gr6_aw1_shards",
+        "b_gr6_aw2_shards",
+        "b_gr7_aw1_shards",
+        "b_gr7_aw2_shards",
+        "b_gr8_aw1_shards",
+        "b_gr8_aw2_shards",
+        "b_gr9_aw1_shards",
+        "b_gr9_aw2_shards",
+        "b_gr10_aw1_shards",
+        "b_gr10_aw2_shards",
+        "b_gr11_aw1_shards",
+        "b_gr11_aw2_shards",
+        "b_ch17_aw1_shards",
+        "b_ch17_aw2_shards",
+        "b_ch18_aw1_shards",
+        "b_ch18_aw2_shards",
+        "b_ch19_aw1_shards",
+        "b_ch19_aw2_shards",
+        "b_ch20_aw1_shards",
+        "b_ch20_aw2_shards",
+        "b_ch21_aw1_shards",
+        "b_ch21_aw2_shards",
+        "b_ch22_aw1_shards",
+        "b_ch22_aw2_shards",
+        "b_ch23_aw1_shards",
+        "b_ch23_aw2_shards",
+        "b_ch24_aw1_shards",
+        "b_ch24_aw2_shards",
+        "b_ch25_aw1_shards",
+        "b_ch25_aw2_shards",
+        "b_ch26_aw1_shards",
+        "b_ch26_aw2_shards",
+        "b_ch27_aw1_shards",
+        "b_ch27_aw2_shards",
+        "b_ch28_aw1_shards",
+        "b_ch28_aw2_shards",
+        "b_ch29_aw1_shards",
+        "b_ch29_aw2_shards",
+        "b_ch30_aw1_shards",
+        "b_ch30_aw2_shards",
+        "b_ch31_aw1_shards",
+        "b_ch31_aw2_shards",
+        "b_ch32_aw1_shards",
+        "b_ch32_aw2_shards",
+        "b_ch33_aw1_shards",
+        "b_ch33_aw2_shards",
+        "b_ch34_aw1_shards",
+        "b_ch34_aw2_shards",
+        "b_ch35_aw1_shards",
+        "b_ch35_aw2_shards",
+        "b_ch36_aw1_shards",
+        "b_ch36_aw2_shards",
+        "b_ch37_aw1_shards",
+        "b_ch37_aw2_shards",
+        "b_ch38_aw1_shards",
+        "b_ch38_aw2_shards",
+        "b_ch39_aw1_shards",
+        "b_ch39_aw2_shards",
+        "b_ch40_aw1_shards",
+        "b_ch40_aw2_shards",
+        "craft_payback",
+        "craft_spell_fragments",
+        "tile_event_tool_single",
+        "tile_event_tool_column",
+        "tile_event_tool_adjacent",
+        "guardian_essence",
+        "combiningcatalyst",
+        "royalrestoration",
+        "blueprint",
+        "broken_shards",
+        "crafting_slots_refresh",
+        "volatile_sigils"
+      ]
+    },
+    {
+      "id": "event_currency",
+      "resourceIds": [
+        "event_currency_1",
+        "event_currency_2",
+        "event_payback"
+      ]
+    },
+    {
+      "id": "event",
+      "resourceIds": [
+        "event_currency_1",
+        "event_currency_2",
+        "event_payback",
+        "medals",
+        "episodic_reward_reroll_charge",
+        "tile_event_reveal_charge",
+        "special_package_double_reward_charge",
+        "special_package_reveal_charge",
+        "tile_event_tool_single",
+        "tile_event_tool_column",
+        "tile_event_tool_adjacent"
+      ]
+    },
+    {
+      "id": "season_pass",
+      "resourceIds": [
+        "season_xp",
+        "season_daily_keys",
+        "season_blessing"
+      ]
+    },
+    {
+      "id": "decay",
+      "resourceIds": [
+        "seeds",
+        "unurium",
+        "mana",
+        "nox",
+        "work",
+        "canned_goods",
+        "finity_gear",
+        "dragon_steel",
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems",
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ],
+      "featureIdsByResource": {
+        "work": {
+          "id": {
+            "value": "work"
+          }
+        },
+        "canned_goods": {
+          "id": {
+            "value": "canned_goods"
+          }
+        }
+      }
+    },
+    {
+      "id": "decayable_trades",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems"
+      ]
+    },
+    {
+      "id": "decayable",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems",
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "adventurer_items",
+      "name": "Abenteuer-Gegenstände",
+      "resourceIds": [
+        "badge_brewery",
+        "badge_carpenters",
+        "badge_farmers",
+        "badge_blacksmith",
+        "golden_bracelet",
+        "diamond_necklace",
+        "elegant_statue",
+        "witch_hat",
+        "druid_staff",
+        "badge_wonderhelper",
+        "badge_unit",
+        "money_sack",
+        "arcane_residue",
+        "recycled_potion",
+        "enchanted_tiara",
+        "ghost_in_a_bottle"
+      ]
+    },
+    {
+      "id": "world_tradable",
+      "resourceIds": [
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems",
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "wholesaler_goods",
+      "resourceIds": [
+        "marble",
+        "steel",
+        "planks",
+        "crystal",
+        "scrolls",
+        "silk",
+        "elixir",
+        "magic_dust",
+        "gems",
+        "sentientmarble",
+        "sentientsteel",
+        "sentientplanks",
+        "sentientcrystal",
+        "sentientscrolls",
+        "sentientsilk",
+        "sentientelixir",
+        "sentientmagic_dust",
+        "sentientgems",
+        "ascendedmarble",
+        "ascendedsteel",
+        "ascendedplanks",
+        "ascendedcrystal",
+        "ascendedscrolls",
+        "ascendedsilk",
+        "ascendedelixir",
+        "ascendedmagic_dust",
+        "ascendedgems"
+      ]
+    },
+    {
+      "id": "instant_booster",
+      "resourceIds": [
+        "ins_tr_amt_1",
+        "ins_tr_amt_3",
+        "ins_tr_amt_7",
+        "ins_tr_amt_10",
+        "ins_tr_amt_15",
+        "ins_tr_amt_20",
+        "ins_tr_amt_30",
+        "ins_tr_amt_45",
+        "ins_tr_amt_60",
+        "ins_tr_amt_120",
+        "ins_tr_amt_300",
+        "ins_tr_amt_480",
+        "ins_tr_amt_840",
+        "ins_tr_amt_1200",
+        "ins_tr_amt_2400"
+      ]
+    },
+    {
+      "id": "instant_coins",
+      "resourceIds": [
+        "ins_rf_cn_5",
+        "ins_rf_cn_10",
+        "ins_rf_cn_15",
+        "ins_rf_cn_20",
+        "ins_rf_cn_25",
+        "ins_rf_cn_33",
+        "ins_rf_cn_50",
+        "ins_rf_cn_100"
+      ]
+    },
+    {
+      "id": "instant_supplies",
+      "resourceIds": [
+        "ins_rf_spl_5",
+        "ins_rf_spl_10",
+        "ins_rf_spl_15",
+        "ins_rf_spl_20",
+        "ins_rf_spl_25",
+        "ins_rf_spl_33",
+        "ins_rf_spl_50",
+        "ins_rf_spl_100"
+      ]
+    },
+    {
+      "id": "instant_revive",
+      "resourceIds": [
+        "ins_rev_sqd_5",
+        "ins_rev_sqd_10",
+        "ins_rev_sqd_25",
+        "ins_rev_sqd_50",
+        "ins_rev_sqd_75",
+        "ins_rev_sqd_100"
+      ]
+    },
+    {
+      "id": "instant_portalresources",
+      "resourceIds": [
+        "ins_rf_grr_5",
+        "ins_rf_grr_10",
+        "ins_rf_grr_15",
+        "ins_rf_grr_20",
+        "ins_rf_grr_25",
+        "ins_rf_grr_33",
+        "ins_rf_grr_50",
+        "ins_rf_grr_100"
+      ]
+    },
+    {
+      "id": "instant_refill",
+      "resourceIds": [
+        "ins_rf_cn_5",
+        "ins_rf_cn_10",
+        "ins_rf_cn_15",
+        "ins_rf_cn_20",
+        "ins_rf_cn_25",
+        "ins_rf_cn_33",
+        "ins_rf_cn_50",
+        "ins_rf_cn_100",
+        "ins_rf_spl_5",
+        "ins_rf_spl_10",
+        "ins_rf_spl_15",
+        "ins_rf_spl_20",
+        "ins_rf_spl_25",
+        "ins_rf_spl_33",
+        "ins_rf_spl_50",
+        "ins_rf_spl_100",
+        "ins_rf_grr_5",
+        "ins_rf_grr_10",
+        "ins_rf_grr_15",
+        "ins_rf_grr_20",
+        "ins_rf_grr_25",
+        "ins_rf_grr_33",
+        "ins_rf_grr_50",
+        "ins_rf_grr_100",
+        "ins_rev_sqd_5",
+        "ins_rev_sqd_10",
+        "ins_rev_sqd_25",
+        "ins_rev_sqd_50",
+        "ins_rev_sqd_75",
+        "ins_rev_sqd_100"
+      ]
+    },
+    {
+      "id": "instant_ancientknowledge",
+      "resourceIds": [
+        "ins_kp_aw_1",
+        "ins_kp_aw_3",
+        "ins_kp_aw_5",
+        "ins_kp_aw_7",
+        "ins_kp_aw_10",
+        "ins_kp_aw_15",
+        "ins_kp_aw_20",
+        "ins_kp_aw_30"
+      ]
+    },
+    {
+      "id": "instant_upgrade",
+      "resourceIds": [
+        "ins_ex_1"
+      ]
+    },
+    {
+      "id": "race_specific_instant_items",
+      "resourceIds": [
+        "ins_unit_lm_5",
+        "ins_unit_lm_10",
+        "ins_unit_lm_15",
+        "ins_unit_lm_25",
+        "ins_unit_lr_5",
+        "ins_unit_lr_10",
+        "ins_unit_lr_15",
+        "ins_unit_lr_25",
+        "ins_unit_ma_5",
+        "ins_unit_ma_10",
+        "ins_unit_ma_15",
+        "ins_unit_ma_25",
+        "ins_unit_hm_5",
+        "ins_unit_hm_10",
+        "ins_unit_hm_15",
+        "ins_unit_hm_25",
+        "ins_unit_hr_5",
+        "ins_unit_hr_10",
+        "ins_unit_hr_15",
+        "ins_unit_hr_25"
+      ]
+    },
+    {
+      "id": "non_race_specific_unit_instant_items",
+      "resourceIds": [
+        "ins_unit_tg_lm_5",
+        "ins_unit_tg_lm_10",
+        "ins_unit_tg_lm_15",
+        "ins_unit_tg_lm_25",
+        "ins_unit_tg_lr_5",
+        "ins_unit_tg_lr_10",
+        "ins_unit_tg_lr_15",
+        "ins_unit_tg_lr_25",
+        "ins_unit_tg_ma_5",
+        "ins_unit_tg_ma_10",
+        "ins_unit_tg_ma_15",
+        "ins_unit_tg_ma_25",
+        "ins_unit_tg_hm_5",
+        "ins_unit_tg_hm_10",
+        "ins_unit_tg_hm_15",
+        "ins_unit_tg_hm_25",
+        "ins_unit_tg_hr_5",
+        "ins_unit_tg_hr_10",
+        "ins_unit_tg_hr_15",
+        "ins_unit_tg_hr_25",
+        "ins_unit_mc_lm_5",
+        "ins_unit_mc_lm_10",
+        "ins_unit_mc_lm_15",
+        "ins_unit_mc_lm_25",
+        "ins_unit_mc_lr_5",
+        "ins_unit_mc_lr_10",
+        "ins_unit_mc_lr_15",
+        "ins_unit_mc_lr_25",
+        "ins_unit_mc_ma_5",
+        "ins_unit_mc_ma_10",
+        "ins_unit_mc_ma_15",
+        "ins_unit_mc_ma_25",
+        "ins_unit_mc_hm_5",
+        "ins_unit_mc_hm_10",
+        "ins_unit_mc_hm_15",
+        "ins_unit_mc_hm_25",
+        "ins_unit_mc_hr_5",
+        "ins_unit_mc_hr_10",
+        "ins_unit_mc_hr_15",
+        "ins_unit_mc_hr_25"
+      ]
+    },
+    {
+      "id": "unit_instant_items",
+      "resourceIds": [
+        "ins_unit_lm_5",
+        "ins_unit_lm_10",
+        "ins_unit_lm_15",
+        "ins_unit_lm_25",
+        "ins_unit_lr_5",
+        "ins_unit_lr_10",
+        "ins_unit_lr_15",
+        "ins_unit_lr_25",
+        "ins_unit_ma_5",
+        "ins_unit_ma_10",
+        "ins_unit_ma_15",
+        "ins_unit_ma_25",
+        "ins_unit_hm_5",
+        "ins_unit_hm_10",
+        "ins_unit_hm_15",
+        "ins_unit_hm_25",
+        "ins_unit_hr_5",
+        "ins_unit_hr_10",
+        "ins_unit_hr_15",
+        "ins_unit_hr_25",
+        "ins_unit_tg_lm_5",
+        "ins_unit_tg_lm_10",
+        "ins_unit_tg_lm_15",
+        "ins_unit_tg_lm_25",
+        "ins_unit_tg_lr_5",
+        "ins_unit_tg_lr_10",
+        "ins_unit_tg_lr_15",
+        "ins_unit_tg_lr_25",
+        "ins_unit_tg_ma_5",
+        "ins_unit_tg_ma_10",
+        "ins_unit_tg_ma_15",
+        "ins_unit_tg_ma_25",
+        "ins_unit_tg_hm_5",
+        "ins_unit_tg_hm_10",
+        "ins_unit_tg_hm_15",
+        "ins_unit_tg_hm_25",
+        "ins_unit_tg_hr_5",
+        "ins_unit_tg_hr_10",
+        "ins_unit_tg_hr_15",
+        "ins_unit_tg_hr_25",
+        "ins_unit_mc_lm_5",
+        "ins_unit_mc_lm_10",
+        "ins_unit_mc_lm_15",
+        "ins_unit_mc_lm_25",
+        "ins_unit_mc_lr_5",
+        "ins_unit_mc_lr_10",
+        "ins_unit_mc_lr_15",
+        "ins_unit_mc_lr_25",
+        "ins_unit_mc_ma_5",
+        "ins_unit_mc_ma_10",
+        "ins_unit_mc_ma_15",
+        "ins_unit_mc_ma_25",
+        "ins_unit_mc_hm_5",
+        "ins_unit_mc_hm_10",
+        "ins_unit_mc_hm_15",
+        "ins_unit_mc_hm_25",
+        "ins_unit_mc_hr_5",
+        "ins_unit_mc_hr_10",
+        "ins_unit_mc_hr_15",
+        "ins_unit_mc_hr_25"
+      ]
+    },
+    {
+      "id": "arfifact_instant_items",
+      "resourceIds": [
+        "ins_evo_autumn_xix",
+        "ins_evo_easter_xix",
+        "ins_evo_summer_xix",
+        "ins_evo_mm_xix",
+        "ins_evo_winter_xix",
+        "ins_evo_carnival_xx",
+        "ins_evo_easter_xx",
+        "ins_evo_july_xx",
+        "ins_evo_september_xx",
+        "ins_evo_october_xx",
+        "ins_evo_december_xx",
+        "ins_evo_february_xxi",
+        "ins_evo_march_xxi",
+        "ins_evo_may_xxi",
+        "ins_evo_july_xxi",
+        "ins_evo_september_xxi",
+        "ins_evo_october_xxi",
+        "ins_evo_december_xxi",
+        "ins_evo_february_xxii",
+        "ins_evo_easter_xxii",
+        "ins_evo_may_xxii",
+        "ins_evo_july_xxii",
+        "ins_evo_september_xxii",
+        "ins_evo_october_xxii",
+        "ins_evo_december_xxii",
+        "ins_evo_january_xxiii",
+        "ins_evo_easter_xxiii",
+        "ins_evo_may_xxiii",
+        "ins_evo_shuffle_garden_xxiii",
+        "ins_evo_theater_zodiac_xxiii",
+        "ins_evo_merge_dwarvengame_xxiii",
+        "ins_evo_tile_mistyforest_xxiii",
+        "ins_evo_scroll_sorcerers_xxiv",
+        "ins_evo_theater_easter_xxiv",
+        "ins_evo_tile_amuni_xxiv",
+        "ins_evo_scroll_aquatic_xxiv",
+        "ins_evo_merge_dwarvengame_xxiv",
+        "ins_evo_theater_zodiac_xxiv",
+        "ins_evo_tile_mistyforest_xxiv",
+        "ins_evo_shuffle_postal_xxiv",
+        "ins_evo_scroll_sorcerers_xxv",
+        "ins_evo_merge_kitchen_xxv",
+        "ins_evo_theater_easter_xxv",
+        "ins_evo_tile_amuni_xxv",
+        "ins_evo_scroll_aquatic_xxv",
+        "ins_evo_merge_dwarvengame_xxv",
+        "ins_evo_theater_zodiac_xxv",
+        "ins_evo_shuffle_postal_xxv",
+        "ins_evo_scroll_sorcerers_xxvi",
+        "ins_evo_theater_easter_xxvi",
+        "ins_evo_scroll_aquatic_xxvi",
+        "ins_evo_merge_kitchen_xxvi",
+        "ins_evo_theater_zodiac_xxvi",
+        "ins_evo_shuffle_postal_xxvi"
+      ]
+    },
+    {
+      "id": "guardian_items",
+      "resourceIds": [
+        "ins_grow_guardian_xxv_naturion_the_awakened",
+        "ins_grow_guardian_xxvi_ursalith_the_ascendant",
+        "ins_grow_guardian_xxvi_zeraphis_the_highstride",
+        "ins_grow_guardian_xxvi_lutrion_the_gleamkeeper"
+      ]
+    },
+    {
+      "id": "instant_items",
+      "resourceIds": [
+        "ins_tr_amt_1",
+        "ins_tr_amt_3",
+        "ins_tr_amt_7",
+        "ins_tr_amt_10",
+        "ins_tr_amt_15",
+        "ins_tr_amt_20",
+        "ins_tr_amt_30",
+        "ins_tr_amt_45",
+        "ins_tr_amt_60",
+        "ins_tr_amt_120",
+        "ins_tr_amt_300",
+        "ins_tr_amt_480",
+        "ins_tr_amt_840",
+        "ins_tr_amt_1200",
+        "ins_tr_amt_2400",
+        "ins_rf_cn_5",
+        "ins_rf_cn_10",
+        "ins_rf_cn_15",
+        "ins_rf_cn_20",
+        "ins_rf_cn_25",
+        "ins_rf_cn_33",
+        "ins_rf_cn_50",
+        "ins_rf_cn_100",
+        "ins_rf_spl_5",
+        "ins_rf_spl_10",
+        "ins_rf_spl_15",
+        "ins_rf_spl_20",
+        "ins_rf_spl_25",
+        "ins_rf_spl_33",
+        "ins_rf_spl_50",
+        "ins_rf_spl_100",
+        "ins_rf_grr_5",
+        "ins_rf_grr_10",
+        "ins_rf_grr_15",
+        "ins_rf_grr_20",
+        "ins_rf_grr_25",
+        "ins_rf_grr_33",
+        "ins_rf_grr_50",
+        "ins_rf_grr_100",
+        "ins_rev_sqd_5",
+        "ins_rev_sqd_10",
+        "ins_rev_sqd_25",
+        "ins_rev_sqd_50",
+        "ins_rev_sqd_75",
+        "ins_rev_sqd_100",
+        "ins_kp_aw_1",
+        "ins_kp_aw_3",
+        "ins_kp_aw_5",
+        "ins_kp_aw_7",
+        "ins_kp_aw_10",
+        "ins_kp_aw_15",
+        "ins_kp_aw_20",
+        "ins_kp_aw_30",
+        "ins_ex_1",
+        "ins_unit_lm_5",
+        "ins_unit_lm_10",
+        "ins_unit_lm_15",
+        "ins_unit_lm_25",
+        "ins_unit_lr_5",
+        "ins_unit_lr_10",
+        "ins_unit_lr_15",
+        "ins_unit_lr_25",
+        "ins_unit_ma_5",
+        "ins_unit_ma_10",
+        "ins_unit_ma_15",
+        "ins_unit_ma_25",
+        "ins_unit_hm_5",
+        "ins_unit_hm_10",
+        "ins_unit_hm_15",
+        "ins_unit_hm_25",
+        "ins_unit_hr_5",
+        "ins_unit_hr_10",
+        "ins_unit_hr_15",
+        "ins_unit_hr_25",
+        "ins_unit_tg_lm_5",
+        "ins_unit_tg_lm_10",
+        "ins_unit_tg_lm_15",
+        "ins_unit_tg_lm_25",
+        "ins_unit_tg_lr_5",
+        "ins_unit_tg_lr_10",
+        "ins_unit_tg_lr_15",
+        "ins_unit_tg_lr_25",
+        "ins_unit_tg_ma_5",
+        "ins_unit_tg_ma_10",
+        "ins_unit_tg_ma_15",
+        "ins_unit_tg_ma_25",
+        "ins_unit_tg_hm_5",
+        "ins_unit_tg_hm_10",
+        "ins_unit_tg_hm_15",
+        "ins_unit_tg_hm_25",
+        "ins_unit_tg_hr_5",
+        "ins_unit_tg_hr_10",
+        "ins_unit_tg_hr_15",
+        "ins_unit_tg_hr_25",
+        "ins_unit_mc_lm_5",
+        "ins_unit_mc_lm_10",
+        "ins_unit_mc_lm_15",
+        "ins_unit_mc_lm_25",
+        "ins_unit_mc_lr_5",
+        "ins_unit_mc_lr_10",
+        "ins_unit_mc_lr_15",
+        "ins_unit_mc_lr_25",
+        "ins_unit_mc_ma_5",
+        "ins_unit_mc_ma_10",
+        "ins_unit_mc_ma_15",
+        "ins_unit_mc_ma_25",
+        "ins_unit_mc_hm_5",
+        "ins_unit_mc_hm_10",
+        "ins_unit_mc_hm_15",
+        "ins_unit_mc_hm_25",
+        "ins_unit_mc_hr_5",
+        "ins_unit_mc_hr_10",
+        "ins_unit_mc_hr_15",
+        "ins_unit_mc_hr_25",
+        "ins_grow_guardian_xxv_naturion_the_awakened",
+        "ins_grow_guardian_xxvi_ursalith_the_ascendant",
+        "ins_grow_guardian_xxvi_zeraphis_the_highstride",
+        "ins_grow_guardian_xxvi_lutrion_the_gleamkeeper",
+        "ins_evo_autumn_xix",
+        "ins_evo_easter_xix",
+        "ins_evo_summer_xix",
+        "ins_evo_mm_xix",
+        "ins_evo_winter_xix",
+        "ins_evo_carnival_xx",
+        "ins_evo_easter_xx",
+        "ins_evo_july_xx",
+        "ins_evo_september_xx",
+        "ins_evo_october_xx",
+        "ins_evo_december_xx",
+        "ins_evo_february_xxi",
+        "ins_evo_march_xxi",
+        "ins_evo_may_xxi",
+        "ins_evo_july_xxi",
+        "ins_evo_september_xxi",
+        "ins_evo_october_xxi",
+        "ins_evo_december_xxi",
+        "ins_evo_february_xxii",
+        "ins_evo_easter_xxii",
+        "ins_evo_may_xxii",
+        "ins_evo_july_xxii",
+        "ins_evo_september_xxii",
+        "ins_evo_october_xxii",
+        "ins_evo_december_xxii",
+        "ins_evo_january_xxiii",
+        "ins_evo_easter_xxiii",
+        "ins_evo_may_xxiii",
+        "ins_evo_shuffle_garden_xxiii",
+        "ins_evo_theater_zodiac_xxiii",
+        "ins_evo_merge_dwarvengame_xxiii",
+        "ins_evo_tile_mistyforest_xxiii",
+        "ins_evo_scroll_sorcerers_xxiv",
+        "ins_evo_theater_easter_xxiv",
+        "ins_evo_tile_amuni_xxiv",
+        "ins_evo_scroll_aquatic_xxiv",
+        "ins_evo_merge_dwarvengame_xxiv",
+        "ins_evo_theater_zodiac_xxiv",
+        "ins_evo_tile_mistyforest_xxiv",
+        "ins_evo_shuffle_postal_xxiv",
+        "ins_evo_scroll_sorcerers_xxv",
+        "ins_evo_merge_kitchen_xxv",
+        "ins_evo_theater_easter_xxv",
+        "ins_evo_tile_amuni_xxv",
+        "ins_evo_scroll_aquatic_xxv",
+        "ins_evo_merge_dwarvengame_xxv",
+        "ins_evo_theater_zodiac_xxv",
+        "ins_evo_shuffle_postal_xxv",
+        "ins_evo_scroll_sorcerers_xxvi",
+        "ins_evo_theater_easter_xxvi",
+        "ins_evo_scroll_aquatic_xxvi",
+        "ins_evo_merge_kitchen_xxvi",
+        "ins_evo_theater_zodiac_xxvi",
+        "ins_evo_shuffle_postal_xxvi"
+      ]
+    },
+    {
+      "id": "spells_instants",
+      "resourceIds": [
+        "ins_tr_amt_1",
+        "ins_tr_amt_3",
+        "ins_tr_amt_7",
+        "ins_tr_amt_10",
+        "ins_tr_amt_15",
+        "ins_tr_amt_20",
+        "ins_tr_amt_30",
+        "ins_tr_amt_45",
+        "ins_tr_amt_60",
+        "ins_tr_amt_120",
+        "ins_tr_amt_300",
+        "ins_tr_amt_480",
+        "ins_tr_amt_840",
+        "ins_tr_amt_1200",
+        "ins_tr_amt_2400",
+        "ins_rf_cn_5",
+        "ins_rf_cn_10",
+        "ins_rf_cn_15",
+        "ins_rf_cn_20",
+        "ins_rf_cn_25",
+        "ins_rf_cn_33",
+        "ins_rf_cn_50",
+        "ins_rf_cn_100",
+        "ins_rf_spl_5",
+        "ins_rf_spl_10",
+        "ins_rf_spl_15",
+        "ins_rf_spl_20",
+        "ins_rf_spl_25",
+        "ins_rf_spl_33",
+        "ins_rf_spl_50",
+        "ins_rf_spl_100",
+        "ins_rf_grr_5",
+        "ins_rf_grr_10",
+        "ins_rf_grr_15",
+        "ins_rf_grr_20",
+        "ins_rf_grr_25",
+        "ins_rf_grr_33",
+        "ins_rf_grr_50",
+        "ins_rf_grr_100",
+        "ins_rev_sqd_5",
+        "ins_rev_sqd_10",
+        "ins_rev_sqd_25",
+        "ins_rev_sqd_50",
+        "ins_rev_sqd_75",
+        "ins_rev_sqd_100",
+        "ins_kp_aw_1",
+        "ins_kp_aw_3",
+        "ins_kp_aw_5",
+        "ins_kp_aw_7",
+        "ins_kp_aw_10",
+        "ins_kp_aw_15",
+        "ins_kp_aw_20",
+        "ins_kp_aw_30",
+        "ins_unit_lm_5",
+        "ins_unit_lm_10",
+        "ins_unit_lm_15",
+        "ins_unit_lm_25",
+        "ins_unit_lr_5",
+        "ins_unit_lr_10",
+        "ins_unit_lr_15",
+        "ins_unit_lr_25",
+        "ins_unit_ma_5",
+        "ins_unit_ma_10",
+        "ins_unit_ma_15",
+        "ins_unit_ma_25",
+        "ins_unit_hm_5",
+        "ins_unit_hm_10",
+        "ins_unit_hm_15",
+        "ins_unit_hm_25",
+        "ins_unit_hr_5",
+        "ins_unit_hr_10",
+        "ins_unit_hr_15",
+        "ins_unit_hr_25",
+        "ins_unit_tg_lm_5",
+        "ins_unit_tg_lm_10",
+        "ins_unit_tg_lm_15",
+        "ins_unit_tg_lm_25",
+        "ins_unit_tg_lr_5",
+        "ins_unit_tg_lr_10",
+        "ins_unit_tg_lr_15",
+        "ins_unit_tg_lr_25",
+        "ins_unit_tg_ma_5",
+        "ins_unit_tg_ma_10",
+        "ins_unit_tg_ma_15",
+        "ins_unit_tg_ma_25",
+        "ins_unit_tg_hm_5",
+        "ins_unit_tg_hm_10",
+        "ins_unit_tg_hm_15",
+        "ins_unit_tg_hm_25",
+        "ins_unit_tg_hr_5",
+        "ins_unit_tg_hr_10",
+        "ins_unit_tg_hr_15",
+        "ins_unit_tg_hr_25",
+        "ins_unit_mc_lm_5",
+        "ins_unit_mc_lm_10",
+        "ins_unit_mc_lm_15",
+        "ins_unit_mc_lm_25",
+        "ins_unit_mc_lr_5",
+        "ins_unit_mc_lr_10",
+        "ins_unit_mc_lr_15",
+        "ins_unit_mc_lr_25",
+        "ins_unit_mc_ma_5",
+        "ins_unit_mc_ma_10",
+        "ins_unit_mc_ma_15",
+        "ins_unit_mc_ma_25",
+        "ins_unit_mc_hm_5",
+        "ins_unit_mc_hm_10",
+        "ins_unit_mc_hm_15",
+        "ins_unit_mc_hm_25",
+        "ins_unit_mc_hr_5",
+        "ins_unit_mc_hr_10",
+        "ins_unit_mc_hr_15",
+        "ins_unit_mc_hr_25",
+        "ins_grow_guardian_xxv_naturion_the_awakened",
+        "ins_grow_guardian_xxvi_ursalith_the_ascendant",
+        "ins_grow_guardian_xxvi_zeraphis_the_highstride",
+        "ins_grow_guardian_xxvi_lutrion_the_gleamkeeper",
+        "ins_evo_autumn_xix",
+        "ins_evo_easter_xix",
+        "ins_evo_summer_xix",
+        "ins_evo_mm_xix",
+        "ins_evo_winter_xix",
+        "ins_evo_carnival_xx",
+        "ins_evo_easter_xx",
+        "ins_evo_july_xx",
+        "ins_evo_september_xx",
+        "ins_evo_october_xx",
+        "ins_evo_december_xx",
+        "ins_evo_february_xxi",
+        "ins_evo_march_xxi",
+        "ins_evo_may_xxi",
+        "ins_evo_july_xxi",
+        "ins_evo_september_xxi",
+        "ins_evo_october_xxi",
+        "ins_evo_december_xxi",
+        "ins_evo_february_xxii",
+        "ins_evo_easter_xxii",
+        "ins_evo_may_xxii",
+        "ins_evo_july_xxii",
+        "ins_evo_september_xxii",
+        "ins_evo_october_xxii",
+        "ins_evo_december_xxii",
+        "ins_evo_january_xxiii",
+        "ins_evo_easter_xxiii",
+        "ins_evo_may_xxiii",
+        "ins_evo_shuffle_garden_xxiii",
+        "ins_evo_theater_zodiac_xxiii",
+        "ins_evo_merge_dwarvengame_xxiii",
+        "ins_evo_tile_mistyforest_xxiii",
+        "ins_evo_scroll_sorcerers_xxiv",
+        "ins_evo_theater_easter_xxiv",
+        "ins_evo_tile_amuni_xxiv",
+        "ins_evo_scroll_aquatic_xxiv",
+        "ins_evo_merge_dwarvengame_xxiv",
+        "ins_evo_theater_zodiac_xxiv",
+        "ins_evo_tile_mistyforest_xxiv",
+        "ins_evo_shuffle_postal_xxiv",
+        "ins_evo_scroll_sorcerers_xxv",
+        "ins_evo_merge_kitchen_xxv",
+        "ins_evo_theater_easter_xxv",
+        "ins_evo_tile_amuni_xxv",
+        "ins_evo_scroll_aquatic_xxv",
+        "ins_evo_merge_dwarvengame_xxv",
+        "ins_evo_theater_zodiac_xxv",
+        "ins_evo_shuffle_postal_xxv",
+        "ins_evo_scroll_sorcerers_xxvi",
+        "ins_evo_theater_easter_xxvi",
+        "ins_evo_scroll_aquatic_xxvi",
+        "ins_evo_merge_kitchen_xxvi",
+        "ins_evo_theater_zodiac_xxvi",
+        "ins_evo_shuffle_postal_xxvi"
+      ]
+    },
+    {
+      "id": "enchantments",
+      "resourceIds": [
+        "spell_supply_production_boost_1",
+        "spell_neighborly_help_boost_1",
+        "spell_good_production_boost_1",
+        "spell_knowledge_boost_1",
+        "spell_pet_food_1",
+        "spell_teleport_1"
+      ]
+    },
+    {
+      "id": "tile_event_tools",
+      "resourceIds": [
+        "tile_event_tool_single",
+        "tile_event_tool_column",
+        "tile_event_tool_adjacent"
+      ]
+    },
+    {
+      "id": "special_package_charges",
+      "resourceIds": [
+        "special_package_double_reward_charge",
+        "special_package_reveal_charge"
+      ]
+    },
+    {
+      "id": "convertable_to_witch_points",
+      "resourceIds": [
+        "marble",
+        "steel",
+        "planks",
+        "crystal",
+        "scrolls",
+        "silk",
+        "elixir",
+        "magic_dust",
+        "gems",
+        "money",
+        "supplies",
+        "orcs",
+        "mana",
+        "seeds",
+        "unurium"
+      ]
+    },
+    {
+      "id": "resource_receive_tracking",
+      "resourceIds": [
+        "blueprint",
+        "crafting_slots_refresh",
+        "volatile_sigils",
+        "radiant_stones",
+        "spire_diplomacy_joker",
+        "guardian_essence"
+      ]
+    },
+    {
+      "id": "resource_spend_tracking",
+      "resourceIds": [
+        "spire_diplomacy_joker",
+        "guardian_essence"
+      ]
+    }
+  ]
+}

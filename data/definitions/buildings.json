@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "status": "OFFEN",
+  "approved_as_elvenland_balance": false,
+  "missing_values_policy": "Unbekannte Werte sind null oder nicht vorhanden. Kein impliziter Nullpreis, keine erfundenen Abhängigkeiten.",
+  "definitions": []
+}

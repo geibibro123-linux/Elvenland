@@ -1,0 +1,1113 @@
+{
+  "format_version": 2,
+  "read_first": [
+    "START_HERE.md",
+    "STATUS.json",
+    "MASTER_PROMPT.md",
+    "data/reference/README_HISTORICAL_DATA.md"
+  ],
+  "data_files": [
+    "data/definitions/buildings.json",
+    "data/definitions/production_recipes.json",
+    "data/definitions/research_nodes.json",
+    "data/definitions/units.json",
+    "data/localization/de_de_key_values.json",
+    "data/localization/de_en_topic_index.json",
+    "data/localization/en_dk_key_values.json",
+    "data/reference/city_asset_links.json",
+    "data/reference/city_visual_catalog.json",
+    "data/reference/evidence_and_coverage.json",
+    "data/reference/historical_army_reference.json",
+    "data/reference/historical_feature_technology_links.json",
+    "data/reference/historical_initial_state_minimal.json",
+    "data/reference/historical_item_unlock_observations.json",
+    "data/reference/historical_knowledge_point_packages.json",
+    "data/reference/historical_premium_coefficients.json",
+    "data/reference/historical_production_boost_steps.json",
+    "data/reference/historical_resource_sets.json",
+    "data/reference/monobehaviour_scope.json",
+    "data/reference/privacy_and_transformations.json",
+    "data/reference/research_tree_status.json"
+  ],
+  "asset_chunks": [
+    {
+      "path": "indexes/AnimationClip_000.json",
+      "type": "AnimationClip",
+      "offset": 0,
+      "count": 82
+    },
+    {
+      "path": "indexes/Animator_000.json",
+      "type": "Animator",
+      "offset": 0,
+      "count": 57
+    },
+    {
+      "path": "indexes/AnimatorController_000.json",
+      "type": "AnimatorController",
+      "offset": 0,
+      "count": 57
+    },
+    {
+      "path": "indexes/GameObject_000.json",
+      "type": "GameObject",
+      "offset": 0,
+      "count": 100
+    },
+    {
+      "path": "indexes/GameObject_001.json",
+      "type": "GameObject",
+      "offset": 100,
+      "count": 100
+    },
+    {
+      "path": "indexes/GameObject_002.json",
+      "type": "GameObject",
+      "offset": 200,
+      "count": 100
+    },
+    {
+      "path": "indexes/GameObject_003.json",
+      "type": "GameObject",
+      "offset": 300,
+      "count": 100
+    },
+    {
+      "path": "indexes/GameObject_004.json",
+      "type": "GameObject",
+      "offset": 400,
+      "count": 100
+    },
+    {
+      "path": "indexes/GameObject_005.json",
+      "type": "GameObject",
+      "offset": 500,
+      "count": 100
+    },
+    {
+      "path": "indexes/GameObject_006.json",
+      "type": "GameObject",
+      "offset": 600,
+      "count": 100
+    },
+    {
+      "path": "indexes/GameObject_007.json",
+      "type": "GameObject",
+      "offset": 700,
+      "count": 100
+    },
+    {
+      "path": "indexes/GameObject_008.json",
+      "type": "GameObject",
+      "offset": 800,
+      "count": 75
+    },
+    {
+      "path": "indexes/MonoBehaviour_000.json",
+      "type": "MonoBehaviour",
+      "offset": 0,
+      "count": 100
+    },
+    {
+      "path": "indexes/MonoBehaviour_001.json",
+      "type": "MonoBehaviour",
+      "offset": 100,
+      "count": 100
+    },
+    {
+      "path": "indexes/MonoBehaviour_002.json",
+      "type": "MonoBehaviour",
+      "offset": 200,
+      "count": 100
+    },
+    {
+      "path": "indexes/MonoBehaviour_003.json",
+      "type": "MonoBehaviour",
+      "offset": 300,
+      "count": 100
+    },
+    {
+      "path": "indexes/MonoBehaviour_004.json",
+      "type": "MonoBehaviour",
+      "offset": 400,
+      "count": 100
+    },
+    {
+      "path": "indexes/MonoBehaviour_005.json",
+      "type": "MonoBehaviour",
+      "offset": 500,
+      "count": 100
+    },
+    {
+      "path": "indexes/MonoBehaviour_006.json",
+      "type": "MonoBehaviour",
+      "offset": 600,
+      "count": 26
+    },
+    {
+      "path": "indexes/Sprite_000.json",
+      "type": "Sprite",
+      "offset": 0,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_001.json",
+      "type": "Sprite",
+      "offset": 100,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_002.json",
+      "type": "Sprite",
+      "offset": 200,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_003.json",
+      "type": "Sprite",
+      "offset": 300,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_004.json",
+      "type": "Sprite",
+      "offset": 400,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_005.json",
+      "type": "Sprite",
+      "offset": 500,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_006.json",
+      "type": "Sprite",
+      "offset": 600,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_007.json",
+      "type": "Sprite",
+      "offset": 700,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_008.json",
+      "type": "Sprite",
+      "offset": 800,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_009.json",
+      "type": "Sprite",
+      "offset": 900,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_010.json",
+      "type": "Sprite",
+      "offset": 1000,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_011.json",
+      "type": "Sprite",
+      "offset": 1100,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_012.json",
+      "type": "Sprite",
+      "offset": 1200,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_013.json",
+      "type": "Sprite",
+      "offset": 1300,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_014.json",
+      "type": "Sprite",
+      "offset": 1400,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_015.json",
+      "type": "Sprite",
+      "offset": 1500,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_016.json",
+      "type": "Sprite",
+      "offset": 1600,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_017.json",
+      "type": "Sprite",
+      "offset": 1700,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_018.json",
+      "type": "Sprite",
+      "offset": 1800,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_019.json",
+      "type": "Sprite",
+      "offset": 1900,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_020.json",
+      "type": "Sprite",
+      "offset": 2000,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_021.json",
+      "type": "Sprite",
+      "offset": 2100,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_022.json",
+      "type": "Sprite",
+      "offset": 2200,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_023.json",
+      "type": "Sprite",
+      "offset": 2300,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_024.json",
+      "type": "Sprite",
+      "offset": 2400,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_025.json",
+      "type": "Sprite",
+      "offset": 2500,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_026.json",
+      "type": "Sprite",
+      "offset": 2600,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_027.json",
+      "type": "Sprite",
+      "offset": 2700,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_028.json",
+      "type": "Sprite",
+      "offset": 2800,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_029.json",
+      "type": "Sprite",
+      "offset": 2900,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_030.json",
+      "type": "Sprite",
+      "offset": 3000,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_031.json",
+      "type": "Sprite",
+      "offset": 3100,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_032.json",
+      "type": "Sprite",
+      "offset": 3200,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_033.json",
+      "type": "Sprite",
+      "offset": 3300,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_034.json",
+      "type": "Sprite",
+      "offset": 3400,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_035.json",
+      "type": "Sprite",
+      "offset": 3500,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_036.json",
+      "type": "Sprite",
+      "offset": 3600,
+      "count": 100
+    },
+    {
+      "path": "indexes/Sprite_037.json",
+      "type": "Sprite",
+      "offset": 3700,
+      "count": 35
+    },
+    {
+      "path": "indexes/SpriteAtlas_000.json",
+      "type": "SpriteAtlas",
+      "offset": 0,
+      "count": 54
+    },
+    {
+      "path": "indexes/SpriteRenderer_000.json",
+      "type": "SpriteRenderer",
+      "offset": 0,
+      "count": 100
+    },
+    {
+      "path": "indexes/SpriteRenderer_001.json",
+      "type": "SpriteRenderer",
+      "offset": 100,
+      "count": 100
+    },
+    {
+      "path": "indexes/SpriteRenderer_002.json",
+      "type": "SpriteRenderer",
+      "offset": 200,
+      "count": 100
+    },
+    {
+      "path": "indexes/SpriteRenderer_003.json",
+      "type": "SpriteRenderer",
+      "offset": 300,
+      "count": 23
+    },
+    {
+      "path": "indexes/Texture2D_000.json",
+      "type": "Texture2D",
+      "offset": 0,
+      "count": 100
+    },
+    {
+      "path": "indexes/Texture2D_001.json",
+      "type": "Texture2D",
+      "offset": 100,
+      "count": 100
+    },
+    {
+      "path": "indexes/Texture2D_002.json",
+      "type": "Texture2D",
+      "offset": 200,
+      "count": 100
+    },
+    {
+      "path": "indexes/Texture2D_003.json",
+      "type": "Texture2D",
+      "offset": 300,
+      "count": 100
+    },
+    {
+      "path": "indexes/Texture2D_004.json",
+      "type": "Texture2D",
+      "offset": 400,
+      "count": 100
+    },
+    {
+      "path": "indexes/Texture2D_005.json",
+      "type": "Texture2D",
+      "offset": 500,
+      "count": 100
+    },
+    {
+      "path": "indexes/Texture2D_006.json",
+      "type": "Texture2D",
+      "offset": 600,
+      "count": 100
+    },
+    {
+      "path": "indexes/Texture2D_007.json",
+      "type": "Texture2D",
+      "offset": 700,
+      "count": 100
+    },
+    {
+      "path": "indexes/Texture2D_008.json",
+      "type": "Texture2D",
+      "offset": 800,
+      "count": 100
+    },
+    {
+      "path": "indexes/Texture2D_009.json",
+      "type": "Texture2D",
+      "offset": 900,
+      "count": 100
+    },
+    {
+      "path": "indexes/Texture2D_010.json",
+      "type": "Texture2D",
+      "offset": 1000,
+      "count": 100
+    },
+    {
+      "path": "indexes/Texture2D_011.json",
+      "type": "Texture2D",
+      "offset": 1100,
+      "count": 100
+    },
+    {
+      "path": "indexes/Texture2D_012.json",
+      "type": "Texture2D",
+      "offset": 1200,
+      "count": 100
+    },
+    {
+      "path": "indexes/Texture2D_013.json",
+      "type": "Texture2D",
+      "offset": 1300,
+      "count": 100
+    },
+    {
+      "path": "indexes/Texture2D_014.json",
+      "type": "Texture2D",
+      "offset": 1400,
+      "count": 100
+    },
+    {
+      "path": "indexes/Texture2D_015.json",
+      "type": "Texture2D",
+      "offset": 1500,
+      "count": 95
+    },
+    {
+      "path": "indexes/Transform_000.json",
+      "type": "Transform",
+      "offset": 0,
+      "count": 100
+    },
+    {
+      "path": "indexes/Transform_001.json",
+      "type": "Transform",
+      "offset": 100,
+      "count": 100
+    },
+    {
+      "path": "indexes/Transform_002.json",
+      "type": "Transform",
+      "offset": 200,
+      "count": 100
+    },
+    {
+      "path": "indexes/Transform_003.json",
+      "type": "Transform",
+      "offset": 300,
+      "count": 100
+    },
+    {
+      "path": "indexes/Transform_004.json",
+      "type": "Transform",
+      "offset": 400,
+      "count": 100
+    },
+    {
+      "path": "indexes/Transform_005.json",
+      "type": "Transform",
+      "offset": 500,
+      "count": 100
+    },
+    {
+      "path": "indexes/Transform_006.json",
+      "type": "Transform",
+      "offset": 600,
+      "count": 100
+    },
+    {
+      "path": "indexes/Transform_007.json",
+      "type": "Transform",
+      "offset": 700,
+      "count": 100
+    },
+    {
+      "path": "indexes/Transform_008.json",
+      "type": "Transform",
+      "offset": 800,
+      "count": 67
+    },
+    {
+      "path": "indexes/unity_data_AnimationClip_000.json",
+      "collection": "unity_data",
+      "type": "AnimationClip",
+      "offset": 0,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_AnimationClip_001.json",
+      "collection": "unity_data",
+      "type": "AnimationClip",
+      "offset": 100,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_AnimationClip_002.json",
+      "collection": "unity_data",
+      "type": "AnimationClip",
+      "offset": 200,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_AnimationClip_003.json",
+      "collection": "unity_data",
+      "type": "AnimationClip",
+      "offset": 300,
+      "count": 45
+    },
+    {
+      "path": "indexes/unity_data_AnimatorController_000.json",
+      "collection": "unity_data",
+      "type": "AnimatorController",
+      "offset": 0,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_AnimatorController_001.json",
+      "collection": "unity_data",
+      "type": "AnimatorController",
+      "offset": 100,
+      "count": 16
+    },
+    {
+      "path": "indexes/unity_data_AnimatorOverrideController_000.json",
+      "collection": "unity_data",
+      "type": "AnimatorOverrideController",
+      "offset": 0,
+      "count": 3
+    },
+    {
+      "path": "indexes/unity_data_AudioClip_000.json",
+      "collection": "unity_data",
+      "type": "AudioClip",
+      "offset": 0,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_AudioClip_001.json",
+      "collection": "unity_data",
+      "type": "AudioClip",
+      "offset": 100,
+      "count": 96
+    },
+    {
+      "path": "indexes/unity_data_Font_000.json",
+      "collection": "unity_data",
+      "type": "Font",
+      "offset": 0,
+      "count": 6
+    },
+    {
+      "path": "indexes/unity_data_Sprite_000.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 0,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Sprite_001.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 100,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Sprite_002.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 200,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Sprite_003.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 300,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Sprite_004.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 400,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Sprite_005.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 500,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Sprite_006.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 600,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Sprite_007.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 700,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Sprite_008.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 800,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Sprite_009.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 900,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Sprite_010.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 1000,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Sprite_011.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 1100,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Sprite_012.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 1200,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Sprite_013.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 1300,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Sprite_014.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 1400,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Sprite_015.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 1500,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Sprite_016.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 1600,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Sprite_017.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 1700,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Sprite_018.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 1800,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Sprite_019.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 1900,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Sprite_020.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 2000,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Sprite_021.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 2100,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Sprite_022.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 2200,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Sprite_023.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 2300,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Sprite_024.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 2400,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Sprite_025.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 2500,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Sprite_026.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 2600,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Sprite_027.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 2700,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Sprite_028.json",
+      "collection": "unity_data",
+      "type": "Sprite",
+      "offset": 2800,
+      "count": 59
+    },
+    {
+      "path": "indexes/unity_data_SpriteAtlas_000.json",
+      "collection": "unity_data",
+      "type": "SpriteAtlas",
+      "offset": 0,
+      "count": 35
+    },
+    {
+      "path": "indexes/unity_data_StructuralMetadata_000.json",
+      "collection": "unity_data",
+      "type": "StructuralMetadata",
+      "offset": 0,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_StructuralMetadata_001.json",
+      "collection": "unity_data",
+      "type": "StructuralMetadata",
+      "offset": 100,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_StructuralMetadata_002.json",
+      "collection": "unity_data",
+      "type": "StructuralMetadata",
+      "offset": 200,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_StructuralMetadata_003.json",
+      "collection": "unity_data",
+      "type": "StructuralMetadata",
+      "offset": 300,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_StructuralMetadata_004.json",
+      "collection": "unity_data",
+      "type": "StructuralMetadata",
+      "offset": 400,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_StructuralMetadata_005.json",
+      "collection": "unity_data",
+      "type": "StructuralMetadata",
+      "offset": 500,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_StructuralMetadata_006.json",
+      "collection": "unity_data",
+      "type": "StructuralMetadata",
+      "offset": 600,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_StructuralMetadata_007.json",
+      "collection": "unity_data",
+      "type": "StructuralMetadata",
+      "offset": 700,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_StructuralMetadata_008.json",
+      "collection": "unity_data",
+      "type": "StructuralMetadata",
+      "offset": 800,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_StructuralMetadata_009.json",
+      "collection": "unity_data",
+      "type": "StructuralMetadata",
+      "offset": 900,
+      "count": 63
+    },
+    {
+      "path": "indexes/unity_data_TextAsset_000.json",
+      "collection": "unity_data",
+      "type": "TextAsset",
+      "offset": 0,
+      "count": 44
+    },
+    {
+      "path": "indexes/unity_data_Texture2D_000.json",
+      "collection": "unity_data",
+      "type": "Texture2D",
+      "offset": 0,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Texture2D_001.json",
+      "collection": "unity_data",
+      "type": "Texture2D",
+      "offset": 100,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Texture2D_002.json",
+      "collection": "unity_data",
+      "type": "Texture2D",
+      "offset": 200,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Texture2D_003.json",
+      "collection": "unity_data",
+      "type": "Texture2D",
+      "offset": 300,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Texture2D_004.json",
+      "collection": "unity_data",
+      "type": "Texture2D",
+      "offset": 400,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Texture2D_005.json",
+      "collection": "unity_data",
+      "type": "Texture2D",
+      "offset": 500,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Texture2D_006.json",
+      "collection": "unity_data",
+      "type": "Texture2D",
+      "offset": 600,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Texture2D_007.json",
+      "collection": "unity_data",
+      "type": "Texture2D",
+      "offset": 700,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Texture2D_008.json",
+      "collection": "unity_data",
+      "type": "Texture2D",
+      "offset": 800,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Texture2D_009.json",
+      "collection": "unity_data",
+      "type": "Texture2D",
+      "offset": 900,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Texture2D_010.json",
+      "collection": "unity_data",
+      "type": "Texture2D",
+      "offset": 1000,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Texture2D_011.json",
+      "collection": "unity_data",
+      "type": "Texture2D",
+      "offset": 1100,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Texture2D_012.json",
+      "collection": "unity_data",
+      "type": "Texture2D",
+      "offset": 1200,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Texture2D_013.json",
+      "collection": "unity_data",
+      "type": "Texture2D",
+      "offset": 1300,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Texture2D_014.json",
+      "collection": "unity_data",
+      "type": "Texture2D",
+      "offset": 1400,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Texture2D_015.json",
+      "collection": "unity_data",
+      "type": "Texture2D",
+      "offset": 1500,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Texture2D_016.json",
+      "collection": "unity_data",
+      "type": "Texture2D",
+      "offset": 1600,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Texture2D_017.json",
+      "collection": "unity_data",
+      "type": "Texture2D",
+      "offset": 1700,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Texture2D_018.json",
+      "collection": "unity_data",
+      "type": "Texture2D",
+      "offset": 1800,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Texture2D_019.json",
+      "collection": "unity_data",
+      "type": "Texture2D",
+      "offset": 1900,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Texture2D_020.json",
+      "collection": "unity_data",
+      "type": "Texture2D",
+      "offset": 2000,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Texture2D_021.json",
+      "collection": "unity_data",
+      "type": "Texture2D",
+      "offset": 2100,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Texture2D_022.json",
+      "collection": "unity_data",
+      "type": "Texture2D",
+      "offset": 2200,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Texture2D_023.json",
+      "collection": "unity_data",
+      "type": "Texture2D",
+      "offset": 2300,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Texture2D_024.json",
+      "collection": "unity_data",
+      "type": "Texture2D",
+      "offset": 2400,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Texture2D_025.json",
+      "collection": "unity_data",
+      "type": "Texture2D",
+      "offset": 2500,
+      "count": 100
+    },
+    {
+      "path": "indexes/unity_data_Texture2D_026.json",
+      "collection": "unity_data",
+      "type": "Texture2D",
+      "offset": 2600,
+      "count": 11
+    }
+  ],
+  "collections": {
+    "unity_bundles": "assets/visuals/bundles_index.csv",
+    "unity_data": "assets/unity_data/data_index.csv",
+    "localization": "catalogs/localization_index.json",
+    "android_ui_references": "catalogs/android_reference_index.json"
+  },
+  "full_manifest": "MANIFEST.jsonl",
+  "source_allowlist": "provenance/source_media_files.json",
+  "additional_source_allowlist": "provenance/additional_static_media_files.json",
+  "audio_inventory": "catalogs/audio_asset_links.json",
+  "historical_audio_inventory": "catalogs/audio_inventory_196.json"
+}

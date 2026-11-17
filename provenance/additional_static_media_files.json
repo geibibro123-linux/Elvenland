@@ -1,0 +1,152 @@
+{
+  "scope": "Additional verified localization source bundles; Android PNG mapping in separate catalog",
+  "files": [
+    {
+      "apk_path": "assets/localization/cs_cz_70d7dff0e98863c1d6ee35afdbd311ab",
+      "bytes": 72870,
+      "sha256": "ef2661ac799b12214af5f02425a74e6371c15ffddacad0445fc240448682c158",
+      "original_package": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+      "kind": "localization"
+    },
+    {
+      "apk_path": "assets/localization/da_dk_3686dab0da6419984e983bede9929da9",
+      "bytes": 69839,
+      "sha256": "86c0326e9e098c320d8a82dd324592b99c459bc387614b35e44784266d6987c3",
+      "original_package": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+      "kind": "localization"
+    },
+    {
+      "apk_path": "assets/localization/de_de_d55f84822c0425f579327436b6073880",
+      "bytes": 72588,
+      "sha256": "5fb4f7a2f415bbbfa30edcde0fba286c042fad7918d2c683e28eeeaaed91eb7b",
+      "original_package": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+      "kind": "localization"
+    },
+    {
+      "apk_path": "assets/localization/el_gr_be291c1f6572c08a275feccafbfe1a9a",
+      "bytes": 78727,
+      "sha256": "6b2d8b9f06596e99b41825e619bf696387962039b9a7b0a341a3da744d47e1f7",
+      "original_package": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+      "kind": "localization"
+    },
+    {
+      "apk_path": "assets/localization/en_dk_d6e6b7c7b5f721db1ecc9245a0cee47f",
+      "bytes": 47701,
+      "sha256": "60f40883935771ff50e083d32d5085237a3030d6883c1597711a6a4bfa29acca",
+      "original_package": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+      "kind": "localization"
+    },
+    {
+      "apk_path": "assets/localization/es_es_8414ca327f2bf637cd09c642564c3c70",
+      "bytes": 71235,
+      "sha256": "b5d4635760209d1a3cd65ce77a8cc859267c4fcbb1a9705655d9dcbe1c26c277",
+      "original_package": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+      "kind": "localization"
+    },
+    {
+      "apk_path": "assets/localization/fi_fi_cac80e59ede0150c1cb46d4ee9f03afb",
+      "bytes": 70588,
+      "sha256": "5e67b8173f6daabb7de4afbae9c32bb3d5e5a923d73f6efafd3d59dde7275721",
+      "original_package": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+      "kind": "localization"
+    },
+    {
+      "apk_path": "assets/localization/fr_fr_937a162fbe8e7438e96e5b1aa9990b34",
+      "bytes": 72192,
+      "sha256": "f53a31b93f8760a1afc717405fa99bcb2e8b6e4dab774dab2d77d4713c7113a0",
+      "original_package": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+      "kind": "localization"
+    },
+    {
+      "apk_path": "assets/localization/hu_hu_653f9fc680f747d5fd3369787dc5566c",
+      "bytes": 73516,
+      "sha256": "35da41f1a046ddc595736e3560cd19cb60962a0f3d253eab38b6537c451462d4",
+      "original_package": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+      "kind": "localization"
+    },
+    {
+      "apk_path": "assets/localization/it_it_3713fcb293557a15ac439c1a49fd45e9",
+      "bytes": 70091,
+      "sha256": "8be334411f810be5c1bfced5d7e89bc8616300835aae4828cf5d2aa256f0f086",
+      "original_package": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+      "kind": "localization"
+    },
+    {
+      "apk_path": "assets/localization/loca_manifest_v7.json",
+      "bytes": 3037,
+      "sha256": "d076e92a8abeefc40f25c1ec167ee34faa60f2c78ba6ba64416e8061a412cf00",
+      "original_package": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+      "kind": "localization"
+    },
+    {
+      "apk_path": "assets/localization/nb_no_090b30075e85e2361dfd778d79472761",
+      "bytes": 69259,
+      "sha256": "2dafd7ee5db8a30de218e8e64fbf713b1f549b39e58cf070bbd41b91413e9635",
+      "original_package": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+      "kind": "localization"
+    },
+    {
+      "apk_path": "assets/localization/nl_nl_22bc297bcffd9a70063fcdbcab073a01",
+      "bytes": 70415,
+      "sha256": "71c005d202b5a5863dd726a6b62e22280ace57d107a23d6949041b32ceba9a57",
+      "original_package": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+      "kind": "localization"
+    },
+    {
+      "apk_path": "assets/localization/pl_pl_5bc5cbe118adda3cc5b64faec5fbcebf",
+      "bytes": 72277,
+      "sha256": "53ff7a74f45f0a15e588e3cc7f18b47f147c79e2bf0c524b588ec2aeb4e3d67b",
+      "original_package": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+      "kind": "localization"
+    },
+    {
+      "apk_path": "assets/localization/pt_br_10174fd6a487c4c0afa1378fcd76a70b",
+      "bytes": 71270,
+      "sha256": "2560984910e107337f84ff68104cdddb09b6253eb0be2a345a6c6834122f3469",
+      "original_package": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+      "kind": "localization"
+    },
+    {
+      "apk_path": "assets/localization/pt_pt_8f317d6f16ca9054e2256e0b3dc847fe",
+      "bytes": 70776,
+      "sha256": "a339f7b628320fe2ef3370147c23e5248ee9cf1f88066c66193f650a1f3f6c1b",
+      "original_package": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+      "kind": "localization"
+    },
+    {
+      "apk_path": "assets/localization/ro_ro_c549cf07e1492dfcfb6bbc97c868ad96",
+      "bytes": 71674,
+      "sha256": "166c54f35702ed864dd8aed761b77cb60d15d36ad89957d47bf2b5efbcd9d542",
+      "original_package": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+      "kind": "localization"
+    },
+    {
+      "apk_path": "assets/localization/ru_ru_4e59fd2cb13a1e39cfa1d7c19d738a73",
+      "bytes": 75608,
+      "sha256": "896d95752760896ca4867e118f4de21e01f7c10839ca606ad2d00f342f12dec2",
+      "original_package": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+      "kind": "localization"
+    },
+    {
+      "apk_path": "assets/localization/sk_sk_5b547f2bb25c5a99ad487f248b203164",
+      "bytes": 73391,
+      "sha256": "18ba0abd42c9d1e196b91676b71d289b4fb2a0fed87334dd24f001f1db158641",
+      "original_package": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+      "kind": "localization"
+    },
+    {
+      "apk_path": "assets/localization/sv_se_39f27d6ee82930c5882f8eaa3677d6ca",
+      "bytes": 69442,
+      "sha256": "e9ca59cb30f487992fed295d59cf58e7febfd4dfd4150b5d0f1d74f100a0241a",
+      "original_package": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+      "kind": "localization"
+    },
+    {
+      "apk_path": "assets/localization/tr_tr_aa4f1a1d690030647cfd5e4538f43c1b",
+      "bytes": 70780,
+      "sha256": "395a87e387fe28556e6d72c705ec0c8b2523c4b16a3321c980f608cf6f572085",
+      "original_package": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+      "kind": "localization"
+    }
+  ]
+}

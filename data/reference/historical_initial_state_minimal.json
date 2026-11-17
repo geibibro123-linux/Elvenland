@@ -1,0 +1,95 @@
+{
+  "_meta": {
+    "evidence_status": "HISTORICAL_EMBEDDED_REFERENCE",
+    "current_server_values_verified": false,
+    "approved_elvenland_balance": false,
+    "source_archive": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+    "source_entry": "assets/offline_lab/reference_start_v4_v5.json",
+    "source_entry_sha256": "3c4a3ef6a6bb3da5ff6da32480d6cea05052b908479b6e814b49faab952ec4cb",
+    "extracted_on": "2026-11-17",
+    "missing_fields_policy": "Preserve absence. Do not convert absence to false, zero, empty cost, or success.",
+    "purpose": "Minimal reference only. Not a complete or runnable savegame.",
+    "instance_ids_removed": true,
+    "new_instance_ids_must_be_generated_locally": true
+  },
+  "data": {
+    "mapSize": {
+      "width": 80,
+      "height": 80
+    },
+    "resources": {
+      "resources": {
+        "eb_lm": 300,
+        "eb_lr": 300,
+        "eb_hm": 50,
+        "money": 12000,
+        "supplies": 1200,
+        "premium": 200
+      },
+      "strategy_points": {
+        "baseSP": 10,
+        "maxSP": 10,
+        "currentSP": 10,
+        "nextSpIn": -1,
+        "producingTime": 3600
+      }
+    },
+    "resources_cap": {
+      "resources": {
+        "money": 50000,
+        "supplies": 5000,
+        "broken_shards": 10,
+        "special_package_reveal_charge": 10,
+        "special_package_double_reward_charge": 15,
+        "episodic_reward_reroll_charge": 5,
+        "tile_event_reveal_charge": 50,
+        "shattered_orbs": 10
+      }
+    },
+    "city_culture": {
+      "neededForNextLevel": 40,
+      "currentProductionModifier": 1,
+      "cultureBonusLevels": [
+        100,
+        125,
+        150,
+        160,
+        170
+      ],
+      "requiredCultureBonusLevels": [
+        0,
+        40,
+        80,
+        120,
+        160
+      ]
+    },
+    "city_map": {
+      "unlocked_areas": [
+        {
+          "x": 15,
+          "width": 10,
+          "length": 15
+        }
+      ],
+      "entities": [
+        {
+          "cityentity_id": "H_Elves_Townhall_1",
+          "level": 1,
+          "state": {},
+          "type": "main_building",
+          "x": 15,
+          "connected": true
+        },
+        {
+          "cityentity_id": "Z_Elves_WorkerHut_1",
+          "level": 1,
+          "state": {},
+          "type": "worker_hut",
+          "x": 21,
+          "connected": true
+        }
+      ]
+    }
+  }
+}

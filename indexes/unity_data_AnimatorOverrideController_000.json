@@ -1,0 +1,62 @@
+{
+  "collection": "unity_data",
+  "type": "AnimatorOverrideController",
+  "offset": 0,
+  "total": 3,
+  "items": [
+    {
+      "source": "sharedassets30.assets",
+      "source_sha256": "0a6a7614b8ead2d4367871386208457e5a5c9746f780046c5d1d9b135f7734f6",
+      "source_content_sha256": "",
+      "serialized_file": "sharedassets30.assets",
+      "unity_version": "6000.0.78f1",
+      "type": "AnimatorOverrideController",
+      "object_id": "79",
+      "name": "FinalGate1Animation",
+      "status": "metadata_exported",
+      "output_path": "",
+      "metadata_path": "assets/unity_data/metadata/AnimatorOverrideController/sharedassets30.assets_0a6a7614/FinalGate1Animation__79.json",
+      "width": "",
+      "height": "",
+      "bytes": "",
+      "sha256": "",
+      "error": ""
+    },
+    {
+      "source": "sharedassets30.assets",
+      "source_sha256": "0a6a7614b8ead2d4367871386208457e5a5c9746f780046c5d1d9b135f7734f6",
+      "source_content_sha256": "",
+      "serialized_file": "sharedassets30.assets",
+      "unity_version": "6000.0.78f1",
+      "type": "AnimatorOverrideController",
+      "object_id": "80",
+      "name": "FinalGate2Animation",
+      "status": "metadata_exported",
+      "output_path": "",
+      "metadata_path": "assets/unity_data/metadata/AnimatorOverrideController/sharedassets30.assets_0a6a7614/FinalGate2Animation__80.json",
+      "width": "",
+      "height": "",
+      "bytes": "",
+      "sha256": "",
+      "error": ""
+    },
+    {
+      "source": "sharedassets30.assets",
+      "source_sha256": "0a6a7614b8ead2d4367871386208457e5a5c9746f780046c5d1d9b135f7734f6",
+      "source_content_sha256": "",
+      "serialized_file": "sharedassets30.assets",
+      "unity_version": "6000.0.78f1",
+      "type": "AnimatorOverrideController",
+      "object_id": "81",
+      "name": "StandardGateAnimation",
+      "status": "metadata_exported",
+      "output_path": "",
+      "metadata_path": "assets/unity_data/metadata/AnimatorOverrideController/sharedassets30.assets_0a6a7614/StandardGateAnimation__81.json",
+      "width": "",
+      "height": "",
+      "bytes": "",
+      "sha256": "",
+      "error": ""
+    }
+  ]
+}

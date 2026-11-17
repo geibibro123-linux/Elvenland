@@ -1,0 +1,60 @@
+name: Build verified Elvenland resource package
+
+on:
+  workflow_dispatch:
+    inputs:
+      apk_url:
+        description: 'Public HTTPS download URL of an already verified source APK'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: elvenland-package-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  package:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - name: Check out source
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.12'
+      - name: Install media decoders
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg libogg0 libvorbis0a
+          python -m pip install -r requirements-extraction.txt
+      - name: Download user-selected source
+        env:
+          SOURCE_APK_URL: ${{ inputs.apk_url }}
+        run: |
+          curl --fail --show-error --location --proto '=https' --proto-redir '=https' "$SOURCE_APK_URL" --output source.apk
+      - name: Rebuild and verify resources
+        run: |
+          python tools/build_package.py --apk source.apk --package-dir "$RUNNER_TEMP/elvenland-build/elvenland" --zip "$RUNNER_TEMP/elvenland-dist/Elvenland_Offline_Neubaupaket_v1.zip" --workers 2
+          python tools/create_starter.py --package-dir "$RUNNER_TEMP/elvenland-build/elvenland" --zip "$RUNNER_TEMP/elvenland-dist/Elvenland_KI_Startpaket_v1.zip"
+      - name: Publish resource release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          tag="elvenland-resources-${GITHUB_RUN_NUMBER}-${GITHUB_RUN_ATTEMPT}"
+          gh release create "$tag" \
+            "$RUNNER_TEMP/elvenland-dist/Elvenland_Offline_Neubaupaket_v1.zip" \
+            "$RUNNER_TEMP/elvenland-dist/Elvenland_Offline_Neubaupaket_v1.sha256" \
+            "$RUNNER_TEMP/elvenland-dist/Elvenland_Offline_Neubaupaket_v1.verification.json" \
+            "$RUNNER_TEMP/elvenland-dist/Elvenland_KI_Startpaket_v1.zip" \
+            "$RUNNER_TEMP/elvenland-dist/MASTER_PROMPT.txt" \
+            --target "$GITHUB_SHA" \
+            --title 'Elvenland: verified offline rebuild resources' \
+            --notes-file docs/RELEASE_NOTES.md \
+            --prerelease

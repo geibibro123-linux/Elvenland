@@ -1,0 +1,100 @@
+[
+  {
+    "path": "AGENTS.md",
+    "git_blob_sha": "08dfd6bfb938c3ca7770b2ed41c71fa3119cde15",
+    "url": "https://github.com/geibibro123-linux/Farm-elvenar-/blob/main/AGENTS.md",
+    "scope": "historical-private-repository-reference",
+    "used_as_authoritative_game_values": false
+  },
+  {
+    "path": "implementation/offline_core.js",
+    "git_blob_sha": "e084bfda7e5f318878341e25b1662c320f01fd00",
+    "url": "https://github.com/geibibro123-linux/Farm-elvenar-/blob/main/implementation/offline_core.js",
+    "scope": "historical-private-repository-reference",
+    "used_as_authoritative_game_values": false
+  },
+  {
+    "path": "implementation/dual_slot_store.js",
+    "git_blob_sha": "7ba5afd0125deb70195e0f97e788165c2646563f",
+    "url": "https://github.com/geibibro123-linux/Farm-elvenar-/blob/main/implementation/dual_slot_store.js",
+    "scope": "historical-private-repository-reference",
+    "used_as_authoritative_game_values": false
+  },
+  {
+    "path": "implementation/local_session_coordinator.js",
+    "git_blob_sha": "49f57ead464ab7371be6615bccd6064334a6a6ac",
+    "url": "https://github.com/geibibro123-linux/Farm-elvenar-/blob/main/implementation/local_session_coordinator.js",
+    "scope": "historical-private-repository-reference",
+    "used_as_authoritative_game_values": false
+  },
+  {
+    "path": "implementation/verified_reply_engine.js",
+    "git_blob_sha": "1bbf0c11a395583aada8948c7b0d0d9015707383",
+    "url": "https://github.com/geibibro123-linux/Farm-elvenar-/blob/main/implementation/verified_reply_engine.js",
+    "scope": "historical-private-repository-reference",
+    "used_as_authoritative_game_values": false
+  },
+  {
+    "path": "implementation/network_guard.js",
+    "git_blob_sha": "221d877be498a76c9f4d9fde88acb46c401f1f42",
+    "url": "https://github.com/geibibro123-linux/Farm-elvenar-/blob/main/implementation/network_guard.js",
+    "scope": "historical-private-repository-reference",
+    "used_as_authoritative_game_values": false
+  },
+  {
+    "path": "implementation/frida_file_store_adapter.js",
+    "git_blob_sha": "699a153342a405314844bf20f9bde5f760187326",
+    "url": "https://github.com/geibibro123-linux/Farm-elvenar-/blob/main/implementation/frida_file_store_adapter.js",
+    "scope": "historical-private-repository-reference",
+    "used_as_authoritative_game_values": false
+  },
+  {
+    "path": "tests/fixtures/startup_shape_26.json",
+    "git_blob_sha": "f0179ab165be0fabcbedee0e3de84a0bf1d44946",
+    "url": "https://github.com/geibibro123-linux/Farm-elvenar-/blob/main/tests/fixtures/startup_shape_26.json",
+    "scope": "historical-private-repository-reference",
+    "used_as_authoritative_game_values": false
+  },
+  {
+    "path": "docs/PROJECT_STATUS.md",
+    "git_blob_sha": "bc9cc8d9941419d63e244ee8c1562935a8be6016",
+    "url": "https://github.com/geibibro123-linux/Farm-elvenar-/blob/main/docs/PROJECT_STATUS.md",
+    "scope": "historical-private-repository-reference",
+    "used_as_authoritative_game_values": false
+  },
+  {
+    "path": "docs/ROADMAP_OFFLINE_MVP_2026-11-15.md",
+    "git_blob_sha": "5edfe5cca1f47730359d70181cb445bfa93f5cd1",
+    "url": "https://github.com/geibibro123-linux/Farm-elvenar-/blob/main/docs/ROADMAP_OFFLINE_MVP_2026-11-15.md",
+    "scope": "historical-private-repository-reference",
+    "used_as_authoritative_game_values": false
+  },
+  {
+    "path": "docs/ARCHITEKTUR_ENTSCHEIDUNG_LOCAL_BRIDGE.md",
+    "git_blob_sha": "03585430d04af6ba58f6b58bd14235f50ff6ccb8",
+    "url": "https://github.com/geibibro123-linux/Farm-elvenar-/blob/main/docs/ARCHITEKTUR_ENTSCHEIDUNG_LOCAL_BRIDGE.md",
+    "scope": "historical-private-repository-reference",
+    "used_as_authoritative_game_values": false
+  },
+  {
+    "path": "tests/test_host.js",
+    "git_blob_sha": "237559151c6583ee6d637e60a4c60c0d5556eafb",
+    "url": "https://github.com/geibibro123-linux/Farm-elvenar-/blob/main/tests/test_host.js",
+    "scope": "historical-private-repository-reference",
+    "used_as_authoritative_game_values": false
+  },
+  {
+    "path": "tests/test_local_session.js",
+    "git_blob_sha": "ce6c6afd579b0fd8acbe02c2fff4546e363418fc",
+    "url": "https://github.com/geibibro123-linux/Farm-elvenar-/blob/main/tests/test_local_session.js",
+    "scope": "historical-private-repository-reference",
+    "used_as_authoritative_game_values": false
+  },
+  {
+    "path": "tests/test_verified_reply_engine.js",
+    "git_blob_sha": "967bd358692de83b02a7de1af98b9b683099aed5",
+    "url": "https://github.com/geibibro123-linux/Farm-elvenar-/blob/main/tests/test_verified_reply_engine.js",
+    "scope": "historical-private-repository-reference",
+    "used_as_authoritative_game_values": false
+  }
+]

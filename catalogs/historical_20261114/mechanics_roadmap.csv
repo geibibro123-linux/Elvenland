@@ -1,0 +1,13 @@
+﻿system,status,evidence,next_step
+No-internet start / local session,OPEN,No local login proven,"Standalone local profile, no online dependency, test airplane mode"
+Static game config and balance,PARTIAL,Asset names/catalog available; real economic balance may be server-held,"Capture lawful existing configs, classify server-only unknowns"
+Coins and premium currency,PARTIAL,Requirements resource dictionary including premium; tutorial deduction path,Adapt durable local resource operations
+Place buildings,PARTIAL,Tutorial FakeCityMapController.RequestPlaceBuilding exists,"Validate location, costs, transaction, save and restore"
+Production and construction timers,PARTIAL,FakeCityMapController.RequestProductionsStart exists,"Local clock, time-skip safeguards, queue, save"
+Research tree,PARTIAL,FakeTechTreeController present,"Recover real prerequisites, costs, timers and benefits"
+"Troops, barracks, combat",OPEN,"Asset names include barracks and armory, no full mechanics verified",Trace server protocols/IL2CPP methods separately
+Local SQLite save,PROTOTYPE,Separate host snapshot_store prototype passed 11 tests in prior project,"Integrate Android + SAF export/import, device uninstall test"
+Animation playback,PARTIAL,82 native AnimationClip objects found; 53 building asset references animated,Reconstruct clip bindings and playback in game client
+Audio,PARTIAL,194 original FSB5 IMA ADPCM samples converted to WAV,2 Vorbis FSB5 samples not decoded
+Graphics,PARTIAL,1538 Unity Texture2D PNG atlases converted; 53 others not converted,Crop Sprite names/rects and decode PVRTC and Crunch
+APK build and run,OPEN,Old Lab builds were signed but offline play unproven,"Build, sign, verify, Android emulator/device offline test"

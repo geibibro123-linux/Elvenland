@@ -1,0 +1,105 @@
+{
+  "_meta": {
+    "evidence_status": "HISTORICAL_EMBEDDED_REFERENCE",
+    "current_server_values_verified": false,
+    "approved_elvenland_balance": false,
+    "source_archive": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+    "source_entry": "assets/offline_lab/reference_start_v4_v5.json",
+    "source_entry_sha256": "3c4a3ef6a6bb3da5ff6da32480d6cea05052b908479b6e814b49faab952ec4cb",
+    "extracted_on": "2026-11-17",
+    "missing_fields_policy": "Preserve absence. Do not convert absence to false, zero, empty cost, or success.",
+    "source_json_pointer": "/knowledgePointPackages"
+  },
+  "data": [
+    {
+      "id": 1,
+      "cost": {
+        "resources": {
+          "money": 500
+        }
+      },
+      "gain": {
+        "resources": {},
+        "strategy_points": {
+          "currentSP": 1
+        }
+      }
+    },
+    {
+      "id": 2,
+      "cost": {
+        "resources": {
+          "premium": 45
+        }
+      },
+      "gain": {
+        "resources": {},
+        "strategy_points": {
+          "currentSP": 1
+        }
+      }
+    },
+    {
+      "id": 3,
+      "cost": {
+        "resources": {
+          "premium": 45
+        }
+      },
+      "gain": {
+        "resources": {},
+        "strategy_points": {
+          "currentSP": 1
+        }
+      },
+      "gainMax": {
+        "resources": {},
+        "strategy_points": {
+          "currentSP": 10
+        }
+      }
+    },
+    {
+      "id": 4,
+      "cost": {
+        "resources": {
+          "boosted_plus_0_quality_1": 40
+        }
+      },
+      "gain": {
+        "resources": {},
+        "strategy_points": {
+          "currentSP": 1
+        }
+      }
+    },
+    {
+      "id": 5,
+      "cost": {
+        "resources": {
+          "boosted_plus_0_quality_2": 20
+        }
+      },
+      "gain": {
+        "resources": {},
+        "strategy_points": {
+          "currentSP": 1
+        }
+      }
+    },
+    {
+      "id": 6,
+      "cost": {
+        "resources": {
+          "boosted_plus_0_quality_3": 10
+        }
+      },
+      "gain": {
+        "resources": {},
+        "strategy_points": {
+          "currentSP": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "_meta": {
+    "evidence_status": "HISTORICAL_EMBEDDED_REFERENCE",
+    "current_server_values_verified": false,
+    "approved_elvenland_balance": false,
+    "source_archive": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+    "source_entry": "assets/offline_lab/reference_start_v4_v5.json",
+    "source_entry_sha256": "3c4a3ef6a6bb3da5ff6da32480d6cea05052b908479b6e814b49faab952ec4cb",
+    "extracted_on": "2026-11-17",
+    "missing_fields_policy": "Preserve absence. Do not convert absence to false, zero, empty cost, or success.",
+    "source_json_pointer": "/production_boost"
+  },
+  "data": [
+    {
+      "boost": 1
+    },
+    {
+      "boost": 1.4,
+      "relics_needed": 1
+    },
+    {
+      "boost": 1.65,
+      "relics_needed": 3
+    },
+    {
+      "boost": 1.86,
+      "relics_needed": 7
+    },
+    {
+      "boost": 2.06,
+      "relics_needed": 10
+    },
+    {
+      "boost": 2.23,
+      "relics_needed": 15
+    },
+    {
+      "boost": 2.4,
+      "relics_needed": 19
+    },
+    {
+      "boost": 2.56,
+      "relics_needed": 25
+    },
+    {
+      "boost": 2.71,
+      "relics_needed": 30
+    },
+    {
+      "boost": 2.86,
+      "relics_needed": 36
+    },
+    {
+      "boost": 3,
+      "relics_needed": 42
+    },
+    {
+      "boost": 3.14,
+      "relics_needed": 48
+    },
+    {
+      "boost": 3.28,
+      "relics_needed": 54
+    },
+    {
+      "boost": 3.41,
+      "relics_needed": 61
+    },
+    {
+      "boost": 3.54,
+      "relics_needed": 68
+    },
+    {
+      "boost": 3.66,
+      "relics_needed": 75
+    },
+    {
+      "boost": 3.79,
+      "relics_needed": 82
+    },
+    {
+      "boost": 3.91,
+      "relics_needed": 89
+    },
+    {
+      "boost": 4.03,
+      "relics_needed": 97
+    },
+    {
+      "boost": 4.14,
+      "relics_needed": 104
+    },
+    {
+      "boost": 4.26,
+      "relics_needed": 112
+    },
+    {
+      "boost": 4.37,
+      "relics_needed": 120
+    },
+    {
+      "boost": 4.48,
+      "relics_needed": 128
+    },
+    {
+      "boost": 4.59,
+      "relics_needed": 136
+    },
+    {
+      "boost": 4.7,
+      "relics_needed": 144
+    },
+    {
+      "boost": 4.81,
+      "relics_needed": 152
+    },
+    {
+      "boost": 4.91,
+      "relics_needed": 161
+    },
+    {
+      "boost": 5.02,
+      "relics_needed": 169
+    },
+    {
+      "boost": 5.12,
+      "relics_needed": 178
+    },
+    {
+      "boost": 5.22,
+      "relics_needed": 187
+    },
+    {
+      "boost": 5.33,
+      "relics_needed": 195
+    },
+    {
+      "boost": 5.43,
+      "relics_needed": 204
+    },
+    {
+      "boost": 5.53,
+      "relics_needed": 213
+    },
+    {
+      "boost": 5.62,
+      "relics_needed": 222
+    },
+    {
+      "boost": 5.72,
+      "relics_needed": 232
+    },
+    {
+      "boost": 5.82,
+      "relics_needed": 241
+    },
+    {
+      "boost": 5.91,
+      "relics_needed": 250
+    },
+    {
+      "boost": 6.01,
+      "relics_needed": 259
+    },
+    {
+      "boost": 6.1,
+      "relics_needed": 269
+    },
+    {
+      "boost": 6.2,
+      "relics_needed": 278
+    },
+    {
+      "boost": 6.29,
+      "relics_needed": 288
+    },
+    {
+      "boost": 6.38,
+      "relics_needed": 298
+    },
+    {
+      "boost": 6.47,
+      "relics_needed": 307
+    },
+    {
+      "boost": 6.57,
+      "relics_needed": 317
+    },
+    {
+      "boost": 6.66,
+      "relics_needed": 327
+    },
+    {
+      "boost": 6.75,
+      "relics_needed": 337
+    },
+    {
+      "boost": 6.83,
+      "relics_needed": 347
+    },
+    {
+      "boost": 6.92,
+      "relics_needed": 357
+    },
+    {
+      "boost": 7.01,
+      "relics_needed": 367
+    },
+    {
+      "boost": 7.1,
+      "relics_needed": 377
+    },
+    {
+      "boost": 7.18,
+      "relics_needed": 388
+    },
+    {
+      "boost": 7.27,
+      "relics_needed": 398
+    },
+    {
+      "boost": 7.36,
+      "relics_needed": 408
+    },
+    {
+      "boost": 7.44,
+      "relics_needed": 419
+    },
+    {
+      "boost": 7.53,
+      "relics_needed": 430
+    },
+    {
+      "boost": 7.61,
+      "relics_needed": 441
+    },
+    {
+      "boost": 7.7,
+      "relics_needed": 452
+    },
+    {
+      "boost": 7.78,
+      "relics_needed": 464
+    },
+    {
+      "boost": 7.86,
+      "relics_needed": 476
+    },
+    {
+      "boost": 7.93,
+      "relics_needed": 488
+    },
+    {
+      "boost": 8,
+      "relics_needed": 500
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "method": "Allowlist of required game definitions and minimal historical reference state.",
+  "original_reference_published": false,
+  "raw_reference_kept_private": true,
+  "entire_source_sections_omitted": [
+    "cauldron",
+    "city_population",
+    "craftingSettings",
+    "decayTimer",
+    "effects",
+    "featureFlags",
+    "features",
+    "lastUsedGobletResult",
+    "player_relics",
+    "season",
+    "settings",
+    "tournamentProvinceUnlockTime",
+    "trade_fee_percentage",
+    "trade_ratios"
+  ],
+  "sensitive_owner_fields_excluded_with_effects_section": true,
+  "instance_identifier_redactions": [
+    {
+      "source_path": "/city_map/entities/0/id",
+      "action": "remove_instance_identifier"
+    },
+    {
+      "source_path": "/city_map/entities/1/id",
+      "action": "remove_instance_identifier"
+    }
+  ],
+  "technical_catalog_ids_preserved": true,
+  "cost_and_resource_values_modified": false,
+  "missing_fields_filled": false,
+  "unlocked_absence_converted_to_false": false,
+  "privacy_scope": "No account, owner, profile, device, credential, settings or session data is exported."
+}

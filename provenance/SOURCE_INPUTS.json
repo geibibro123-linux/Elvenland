@@ -1,0 +1,30 @@
+{
+  "project": "elvenland",
+  "created_on": "2026-11-17",
+  "engine_source": "Unity IL2CPP (historical Elvenar 1.244.0 media)",
+  "asset_source_version": "1.244.0",
+  "accepted_apk_sha256": [
+    "a451a039cb7713384bd54e7c5916394fba6d7bb7dfe9f256365c381e0348d17f",
+    "d77de38720bde3c0894493b519cdcca6183d7d020d3377d40e2096516d6d247c",
+    "c997344c1145f78ddb410bc16a2f427d527ab09afb7e09b01c5f6984d8e10e71"
+  ],
+  "preferred_ci_source": {
+    "repository": "geibibro123-linux/Farm-elvenar-",
+    "release_id": 446237709,
+    "tag": "lab04-baseline",
+    "asset_id": 751783466,
+    "asset_name": "Elvenar_Lab04_SkriptTest03-1.apk",
+    "sha256": "d77de38720bde3c0894493b519cdcca6183d7d020d3377d40e2096516d6d247c",
+    "visibility": "private"
+  },
+  "static_media_file_count": 5147,
+  "static_media_equal_to_original_and_lab_baseline": true,
+  "asset_selection_reason": "All static source media are byte-identical across the recovered Build02, the known GitHub Lab04 baseline, and the supplied original base APK. Later diagnostic APKs provide no demonstrated media advantage.",
+  "raw_private_startup": "Excluded. Only reviewed minimal historical reference tables are included.",
+  "original_apk_included": false,
+  "native_client_included": false,
+  "private_signing_material_included": false,
+  "additional_static_media_file_count": 21,
+  "all_allowlisted_static_file_count": 5168,
+  "additional_static_media_equal_to_original_and_lab_baseline": true
+}

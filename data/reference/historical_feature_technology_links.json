@@ -1,0 +1,106 @@
+{
+  "_meta": {
+    "evidence_status": "HISTORICAL_EMBEDDED_REFERENCE",
+    "current_server_values_verified": false,
+    "approved_elvenland_balance": false,
+    "source_archive": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+    "source_entry": "assets/offline_lab/reference_start_v4_v5.json",
+    "source_entry_sha256": "3c4a3ef6a6bb3da5ff6da32480d6cea05052b908479b6e814b49faab952ec4cb",
+    "extracted_on": "2026-11-17",
+    "missing_fields_policy": "Preserve absence. Do not convert absence to false, zero, empty cost, or success.",
+    "source_json_pointer": "/featureTechnologies"
+  },
+  "data": [
+    {
+      "featureId": "canned_goods",
+      "featureIdEnum": {
+        "value": "canned_goods"
+      },
+      "techId": "elves_ch22_workshop_1"
+    },
+    {
+      "featureId": "cauldron",
+      "featureIdEnum": {
+        "value": "cauldron"
+      },
+      "techId": "elves_cauldron"
+    },
+    {
+      "featureId": "ch20_accompaniment",
+      "featureIdEnum": {
+        "value": "ch20_accompaniment"
+      },
+      "techId": "elves_ch20_portal_1"
+    },
+    {
+      "featureId": "ch20_melody",
+      "featureIdEnum": {
+        "value": "ch20_melody"
+      },
+      "techId": "elves_ch20_portal_1"
+    },
+    {
+      "featureId": "ch20_rhythm",
+      "featureIdEnum": {
+        "value": "ch20_rhythm"
+      },
+      "techId": "elves_ch20_portal_1"
+    },
+    {
+      "featureId": "work",
+      "featureIdEnum": {
+        "value": "work"
+      },
+      "techId": "elves_ch21_residence_1"
+    },
+    {
+      "featureId": "crafting",
+      "featureIdEnum": {
+        "value": "crafting"
+      },
+      "techId": "elves_crafting"
+    },
+    {
+      "featureId": "guild",
+      "featureIdEnum": {
+        "value": "guild"
+      },
+      "techId": "elves_fellowships"
+    },
+    {
+      "featureId": "multiplayer_events",
+      "featureIdEnum": {
+        "value": "multiplayer_events"
+      },
+      "techId": "elves_fellowship_adventures"
+    },
+    {
+      "featureId": "neighbourhood",
+      "featureIdEnum": {
+        "value": "neighbourhood"
+      },
+      "techId": "elves_neighbourlyhelp"
+    },
+    {
+      "featureId": "prosperity",
+      "featureIdEnum": {
+        "value": "prosperity"
+      },
+      "techId": "elves_ch21_mainhall_1"
+    },
+    {
+      "featureId": "spire",
+      "featureIdEnum": {
+        "value": "spire"
+      },
+      "techId": "elves_spire"
+    },
+    {
+      "featureId": "tournaments_tech",
+      "featureIdEnum": {
+        "value": "tournaments_tech"
+      },
+      "techId": "elves_tournaments"
+    }
+  ]
+}

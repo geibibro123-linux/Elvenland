@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-17",
+  "runtime": "Node.js v24.22.1",
+  "tests": [
+    {
+      "path": "tests/test_host.js",
+      "exit_code": 0,
+      "output": "PASS 01 SHA256 known empty vector\nPASS 02 SHA256 known abc vector\nPASS 03 SHA256 Unicode/length 17\nPASS 04 SHA256 Unicode/length 12\nPASS 05 SHA256 Unicode/length 1024\nPASS 06 SHA256 Unicode/length 79\nPASS 07 SHA256 Unicode/length 800\nPASS 08 target changes exactly one price\nPASS 09 target same price idempotent\nPASS 10 other building 80 stays unchanged\nPASS 11 other level prefix stays unchanged\nPASS 12 no guess of real target config\nPASS 13 wrong verified id rejected\nPASS 14 online mode prohibited\nPASS 15 network fallback prohibited\nPASS 16 unsupported version prohibited\nPASS 17 unexpected baseline 70 rejected\nPASS 18 missing premium fails closed\nPASS 19 negative cost rejected\nPASS 20 placement requires native adapter\nPASS 21 placement requires original rules approval\nPASS 22 placement requires real entity\nPASS 23 placement requires current ID\nPASS 24 placement requires enough premium\nPASS 25 placement does not mutate input\nPASS 26 simulated purchase deducts once and adds exactly one building\nPASS 27 duplicate transaction id not charged again\nPASS 28 duplicate tx id with different request fails\nPASS 29 existing entity id blocks second placement\nPASS 30 insufficient funds preserve original state\nPASS 31 router gives exact matching typed local reply\nPASS 32 router never calls unsupported network request\nPASS 33 router rejects unexpected response selector\nPASS 34 router refuses non-offline mode\nPASS 35 store starts empty\nPASS 36 store roundtrip\nPASS 37 store uses alternating slots\nPASS 38 store ignores corrupt latest and recovers older\nPASS 39 store rejects both corrupt\nPASS 40 store optimistic revision check\nPASS 41 store does not alter current slot when atomic write fails\nPASS 42 store export checksum and import\nPASS 43 store import refuses overwrite by default\nPASS 44 store import permits explicit overwrite\nPASS 45 store rejects unauthorized auth token in exported save\nPASS 46 real 26-field startup reference preserved (no invented values)\nPASS 47 separate Node process can read stored snapshot\nPASS 48 Frida adapter refuses mismatching APK package\nPASS 49 Frida adapter creates lab04 private directory\nPASS 50 Frida adapter denies path traversal\nPASS 51 Frida adapter mocked two-slot save/restart\nPASS 52 Frida adapter does not replace slot on failed fsync\nTOTAL: 52 / 52\n"
+    },
+    {
+      "path": "tests/test_local_session.js",
+      "exit_code": 0,
+      "output": "PASS 1 exactly 37 expected fields\nPASS 2 real incomplete reference remains incomplete\nPASS 3 no first start from incomplete reference\nPASS 4 no first start from missing reference\nPASS 5 synthetic complete startup accepted ONLY with mock native verifier\nPASS 6 saved snapshot loaded first, no tutorial reset\nPASS 7 native refusal blocks fake initial state\nPASS 8 requires real native bridge interface\nPASS 9 rejects native bridge whose preparation may mutate city\nPASS 10 no pre-start purchases\nPASS 11 typed local purchase debits two and commits before reply\nPASS 12 network fallback strictly forbidden\nPASS 13 unknown request always fails closed\nPASS 14 duplicate retry returns same entity without second debit\nPASS 15 forbidden JavaScript prototype transaction ID rejected before native action\nPASS 16 duplicate key with altered coordinates fails closed\nPASS 17 missing original definition never makes a free purchase\nPASS 18 storage write failure leaves native untouched\nPASS 19 failed native apply locks session until a new process\nPASS 20 saving a session with embedded auth token is refused\nPASS 21 offline session denies online context\nPASS 22 after first boot, second boot without user action denied\nTOTAL: 22 / 22\n"
+    },
+    {
+      "path": "tests/test_verified_reply_engine.js",
+      "exit_code": 0,
+      "output": "PASS 1 empty catalog has no known replies\nPASS 2 replays exact synthetic template with outer request id adapted\nPASS 3 original evidence object not modified\nPASS 4 capture requires external verifier\nPASS 5 missing external verifier fails\nPASS 6 online mode prohibited\nPASS 7 real backend fallback prohibited\nPASS 8 wrong version fails\nPASS 9 captured wrong library rejected\nPASS 10 capture cannot claim synthetic source\nPASS 11 original request-response ids must match\nPASS 12 original selector must match\nPASS 13 input data must match exactly\nPASS 14 canonical key order does not change matching\nPASS 15 unlisted service is denied\nPASS 16 known premium placement is denied\nPASS 17 startup account-data replay denied\nPASS 18 upgrade mutating replay denied\nPASS 19 nested tokens in request rejected\nPASS 20 nested tokens in response rejected\nPASS 21 cookies in response refused\nPASS 22 prototype pollution field refused\nPASS 23 cycles are refused before replay\nPASS 24 NaN and Infinity refused\nPASS 25 oversized strings refused\nPASS 26 ambiguous duplicated evidence refused\nPASS 27 batch replies all when every request has evidence\nPASS 28 batch refuses any unmatched request before output\nPASS 29 duplicate IDs in batch refused\nPASS 30 batch rejects empty input\nPASS 31 batch rejects too many entries\nPASS 32 response is deep clone\nPASS 33 status explicitly says runtime validity unproved\nPASS 34 no autoguess with zero captures\nPASS 35 malformed response payload refused\nPASS 36 finite fractional field preserved\nPASS 37 unsafe 64-bit JSON integer refused\nTOTAL: 37 /37\n"
+    }
+  ],
+  "summary": {
+    "passed": 111,
+    "total": 111,
+    "android_executed": false,
+    "original_unity_executed": false,
+    "genuine_startup_reference_present": false,
+    "synthetic_fixture_fallback": true
+  }
+}

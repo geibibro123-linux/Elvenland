@@ -1,0 +1,4706 @@
+[
+  {
+    "source_serialized_file": "3c7d41d306aac46a2a5f5a0aca5728e8",
+    "object_id": "1",
+    "data": {
+      "m_Name": "city_collect_unurium_02",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "3c7d41d306aac46a2a5f5a0aca5728e8.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "e17f9a2b1990a4e92b7ec9c3ebe2608b",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch22_collect_seafood",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.7919999957084656,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "e17f9a2b1990a4e92b7ec9c3ebe2608b.resource",
+        "m_Offset": 0,
+        "m_Size": 21504
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "51511382855f44c2387375102165b719",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_elixir",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 2.0897958278656006,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "51511382855f44c2387375102165b719.resource",
+        "m_Offset": 0,
+        "m_Size": 51936
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "f5f12f1cf03df458ab8ef7a6da832180",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch23_collect_dwarvenspirits",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.1519999504089355,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "f5f12f1cf03df458ab8ef7a6da832180.resource",
+        "m_Offset": 0,
+        "m_Size": 31200
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "2aeb0330b29b942fdbd3c479c114287c",
+    "object_id": "1",
+    "data": {
+      "m_Name": "city_collect_arcaneink_v2",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 2.2987754344940186,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "2aeb0330b29b942fdbd3c479c114287c.resource",
+        "m_Offset": 0,
+        "m_Size": 57120
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "753f8299d393d40e9b6c3385e0ce9ffb",
+    "object_id": "1",
+    "data": {
+      "m_Name": "big_reward_screen",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 3.2130613327026367,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "753f8299d393d40e9b6c3385e0ce9ffb.resource",
+        "m_Offset": 0,
+        "m_Size": 79808
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "0bcdb0a43f17044d0b25ba5bea0a7545",
+    "object_id": "1",
+    "data": {
+      "m_Name": "city_collect_elventreegum",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.5673469305038452,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "0bcdb0a43f17044d0b25ba5bea0a7545.resource",
+        "m_Offset": 0,
+        "m_Size": 38976
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "af783c9094f8b4cf3a6eb1277de7b58f",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch19_collect_magic1",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.1759999990463257,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "af783c9094f8b4cf3a6eb1277de7b58f.resource",
+        "m_Offset": 0,
+        "m_Size": 31872
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "f236bf65d531e4305836099071bc3796",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_marble_02",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "f236bf65d531e4305836099071bc3796.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "e362051cbfb844a07bd1868b887fc65e",
+    "object_id": "1",
+    "data": {
+      "m_Name": "city_collect_sillysoap",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.7053061127662659,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "e362051cbfb844a07bd1868b887fc65e.resource",
+        "m_Offset": 0,
+        "m_Size": 17600
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "9081e4b11cb7a43fa8418c6f71f7962b",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_fairies_dreamfarm_dreamsheep_02",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "9081e4b11cb7a43fa8418c6f71f7962b.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "983471bba89c54b69986aa92e3ac162c",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_supplies",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "983471bba89c54b69986aa92e3ac162c.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "8f897c740dcf64c92bd3c4308fe3e28b",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_orcs_armory_02",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.7053061127662659,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "8f897c740dcf64c92bd3c4308fe3e28b.resource",
+        "m_Offset": 0,
+        "m_Size": 17600
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "8ef430ce8e6ff414abbe1de3d96d9cf3",
+    "object_id": "1",
+    "data": {
+      "m_Name": "constructs_collect_elvarium",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "8ef430ce8e6ff414abbe1de3d96d9cf3.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "dd41435ff891e40acaa4e4f5cca96b38",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch22_collect_eels",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.8399999737739563,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "dd41435ff891e40acaa4e4f5cca96b38.resource",
+        "m_Offset": 0,
+        "m_Size": 22784
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "2c58cfc8767f448f9ba2cb6113d6a4ab",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch18_collect_medal",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.055999994277954,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "2c58cfc8767f448f9ba2cb6113d6a4ab.resource",
+        "m_Offset": 0,
+        "m_Size": 28608
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "4af6a7115536d4ac89d02187afa8845a",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch24_collect_studies",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.944000005722046,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "4af6a7115536d4ac89d02187afa8845a.resource",
+        "m_Offset": 0,
+        "m_Size": 52608
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "23ae9999fabbc494cbe9b9417a60e842",
+    "object_id": "1",
+    "data": {
+      "m_Name": "sorcerers_collect_refinedcrystal_v2",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.0710203647613525,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "23ae9999fabbc494cbe9b9417a60e842.resource",
+        "m_Offset": 0,
+        "m_Size": 26688
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "adc753b1c9fdb46359028c8160294e0c",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_gems",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.0710203647613525,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "adc753b1c9fdb46359028c8160294e0c.resource",
+        "m_Offset": 0,
+        "m_Size": 26688
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "7371735810eb44fd4970a4b79dcb4b50",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_orcs_orcralleypoint_LC",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.7053061127662659,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "7371735810eb44fd4970a4b79dcb4b50.resource",
+        "m_Offset": 0,
+        "m_Size": 17600
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "5d7e87dbc89674029a4b8f0b09515dfa",
+    "object_id": "1",
+    "data": {
+      "m_Name": "embassies_collect_purpletea",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "5d7e87dbc89674029a4b8f0b09515dfa.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "a20deaf6e3c6d44c8a4fd6469fa0cc6d",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch25_collect_wisdom_elder",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.8808163404464722,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "a20deaf6e3c6d44c8a4fd6469fa0cc6d.resource",
+        "m_Offset": 0,
+        "m_Size": 46752
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "71c720e9137d44e67bcf1868b737fc3c",
+    "object_id": "1",
+    "data": {
+      "m_Name": "city_collect_obsidian",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "71c720e9137d44e67bcf1868b737fc3c.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "d4f63029d90a248e3b7b8dcf06c17dd2",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_fairies_plantsfarm_sunflower_01",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.7053061127662659,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "d4f63029d90a248e3b7b8dcf06c17dd2.resource",
+        "m_Offset": 0,
+        "m_Size": 17600
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "1c30223dea9714bcdaf07f635fef11a0",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch21_collect_scales",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.018775463104248,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "1c30223dea9714bcdaf07f635fef11a0.resource",
+        "m_Offset": 0,
+        "m_Size": 25376
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "9f5a21c4da5e3414a9410b1ea8c76406",
+    "object_id": "1",
+    "data": {
+      "m_Name": "embassies_collect_fairyamendments",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "9f5a21c4da5e3414a9410b1ea8c76406.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "f3fe15d51fd1244d08e9a537580c671f",
+    "object_id": "1",
+    "data": {
+      "m_Name": "elvenar_collect_livingpaintings",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.2799999713897705,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "f3fe15d51fd1244d08e9a537580c671f.resource",
+        "m_Offset": 0,
+        "m_Size": 31872
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "f06503fe8042e4cd399affe1b7f74cf5",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_woodelves_purifier_2",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "f06503fe8042e4cd399affe1b7f74cf5.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "5b6f64c3853df4c2d977fb02232428c4",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_ascendedsilk",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.0800000429153442,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "5b6f64c3853df4c2d977fb02232428c4.resource",
+        "m_Offset": 0,
+        "m_Size": 29280
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "1744d9c80afff41f8bf46e0f0aab0257",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_orcs_mushroomfarm_MD",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.7053061127662659,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "1744d9c80afff41f8bf46e0f0aab0257.resource",
+        "m_Offset": 0,
+        "m_Size": 17600
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "64152e64d262f45fd85ef14160af234f",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch18_collect_humans",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.055999994277954,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "64152e64d262f45fd85ef14160af234f.resource",
+        "m_Offset": 0,
+        "m_Size": 28608
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "d8cdadddcb1774b75a0d4a01130f36b1",
+    "object_id": "1",
+    "data": {
+      "m_Name": "elvenar_collect_sculptures",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.0710203647613525,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "d8cdadddcb1774b75a0d4a01130f36b1.resource",
+        "m_Offset": 0,
+        "m_Size": 26688
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "d75ec26ba9ea24e99a4e9a763178941e",
+    "object_id": "1",
+    "data": {
+      "m_Name": "elvenar_collect_plants",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.0710203647613525,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "d75ec26ba9ea24e99a4e9a763178941e.resource",
+        "m_Offset": 0,
+        "m_Size": 26688
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "98edf3b9b536045389367623bd6755ea",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch23_collect_unicornblossoms",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.0800000429153442,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "98edf3b9b536045389367623bd6755ea.resource",
+        "m_Offset": 0,
+        "m_Size": 29280
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "77c4b2f9ab152446f8bcd6aa6d304de1",
+    "object_id": "1",
+    "data": {
+      "m_Name": "embassies_collect_dwarvenpropositions",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "77c4b2f9ab152446f8bcd6aa6d304de1.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "c70decc073072476bbd7648eeab596b4",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_brokenshards",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.0448979139328003,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "c70decc073072476bbd7648eeab596b4.resource",
+        "m_Offset": 0,
+        "m_Size": 26016
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "66791d80c61a548d98d97f178a281af2",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_magicdust",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.0710203647613525,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "66791d80c61a548d98d97f178a281af2.resource",
+        "m_Offset": 0,
+        "m_Size": 26688
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "7b88389c54e5a4aeaa7588cb4d962eb4",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch25_collect_xpg_2",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.5673469305038452,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "7b88389c54e5a4aeaa7588cb4d962eb4.resource",
+        "m_Offset": 0,
+        "m_Size": 38976
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "3e5ae8fcd71c24c2fbb79f551b2a5b1b",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch21_collect_oblations3",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.8881632685661316,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "3e5ae8fcd71c24c2fbb79f551b2a5b1b.resource",
+        "m_Offset": 0,
+        "m_Size": 22144
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "7bf170e10e26740cd97cb62e48c1dac8",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_crystal",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.0710203647613525,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "7bf170e10e26740cd97cb62e48c1dac8.resource",
+        "m_Offset": 0,
+        "m_Size": 26688
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "fc6f9a7aaf5c84066838471fca8d7ffb",
+    "object_id": "1",
+    "data": {
+      "m_Name": "quest_finished_02",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 2.272653102874756,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "fc6f9a7aaf5c84066838471fca8d7ffb.resource",
+        "m_Offset": 0,
+        "m_Size": 56480
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "d8f4f0386e6b940c490c3a131fbe3c63",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch23_collect_dragonteeth",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.8880000114440918,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "d8f4f0386e6b940c490c3a131fbe3c63.resource",
+        "m_Offset": 0,
+        "m_Size": 24096
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "7a54fb34add06453cb0e3bc3a830b633",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch25_collect_wisdom_kid",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.645714282989502,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "7a54fb34add06453cb0e3bc3a830b633.resource",
+        "m_Offset": 0,
+        "m_Size": 40928
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "572fb20d2e3a549fa8e1cf3f7233284c",
+    "object_id": "1",
+    "data": {
+      "m_Name": "sorcerers_collect_alchemist",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.0710203647613525,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "572fb20d2e3a549fa8e1cf3f7233284c.resource",
+        "m_Offset": 0,
+        "m_Size": 26688
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "94b79ae29d70a4708b0fb66e0a245f27",
+    "object_id": "1",
+    "data": {
+      "m_Name": "halflings_collect_soup",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.7575510144233704,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "94b79ae29d70a4708b0fb66e0a245f27.resource",
+        "m_Offset": 0,
+        "m_Size": 18912
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "8df1233f78e5c43bda6eed94d482f79c",
+    "object_id": "1",
+    "data": {
+      "m_Name": "constructs_collect_humanium",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "8df1233f78e5c43bda6eed94d482f79c.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "b049e6de42679463eae8102750a6f9fc",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_ascendedmarble",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.055999994277954,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "b049e6de42679463eae8102750a6f9fc.resource",
+        "m_Offset": 0,
+        "m_Size": 28608
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "2282b3c9e12f34a498bbca7d94cc3ec8",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch24_collect_workers",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.8159999847412109,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "2282b3c9e12f34a498bbca7d94cc3ec8.resource",
+        "m_Offset": 0,
+        "m_Size": 22144
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "388c191a8557943e198c98c5b468b8ea",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_orcs_mushroomfarm_MA",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.7053061127662659,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "388c191a8557943e198c98c5b468b8ea.resource",
+        "m_Offset": 0,
+        "m_Size": 17600
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "c8351b4b5c88f47dcab592f79726b0d4",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch23_collect_fairyspirits",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.6799999475479126,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "c8351b4b5c88f47dcab592f79726b0d4.resource",
+        "m_Offset": 0,
+        "m_Size": 45472
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "c620a1d1baf59487a81c79e55e887b18",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch22_collect_salt",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.0080000162124634,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "c620a1d1baf59487a81c79e55e887b18.resource",
+        "m_Offset": 0,
+        "m_Size": 27328
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "83abe8b3e5a06492f81639b72725ee20",
+    "object_id": "1",
+    "data": {
+      "m_Name": "elementals_collect_earthartefact",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.0710203647613525,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "83abe8b3e5a06492f81639b72725ee20.resource",
+        "m_Offset": 0,
+        "m_Size": 26688
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "8fa2f01bbe46047e087d4f693dbcede4",
+    "object_id": "1",
+    "data": {
+      "m_Name": "halflings_collect_jam_v2",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.7836734652519226,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "8fa2f01bbe46047e087d4f693dbcede4.resource",
+        "m_Offset": 0,
+        "m_Size": 19552
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "432464de624f84542905938ba1cbddbb",
+    "object_id": "1",
+    "data": {
+      "m_Name": "elvenar_collect_designs",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.0710203647613525,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "432464de624f84542905938ba1cbddbb.resource",
+        "m_Offset": 0,
+        "m_Size": 26688
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "6d428c491530a4519b81c2851eec183d",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch20_collect_songs",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.5839999914169312,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "6d428c491530a4519b81c2851eec183d.resource",
+        "m_Offset": 0,
+        "m_Size": 42880
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "54d34499d454843618b3218897ab68d4",
+    "object_id": "1",
+    "data": {
+      "m_Name": "embassies_collect_fairypropositions",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "54d34499d454843618b3218897ab68d4.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "6a7fcf13717e94a8e9414468ba74dddc",
+    "object_id": "1",
+    "data": {
+      "m_Name": "constructs_collect_construct",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.7053061127662659,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "6a7fcf13717e94a8e9414468ba74dddc.resource",
+        "m_Offset": 0,
+        "m_Size": 17600
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "3f55bf28ef914403289dced8d2e41852",
+    "object_id": "1",
+    "data": {
+      "m_Name": "sorcerers_collect_necroalchemist",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.3844897747039795,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "3f55bf28ef914403289dced8d2e41852.resource",
+        "m_Offset": 0,
+        "m_Size": 34464
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "eeb47ed9afdc94956a23ebfe13624bc9",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch20_collect_flutes",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.7760000228881836,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "eeb47ed9afdc94956a23ebfe13624bc9.resource",
+        "m_Offset": 0,
+        "m_Size": 48064
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "12bf81fa1903a4284bc340af6f59c1f7",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch21_collect_glass",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.018775463104248,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "12bf81fa1903a4284bc340af6f59c1f7.resource",
+        "m_Offset": 0,
+        "m_Size": 25376
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "236068e10f1eb40f2b5b73c61c76c0ad",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_woodelves_purifier_1",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.018775463104248,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "236068e10f1eb40f2b5b73c61c76c0ad.resource",
+        "m_Offset": 0,
+        "m_Size": 25376
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "30f6b87337c8843f3b802212eb35237d",
+    "object_id": "1",
+    "data": {
+      "m_Name": "constructs_collect_airfilters",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "30f6b87337c8843f3b802212eb35237d.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "bad3c54fffd344ff2b39f0e9f3359ff6",
+    "object_id": "1",
+    "data": {
+      "m_Name": "embassies_collect_inspirations",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.4889795780181885,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "bad3c54fffd344ff2b39f0e9f3359ff6.resource",
+        "m_Offset": 0,
+        "m_Size": 37056
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "e32fab4b6d1b141d088400e99646dddf",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch23_collect_mithril",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.055999994277954,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "e32fab4b6d1b141d088400e99646dddf.resource",
+        "m_Offset": 0,
+        "m_Size": 28608
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "87d12eab21caa44d485f6b4ef144c4cd",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch19_collect_creatures1",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.1039999723434448,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "87d12eab21caa44d485f6b4ef144c4cd.resource",
+        "m_Offset": 0,
+        "m_Size": 29920
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "c32472e4c35854de0afe34125b258ecc",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_fairies_dreamfarm_fireflies_01",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "c32472e4c35854de0afe34125b258ecc.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "9d5122d493e82467798d5ac70826c6b6",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch21_collect_furniture",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.7314285635948181,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "9d5122d493e82467798d5ac70826c6b6.resource",
+        "m_Offset": 0,
+        "m_Size": 18240
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "ccbd9caf5f0cb4ec281c1fd4a9eb3a33",
+    "object_id": "1",
+    "data": {
+      "m_Name": "halflings_collect_carrots",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.0710203647613525,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "ccbd9caf5f0cb4ec281c1fd4a9eb3a33.resource",
+        "m_Offset": 0,
+        "m_Size": 26688
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "742b12cda5d0a4bcfa89661cb4def3e4",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch24_collect_servants",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.671999990940094,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "742b12cda5d0a4bcfa89661cb4def3e4.resource",
+        "m_Offset": 0,
+        "m_Size": 18240
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "9ea591512a8db4b7488be60e5ebc6229",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_ascendedsteel",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.055999994277954,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "9ea591512a8db4b7488be60e5ebc6229.resource",
+        "m_Offset": 0,
+        "m_Size": 28608
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "d571c584006c14e92ab4ce6f684cd2f4",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_woodelves_crafting_planks",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.018775463104248,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "d571c584006c14e92ab4ce6f684cd2f4.resource",
+        "m_Offset": 0,
+        "m_Size": 25376
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "83b35ffb26ab5444e9730ae50417d04b",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch23_collect_queenhoney",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.6959999799728394,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "83b35ffb26ab5444e9730ae50417d04b.resource",
+        "m_Offset": 0,
+        "m_Size": 18912
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "1741915ad6f8e4f6fb6574fdb7fd0de5",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch17_collect_elvenarinzero",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "1741915ad6f8e4f6fb6574fdb7fd0de5.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "1ece8b5696ea84d439db4dea9df29fb5",
+    "object_id": "1",
+    "data": {
+      "m_Name": "duneelves_collect_gravegoods",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.018775463104248,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "1ece8b5696ea84d439db4dea9df29fb5.resource",
+        "m_Offset": 0,
+        "m_Size": 25376
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "6e9799b8fdc494457a1eaf73c6b635ed",
+    "object_id": "1",
+    "data": {
+      "m_Name": "halflings_collect_fertilizer",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.0710203647613525,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "6e9799b8fdc494457a1eaf73c6b635ed.resource",
+        "m_Offset": 0,
+        "m_Size": 26688
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "28bf3698cfeaa4914b02c3632749d281",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch18_collect_elvenar",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.055999994277954,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "28bf3698cfeaa4914b02c3632749d281.resource",
+        "m_Offset": 0,
+        "m_Size": 28608
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "1949e6037708e44eeab6e55d4703386d",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch17_collect_artifacts_03",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.018775463104248,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "1949e6037708e44eeab6e55d4703386d.resource",
+        "m_Offset": 0,
+        "m_Size": 25376
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "ed20c88261f1543ba9eb5e02c6f17198",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch22_collect_fruits",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.7440000176429749,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "ed20c88261f1543ba9eb5e02c6f17198.resource",
+        "m_Offset": 0,
+        "m_Size": 20192
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "4aac1a1112762488a886bb34b3f10d86",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch18_collect_wind",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.055999994277954,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "4aac1a1112762488a886bb34b3f10d86.resource",
+        "m_Offset": 0,
+        "m_Size": 28608
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "7f502e1e1b73542408ce4da539b6060c",
+    "object_id": "1",
+    "data": {
+      "m_Name": "elementals_collect_waterartefact",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.5673469305038452,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "7f502e1e1b73542408ce4da539b6060c.resource",
+        "m_Offset": 0,
+        "m_Size": 38976
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "006b3853a892b41688cc256e5f4d44a1",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_units",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.0710203647613525,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "006b3853a892b41688cc256e5f4d44a1.resource",
+        "m_Offset": 0,
+        "m_Size": 26688
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "20624f3ea322144fea5e313200741dfb",
+    "object_id": "1",
+    "data": {
+      "m_Name": "city_collect_moonstone",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 2.0897958278656006,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "20624f3ea322144fea5e313200741dfb.resource",
+        "m_Offset": 0,
+        "m_Size": 51936
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "bef3acfd1e3594ffd86cf821230238ef",
+    "object_id": "1",
+    "data": {
+      "m_Name": "city_collect_platinum",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.5673469305038452,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "bef3acfd1e3594ffd86cf821230238ef.resource",
+        "m_Offset": 0,
+        "m_Size": 38976
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "97f00e4f7e7494c42b6cff3d7dc1a1dc",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_premium",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.5934693813323975,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "97f00e4f7e7494c42b6cff3d7dc1a1dc.resource",
+        "m_Offset": 0,
+        "m_Size": 39648
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "1e8aaa937044448aab70f2e1cb61fbec",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_canned_goods",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.8640000224113464,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "1e8aaa937044448aab70f2e1cb61fbec.resource",
+        "m_Offset": 0,
+        "m_Size": 23424
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "709c0e3c0371249f68a89e5105149154",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_ascendedplanks",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.055999994277954,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "709c0e3c0371249f68a89e5105149154.resource",
+        "m_Offset": 0,
+        "m_Size": 28608
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "95d04b7317efd49abaa7b41c21fbb20b",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch19_collect_magic2",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.1759999990463257,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "95d04b7317efd49abaa7b41c21fbb20b.resource",
+        "m_Offset": 0,
+        "m_Size": 31872
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "f7c0545ccb63943dc89f266bb191eafe",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_woodelves_purifier_manatears_v2",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "f7c0545ccb63943dc89f266bb191eafe.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "de1ae657f979946f7a75cdc2b332f0ef",
+    "object_id": "1",
+    "data": {
+      "m_Name": "click_02",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.8359183669090271,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "de1ae657f979946f7a75cdc2b332f0ef.resource",
+        "m_Offset": 0,
+        "m_Size": 20832
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "f94c2f23e855f4ace83b0ba02f993aa4",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_ascendedelixir",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.6959999799728394,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "f94c2f23e855f4ace83b0ba02f993aa4.resource",
+        "m_Offset": 0,
+        "m_Size": 18912
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "ad93c59bad21d4b8ca1129188f9373cc",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_woodelves_purifier_3_vs2",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.6269387602806091,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "ad93c59bad21d4b8ca1129188f9373cc.resource",
+        "m_Offset": 0,
+        "m_Size": 15648
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "beefac0fa4794469e81a1e519b5e3239",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_ascendedmagic_dust",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.031999945640564,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "beefac0fa4794469e81a1e519b5e3239.resource",
+        "m_Offset": 0,
+        "m_Size": 27968
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "12b7dddfeea6b44d0a2d1ed063259236",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch21_collect_bones",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.123265266418457,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "12b7dddfeea6b44d0a2d1ed063259236.resource",
+        "m_Offset": 0,
+        "m_Size": 27968
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "5bf7f4a4213b84ae8be9f85e8cb6bf13",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch21_collect_dragon",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.123265266418457,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "5bf7f4a4213b84ae8be9f85e8cb6bf13.resource",
+        "m_Offset": 0,
+        "m_Size": 27968
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "5a51c87cbebe8473bb0f0231608df904",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_woodelves_crafting_marble",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "5a51c87cbebe8473bb0f0231608df904.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "550f57011ef4a4774840e0184a7fafab",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch17_collect_luxuries",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.018775463104248,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "550f57011ef4a4774840e0184a7fafab.resource",
+        "m_Offset": 0,
+        "m_Size": 25376
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "039d82e9c2bd1422281ee588238fae06",
+    "object_id": "1",
+    "data": {
+      "m_Name": "city_collect_royalvelvet_v2",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "039d82e9c2bd1422281ee588238fae06.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "3e6a212625781403a93e78cc3f9816ee",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_orcs_orcralleypoint_LB",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.7053061127662659,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "3e6a212625781403a93e78cc3f9816ee.resource",
+        "m_Offset": 0,
+        "m_Size": 17600
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "6e2eb0ff03cf64bb1a6d460982b1a9bd",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch18_collect_badge",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.055999994277954,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "6e2eb0ff03cf64bb1a6d460982b1a9bd.resource",
+        "m_Offset": 0,
+        "m_Size": 28608
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "84047d7bd7be24df5ab8d0e029e94e59",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_planks",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.8359183669090271,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "84047d7bd7be24df5ab8d0e029e94e59.resource",
+        "m_Offset": 0,
+        "m_Size": 20832
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "3f2522edcb9094e5cb82bd08566a388f",
+    "object_id": "1",
+    "data": {
+      "m_Name": "elementals_collect_elvenaressence",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 2.0897958278656006,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "3f2522edcb9094e5cb82bd08566a388f.resource",
+        "m_Offset": 0,
+        "m_Size": 51936
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "c7c897cca78544ed8a3a7811ba46a2d3",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch22_collect_fish",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.6959999799728394,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "c7c897cca78544ed8a3a7811ba46a2d3.resource",
+        "m_Offset": 0,
+        "m_Size": 18912
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "39573af8c83494f21b2dfa877f30d623",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_fairies_plantsfarm_ambrosia_01",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.47020408511161804,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "39573af8c83494f21b2dfa877f30d623.resource",
+        "m_Offset": 0,
+        "m_Size": 11776
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "1b25f3038920f4f22b9032c33a68cfa1",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_blueprints",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.227755069732666,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "1b25f3038920f4f22b9032c33a68cfa1.resource",
+        "m_Offset": 0,
+        "m_Size": 30560
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "c789d8b96f6424e229b143dd3e9a2ea1",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch18_collect_water",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.055999994277954,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "c789d8b96f6424e229b143dd3e9a2ea1.resource",
+        "m_Offset": 0,
+        "m_Size": 28608
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "2971c2f14dbe4408bba42ae0fa48927f",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_fairies_dreamfarm_nightshade_01",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.7053061127662659,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "2971c2f14dbe4408bba42ae0fa48927f.resource",
+        "m_Offset": 0,
+        "m_Size": 17600
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "a22e3447fd03b48a3ac8f61656d35dc5",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch23_collect_orcspirits",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.3919999599456787,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "a22e3447fd03b48a3ac8f61656d35dc5.resource",
+        "m_Offset": 0,
+        "m_Size": 37696
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "49745feb82afb4ca3b495c732e0e9f62",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_steel_02",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.645714282989502,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "49745feb82afb4ca3b495c732e0e9f62.resource",
+        "m_Offset": 0,
+        "m_Size": 40928
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "792faa2e37e9043e2888acfc1c658a03",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_combiningcatalysts",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.4106122255325317,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "792faa2e37e9043e2888acfc1c658a03.resource",
+        "m_Offset": 0,
+        "m_Size": 35104
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "53194cb4fb03f4c058719f99afc8a402",
+    "object_id": "1",
+    "data": {
+      "m_Name": "sorcerers_collect_arcanist_v3",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.2799999713897705,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "53194cb4fb03f4c058719f99afc8a402.resource",
+        "m_Offset": 0,
+        "m_Size": 31872
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "07ea0627c8cbc46299f966d8c5dfe800",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch22_collect_snails",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.6240000128746033,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "07ea0627c8cbc46299f966d8c5dfe800.resource",
+        "m_Offset": 0,
+        "m_Size": 16960
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "454f395b4395d46988325bf5289e959b",
+    "object_id": "1",
+    "data": {
+      "m_Name": "Onyx_Elf_01",
+      "m_LoadType": 2,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 128.41795349121094,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "454f395b4395d46988325bf5289e959b.resource",
+        "m_Offset": 0,
+        "m_Size": 1120768
+      },
+      "m_CompressionFormat": 1
+    }
+  },
+  {
+    "source_serialized_file": "569edb18de29e4c8b9eedcaa812a292a",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch21_collect_art",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.1755101680755615,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "569edb18de29e4c8b9eedcaa812a292a.resource",
+        "m_Offset": 0,
+        "m_Size": 29280
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "fea114cd97dfb422980b069a66a3a564",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_knowledgepoints",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.2016326189041138,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "fea114cd97dfb422980b069a66a3a564.resource",
+        "m_Offset": 0,
+        "m_Size": 29920
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "21b1cbd190d03425c84bb3eba85bfe7e",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_scrolls",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.8359183669090271,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "21b1cbd190d03425c84bb3eba85bfe7e.resource",
+        "m_Offset": 0,
+        "m_Size": 20832
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "fa80f65b1e62c42a2a5e388313c3b0db",
+    "object_id": "1",
+    "data": {
+      "m_Name": "embassies_collect_strawberrybeer",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "fa80f65b1e62c42a2a5e388313c3b0db.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "b31947c86d5c34e918c7d10c65051f5b",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_silk",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.0710203647613525,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "b31947c86d5c34e918c7d10c65051f5b.resource",
+        "m_Offset": 0,
+        "m_Size": 26688
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "b4e98f6c8285c46eca9175e7ddc2b2ea",
+    "object_id": "1",
+    "data": {
+      "m_Name": "sorcerers_collect_necromancer_v2",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.4889795780181885,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "b4e98f6c8285c46eca9175e7ddc2b2ea.resource",
+        "m_Offset": 0,
+        "m_Size": 37056
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "252027dc6807f44dbaf6c5c78a34e6a4",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_fairies_dreamfarm_soma_01",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "252027dc6807f44dbaf6c5c78a34e6a4.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "9d74b5352e3174b3bb2bc50dd0a6853d",
+    "object_id": "1",
+    "data": {
+      "m_Name": "elvenar_collect_workforce",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.0710203647613525,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "9d74b5352e3174b3bb2bc50dd0a6853d.resource",
+        "m_Offset": 0,
+        "m_Size": 26688
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "4e999b0fd130144ab87642d65fd2eabd",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_gold_04",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.8359183669090271,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "4e999b0fd130144ab87642d65fd2eabd.resource",
+        "m_Offset": 0,
+        "m_Size": 20832
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "3a0230bf1675a444a8caaa32a4cd9ee0",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_dwarfs_copper",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.3918367326259613,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "3a0230bf1675a444a8caaa32a4cd9ee0.resource",
+        "m_Offset": 0,
+        "m_Size": 9824
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "d04421c06f4c34e4a933e1f9bb126458",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch18_collect_fire",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.055999994277954,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "d04421c06f4c34e4a933e1f9bb126458.resource",
+        "m_Offset": 0,
+        "m_Size": 28608
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "39b64b1d074a74780beb41189fdd8098",
+    "object_id": "1",
+    "data": {
+      "m_Name": "small_reward_screen_02",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 2.1942856311798096,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "39b64b1d074a74780beb41189fdd8098.resource",
+        "m_Offset": 0,
+        "m_Size": 54528
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "6a0fc71b948c3468dadd26c7bb4b38e6",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_orcs_orcralleypoint_LD",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.7053061127662659,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "6a0fc71b948c3468dadd26c7bb4b38e6.resource",
+        "m_Offset": 0,
+        "m_Size": 17600
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "7af8d076e57664f4185efc8f3825bfe3",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_royalrestoration",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.227755069732666,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "7af8d076e57664f4185efc8f3825bfe3.resource",
+        "m_Offset": 0,
+        "m_Size": 30560
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "f36cedff200eb429b8d6648335dab967",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch21_collect_shells",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.9665306210517883,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "f36cedff200eb429b8d6648335dab967.resource",
+        "m_Offset": 0,
+        "m_Size": 24096
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "a7d751bdd0cea4a8584462e2bd313716",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch19_collect_creatures2",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.055999994277954,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "a7d751bdd0cea4a8584462e2bd313716.resource",
+        "m_Offset": 0,
+        "m_Size": 28608
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "26b6a15643ff54764bbc73b785166a80",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_ascendedscrolls",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.9359999895095825,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "26b6a15643ff54764bbc73b785166a80.resource",
+        "m_Offset": 0,
+        "m_Size": 25376
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "681a7cdbb07454ba79cb70f658509c1d",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch25_collect_xps_elder",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.8808163404464722,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "681a7cdbb07454ba79cb70f658509c1d.resource",
+        "m_Offset": 0,
+        "m_Size": 46752
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "e68db8e77715f4bcf9a26cc4f72e6d66",
+    "object_id": "1",
+    "data": {
+      "m_Name": "halflings_collect_grain_v2",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.8881632685661316,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "e68db8e77715f4bcf9a26cc4f72e6d66.resource",
+        "m_Offset": 0,
+        "m_Size": 22144
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "da33aaa17de1843b7a9eb9fae0042e28",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch21_collect_oblations2",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.8881632685661316,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "da33aaa17de1843b7a9eb9fae0042e28.resource",
+        "m_Offset": 0,
+        "m_Size": 22144
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "f5d4dbbcd6062465c88cd6d7e4d737d7",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch23_collect_flowerwreaths",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.8640000224113464,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "f5d4dbbcd6062465c88cd6d7e4d737d7.resource",
+        "m_Offset": 0,
+        "m_Size": 23424
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "9aa0488330b5d4d26a3133f669e8a32d",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch19_collect_creatures3",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.1039999723434448,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "9aa0488330b5d4d26a3133f669e8a32d.resource",
+        "m_Offset": 0,
+        "m_Size": 29920
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "11bbcc6f8dcf24dcb95fe46013ab79e3",
+    "object_id": "1",
+    "data": {
+      "m_Name": "sorcerers_collect_necroarcanist",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.2799999713897705,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "11bbcc6f8dcf24dcb95fe46013ab79e3.resource",
+        "m_Offset": 0,
+        "m_Size": 31872
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "c9235f539be36406196bac4464500088",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_orcs_orcralleypoint_LA",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.7053061127662659,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "c9235f539be36406196bac4464500088.resource",
+        "m_Offset": 0,
+        "m_Size": 17600
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "f4eda84e578b34bb7b7ed6dcea105b37",
+    "object_id": "1",
+    "data": {
+      "m_Name": "Onyx_Human_03",
+      "m_LoadType": 2,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 115.67020416259766,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "f4eda84e578b34bb7b7ed6dcea105b37.resource",
+        "m_Offset": 0,
+        "m_Size": 988544
+      },
+      "m_CompressionFormat": 1
+    }
+  },
+  {
+    "source_serialized_file": "4310dedcefe5d4bdab89d1e5c5604263",
+    "object_id": "1",
+    "data": {
+      "m_Name": "halflings_collect_pumpkins",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.0710203647613525,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "4310dedcefe5d4bdab89d1e5c5604263.resource",
+        "m_Offset": 0,
+        "m_Size": 26688
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "7a17f2026a085409f9ec5be29fb8e6b0",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_dwarfs_granite",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.3918367326259613,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "7a17f2026a085409f9ec5be29fb8e6b0.resource",
+        "m_Offset": 0,
+        "m_Size": 9824
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "9d4d2e5821c494c109f043c73b167d6c",
+    "object_id": "1",
+    "data": {
+      "m_Name": "sorcerers_collect_refinedscrolls",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.7836734652519226,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "9d4d2e5821c494c109f043c73b167d6c.resource",
+        "m_Offset": 0,
+        "m_Size": 19552
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "5601b6c2688014ae9b3bb12f675c525a",
+    "object_id": "1",
+    "data": {
+      "m_Name": "sorcerers_collect_apprentices",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.0710203647613525,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "5601b6c2688014ae9b3bb12f675c525a.resource",
+        "m_Offset": 0,
+        "m_Size": 26688
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "8af6bfab70db840169ae0f3537f1be15",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_fairies_plantsfarm_cocoons_02",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.7053061127662659,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "8af6bfab70db840169ae0f3537f1be15.resource",
+        "m_Offset": 0,
+        "m_Size": 17600
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "4bc92942855854d9696010c5332b2686",
+    "object_id": "1",
+    "data": {
+      "m_Name": "embassies_collect_draftlaws",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "4bc92942855854d9696010c5332b2686.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "4f49f588dc9f846e7bea76fda32855bf",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_woodelves_mana_v4",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.9853061437606812,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "4f49f588dc9f846e7bea76fda32855bf.resource",
+        "m_Offset": 0,
+        "m_Size": 49344
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "aa4e05d293b504b8b92a66ac3429a32c",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_work",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.1493877172470093,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "aa4e05d293b504b8b92a66ac3429a32c.resource",
+        "m_Offset": 0,
+        "m_Size": 28608
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "102b608ad17d941fcac2bc73f3d222d9",
+    "object_id": "1",
+    "data": {
+      "m_Name": "elvenar_collect_ideas",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.0710203647613525,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "102b608ad17d941fcac2bc73f3d222d9.resource",
+        "m_Offset": 0,
+        "m_Size": 26688
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "95dc698dfbc0d44de8466de80b98b058",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_spells_instants",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.055999994277954,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "95dc698dfbc0d44de8466de80b98b058.resource",
+        "m_Offset": 0,
+        "m_Size": 28608
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "5e686ec0fef9641b6b4a3bedda5f9f9d",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch25_collect_xps_kid",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.4628571271896362,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "5e686ec0fef9641b6b4a3bedda5f9f9d.resource",
+        "m_Offset": 0,
+        "m_Size": 36384
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "830f811e7b5164ee483bb1689b917119",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch24_collect_prophecies",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 2.0399999618530273,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "830f811e7b5164ee483bb1689b917119.resource",
+        "m_Offset": 0,
+        "m_Size": 55200
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "1d8e1c041a9e74500840c086a42c1c6a",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_finity_gear",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.4889795780181885,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "1d8e1c041a9e74500840c086a42c1c6a.resource",
+        "m_Offset": 0,
+        "m_Size": 37056
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "e36ce85473fa54a81871c3c03f242682",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch20_collect_strings",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.9359999895095825,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "e36ce85473fa54a81871c3c03f242682.resource",
+        "m_Offset": 0,
+        "m_Size": 25376
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "75b12018b5f634867a6dda9f71f4e04c",
+    "object_id": "1",
+    "data": {
+      "m_Name": "sorcerers_collect_arcanalchemist",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.2799999713897705,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "75b12018b5f634867a6dda9f71f4e04c.resource",
+        "m_Offset": 0,
+        "m_Size": 31872
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "8aff37868a1cd4a6890879620844ce2d",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch20_collect_bars",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.1759999990463257,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "8aff37868a1cd4a6890879620844ce2d.resource",
+        "m_Offset": 0,
+        "m_Size": 31872
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "48b1176f5cb1a4b6ea9c207685f5fc56",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_spellfragments",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.436734676361084,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "48b1176f5cb1a4b6ea9c207685f5fc56.resource",
+        "m_Offset": 0,
+        "m_Size": 35744
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "69cfd367eaa2c41d6922b8d49c8c6b2f",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch25_collect_xps_adult",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.7763265371322632,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "69cfd367eaa2c41d6922b8d49c8c6b2f.resource",
+        "m_Offset": 0,
+        "m_Size": 44160
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "79ce4ab16e7de4ddd9b61adb5e8b38ce",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch21_collect_oblations1",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.9404081702232361,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "79ce4ab16e7de4ddd9b61adb5e8b38ce.resource",
+        "m_Offset": 0,
+        "m_Size": 23424
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "2f4c44f82566e40a3bd08f84b0ab7e79",
+    "object_id": "1",
+    "data": {
+      "m_Name": "embassies_collect_dwarvenamendments",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "2f4c44f82566e40a3bd08f84b0ab7e79.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "cad8eb81a92ff4029ba59c0fedebca36",
+    "object_id": "1",
+    "data": {
+      "m_Name": "constructs_collect_electricshocks",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.018775463104248,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "cad8eb81a92ff4029ba59c0fedebca36.resource",
+        "m_Offset": 0,
+        "m_Size": 25376
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "cf3967ffee7064f3786c253ab07e816e",
+    "object_id": "1",
+    "data": {
+      "m_Name": "elementals_collect_airartefact",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.3844897747039795,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "cf3967ffee7064f3786c253ab07e816e.resource",
+        "m_Offset": 0,
+        "m_Size": 34464
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "27ad6c103787d4554a544a443199a4a6",
+    "object_id": "1",
+    "data": {
+      "m_Name": "halflings_collect_bread",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.9665306210517883,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "27ad6c103787d4554a544a443199a4a6.resource",
+        "m_Offset": 0,
+        "m_Size": 24096
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "22cff025f63b24b5d9a2b49eca06ba27",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch22_collect_shrimps",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.1039999723434448,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "22cff025f63b24b5d9a2b49eca06ba27.resource",
+        "m_Offset": 0,
+        "m_Size": 29920
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "3814544321152480693cdd245ba6b199",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch18_collect_elves",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.055999994277954,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "3814544321152480693cdd245ba6b199.resource",
+        "m_Offset": 0,
+        "m_Size": 28608
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "804ef7325382a462f995fa9071c54b1c",
+    "object_id": "1",
+    "data": {
+      "m_Name": "constructs_collect_elvenarin",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "804ef7325382a462f995fa9071c54b1c.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "a1cdc920cfeb44c969ad12029bad0b72",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_orcs_mushroomfarm_MB",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.018775463104248,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "a1cdc920cfeb44c969ad12029bad0b72.resource",
+        "m_Offset": 0,
+        "m_Size": 25376
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "df802ae787fed423197ccc9d67cd3641",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch24_collect_warriors",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.7680000066757202,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "df802ae787fed423197ccc9d67cd3641.resource",
+        "m_Offset": 0,
+        "m_Size": 20832
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "79cd50e11a2d84a6ba9862c46fa36ff3",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch17_collect_delicacies_03",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.018775463104248,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "79cd50e11a2d84a6ba9862c46fa36ff3.resource",
+        "m_Offset": 0,
+        "m_Size": 25376
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "9315e593bdf724e6d8f8c6add2cb8aef",
+    "object_id": "1",
+    "data": {
+      "m_Name": "sorcerers_collect_refinedsilk",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 2.0897958278656006,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "9315e593bdf724e6d8f8c6add2cb8aef.resource",
+        "m_Offset": 0,
+        "m_Size": 51936
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "64e7f12c246c94dd8bf64dc45d3eaf7d",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_ascendedgems",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.984000027179718,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "64e7f12c246c94dd8bf64dc45d3eaf7d.resource",
+        "m_Offset": 0,
+        "m_Size": 26688
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "e20b2f591bbe04f02accc31be6ab9268",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch22_collect_sponges",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.7200000286102295,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "e20b2f591bbe04f02accc31be6ab9268.resource",
+        "m_Offset": 0,
+        "m_Size": 19552
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "bb38728ed4e19428eadaffe2e2dcac33",
+    "object_id": "1",
+    "data": {
+      "m_Name": "constructs_collect_rainjellyfish",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "bb38728ed4e19428eadaffe2e2dcac33.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "e114f516d3cf94228be675e3f52fd576",
+    "object_id": "1",
+    "data": {
+      "m_Name": "elvenar_collect_crystalballs",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.0710203647613525,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "e114f516d3cf94228be675e3f52fd576.resource",
+        "m_Offset": 0,
+        "m_Size": 26688
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "efe6ef8c77c454d069a20c8c412190cc",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_orcs_mushroomfarm_MC",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.7053061127662659,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "efe6ef8c77c454d069a20c8c412190cc.resource",
+        "m_Offset": 0,
+        "m_Size": 17600
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "dc18e98092cda483aac8837c535b4c38",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch25_collect_xpg_1",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 2.168163299560547,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "dc18e98092cda483aac8837c535b4c38.resource",
+        "m_Offset": 0,
+        "m_Size": 53888
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "9eed0c8338ced43a68bcdead93482682",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch21_collect_prey",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.7836734652519226,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "9eed0c8338ced43a68bcdead93482682.resource",
+        "m_Offset": 0,
+        "m_Size": 19552
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "705fc1ac13d674f96a85c99b7813d493",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch21_collect_oblations4",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.3061224222183228,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "705fc1ac13d674f96a85c99b7813d493.resource",
+        "m_Offset": 0,
+        "m_Size": 32512
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "a66f4953ded9143a6ae40ac57e005598",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_fairies_plantsfarm_velvet_02",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.018775463104248,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "a66f4953ded9143a6ae40ac57e005598.resource",
+        "m_Offset": 0,
+        "m_Size": 25376
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "4c80069613545442486b61e28f333651",
+    "object_id": "1",
+    "data": {
+      "m_Name": "constructs_collect_proteinbars",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.7053061127662659,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "4c80069613545442486b61e28f333651.resource",
+        "m_Offset": 0,
+        "m_Size": 17600
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "9e2032294d4634e99aad07f05e00bd66",
+    "object_id": "1",
+    "data": {
+      "m_Name": "city_collect_alloyshrooms",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "9e2032294d4634e99aad07f05e00bd66.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "ad7175ca108c3458aa88df3ef849479e",
+    "object_id": "1",
+    "data": {
+      "m_Name": "duneelves_collect_traps",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "ad7175ca108c3458aa88df3ef849479e.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "895dce3be860848e18e6325179866ee9",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_nox",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.031999945640564,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "895dce3be860848e18e6325179866ee9.resource",
+        "m_Offset": 0,
+        "m_Size": 27968
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "5cfa85c8afab348f0842f64f315a8f69",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch25_collect_wisdom_adult",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.750204086303711,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "5cfa85c8afab348f0842f64f315a8f69.resource",
+        "m_Offset": 0,
+        "m_Size": 43520
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "bfa1837458a6e49c29281d7e01943fce",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch20_collect_drums",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.1759999990463257,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "bfa1837458a6e49c29281d7e01943fce.resource",
+        "m_Offset": 0,
+        "m_Size": 31872
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "1ab50749b27d04f248b2f865544e7635",
+    "object_id": "1",
+    "data": {
+      "m_Name": "elementals_collect_fireartefact",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "1ab50749b27d04f248b2f865544e7635.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "6ea1d53be30c44b2284152974f9efd55",
+    "object_id": "1",
+    "data": {
+      "m_Name": "embassies_collect_statutes",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "6ea1d53be30c44b2284152974f9efd55.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "240d448e650fc427288ae000eb110609",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_woodelves_crafting_steel_v2",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "240d448e650fc427288ae000eb110609.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "7fc007f1aefd3453daf59f0b0330ef35",
+    "object_id": "1",
+    "data": {
+      "m_Name": "halflings_collect_seeds_v1",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 2.0897958278656006,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "7fc007f1aefd3453daf59f0b0330ef35.resource",
+        "m_Offset": 0,
+        "m_Size": 51936
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "dd651e52df7b34ea28b030a356e91de2",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch22_collect_weed",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.7440000176429749,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "dd651e52df7b34ea28b030a356e91de2.resource",
+        "m_Offset": 0,
+        "m_Size": 20192
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "2587e9ad43a734e5bb924f16b8b764b8",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch18_collect_earth",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.055999994277954,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "2587e9ad43a734e5bb924f16b8b764b8.resource",
+        "m_Offset": 0,
+        "m_Size": 28608
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "10d1d37f8ea87429e9de104680b59604",
+    "object_id": "1",
+    "data": {
+      "m_Name": "halflings_collect_apples",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.0710203647613525,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "10d1d37f8ea87429e9de104680b59604.resource",
+        "m_Offset": 0,
+        "m_Size": 26688
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "8f056cb4a76784061afdc0d578664e84",
+    "object_id": "1",
+    "data": {
+      "m_Name": "elementals_collect_minerals_vs4",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.5673469305038452,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "8f056cb4a76784061afdc0d578664e84.resource",
+        "m_Offset": 0,
+        "m_Size": 38976
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "b987095d96e3143e489119645b2004ff",
+    "object_id": "1",
+    "data": {
+      "m_Name": "city_collect_cosmicbismuth",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.332244873046875,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "b987095d96e3143e489119645b2004ff.resource",
+        "m_Offset": 0,
+        "m_Size": 33152
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "4de0f772d7ad84997a17dc6ef280944c",
+    "object_id": "1",
+    "data": {
+      "m_Name": "production_gold",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 44100,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.5673469305038452,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "4de0f772d7ad84997a17dc6ef280944c.resource",
+        "m_Offset": 0,
+        "m_Size": 38976
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "4ed216875fd994e72bd2a46dc3bf8786",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_spells_enchantments",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.055999994277954,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "4ed216875fd994e72bd2a46dc3bf8786.resource",
+        "m_Offset": 0,
+        "m_Size": 28608
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "6e0af01525568419db7790e858e9ad6f",
+    "object_id": "1",
+    "data": {
+      "m_Name": "collect_ascendedcrystal",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 1.1039999723434448,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "6e0af01525568419db7790e858e9ad6f.resource",
+        "m_Offset": 0,
+        "m_Size": 29920
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "654aeaecb61f8442bb71d8c55286618b",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch24_collect_farmers",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.671999990940094,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "654aeaecb61f8442bb71d8c55286618b.resource",
+        "m_Offset": 0,
+        "m_Size": 18240
+      },
+      "m_CompressionFormat": 2
+    }
+  },
+  {
+    "source_serialized_file": "12a024d898300477b9c1e828663a41e6",
+    "object_id": "1",
+    "data": {
+      "m_Name": "ch23_collect_halflingspirits",
+      "m_LoadType": 0,
+      "m_Channels": 1,
+      "m_Frequency": 48000,
+      "m_BitsPerSample": 16,
+      "m_Length": 0.8159999847412109,
+      "m_IsTrackerFormat": false,
+      "m_Ambisonic": false,
+      "m_SubsoundIndex": 0,
+      "m_PreloadAudioData": false,
+      "m_LoadInBackground": false,
+      "m_Legacy3D": true,
+      "m_Resource": {
+        "m_Source": "12a024d898300477b9c1e828663a41e6.resource",
+        "m_Offset": 0,
+        "m_Size": 22144
+      },
+      "m_CompressionFormat": 2
+    }
+  }
+]

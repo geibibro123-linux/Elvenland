@@ -1,0 +1,39 @@
+[
+  {
+    "source": "Elvenar-1.244.0-split-apks.zip",
+    "inner_apk": "base.apk",
+    "apk_sha256": "c997344c1145f78ddb410bc16a2f427d527ab09afb7e09b01c5f6984d8e10e71",
+    "localization_files_checked": 21,
+    "localization_mismatches": [],
+    "android_png_matched_by_hash": 450,
+    "android_png_unmatched_by_hash": [
+      "res/drawable-hdpi/abc_list_focused_holo.9.png",
+      "res/drawable-hdpi/common_google_signin_btn_text_dark_normal_background.9.png",
+      "res/drawable-mdpi/abc_list_focused_holo.9.png",
+      "res/drawable-mdpi/common_google_signin_btn_icon_dark_normal_background.9.png",
+      "res/drawable-mdpi/common_google_signin_btn_text_dark_normal_background.9.png",
+      "res/drawable-xhdpi/abc_list_focused_holo.9.png",
+      "res/drawable-xhdpi/com_facebook_tooltip_blue_background.9.png",
+      "res/drawable-xxhdpi/abc_list_focused_holo.9.png",
+      "res/drawable-xxhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    ]
+  },
+  {
+    "source": "Elvenar_Build02_Samsung.zip",
+    "inner_apk": "Elvenar_OfflineLab_Build02.apk",
+    "apk_sha256": "a451a039cb7713384bd54e7c5916394fba6d7bb7dfe9f256365c381e0348d17f",
+    "localization_files_checked": 21,
+    "localization_mismatches": [],
+    "android_png_matched_by_hash": 459,
+    "android_png_unmatched_by_hash": []
+  },
+  {
+    "source": "Elvenar_Lab04_SkriptTest03.apk",
+    "inner_apk": null,
+    "apk_sha256": "d77de38720bde3c0894493b519cdcca6183d7d020d3377d40e2096516d6d247c",
+    "localization_files_checked": 21,
+    "localization_mismatches": [],
+    "android_png_matched_by_hash": 459,
+    "android_png_unmatched_by_hash": []
+  }
+]

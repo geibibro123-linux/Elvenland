@@ -1,0 +1,59 @@
+{
+  "_meta": {
+    "evidence_status": "HISTORICAL_EMBEDDED_REFERENCE",
+    "current_server_values_verified": false,
+    "approved_elvenland_balance": false,
+    "source_archive": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+    "source_entry": "assets/offline_lab/reference_start_v4_v5.json",
+    "source_entry_sha256": "3c4a3ef6a6bb3da5ff6da32480d6cea05052b908479b6e814b49faab952ec4cb",
+    "extracted_on": "2026-11-17",
+    "missing_fields_policy": "Preserve absence. Do not convert absence to false, zero, empty cost, or success."
+  },
+  "status": "OPEN",
+  "complete_tech_tree_present": false,
+  "observed_feature_technology_links": 13,
+  "observed_unique_technology_ids": [
+    "elves_cauldron",
+    "elves_ch20_portal_1",
+    "elves_ch21_mainhall_1",
+    "elves_ch21_residence_1",
+    "elves_ch22_workshop_1",
+    "elves_crafting",
+    "elves_fellowship_adventures",
+    "elves_fellowships",
+    "elves_neighbourlyhelp",
+    "elves_spire",
+    "elves_tournaments"
+  ],
+  "known_metadata_field_names_from_checkpoint": {
+    "ResearchTechnologyConfigVO": [
+      "id",
+      "maxSP",
+      "parentIds",
+      "requirements"
+    ],
+    "ResearchTechnologyProgressVO": [
+      "tech_id",
+      "currentSP",
+      "gate_unlocked",
+      "is_paid"
+    ],
+    "StrategyPointsVO": [
+      "currentSP",
+      "maxSP",
+      "producingTime"
+    ]
+  },
+  "metadata_field_name_source": "Elvenar_Offline_Lab11_Engineering_Checkpoint.zip/implementation/original_research_planner.js",
+  "metadata_note": "Field names are reported by the historical planner. No complete config rows are bundled with that planner.",
+  "missing": [
+    "complete_technology_list",
+    "parent_dependency_edges",
+    "per_technology_point_costs",
+    "per_technology_resource_costs",
+    "unlock_effects",
+    "gate_rules",
+    "chapter_order"
+  ],
+  "runtime_recommendation": "Do not invent a technology graph. Retain observed links as references until original rows or explicit design decisions exist."
+}

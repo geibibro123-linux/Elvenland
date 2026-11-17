@@ -1,0 +1,4522 @@
+{
+  "_meta": {
+    "evidence_status": "HISTORICAL_EMBEDDED_REFERENCE",
+    "current_server_values_verified": false,
+    "approved_elvenland_balance": false,
+    "source_archive": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+    "source_entry": "assets/offline_lab/reference_start_v4_v5.json",
+    "source_entry_sha256": "3c4a3ef6a6bb3da5ff6da32480d6cea05052b908479b6e814b49faab952ec4cb",
+    "extracted_on": "2026-11-17",
+    "missing_fields_policy": "Preserve absence. Do not convert absence to false, zero, empty cost, or success.",
+    "source_json_pointer": "/unlocked_items"
+  },
+  "data": [
+    {
+      "name": "H_Elves_Townhall_1",
+      "unlocked": true
+    },
+    {
+      "name": "H_Elves_Townhall_2",
+      "unlocked": true
+    },
+    {
+      "name": "H_Elves_Townhall_3",
+      "unlocked": true
+    },
+    {
+      "name": "H_Elves_Townhall_4",
+      "unlocked": true
+    },
+    {
+      "name": "H_Elves_Townhall_5",
+      "unlocked": true
+    },
+    {
+      "name": "eb_lm",
+      "unlocked": true
+    },
+    {
+      "name": "eb_lm_1",
+      "unlocked": true
+    },
+    {
+      "name": "P_Elves_Workshop_1"
+    },
+    {
+      "name": "P_Elves_Workshop_2"
+    },
+    {
+      "name": "P_Elves_Workshop_3"
+    },
+    {
+      "name": "P_Elves_Workshop_4"
+    },
+    {
+      "name": "A_Elves_Signpost_1"
+    },
+    {
+      "name": "A_Elves_PurpleTrees_1"
+    },
+    {
+      "name": "A_Elves_Premium_Shrine_1"
+    },
+    {
+      "name": "M_Elves_Barracks_1"
+    },
+    {
+      "name": "M_Elves_Barracks_2"
+    },
+    {
+      "name": "M_Elves_Barracks_3"
+    },
+    {
+      "name": "M_Elves_Barracks_4"
+    },
+    {
+      "name": "M_Elves_Barracks_5"
+    },
+    {
+      "name": "G_Elves_FactoryStone_1"
+    },
+    {
+      "name": "G_Elves_FactoryStone_2"
+    },
+    {
+      "name": "G_Elves_FactoryStone_3"
+    },
+    {
+      "name": "G_Elves_FactoryStone_4"
+    },
+    {
+      "name": "G_Elves_FactoryStone_5"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_1"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_2"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_3"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_4"
+    },
+    {
+      "name": "G_Elves_FactoryWood_1"
+    },
+    {
+      "name": "G_Elves_FactoryWood_2"
+    },
+    {
+      "name": "G_Elves_FactoryWood_3"
+    },
+    {
+      "name": "G_Elves_FactoryWood_4"
+    },
+    {
+      "name": "G_Elves_FactoryWood_5"
+    },
+    {
+      "name": "G_Elves_FactoryWood_6"
+    },
+    {
+      "name": "eb_lr"
+    },
+    {
+      "name": "eb_lr_1"
+    },
+    {
+      "name": "O_Elves_Armory_1"
+    },
+    {
+      "name": "O_Elves_Armory_2"
+    },
+    {
+      "name": "O_Elves_Armory_3"
+    },
+    {
+      "name": "O_Elves_Armory_4"
+    },
+    {
+      "name": "Y_Elves_Trader_1"
+    },
+    {
+      "name": "R_Elves_Residential_4"
+    },
+    {
+      "name": "R_Elves_Residential_5"
+    },
+    {
+      "name": "R_Elves_Residential_6"
+    },
+    {
+      "name": "R_Elves_Residential_7"
+    },
+    {
+      "name": "A_Elves_Boat_1"
+    },
+    {
+      "name": "A_Elves_Premium_Anchor_1"
+    },
+    {
+      "name": "S_Elves_Alley"
+    },
+    {
+      "name": "D_Elves_MagicAcademy_1"
+    },
+    {
+      "name": "D_Elves_MagicAcademy_2"
+    },
+    {
+      "name": "D_Elves_MagicAcademy_3"
+    },
+    {
+      "name": "D_Elves_MagicAcademy_4"
+    },
+    {
+      "name": "D_Elves_MagicAcademy_5"
+    },
+    {
+      "name": "spell_supply_production_boost_1"
+    },
+    {
+      "name": "spell_neighborly_help_boost_1"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_2"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_2"
+    },
+    {
+      "name": "P_Elves_Workshop_5"
+    },
+    {
+      "name": "P_Elves_Workshop_6"
+    },
+    {
+      "name": "P_Elves_Workshop_7"
+    },
+    {
+      "name": "P_Elves_Workshop_8"
+    },
+    {
+      "name": "G_Elves_FactoryStone_6"
+    },
+    {
+      "name": "G_Elves_FactoryStone_7"
+    },
+    {
+      "name": "G_Elves_FactoryStone_8"
+    },
+    {
+      "name": "G_Elves_FactoryStone_9"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_5"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_6"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_7"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_8"
+    },
+    {
+      "name": "G_Elves_FactoryWood_7"
+    },
+    {
+      "name": "G_Elves_FactoryWood_8"
+    },
+    {
+      "name": "G_Elves_FactoryWood_9"
+    },
+    {
+      "name": "G_Elves_FactoryWood_10"
+    },
+    {
+      "name": "M_Orcs_Barracks_1"
+    },
+    {
+      "name": "M_Orcs_Barracks_2"
+    },
+    {
+      "name": "M_Orcs_Barracks_3"
+    },
+    {
+      "name": "M_Orcs_Barracks_4"
+    },
+    {
+      "name": "tg_lm"
+    },
+    {
+      "name": "tg_lm_1"
+    },
+    {
+      "name": "A_Elves_Tree_1"
+    },
+    {
+      "name": "A_Elves_Premium_Flower_1"
+    },
+    {
+      "name": "A_Elves_Premium_Youth_1"
+    },
+    {
+      "name": "H_Elves_Townhall_6"
+    },
+    {
+      "name": "H_Elves_Townhall_7"
+    },
+    {
+      "name": "H_Elves_Townhall_8"
+    },
+    {
+      "name": "H_Elves_Townhall_9"
+    },
+    {
+      "name": "M_Elves_Barracks_6"
+    },
+    {
+      "name": "M_Elves_Barracks_7"
+    },
+    {
+      "name": "M_Elves_Barracks_8"
+    },
+    {
+      "name": "M_Elves_Barracks_9"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_1"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_2"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_3"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_4"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_5"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_6"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_1"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_2"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_3"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_4"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_5"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_1"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_2"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_3"
+    },
+    {
+      "name": "eb_lm_2"
+    },
+    {
+      "name": "O_Elves_Armory_5"
+    },
+    {
+      "name": "O_Elves_Armory_6"
+    },
+    {
+      "name": "O_Elves_Armory_7"
+    },
+    {
+      "name": "O_Elves_Armory_8"
+    },
+    {
+      "name": "A_Elves_Runes_1"
+    },
+    {
+      "name": "A_Elves_OrangeTrees_1"
+    },
+    {
+      "name": "A_Elves_Premium_Phoenix_1"
+    },
+    {
+      "name": "eb_hm"
+    },
+    {
+      "name": "eb_hm_1"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_3"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_3"
+    },
+    {
+      "name": "eb_hr"
+    },
+    {
+      "name": "eb_hr_1"
+    },
+    {
+      "name": "R_Elves_Residential_8"
+    },
+    {
+      "name": "R_Elves_Residential_9"
+    },
+    {
+      "name": "R_Elves_Residential_10"
+    },
+    {
+      "name": "R_Elves_Residential_11"
+    },
+    {
+      "name": "R_Elves_Residential_12"
+    },
+    {
+      "name": "R_Elves_Residential_13"
+    },
+    {
+      "name": "R_Elves_Residential_14"
+    },
+    {
+      "name": "R_Elves_Residential_15"
+    },
+    {
+      "name": "eb_lr_2"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_7"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_8"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_9"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_10"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_6"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_7"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_8"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_9"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_4"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_5"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_6"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_7"
+    },
+    {
+      "name": "combiningcatalyst"
+    },
+    {
+      "name": "A_Elves_Statue_1"
+    },
+    {
+      "name": "A_Elves_Gift_1"
+    },
+    {
+      "name": "A_Elves_Premium_Seasnake_1"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_1"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_2"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_3"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_4"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_1"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_2"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_3"
+    },
+    {
+      "name": "G_Elves_FactoryGems_1"
+    },
+    {
+      "name": "G_Elves_FactoryGems_2"
+    },
+    {
+      "name": "G_Elves_FactoryGems_3"
+    },
+    {
+      "name": "eb_ma"
+    },
+    {
+      "name": "eb_ma_1"
+    },
+    {
+      "name": "P_Elves_Workshop_9"
+    },
+    {
+      "name": "P_Elves_Workshop_10"
+    },
+    {
+      "name": "P_Elves_Workshop_11"
+    },
+    {
+      "name": "P_Elves_Workshop_12"
+    },
+    {
+      "name": "P_Elves_Workshop_13"
+    },
+    {
+      "name": "P_Elves_Workshop_14"
+    },
+    {
+      "name": "P_Elves_Workshop_15"
+    },
+    {
+      "name": "S_Elves_Road"
+    },
+    {
+      "name": "A_Elves_Cyclone_1"
+    },
+    {
+      "name": "A_Elves_Premium_Stairway_1"
+    },
+    {
+      "name": "spell_good_production_boost_1"
+    },
+    {
+      "name": "spell_knowledge_boost_1"
+    },
+    {
+      "name": "M_Elves_Barracks_10"
+    },
+    {
+      "name": "M_Elves_Barracks_11"
+    },
+    {
+      "name": "M_Elves_Barracks_12"
+    },
+    {
+      "name": "M_Elves_Barracks_13"
+    },
+    {
+      "name": "M_Elves_Barracks_14"
+    },
+    {
+      "name": "M_Elves_Barracks_15"
+    },
+    {
+      "name": "H_Elves_Townhall_10"
+    },
+    {
+      "name": "H_Elves_Townhall_11"
+    },
+    {
+      "name": "H_Elves_Townhall_12"
+    },
+    {
+      "name": "H_Elves_Townhall_13"
+    },
+    {
+      "name": "H_Elves_Townhall_14"
+    },
+    {
+      "name": "H_Elves_Townhall_15"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_4"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_4"
+    },
+    {
+      "name": "B_All_AW1_1"
+    },
+    {
+      "name": "B_All_AW2_1"
+    },
+    {
+      "name": "O_Elves_Armory_9"
+    },
+    {
+      "name": "O_Elves_Armory_10"
+    },
+    {
+      "name": "O_Elves_Armory_11"
+    },
+    {
+      "name": "O_Elves_Armory_12"
+    },
+    {
+      "name": "O_Elves_Armory_13"
+    },
+    {
+      "name": "O_Elves_Armory_14"
+    },
+    {
+      "name": "O_Elves_Armory_15"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_5"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_6"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_7"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_8"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_4"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_5"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_6"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_7"
+    },
+    {
+      "name": "G_Elves_FactoryGems_4"
+    },
+    {
+      "name": "G_Elves_FactoryGems_5"
+    },
+    {
+      "name": "G_Elves_FactoryGems_6"
+    },
+    {
+      "name": "G_Elves_FactoryGems_7"
+    },
+    {
+      "name": "eb_hm_2"
+    },
+    {
+      "name": "A_Elves_Stone_1"
+    },
+    {
+      "name": "A_Elves_Crop_1"
+    },
+    {
+      "name": "A_Elves_Premium_Mothertree_1"
+    },
+    {
+      "name": "G_Elves_FactoryStone_10"
+    },
+    {
+      "name": "G_Elves_FactoryStone_11"
+    },
+    {
+      "name": "G_Elves_FactoryStone_12"
+    },
+    {
+      "name": "G_Elves_FactoryStone_13"
+    },
+    {
+      "name": "G_Elves_FactoryStone_14"
+    },
+    {
+      "name": "G_Elves_FactoryStone_15"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_9"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_10"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_11"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_12"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_13"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_14"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_15"
+    },
+    {
+      "name": "G_Elves_FactoryWood_11"
+    },
+    {
+      "name": "G_Elves_FactoryWood_12"
+    },
+    {
+      "name": "G_Elves_FactoryWood_13"
+    },
+    {
+      "name": "G_Elves_FactoryWood_14"
+    },
+    {
+      "name": "G_Elves_FactoryWood_15"
+    },
+    {
+      "name": "B_All_AW3_1"
+    },
+    {
+      "name": "B_All_AW4_1"
+    },
+    {
+      "name": "A_Elves_Temple_1"
+    },
+    {
+      "name": "A_Elves_Premium_Unicorn_1"
+    },
+    {
+      "name": "A_Elves_Premium_Fertility_1"
+    },
+    {
+      "name": "tg_lr"
+    },
+    {
+      "name": "tg_lr_1"
+    },
+    {
+      "name": "tg_lm_2"
+    },
+    {
+      "name": "B_Elves_AW1_1"
+    },
+    {
+      "name": "B_Elves_AW2_1"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_5"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_5"
+    },
+    {
+      "name": "tg_ma"
+    },
+    {
+      "name": "tg_ma_1"
+    },
+    {
+      "name": "S_Elves_Street"
+    },
+    {
+      "name": "B_All_Spire_AW_1"
+    },
+    {
+      "name": "M_Orcs_Barracks_5"
+    },
+    {
+      "name": "M_Orcs_Barracks_6"
+    },
+    {
+      "name": "M_Orcs_Barracks_7"
+    },
+    {
+      "name": "M_Orcs_Barracks_8"
+    },
+    {
+      "name": "A_Elves_Altar_1"
+    },
+    {
+      "name": "A_Elves_NaturesBlessing_1"
+    },
+    {
+      "name": "A_Elves_Premium_Tower_1"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_11"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_12"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_13"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_14"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_15"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_10"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_11"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_12"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_13"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_14"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_15"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_8"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_9"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_10"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_11"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_12"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_13"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_14"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_15"
+    },
+    {
+      "name": "A_Elves_Garden_1"
+    },
+    {
+      "name": "A_Elves_Premium_Boardwalk_1"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_9"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_10"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_11"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_12"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_13"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_14"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_15"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_8"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_9"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_10"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_11"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_12"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_13"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_14"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_15"
+    },
+    {
+      "name": "G_Elves_FactoryGems_8"
+    },
+    {
+      "name": "G_Elves_FactoryGems_9"
+    },
+    {
+      "name": "G_Elves_FactoryGems_10"
+    },
+    {
+      "name": "G_Elves_FactoryGems_11"
+    },
+    {
+      "name": "G_Elves_FactoryGems_12"
+    },
+    {
+      "name": "G_Elves_FactoryGems_13"
+    },
+    {
+      "name": "G_Elves_FactoryGems_14"
+    },
+    {
+      "name": "G_Elves_FactoryGems_15"
+    },
+    {
+      "name": "eb_hr_2"
+    },
+    {
+      "name": "eb_ma_2"
+    },
+    {
+      "name": "B_All_AW5_1"
+    },
+    {
+      "name": "B_All_AW6_1"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_6"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_6"
+    },
+    {
+      "name": "B_Dwarfs_Portal_1"
+    },
+    {
+      "name": "B_Dwarfs_Portal_2"
+    },
+    {
+      "name": "B_Dwarfs_Portal_3"
+    },
+    {
+      "name": "B_Dwarfs_Portal_4"
+    },
+    {
+      "name": "S_Dwarfs_Tracks"
+    },
+    {
+      "name": "R_Elves_Residential_16"
+    },
+    {
+      "name": "R_Elves_Residential_17"
+    },
+    {
+      "name": "P_Elves_Workshop_16"
+    },
+    {
+      "name": "P_Elves_Workshop_17"
+    },
+    {
+      "name": "B_Dwarfs_Mine_1"
+    },
+    {
+      "name": "B_Dwarfs_Mine_2"
+    },
+    {
+      "name": "B_Dwarfs_Mine_3"
+    },
+    {
+      "name": "B_Dwarfs_Mine_4"
+    },
+    {
+      "name": "G_Elves_FactoryStone_16"
+    },
+    {
+      "name": "G_Elves_FactoryStone_17"
+    },
+    {
+      "name": "G_Elves_FactoryStone_18"
+    },
+    {
+      "name": "G_Elves_FactoryStone_19"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_16"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_17"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_18"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_19"
+    },
+    {
+      "name": "G_Elves_FactoryWood_16"
+    },
+    {
+      "name": "G_Elves_FactoryWood_17"
+    },
+    {
+      "name": "G_Elves_FactoryWood_18"
+    },
+    {
+      "name": "G_Elves_FactoryWood_19"
+    },
+    {
+      "name": "M_Elves_Barracks_16"
+    },
+    {
+      "name": "M_Elves_Barracks_17"
+    },
+    {
+      "name": "B_Dwarfs_Foundry_1"
+    },
+    {
+      "name": "B_Dwarfs_Foundry_2"
+    },
+    {
+      "name": "B_Dwarfs_Foundry_3"
+    },
+    {
+      "name": "B_Dwarfs_Foundry_4"
+    },
+    {
+      "name": "A_Dwarfs_Parc_1"
+    },
+    {
+      "name": "A_Dwarfs_Grove_1"
+    },
+    {
+      "name": "A_Dwarfs_Premium_Dragon_1"
+    },
+    {
+      "name": "eb_lm_3"
+    },
+    {
+      "name": "eb_lr_3"
+    },
+    {
+      "name": "H_Elves_Townhall_16"
+    },
+    {
+      "name": "H_Elves_Townhall_17"
+    },
+    {
+      "name": "S_Elves_Dwarven"
+    },
+    {
+      "name": "O_Elves_Armory_16"
+    },
+    {
+      "name": "O_Elves_Armory_17"
+    },
+    {
+      "name": "A_Dwarfs_Tavern_1"
+    },
+    {
+      "name": "A_Dwarfs_Temple_1"
+    },
+    {
+      "name": "A_Dwarfs_Premium_Sphinx_1"
+    },
+    {
+      "name": "eb_hr_3"
+    },
+    {
+      "name": "B_Dwarfs_AW1_1"
+    },
+    {
+      "name": "B_Dwarfs_AW2_1"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_7"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_7"
+    },
+    {
+      "name": "B_Fairies_Portal_1"
+    },
+    {
+      "name": "B_Fairies_Portal_2"
+    },
+    {
+      "name": "B_Fairies_Portal_3"
+    },
+    {
+      "name": "B_Fairies_Portal_4"
+    },
+    {
+      "name": "A_Fairies_Small1_1"
+    },
+    {
+      "name": "A_Fairies_Small2_1"
+    },
+    {
+      "name": "A_Fairies_Premium_Large1_1"
+    },
+    {
+      "name": "S_Fairies_Specialstreet"
+    },
+    {
+      "name": "B_Fairies_Production1_1"
+    },
+    {
+      "name": "B_Fairies_Production1_2"
+    },
+    {
+      "name": "B_Fairies_Production1_3"
+    },
+    {
+      "name": "B_Fairies_Production1_4"
+    },
+    {
+      "name": "A_Fairies_Large1_1"
+    },
+    {
+      "name": "A_Fairies_Premium_Small1_1"
+    },
+    {
+      "name": "M_Fairies_Barracks_1"
+    },
+    {
+      "name": "M_Fairies_Barracks_2"
+    },
+    {
+      "name": "M_Fairies_Barracks_3"
+    },
+    {
+      "name": "M_Fairies_Barracks_4"
+    },
+    {
+      "name": "mc_ma"
+    },
+    {
+      "name": "mc_ma_1"
+    },
+    {
+      "name": "P_Elves_Workshop_18"
+    },
+    {
+      "name": "P_Elves_Workshop_19"
+    },
+    {
+      "name": "O_Elves_Armory_18"
+    },
+    {
+      "name": "O_Elves_Armory_19"
+    },
+    {
+      "name": "B_Fairies_Production2_1"
+    },
+    {
+      "name": "B_Fairies_Production2_2"
+    },
+    {
+      "name": "B_Fairies_Production2_3"
+    },
+    {
+      "name": "B_Fairies_Production2_4"
+    },
+    {
+      "name": "R_Elves_Residential_18"
+    },
+    {
+      "name": "R_Elves_Residential_19"
+    },
+    {
+      "name": "mc_lm"
+    },
+    {
+      "name": "mc_lm_1"
+    },
+    {
+      "name": "S_Elves_Fairies"
+    },
+    {
+      "name": "H_Elves_Townhall_18"
+    },
+    {
+      "name": "H_Elves_Townhall_19"
+    },
+    {
+      "name": "M_Elves_Barracks_18"
+    },
+    {
+      "name": "M_Elves_Barracks_19"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_16"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_17"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_18"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_19"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_16"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_17"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_18"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_19"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_16"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_17"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_18"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_19"
+    },
+    {
+      "name": "eb_ma_3"
+    },
+    {
+      "name": "A_Fairies_Small3_1"
+    },
+    {
+      "name": "A_Fairies_Small4_1"
+    },
+    {
+      "name": "A_Fairies_Premium_Large2_1"
+    },
+    {
+      "name": "A_Fairies_Large2_1"
+    },
+    {
+      "name": "A_Fairies_Premium_Small2_1"
+    },
+    {
+      "name": "B_Fairies_AW1_1"
+    },
+    {
+      "name": "B_Fairies_AW2_1"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_8"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_8"
+    },
+    {
+      "name": "S_Orcs_Specialstreet"
+    },
+    {
+      "name": "B_Orcs_Portal_1"
+    },
+    {
+      "name": "B_Orcs_Portal_2"
+    },
+    {
+      "name": "B_Orcs_Portal_3"
+    },
+    {
+      "name": "B_Orcs_Portal_4"
+    },
+    {
+      "name": "R_Elves_Residential_20"
+    },
+    {
+      "name": "R_Elves_Residential_21"
+    },
+    {
+      "name": "B_Orcs_Production1_1"
+    },
+    {
+      "name": "B_Orcs_Production1_2"
+    },
+    {
+      "name": "B_Orcs_Production1_3"
+    },
+    {
+      "name": "B_Orcs_Production1_4"
+    },
+    {
+      "name": "O_Elves_Armory_20"
+    },
+    {
+      "name": "O_Elves_Armory_21"
+    },
+    {
+      "name": "O_Elves_Armory_22"
+    },
+    {
+      "name": "O_Elves_Armory_23"
+    },
+    {
+      "name": "A_Orcs_Large1_1"
+    },
+    {
+      "name": "A_Orcs_Premium_Small1_1"
+    },
+    {
+      "name": "A_Orcs_Small1_1"
+    },
+    {
+      "name": "A_Orcs_Small2_1"
+    },
+    {
+      "name": "A_Orcs_Premium_Large1_1"
+    },
+    {
+      "name": "B_Orcs_Production2_1"
+    },
+    {
+      "name": "B_Orcs_Production2_2"
+    },
+    {
+      "name": "B_Orcs_Production2_3"
+    },
+    {
+      "name": "B_Orcs_Production2_4"
+    },
+    {
+      "name": "P_Elves_Workshop_20"
+    },
+    {
+      "name": "P_Elves_Workshop_21"
+    },
+    {
+      "name": "H_Elves_Townhall_20"
+    },
+    {
+      "name": "H_Elves_Townhall_21"
+    },
+    {
+      "name": "M_Elves_Barracks_20"
+    },
+    {
+      "name": "M_Elves_Barracks_21"
+    },
+    {
+      "name": "M_Orcs_Barracks_9"
+    },
+    {
+      "name": "M_Orcs_Barracks_10"
+    },
+    {
+      "name": "M_Orcs_Barracks_11"
+    },
+    {
+      "name": "M_Orcs_Barracks_12"
+    },
+    {
+      "name": "eb_hm_3"
+    },
+    {
+      "name": "tg_hm"
+    },
+    {
+      "name": "tg_hm_1"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_16"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_17"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_18"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_19"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_16"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_17"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_18"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_19"
+    },
+    {
+      "name": "G_Elves_FactoryGems_16"
+    },
+    {
+      "name": "G_Elves_FactoryGems_17"
+    },
+    {
+      "name": "G_Elves_FactoryGems_18"
+    },
+    {
+      "name": "G_Elves_FactoryGems_19"
+    },
+    {
+      "name": "tg_hr"
+    },
+    {
+      "name": "tg_hr_1"
+    },
+    {
+      "name": "S_Elves_Orcs"
+    },
+    {
+      "name": "A_Orcs_Large2_1"
+    },
+    {
+      "name": "A_Orcs_Premium_Small2_1"
+    },
+    {
+      "name": "A_Orcs_Small3_1"
+    },
+    {
+      "name": "A_Orcs_Small4_1"
+    },
+    {
+      "name": "A_Orcs_Premium_Large2_1"
+    },
+    {
+      "name": "tg_lm_3"
+    },
+    {
+      "name": "B_Orcs_AW1_1"
+    },
+    {
+      "name": "B_Orcs_AW2_1"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_9"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_9"
+    },
+    {
+      "name": "A_Gr4_Large1_1"
+    },
+    {
+      "name": "A_Gr4_Premium_Small1_1"
+    },
+    {
+      "name": "A_Gr4_Small1_1"
+    },
+    {
+      "name": "A_Gr4_Small2_1"
+    },
+    {
+      "name": "A_Gr4_Premium_Large1_1"
+    },
+    {
+      "name": "M_Elves_Barracks_22"
+    },
+    {
+      "name": "M_Elves_Barracks_23"
+    },
+    {
+      "name": "M_Elves_Barracks_24"
+    },
+    {
+      "name": "M_Elves_Barracks_25"
+    },
+    {
+      "name": "P_Elves_Workshop_22"
+    },
+    {
+      "name": "P_Elves_Workshop_23"
+    },
+    {
+      "name": "R_Elves_Residential_22"
+    },
+    {
+      "name": "R_Elves_Residential_23"
+    },
+    {
+      "name": "G_Elves_FactoryStone_20"
+    },
+    {
+      "name": "G_Elves_FactoryStone_21"
+    },
+    {
+      "name": "G_Elves_FactoryStone_22"
+    },
+    {
+      "name": "G_Elves_FactoryStone_23"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_20"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_21"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_22"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_23"
+    },
+    {
+      "name": "G_Elves_FactoryWood_20"
+    },
+    {
+      "name": "G_Elves_FactoryWood_21"
+    },
+    {
+      "name": "G_Elves_FactoryWood_22"
+    },
+    {
+      "name": "G_Elves_FactoryWood_23"
+    },
+    {
+      "name": "tg_lr_2"
+    },
+    {
+      "name": "H_Elves_Townhall_22"
+    },
+    {
+      "name": "H_Elves_Townhall_23"
+    },
+    {
+      "name": "A_Gr4_Small3_1"
+    },
+    {
+      "name": "A_Gr4_Small4_1"
+    },
+    {
+      "name": "A_Gr4_Premium_Large2_1"
+    },
+    {
+      "name": "B_Gr4_Portal_1"
+    },
+    {
+      "name": "B_Gr4_Portal_2"
+    },
+    {
+      "name": "B_Gr4_Portal_3"
+    },
+    {
+      "name": "B_Gr4_Portal_4"
+    },
+    {
+      "name": "mc_lr"
+    },
+    {
+      "name": "mc_lr_1"
+    },
+    {
+      "name": "S_Gr4_Specialstreet"
+    },
+    {
+      "name": "A_Gr4_Large2_1"
+    },
+    {
+      "name": "A_Gr4_Premium_Small2_1"
+    },
+    {
+      "name": "M_Fairies_Barracks_5"
+    },
+    {
+      "name": "M_Fairies_Barracks_6"
+    },
+    {
+      "name": "M_Fairies_Barracks_7"
+    },
+    {
+      "name": "M_Fairies_Barracks_8"
+    },
+    {
+      "name": "B_Gr4_Production1_1"
+    },
+    {
+      "name": "B_Gr4_Production1_2"
+    },
+    {
+      "name": "B_Gr4_Production1_3"
+    },
+    {
+      "name": "B_Gr4_Production1_4"
+    },
+    {
+      "name": "S_Elves_Gr4"
+    },
+    {
+      "name": "B_Gr4_Production2_1"
+    },
+    {
+      "name": "B_Gr4_Production3_1"
+    },
+    {
+      "name": "B_Gr4_Production4_1"
+    },
+    {
+      "name": "mc_lm_2"
+    },
+    {
+      "name": "B_Gr4_AW1_1"
+    },
+    {
+      "name": "B_Gr4_AW2_1"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_10"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_10"
+    },
+    {
+      "name": "B_Gr5_Production1_1"
+    },
+    {
+      "name": "B_Gr5_Production1_2"
+    },
+    {
+      "name": "B_Gr5_Production1_3"
+    },
+    {
+      "name": "B_Gr5_Production1_4"
+    },
+    {
+      "name": "B_Gr5_Specialstreet_1"
+    },
+    {
+      "name": "B_Gr5_Production2_1"
+    },
+    {
+      "name": "B_Gr5_Production2_2"
+    },
+    {
+      "name": "B_Gr5_Production2_3"
+    },
+    {
+      "name": "B_Gr5_Production2_4"
+    },
+    {
+      "name": "B_Gr5_Portal_1"
+    },
+    {
+      "name": "B_Gr5_Portal_2"
+    },
+    {
+      "name": "B_Gr5_Portal_3"
+    },
+    {
+      "name": "B_Gr5_Portal_4"
+    },
+    {
+      "name": "B_Gr5_Production3_1"
+    },
+    {
+      "name": "B_Gr5_Production3_2"
+    },
+    {
+      "name": "B_Gr5_Production3_3"
+    },
+    {
+      "name": "B_Gr5_Production3_4"
+    },
+    {
+      "name": "A_Gr5_Small1_1"
+    },
+    {
+      "name": "A_Gr5_Small2_1"
+    },
+    {
+      "name": "A_Gr5_Premium_Large1_1"
+    },
+    {
+      "name": "A_Gr5_Large1_1"
+    },
+    {
+      "name": "A_Gr5_Premium_Small1_1"
+    },
+    {
+      "name": "mc_ma_2"
+    },
+    {
+      "name": "R_Elves_Residential_24"
+    },
+    {
+      "name": "R_Elves_Residential_25"
+    },
+    {
+      "name": "P_Elves_Workshop_24"
+    },
+    {
+      "name": "P_Elves_Workshop_25"
+    },
+    {
+      "name": "O_Elves_Armory_24"
+    },
+    {
+      "name": "O_Elves_Armory_25"
+    },
+    {
+      "name": "O_Elves_Armory_26"
+    },
+    {
+      "name": "O_Elves_Armory_27"
+    },
+    {
+      "name": "M_Orcs_Barracks_13"
+    },
+    {
+      "name": "M_Orcs_Barracks_14"
+    },
+    {
+      "name": "M_Orcs_Barracks_15"
+    },
+    {
+      "name": "M_Orcs_Barracks_16"
+    },
+    {
+      "name": "H_Elves_Townhall_24"
+    },
+    {
+      "name": "H_Elves_Townhall_25"
+    },
+    {
+      "name": "tg_ma_2"
+    },
+    {
+      "name": "mc_hm"
+    },
+    {
+      "name": "mc_hm_1"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_20"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_21"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_22"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_23"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_20"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_21"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_22"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_23"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_20"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_21"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_22"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_23"
+    },
+    {
+      "name": "A_Gr5_Large2_1"
+    },
+    {
+      "name": "A_Gr5_Premium_Small2_1"
+    },
+    {
+      "name": "S_Elves_Gr5"
+    },
+    {
+      "name": "A_Gr5_Small3_1"
+    },
+    {
+      "name": "A_Gr5_Small4_1"
+    },
+    {
+      "name": "A_Gr5_Premium_Large2_1"
+    },
+    {
+      "name": "B_Gr5_AW1_1"
+    },
+    {
+      "name": "B_Gr5_AW2_1"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_11"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_11"
+    },
+    {
+      "name": "B_Gr6_Portal_1"
+    },
+    {
+      "name": "B_Gr6_Portal_2"
+    },
+    {
+      "name": "B_Gr6_Portal_3"
+    },
+    {
+      "name": "B_Gr6_Portal_4"
+    },
+    {
+      "name": "S_Gr6_Specialstreet"
+    },
+    {
+      "name": "Y_Elves_Trader_2"
+    },
+    {
+      "name": "B_Gr6_Production1_1"
+    },
+    {
+      "name": "B_Gr6_Production1_2"
+    },
+    {
+      "name": "B_Gr6_Production1_3"
+    },
+    {
+      "name": "B_Gr6_Production1_4"
+    },
+    {
+      "name": "A_Gr6_Large1_1"
+    },
+    {
+      "name": "A_Gr6_Premium_Small1_1"
+    },
+    {
+      "name": "tg_hr_2"
+    },
+    {
+      "name": "B_Gr6_Production2_1"
+    },
+    {
+      "name": "B_Gr6_Production2_2"
+    },
+    {
+      "name": "B_Gr6_Production2_3"
+    },
+    {
+      "name": "B_Gr6_Production2_4"
+    },
+    {
+      "name": "M_Elves_Barracks_26"
+    },
+    {
+      "name": "M_Elves_Barracks_27"
+    },
+    {
+      "name": "M_Elves_Barracks_28"
+    },
+    {
+      "name": "M_Elves_Barracks_29"
+    },
+    {
+      "name": "R_Elves_Residential_26"
+    },
+    {
+      "name": "R_Elves_Residential_27"
+    },
+    {
+      "name": "A_Gr6_Small1_1"
+    },
+    {
+      "name": "A_Gr6_Small2_1"
+    },
+    {
+      "name": "A_Gr6_Premium_Large1_1"
+    },
+    {
+      "name": "H_Elves_Townhall_26"
+    },
+    {
+      "name": "H_Elves_Townhall_27"
+    },
+    {
+      "name": "P_Elves_Workshop_26"
+    },
+    {
+      "name": "P_Elves_Workshop_27"
+    },
+    {
+      "name": "M_Fairies_Barracks_9"
+    },
+    {
+      "name": "M_Fairies_Barracks_10"
+    },
+    {
+      "name": "M_Fairies_Barracks_11"
+    },
+    {
+      "name": "M_Fairies_Barracks_12"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_20"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_21"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_22"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_23"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_20"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_21"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_22"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_23"
+    },
+    {
+      "name": "G_Elves_FactoryGems_20"
+    },
+    {
+      "name": "G_Elves_FactoryGems_21"
+    },
+    {
+      "name": "G_Elves_FactoryGems_22"
+    },
+    {
+      "name": "G_Elves_FactoryGems_23"
+    },
+    {
+      "name": "mc_hr"
+    },
+    {
+      "name": "mc_hr_1"
+    },
+    {
+      "name": "A_Gr6_Large2_1"
+    },
+    {
+      "name": "A_Gr6_Premium_Small2_1"
+    },
+    {
+      "name": "mc_lr_2"
+    },
+    {
+      "name": "S_Elves_Gr6"
+    },
+    {
+      "name": "A_Gr6_Small3_1"
+    },
+    {
+      "name": "A_Gr6_Small4_1"
+    },
+    {
+      "name": "A_Gr6_Premium_Large2_1"
+    },
+    {
+      "name": "B_Gr6_AW1_1"
+    },
+    {
+      "name": "B_Gr6_AW2_1"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_12"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_12"
+    },
+    {
+      "name": "G_Elves_FactoryStone_24"
+    },
+    {
+      "name": "G_Elves_FactoryStone_25"
+    },
+    {
+      "name": "G_Elves_FactoryStone_26"
+    },
+    {
+      "name": "G_Elves_FactoryStone_27"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_24"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_25"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_26"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_27"
+    },
+    {
+      "name": "G_Elves_FactoryWood_24"
+    },
+    {
+      "name": "G_Elves_FactoryWood_25"
+    },
+    {
+      "name": "G_Elves_FactoryWood_26"
+    },
+    {
+      "name": "G_Elves_FactoryWood_27"
+    },
+    {
+      "name": "Y_Elves_Trader_3"
+    },
+    {
+      "name": "B_Gr7_Production1_1"
+    },
+    {
+      "name": "B_Gr7_Production2_1"
+    },
+    {
+      "name": "B_Gr7_Production3_1"
+    },
+    {
+      "name": "B_Gr7_Production4_1"
+    },
+    {
+      "name": "B_Gr7_Portal_1"
+    },
+    {
+      "name": "B_Gr7_Portal_2"
+    },
+    {
+      "name": "B_Gr7_Portal_3"
+    },
+    {
+      "name": "B_Gr7_Portal_4"
+    },
+    {
+      "name": "B_Gr7_CanalNS_1"
+    },
+    {
+      "name": "B_Gr7_CanalEW_1"
+    },
+    {
+      "name": "tg_hm_2"
+    },
+    {
+      "name": "R_Elves_Residential_28"
+    },
+    {
+      "name": "R_Elves_Residential_29"
+    },
+    {
+      "name": "A_Gr7_Large1_1"
+    },
+    {
+      "name": "A_Gr7_Premium_Small1_1"
+    },
+    {
+      "name": "B_Gr7_Production1_2"
+    },
+    {
+      "name": "B_Gr7_Production2_2"
+    },
+    {
+      "name": "B_Gr7_Production3_2"
+    },
+    {
+      "name": "B_Gr7_Production4_2"
+    },
+    {
+      "name": "A_Gr7_Small1_1"
+    },
+    {
+      "name": "A_Gr7_Small2_1"
+    },
+    {
+      "name": "A_Gr7_Premium_Large1_1"
+    },
+    {
+      "name": "O_Elves_Armory_28"
+    },
+    {
+      "name": "O_Elves_Armory_29"
+    },
+    {
+      "name": "O_Elves_Armory_30"
+    },
+    {
+      "name": "O_Elves_Armory_31"
+    },
+    {
+      "name": "P_Elves_Workshop_28"
+    },
+    {
+      "name": "P_Elves_Workshop_29"
+    },
+    {
+      "name": "A_Gr7_Small3_1"
+    },
+    {
+      "name": "A_Gr7_Small4_1"
+    },
+    {
+      "name": "A_Gr7_Premium_Large2_1"
+    },
+    {
+      "name": "mc_hm_2"
+    },
+    {
+      "name": "H_Elves_Townhall_28"
+    },
+    {
+      "name": "H_Elves_Townhall_29"
+    },
+    {
+      "name": "A_Gr7_Large2_1"
+    },
+    {
+      "name": "A_Gr7_Premium_Small2_1"
+    },
+    {
+      "name": "B_Gr7_Production1_3"
+    },
+    {
+      "name": "B_Gr7_Production2_3"
+    },
+    {
+      "name": "B_Gr7_Production3_3"
+    },
+    {
+      "name": "B_Gr7_Production4_3"
+    },
+    {
+      "name": "M_Orcs_Barracks_17"
+    },
+    {
+      "name": "M_Orcs_Barracks_18"
+    },
+    {
+      "name": "M_Orcs_Barracks_19"
+    },
+    {
+      "name": "M_Orcs_Barracks_20"
+    },
+    {
+      "name": "S_Elves_Gr7"
+    },
+    {
+      "name": "tg_ma_3"
+    },
+    {
+      "name": "B_Gr7_AW1_1"
+    },
+    {
+      "name": "B_Gr7_AW2_1"
+    },
+    {
+      "name": "B_Gr8_Portal_1"
+    },
+    {
+      "name": "B_Gr8_Portal_2"
+    },
+    {
+      "name": "B_Gr8_Portal_3"
+    },
+    {
+      "name": "B_Gr8_Portal_4"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_13"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_13"
+    },
+    {
+      "name": "P_Elves_Workshop_30"
+    },
+    {
+      "name": "R_Elves_Residential_30"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_24"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_25"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_26"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_27"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_24"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_25"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_26"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_27"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_24"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_25"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_26"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_27"
+    },
+    {
+      "name": "B_Gr8_Production1_1"
+    },
+    {
+      "name": "B_Gr8_Production1_2"
+    },
+    {
+      "name": "B_Gr8_Production1_3"
+    },
+    {
+      "name": "B_Gr8_Production1_4"
+    },
+    {
+      "name": "B_Gr8_Production2_1"
+    },
+    {
+      "name": "B_Gr8_Production2_2"
+    },
+    {
+      "name": "B_Gr8_Production2_3"
+    },
+    {
+      "name": "B_Gr8_Production2_4"
+    },
+    {
+      "name": "Y_Elves_Trader_4"
+    },
+    {
+      "name": "B_Gr8_Monument1_1"
+    },
+    {
+      "name": "A_Gr8_Large1_1"
+    },
+    {
+      "name": "A_Gr8_Premium_Small1_1"
+    },
+    {
+      "name": "mc_hr_2"
+    },
+    {
+      "name": "A_Gr8_Small1_1"
+    },
+    {
+      "name": "A_Gr8_Small2_1"
+    },
+    {
+      "name": "A_Gr8_Premium_Large1_1"
+    },
+    {
+      "name": "B_Gr8_Monument2_1"
+    },
+    {
+      "name": "M_Fairies_Barracks_13"
+    },
+    {
+      "name": "M_Fairies_Barracks_14"
+    },
+    {
+      "name": "M_Fairies_Barracks_15"
+    },
+    {
+      "name": "M_Fairies_Barracks_16"
+    },
+    {
+      "name": "S_Elves_Gr8"
+    },
+    {
+      "name": "P_Elves_Workshop_31"
+    },
+    {
+      "name": "B_Gr8_Monument4_1"
+    },
+    {
+      "name": "tg_lr_3"
+    },
+    {
+      "name": "M_Elves_Barracks_30"
+    },
+    {
+      "name": "M_Elves_Barracks_31"
+    },
+    {
+      "name": "M_Elves_Barracks_32"
+    },
+    {
+      "name": "M_Elves_Barracks_33"
+    },
+    {
+      "name": "H_Elves_Townhall_30"
+    },
+    {
+      "name": "H_Elves_Townhall_31"
+    },
+    {
+      "name": "R_Elves_Residential_31"
+    },
+    {
+      "name": "B_Gr8_Monument3_1"
+    },
+    {
+      "name": "A_Gr8_Small3_1"
+    },
+    {
+      "name": "A_Gr8_Small4_1"
+    },
+    {
+      "name": "A_Gr8_Premium_Large2_1"
+    },
+    {
+      "name": "A_Gr8_Large2_1"
+    },
+    {
+      "name": "A_Gr8_Premium_Small2_1"
+    },
+    {
+      "name": "mc_lm_3"
+    },
+    {
+      "name": "B_Gr8_AW1_1"
+    },
+    {
+      "name": "B_Gr8_AW2_1"
+    },
+    {
+      "name": "B_Gr9_Portal_1"
+    },
+    {
+      "name": "B_Gr9_Portal_2"
+    },
+    {
+      "name": "B_Gr9_Portal_3"
+    },
+    {
+      "name": "B_Gr9_Portal_4"
+    },
+    {
+      "name": "gr9_constructzero"
+    },
+    {
+      "name": "gr9_constructa"
+    },
+    {
+      "name": "gr9_constructb"
+    },
+    {
+      "name": "gr9_constructc"
+    },
+    {
+      "name": "gr9_constructd"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_14"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_14"
+    },
+    {
+      "name": "Y_Elves_Trader_5"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_24"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_25"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_26"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_27"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_24"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_25"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_26"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_27"
+    },
+    {
+      "name": "G_Elves_FactoryGems_24"
+    },
+    {
+      "name": "G_Elves_FactoryGems_25"
+    },
+    {
+      "name": "G_Elves_FactoryGems_26"
+    },
+    {
+      "name": "G_Elves_FactoryGems_27"
+    },
+    {
+      "name": "R_Elves_Residential_32"
+    },
+    {
+      "name": "B_Gr9_Production1_1"
+    },
+    {
+      "name": "B_Gr9_Production2_1"
+    },
+    {
+      "name": "B_Gr9_Production3_1"
+    },
+    {
+      "name": "B_Gr9_Production4_1"
+    },
+    {
+      "name": "P_Elves_Workshop_32"
+    },
+    {
+      "name": "A_Gr9_Small1_1"
+    },
+    {
+      "name": "A_Gr9_Small2_1"
+    },
+    {
+      "name": "A_Gr9_Premium_Large1_1"
+    },
+    {
+      "name": "A_Gr9_Large1_1"
+    },
+    {
+      "name": "A_Gr9_Premium_Small1_1"
+    },
+    {
+      "name": "tg_hm_3"
+    },
+    {
+      "name": "O_Elves_Armory_32"
+    },
+    {
+      "name": "O_Elves_Armory_33"
+    },
+    {
+      "name": "B_Gr9_Production1_2"
+    },
+    {
+      "name": "B_Gr9_Production2_2"
+    },
+    {
+      "name": "B_Gr9_Production3_2"
+    },
+    {
+      "name": "B_Gr9_Production4_2"
+    },
+    {
+      "name": "H_Elves_Townhall_32"
+    },
+    {
+      "name": "S_Elves_Gr9"
+    },
+    {
+      "name": "mc_ma_3"
+    },
+    {
+      "name": "B_Gr9_Production1_3"
+    },
+    {
+      "name": "B_Gr9_Production2_3"
+    },
+    {
+      "name": "B_Gr9_Production3_3"
+    },
+    {
+      "name": "B_Gr9_Production4_3"
+    },
+    {
+      "name": "B_Gr9_Production1_4"
+    },
+    {
+      "name": "B_Gr9_Production2_4"
+    },
+    {
+      "name": "B_Gr9_Production3_4"
+    },
+    {
+      "name": "B_Gr9_Production4_4"
+    },
+    {
+      "name": "M_Orcs_Barracks_21"
+    },
+    {
+      "name": "M_Orcs_Barracks_22"
+    },
+    {
+      "name": "M_Orcs_Barracks_23"
+    },
+    {
+      "name": "M_Orcs_Barracks_24"
+    },
+    {
+      "name": "A_Gr9_Small3_1"
+    },
+    {
+      "name": "A_Gr9_Small4_1"
+    },
+    {
+      "name": "A_Gr9_Premium_Large2_1"
+    },
+    {
+      "name": "P_Elves_Workshop_33"
+    },
+    {
+      "name": "R_Elves_Residential_33"
+    },
+    {
+      "name": "tg_hr_3"
+    },
+    {
+      "name": "A_Gr9_Large2_1"
+    },
+    {
+      "name": "A_Gr9_Premium_Small2_1"
+    },
+    {
+      "name": "H_Elves_Townhall_33"
+    },
+    {
+      "name": "B_Gr9_AW1_1"
+    },
+    {
+      "name": "B_Gr9_AW2_1"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_15"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_15"
+    },
+    {
+      "name": "B_Gr10_Portal_1"
+    },
+    {
+      "name": "B_Gr10_Portal_2"
+    },
+    {
+      "name": "A_Gr10_Premium_Small1_1"
+    },
+    {
+      "name": "B_Gr10_Production1_1"
+    },
+    {
+      "name": "B_Gr10_Production1_2"
+    },
+    {
+      "name": "A_Gr10_Premium_Large1_1"
+    },
+    {
+      "name": "B_Gr10_Production5_1"
+    },
+    {
+      "name": "B_Gr10_Production4_1"
+    },
+    {
+      "name": "B_Gr10_Production3_1"
+    },
+    {
+      "name": "M_Elves_Barracks_34"
+    },
+    {
+      "name": "M_Elves_Barracks_35"
+    },
+    {
+      "name": "M_Elves_Barracks_36"
+    },
+    {
+      "name": "M_Elves_Barracks_37"
+    },
+    {
+      "name": "B_Elves_Gr10_Production2_1"
+    },
+    {
+      "name": "A_Gr10_Small1_1"
+    },
+    {
+      "name": "O_Elves_Armory_34"
+    },
+    {
+      "name": "O_Elves_Armory_35"
+    },
+    {
+      "name": "B_Elves_Gr10_Production2_2"
+    },
+    {
+      "name": "R_Elves_Residential_34"
+    },
+    {
+      "name": "M_Fairies_Barracks_17"
+    },
+    {
+      "name": "M_Fairies_Barracks_18"
+    },
+    {
+      "name": "M_Fairies_Barracks_19"
+    },
+    {
+      "name": "M_Fairies_Barracks_20"
+    },
+    {
+      "name": "B_Gr10_Portal_3"
+    },
+    {
+      "name": "B_Gr10_Portal_4"
+    },
+    {
+      "name": "P_Elves_Workshop_34"
+    },
+    {
+      "name": "mc_lr_3"
+    },
+    {
+      "name": "B_Gr10_Production1_3"
+    },
+    {
+      "name": "B_Gr10_Production1_4"
+    },
+    {
+      "name": "B_Elves_Gr10_Production2_3"
+    },
+    {
+      "name": "B_Elves_Gr10_Production2_4"
+    },
+    {
+      "name": "H_Elves_Townhall_34"
+    },
+    {
+      "name": "mc_hm_3"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_28"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_29"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_30"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_31"
+    },
+    {
+      "name": "G_Elves_FactoryStone_28"
+    },
+    {
+      "name": "G_Elves_FactoryStone_29"
+    },
+    {
+      "name": "G_Elves_FactoryStone_30"
+    },
+    {
+      "name": "G_Elves_FactoryStone_31"
+    },
+    {
+      "name": "G_Elves_FactoryWood_28"
+    },
+    {
+      "name": "G_Elves_FactoryWood_29"
+    },
+    {
+      "name": "G_Elves_FactoryWood_30"
+    },
+    {
+      "name": "G_Elves_FactoryWood_31"
+    },
+    {
+      "name": "mc_hr_3"
+    },
+    {
+      "name": "R_Elves_Residential_35"
+    },
+    {
+      "name": "A_Gr10_Small2_1"
+    },
+    {
+      "name": "P_Elves_Workshop_35"
+    },
+    {
+      "name": "H_Elves_Townhall_35"
+    },
+    {
+      "name": "S_Elves_Gr10"
+    },
+    {
+      "name": "B_Gr10_AW1_1"
+    },
+    {
+      "name": "B_Gr10_AW2_1"
+    },
+    {
+      "name": "B_Gr11_Portal_1"
+    },
+    {
+      "name": "gr11_draftlaws"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_16"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_16"
+    },
+    {
+      "name": "B_Gr11_Production1_1"
+    },
+    {
+      "name": "B_Gr11_Production2_1"
+    },
+    {
+      "name": "A_Gr11_Premium_Large2_1"
+    },
+    {
+      "name": "B_Gr11_Production3_1"
+    },
+    {
+      "name": "B_Gr11_Production3_2"
+    },
+    {
+      "name": "B_Gr11_Production4_1"
+    },
+    {
+      "name": "B_Gr11_Production4_2"
+    },
+    {
+      "name": "A_Gr11_Premium_Large1_1"
+    },
+    {
+      "name": "B_Gr11_Production1_2"
+    },
+    {
+      "name": "B_Gr11_Portal_2"
+    },
+    {
+      "name": "gr11_dwarvenamendments"
+    },
+    {
+      "name": "gr11_fairyamendments"
+    },
+    {
+      "name": "B_Gr11_Production2_2"
+    },
+    {
+      "name": "B_Gr11_Portal_3"
+    },
+    {
+      "name": "gr11_statutes"
+    },
+    {
+      "name": "B_Gr11_Production5_1"
+    },
+    {
+      "name": "B_Gr11_Production5_2"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_28"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_28"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_28"
+    },
+    {
+      "name": "A_Gr11_Large1_1"
+    },
+    {
+      "name": "B_Gr11_Production1_3"
+    },
+    {
+      "name": "B_Gr11_Production3_3"
+    },
+    {
+      "name": "B_Gr11_Production2_3"
+    },
+    {
+      "name": "B_Gr11_Production4_3"
+    },
+    {
+      "name": "R_Elves_Residential_36"
+    },
+    {
+      "name": "B_Gr11_Production1_4"
+    },
+    {
+      "name": "B_Gr11_Production3_4"
+    },
+    {
+      "name": "B_Gr11_Portal_4"
+    },
+    {
+      "name": "B_Gr11_Production5_3"
+    },
+    {
+      "name": "B_Gr11_Production2_4"
+    },
+    {
+      "name": "B_Gr11_Production4_4"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_29"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_29"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_29"
+    },
+    {
+      "name": "B_Gr11_Production5_4"
+    },
+    {
+      "name": "H_Elves_Townhall_36"
+    },
+    {
+      "name": "P_Elves_Workshop_36"
+    },
+    {
+      "name": "O_Elves_Armory_36"
+    },
+    {
+      "name": "O_Elves_Armory_37"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_30"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_30"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_30"
+    },
+    {
+      "name": "P_Elves_Workshop_37"
+    },
+    {
+      "name": "R_Elves_Residential_37"
+    },
+    {
+      "name": "M_Orcs_Barracks_25"
+    },
+    {
+      "name": "M_Orcs_Barracks_26"
+    },
+    {
+      "name": "M_Orcs_Barracks_27"
+    },
+    {
+      "name": "M_Orcs_Barracks_28"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_31"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_31"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_31"
+    },
+    {
+      "name": "S_Elves_Gr11"
+    },
+    {
+      "name": "B_Gr11_AW2_1"
+    },
+    {
+      "name": "H_Elves_Townhall_37"
+    },
+    {
+      "name": "B_Gr11_AW1_1"
+    },
+    {
+      "name": "Y_Elves_Trader_6"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_17"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_17"
+    },
+    {
+      "name": "B_Ch17_Portal_1"
+    },
+    {
+      "name": "ch17_elvenarinzero"
+    },
+    {
+      "name": "B_Ch17_Production1_1"
+    },
+    {
+      "name": "B_Ch17_Production2_1"
+    },
+    {
+      "name": "B_Ch17_Production3_1"
+    },
+    {
+      "name": "R_Elves_Residential_38"
+    },
+    {
+      "name": "B_Ch17_Portal_2"
+    },
+    {
+      "name": "P_Elves_Workshop_38"
+    },
+    {
+      "name": "B_Ch17_Production4_1"
+    },
+    {
+      "name": "B_Ch17_Production5_1"
+    },
+    {
+      "name": "B_Ch17_Production6_1"
+    },
+    {
+      "name": "B_Ch17_Portal_3"
+    },
+    {
+      "name": "B_Ch17_Production7_1"
+    },
+    {
+      "name": "B_Ch17_Production8_1"
+    },
+    {
+      "name": "B_Ch17_Production9_1"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_28"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_29"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_30"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_31"
+    },
+    {
+      "name": "H_Elves_Townhall_38"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_28"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_29"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_30"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_31"
+    },
+    {
+      "name": "B_Ch17_Portal_4"
+    },
+    {
+      "name": "G_Elves_FactoryGems_28"
+    },
+    {
+      "name": "G_Elves_FactoryGems_29"
+    },
+    {
+      "name": "G_Elves_FactoryGems_30"
+    },
+    {
+      "name": "G_Elves_FactoryGems_31"
+    },
+    {
+      "name": "A_Ch17_Large1_1"
+    },
+    {
+      "name": "A_Ch17_Premium_Large1_1"
+    },
+    {
+      "name": "A_Ch17_Premium_Large2_1"
+    },
+    {
+      "name": "M_Elves_Barracks_38"
+    },
+    {
+      "name": "M_Elves_Barracks_39"
+    },
+    {
+      "name": "O_Elves_Armory_38"
+    },
+    {
+      "name": "O_Elves_Armory_39"
+    },
+    {
+      "name": "R_Elves_Residential_39"
+    },
+    {
+      "name": "S_Elves_Ch17"
+    },
+    {
+      "name": "M_Orcs_Barracks_29"
+    },
+    {
+      "name": "M_Orcs_Barracks_30"
+    },
+    {
+      "name": "M_Fairies_Barracks_21"
+    },
+    {
+      "name": "M_Fairies_Barracks_22"
+    },
+    {
+      "name": "P_Elves_Workshop_39"
+    },
+    {
+      "name": "B_Ch17_AW1_1"
+    },
+    {
+      "name": "H_Elves_Townhall_39"
+    },
+    {
+      "name": "B_Ch17_AW2_1"
+    },
+    {
+      "name": "B_Ch18_Portal_1"
+    },
+    {
+      "name": "B_Ch18_Portal_2"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_18"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_18"
+    },
+    {
+      "name": "ch18_badge"
+    },
+    {
+      "name": "G_Elves_FactoryStone_32"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_32"
+    },
+    {
+      "name": "G_Elves_FactoryWood_32"
+    },
+    {
+      "name": "Y_Elves_Trader_7"
+    },
+    {
+      "name": "S_Ch18_Settlementstreet"
+    },
+    {
+      "name": "H_Elves_Townhall_40"
+    },
+    {
+      "name": "eb_lr_4"
+    },
+    {
+      "name": "B_Ch18_Production1_1"
+    },
+    {
+      "name": "B_Ch18_Production2_1"
+    },
+    {
+      "name": "B_Ch18_Production3_1"
+    },
+    {
+      "name": "B_Ch18_Production4_1"
+    },
+    {
+      "name": "B_Ch18_Production5_1"
+    },
+    {
+      "name": "P_Elves_Workshop_40"
+    },
+    {
+      "name": "M_Elves_Barracks_40"
+    },
+    {
+      "name": "R_Elves_Residential_40"
+    },
+    {
+      "name": "A_Ch18_Large1_1"
+    },
+    {
+      "name": "A_Ch18_Premium_Large1_1"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_32"
+    },
+    {
+      "name": "B_Ch18_Production2_2"
+    },
+    {
+      "name": "B_Ch18_Production3_2"
+    },
+    {
+      "name": "B_Ch18_Production4_2"
+    },
+    {
+      "name": "B_Ch18_Production5_2"
+    },
+    {
+      "name": "tg_hr_4"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_32"
+    },
+    {
+      "name": "H_Elves_Townhall_41"
+    },
+    {
+      "name": "B_Ch18_Portal_3"
+    },
+    {
+      "name": "B_Ch18_Portal_4"
+    },
+    {
+      "name": "M_Orcs_Barracks_31"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_32"
+    },
+    {
+      "name": "R_Elves_Residential_41"
+    },
+    {
+      "name": "B_Ch18_Production2_3"
+    },
+    {
+      "name": "B_Ch18_Production3_3"
+    },
+    {
+      "name": "B_Ch18_Production4_3"
+    },
+    {
+      "name": "B_Ch18_Production5_3"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_32"
+    },
+    {
+      "name": "O_Elves_Armory_40"
+    },
+    {
+      "name": "S_Elves_Ch18"
+    },
+    {
+      "name": "A_Ch18_Large2_1"
+    },
+    {
+      "name": "A_Ch18_Premium_Large2_1"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_32"
+    },
+    {
+      "name": "mc_lm_4"
+    },
+    {
+      "name": "P_Elves_Workshop_41"
+    },
+    {
+      "name": "G_Elves_FactoryGems_32"
+    },
+    {
+      "name": "B_Ch18_AW1_1"
+    },
+    {
+      "name": "M_Fairies_Barracks_23"
+    },
+    {
+      "name": "B_Ch18_AW2_1"
+    },
+    {
+      "name": "M_Elves_Barracks_41"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_19"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_19"
+    },
+    {
+      "name": "O_Elves_Armory_41"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_33"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_33"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_33"
+    },
+    {
+      "name": "B_Ch19_Portal_1"
+    },
+    {
+      "name": "B_Ch19_Production1_1"
+    },
+    {
+      "name": "B_Ch19_Production1_2"
+    },
+    {
+      "name": "P_Elves_Workshop_42"
+    },
+    {
+      "name": "Y_Elves_Trader_8"
+    },
+    {
+      "name": "H_Elves_Townhall_42"
+    },
+    {
+      "name": "S_Ch19_Settlementstreet"
+    },
+    {
+      "name": "eb_lm_4"
+    },
+    {
+      "name": "R_Elves_Residential_42"
+    },
+    {
+      "name": "B_Ch19_Production2_1"
+    },
+    {
+      "name": "B_Ch19_Production2_2"
+    },
+    {
+      "name": "A_Ch19_Large1_1"
+    },
+    {
+      "name": "A_Ch19_Premium_Large1_1"
+    },
+    {
+      "name": "S_Elves_Ch19"
+    },
+    {
+      "name": "M_Orcs_Barracks_32"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_33"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_33"
+    },
+    {
+      "name": "G_Elves_FactoryGems_33"
+    },
+    {
+      "name": "B_Ch19_Portal_2"
+    },
+    {
+      "name": "B_Ch19_Portal_3"
+    },
+    {
+      "name": "ch19_creatures3"
+    },
+    {
+      "name": "M_Fairies_Barracks_24"
+    },
+    {
+      "name": "B_Ch19_Production2_3"
+    },
+    {
+      "name": "B_Ch19_Production2_4"
+    },
+    {
+      "name": "mc_lr_4"
+    },
+    {
+      "name": "P_Elves_Workshop_43"
+    },
+    {
+      "name": "H_Elves_Townhall_43"
+    },
+    {
+      "name": "G_Elves_FactoryStone_33"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_33"
+    },
+    {
+      "name": "G_Elves_FactoryWood_33"
+    },
+    {
+      "name": "A_Ch19_Large2_1"
+    },
+    {
+      "name": "A_Ch19_Premium_Large2_1"
+    },
+    {
+      "name": "tg_lm_4"
+    },
+    {
+      "name": "R_Elves_Residential_43"
+    },
+    {
+      "name": "B_Ch19_AW1_1"
+    },
+    {
+      "name": "B_Ch19_Portal_4"
+    },
+    {
+      "name": "B_Ch19_AW2_1"
+    },
+    {
+      "name": "portraitIdCh19M2"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_20"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_20"
+    },
+    {
+      "name": "B_Ch20_Portal_1"
+    },
+    {
+      "name": "ch20_bars"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_34"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_34"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_34"
+    },
+    {
+      "name": "P_Elves_Workshop_44"
+    },
+    {
+      "name": "A_Ch20_Large1_1"
+    },
+    {
+      "name": "A_Ch20_Premium_Large1_1"
+    },
+    {
+      "name": "R_Elves_Residential_44"
+    },
+    {
+      "name": "O_Elves_Armory_42"
+    },
+    {
+      "name": "B_Ch20_Production1_1"
+    },
+    {
+      "name": "B_Ch20_Production2_1"
+    },
+    {
+      "name": "B_Ch20_Production3_1"
+    },
+    {
+      "name": "mc_hm_4"
+    },
+    {
+      "name": "H_Elves_Townhall_44"
+    },
+    {
+      "name": "Y_Elves_Trader_9"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_34"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_34"
+    },
+    {
+      "name": "G_Elves_FactoryGems_34"
+    },
+    {
+      "name": "B_Ch20_Production4_1"
+    },
+    {
+      "name": "B_Ch20_Production5_1"
+    },
+    {
+      "name": "B_Ch20_Production6_1"
+    },
+    {
+      "name": "B_Ch20_Portal_2"
+    },
+    {
+      "name": "B_Ch20_Portal_3"
+    },
+    {
+      "name": "B_Ch20_Portal_4"
+    },
+    {
+      "name": "ch20_songs"
+    },
+    {
+      "name": "S_Elves_Ch20"
+    },
+    {
+      "name": "eb_hm_4"
+    },
+    {
+      "name": "M_Elves_Barracks_42"
+    },
+    {
+      "name": "M_Orcs_Barracks_33"
+    },
+    {
+      "name": "M_Fairies_Barracks_25"
+    },
+    {
+      "name": "G_Elves_FactoryStone_34"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_34"
+    },
+    {
+      "name": "G_Elves_FactoryWood_34"
+    },
+    {
+      "name": "A_Ch20_Large2_1"
+    },
+    {
+      "name": "A_Ch20_Premium_Large2_1"
+    },
+    {
+      "name": "P_Elves_Workshop_45"
+    },
+    {
+      "name": "H_Elves_Townhall_45"
+    },
+    {
+      "name": "R_Elves_Residential_45"
+    },
+    {
+      "name": "tg_hm_4"
+    },
+    {
+      "name": "B_Ch20_AW1_1"
+    },
+    {
+      "name": "B_Ch20_AW2_1"
+    },
+    {
+      "name": "H_Elves_Townhall_46"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_21"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_21"
+    },
+    {
+      "name": "M_Elves_Barracks_43"
+    },
+    {
+      "name": "P_Elves_Workshop_46"
+    },
+    {
+      "name": "eb_hr_4"
+    },
+    {
+      "name": "B_Ch21_Portal_1"
+    },
+    {
+      "name": "B_Ch21_Portal_2"
+    },
+    {
+      "name": "ch21_oblations1"
+    },
+    {
+      "name": "ch21_oblations2"
+    },
+    {
+      "name": "ch21_oblations3"
+    },
+    {
+      "name": "S_Ch21_Settlementstreet"
+    },
+    {
+      "name": "B_Ch21_Production1_1"
+    },
+    {
+      "name": "B_Ch21_Production1_2"
+    },
+    {
+      "name": "S_Elves_Ch21"
+    },
+    {
+      "name": "R_Elves_Residential_46"
+    },
+    {
+      "name": "A_Ch21_Large1_1"
+    },
+    {
+      "name": "A_Ch21_Premium_Large1_1"
+    },
+    {
+      "name": "G_Elves_FactoryGems_35"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_35"
+    },
+    {
+      "name": "B_Ch21_Production2_1"
+    },
+    {
+      "name": "B_Ch21_Production2_2"
+    },
+    {
+      "name": "M_Orcs_Barracks_34"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_35"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_35"
+    },
+    {
+      "name": "B_Ch21_Portal_3"
+    },
+    {
+      "name": "B_Ch21_Portal_4"
+    },
+    {
+      "name": "ch21_oblations4"
+    },
+    {
+      "name": "mc_hr_4"
+    },
+    {
+      "name": "O_Elves_Armory_43"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_35"
+    },
+    {
+      "name": "H_Elves_Townhall_47"
+    },
+    {
+      "name": "B_Ch21_Production1_3"
+    },
+    {
+      "name": "B_Ch21_Production1_4"
+    },
+    {
+      "name": "P_Elves_Workshop_47"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_35"
+    },
+    {
+      "name": "G_Elves_FactoryWood_35"
+    },
+    {
+      "name": "B_Ch21_Production2_3"
+    },
+    {
+      "name": "B_Ch21_Production2_4"
+    },
+    {
+      "name": "tg_lr_4"
+    },
+    {
+      "name": "R_Elves_Residential_47"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_35"
+    },
+    {
+      "name": "G_Elves_FactoryStone_35"
+    },
+    {
+      "name": "M_Fairies_Barracks_26"
+    },
+    {
+      "name": "A_Ch21_Large2_1"
+    },
+    {
+      "name": "A_Ch21_Premium_Large2_1"
+    },
+    {
+      "name": "B_Ch21_AW1_1"
+    },
+    {
+      "name": "B_Ch21_AW2_1"
+    },
+    {
+      "name": "H_Elves_Townhall_48"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_22"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_22"
+    },
+    {
+      "name": "O_Elves_Armory_44"
+    },
+    {
+      "name": "B_Ch22_Portal_1"
+    },
+    {
+      "name": "A_Ch22_Large1_1"
+    },
+    {
+      "name": "A_Ch22_Premium_Large1_1"
+    },
+    {
+      "name": "S_Ch22_Settlementstreet"
+    },
+    {
+      "name": "B_Ch22_Production1_1"
+    },
+    {
+      "name": "B_Ch22_Production2_1"
+    },
+    {
+      "name": "B_Ch22_Production3_1"
+    },
+    {
+      "name": "B_Ch22_Production4_1"
+    },
+    {
+      "name": "R_Elves_Residential_48"
+    },
+    {
+      "name": "S_Elves_Ch22"
+    },
+    {
+      "name": "P_Elves_Workshop_48"
+    },
+    {
+      "name": "B_Ch22_Portal_2"
+    },
+    {
+      "name": "ch22_snails"
+    },
+    {
+      "name": "ch22_weed"
+    },
+    {
+      "name": "ch22_eels"
+    },
+    {
+      "name": "ch22_sponges"
+    },
+    {
+      "name": "eb_ma_4"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_36"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_36"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_36"
+    },
+    {
+      "name": "M_Elves_Barracks_44"
+    },
+    {
+      "name": "B_Ch22_Portal_3"
+    },
+    {
+      "name": "P_Elves_Workshop_49"
+    },
+    {
+      "name": "B_Ch22_Production1_2"
+    },
+    {
+      "name": "B_Ch22_Production2_2"
+    },
+    {
+      "name": "B_Ch22_Production3_2"
+    },
+    {
+      "name": "B_Ch22_Production4_2"
+    },
+    {
+      "name": "H_Elves_Townhall_49"
+    },
+    {
+      "name": "B_Ch22_Portal_4"
+    },
+    {
+      "name": "tg_ma_4"
+    },
+    {
+      "name": "G_Elves_FactoryStone_36"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_36"
+    },
+    {
+      "name": "G_Elves_FactoryWood_36"
+    },
+    {
+      "name": "M_Orcs_Barracks_35"
+    },
+    {
+      "name": "mc_ma_4"
+    },
+    {
+      "name": "R_Elves_Residential_49"
+    },
+    {
+      "name": "A_Ch22_Large2_1"
+    },
+    {
+      "name": "A_Ch22_Premium_Large2_1"
+    },
+    {
+      "name": "M_Fairies_Barracks_27"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_36"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_36"
+    },
+    {
+      "name": "G_Elves_FactoryGems_36"
+    },
+    {
+      "name": "B_Ch22_AW1_1"
+    },
+    {
+      "name": "B_Ch22_AW2_1"
+    },
+    {
+      "name": "H_Elves_Townhall_50"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_23"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_23"
+    },
+    {
+      "name": "R_Elves_Residential_50"
+    },
+    {
+      "name": "A_Ch23_Large1_1"
+    },
+    {
+      "name": "A_Ch23_Premium_Large1_1"
+    },
+    {
+      "name": "P_Elves_Workshop_50"
+    },
+    {
+      "name": "S_Elves_Ch23"
+    },
+    {
+      "name": "B_Ch23_MSB_1"
+    },
+    {
+      "name": "ch23_unicornblossoms"
+    },
+    {
+      "name": "B_Ch23_OSB1_1"
+    },
+    {
+      "name": "B_Ch23_OSB2_1"
+    },
+    {
+      "name": "M_Elves_Barracks_45"
+    },
+    {
+      "name": "B_Ch23_OSB3_1"
+    },
+    {
+      "name": "B_Ch23_OSB4_1"
+    },
+    {
+      "name": "A_Ch23_Large2_1"
+    },
+    {
+      "name": "A_Ch23_Premium_Large2_1"
+    },
+    {
+      "name": "H_Elves_Townhall_51"
+    },
+    {
+      "name": "B_Ch23_MSB_2"
+    },
+    {
+      "name": "O_Elves_Armory_45"
+    },
+    {
+      "name": "G_Elves_FactoryStone_37"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_37"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_37"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_37"
+    },
+    {
+      "name": "R_Elves_Residential_51"
+    },
+    {
+      "name": "B_Ch23_MSB_3"
+    },
+    {
+      "name": "M_Orcs_Barracks_36"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_37"
+    },
+    {
+      "name": "G_Elves_FactoryWood_37"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_37"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_37"
+    },
+    {
+      "name": "G_Elves_FactoryGems_37"
+    },
+    {
+      "name": "P_Elves_Workshop_51"
+    },
+    {
+      "name": "B_Ch23_MSB_4"
+    },
+    {
+      "name": "M_Fairies_Barracks_28"
+    },
+    {
+      "name": "eb_lm_5"
+    },
+    {
+      "name": "tg_lm_5"
+    },
+    {
+      "name": "mc_lm_5"
+    },
+    {
+      "name": "B_Ch23_AW1_1"
+    },
+    {
+      "name": "B_Ch23_AW2_1"
+    },
+    {
+      "name": "R_Elves_Residential_52"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_24"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_24"
+    },
+    {
+      "name": "Y_Elves_Trader_10"
+    },
+    {
+      "name": "H_Elves_Townhall_52"
+    },
+    {
+      "name": "B_Ch24_MSB1_1"
+    },
+    {
+      "name": "ch24_prophecies"
+    },
+    {
+      "name": "B_Ch24_OSB1_1"
+    },
+    {
+      "name": "B_Ch24_OSB2_1"
+    },
+    {
+      "name": "B_Ch24_OSB3_1"
+    },
+    {
+      "name": "B_Ch24_OSB4_1"
+    },
+    {
+      "name": "P_Elves_Workshop_52"
+    },
+    {
+      "name": "B_Ch24_MSB2_1"
+    },
+    {
+      "name": "ch24_studies"
+    },
+    {
+      "name": "A_Ch24_Large1_1"
+    },
+    {
+      "name": "A_Ch24_Premium_Large1_1"
+    },
+    {
+      "name": "S_All_Ch24"
+    },
+    {
+      "name": "M_Elves_Barracks_46"
+    },
+    {
+      "name": "B_Ch24_MSB1_2"
+    },
+    {
+      "name": "G_Elves_FactoryStone_38"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_38"
+    },
+    {
+      "name": "P_Elves_Workshop_53"
+    },
+    {
+      "name": "M_Orcs_Barracks_37"
+    },
+    {
+      "name": "O_Elves_Armory_46"
+    },
+    {
+      "name": "B_Ch24_MSB2_2"
+    },
+    {
+      "name": "G_Elves_FactoryWood_38"
+    },
+    {
+      "name": "B_Ch24_MSB1_3"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_38"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_38"
+    },
+    {
+      "name": "R_Elves_Residential_53"
+    },
+    {
+      "name": "tg_hm_5"
+    },
+    {
+      "name": "M_Fairies_Barracks_29"
+    },
+    {
+      "name": "B_Ch24_MSB2_3"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_38"
+    },
+    {
+      "name": "eb_hm_5"
+    },
+    {
+      "name": "B_Ch24_MSB1_4"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_38"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_38"
+    },
+    {
+      "name": "mc_hm_5"
+    },
+    {
+      "name": "B_Ch24_MSB2_4"
+    },
+    {
+      "name": "G_Elves_FactoryGems_38"
+    },
+    {
+      "name": "A_Ch24_Large2_1"
+    },
+    {
+      "name": "A_Ch24_Premium_Large2_1"
+    },
+    {
+      "name": "B_Ch24_AW1_1"
+    },
+    {
+      "name": "B_Ch24_AW2_1"
+    },
+    {
+      "name": "H_Elves_Townhall_53"
+    },
+    {
+      "name": "A_Ch25_Large1_1"
+    },
+    {
+      "name": "A_Ch25_Premium_Large1_1"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_25"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_25"
+    },
+    {
+      "name": "O_Elves_Armory_47"
+    },
+    {
+      "name": "B_Ch25_MSB_1"
+    },
+    {
+      "name": "ch25_wisdom_kid"
+    },
+    {
+      "name": "ch25_wisdom_adult"
+    },
+    {
+      "name": "ch25_wisdom_elder"
+    },
+    {
+      "name": "S_Ch25_Settlementstreet"
+    },
+    {
+      "name": "B_Ch25_OSB1_1"
+    },
+    {
+      "name": "B_Ch25_OSB1_2"
+    },
+    {
+      "name": "B_Ch25_OSB1_3"
+    },
+    {
+      "name": "B_Ch25_OSB2_1"
+    },
+    {
+      "name": "B_Ch25_OSB2_2"
+    },
+    {
+      "name": "B_Ch25_OSB2_3"
+    },
+    {
+      "name": "B_Ch25_OSB3_1"
+    },
+    {
+      "name": "B_Ch25_OSB3_2"
+    },
+    {
+      "name": "B_Ch25_OSB3_3"
+    },
+    {
+      "name": "G_Elves_FactoryStone_39"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_39"
+    },
+    {
+      "name": "R_Elves_Residential_54"
+    },
+    {
+      "name": "G_Elves_FactoryWood_39"
+    },
+    {
+      "name": "P_Elves_Workshop_54"
+    },
+    {
+      "name": "B_Ch25_MSB_2"
+    },
+    {
+      "name": "M_Elves_Barracks_47"
+    },
+    {
+      "name": "eb_lr_5"
+    },
+    {
+      "name": "H_Elves_Townhall_54"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_39"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_39"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_39"
+    },
+    {
+      "name": "B_Ch25_MSB_3"
+    },
+    {
+      "name": "S_All_Ch25"
+    },
+    {
+      "name": "M_Orcs_Barracks_38"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_39"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_39"
+    },
+    {
+      "name": "A_Ch25_Large2_1"
+    },
+    {
+      "name": "A_Ch25_Premium_Large2_1"
+    },
+    {
+      "name": "G_Elves_FactoryGems_39"
+    },
+    {
+      "name": "tg_lr_5"
+    },
+    {
+      "name": "R_Elves_Residential_55"
+    },
+    {
+      "name": "B_Ch25_MSB_4"
+    },
+    {
+      "name": "M_Fairies_Barracks_30"
+    },
+    {
+      "name": "P_Elves_Workshop_55"
+    },
+    {
+      "name": "mc_lr_5"
+    },
+    {
+      "name": "H_Elves_Townhall_55"
+    },
+    {
+      "name": "B_Ch25_AW1_1"
+    },
+    {
+      "name": "B_Ch25_AW2_1"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_26"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_26"
+    },
+    {
+      "name": "A_Ch26_Large1_1"
+    },
+    {
+      "name": "A_Ch26_Premium_Large1_1"
+    },
+    {
+      "name": "O_Elves_Armory_48"
+    },
+    {
+      "name": "B_Ch26_MSB_1"
+    },
+    {
+      "name": "S_Ch26_Settlementstreet1"
+    },
+    {
+      "name": "S_Ch26_Settlementstreet2"
+    },
+    {
+      "name": "S_Ch26_Settlementstreet3"
+    },
+    {
+      "name": "S_Ch26_Settlementstreet4"
+    },
+    {
+      "name": "B_Ch26_OSB1_1"
+    },
+    {
+      "name": "B_Ch26_OSB2_1"
+    },
+    {
+      "name": "B_Ch26_OSB3_1"
+    },
+    {
+      "name": "B_Ch26_OSB4_1"
+    },
+    {
+      "name": "B_Ch26_OSB5_1"
+    },
+    {
+      "name": "B_Ch26_OSB6_1"
+    },
+    {
+      "name": "B_Ch26_OSB7_1"
+    },
+    {
+      "name": "B_Ch26_OSB8_1"
+    },
+    {
+      "name": "G_Elves_FactoryStone_40"
+    },
+    {
+      "name": "G_Elves_FactoryGlass_40"
+    },
+    {
+      "name": "G_Elves_FactoryElixir_40"
+    },
+    {
+      "name": "R_Elves_Residential_56"
+    },
+    {
+      "name": "H_Elves_Townhall_56"
+    },
+    {
+      "name": "P_Elves_Workshop_56"
+    },
+    {
+      "name": "B_Ch26_MSB_2"
+    },
+    {
+      "name": "G_Elves_FactoryMetal_40"
+    },
+    {
+      "name": "G_Elves_FactoryPaper_40"
+    },
+    {
+      "name": "G_Elves_FactoryMagic_40"
+    },
+    {
+      "name": "M_Orcs_Barracks_39"
+    },
+    {
+      "name": "M_Elves_Barracks_48"
+    },
+    {
+      "name": "M_Fairies_Barracks_31"
+    },
+    {
+      "name": "B_Ch26_MSB_3"
+    },
+    {
+      "name": "R_Elves_Residential_57"
+    },
+    {
+      "name": "H_Elves_Townhall_57"
+    },
+    {
+      "name": "P_Elves_Workshop_57"
+    },
+    {
+      "name": "A_Ch26_Large2_1"
+    },
+    {
+      "name": "A_Ch26_Premium_Large2_1"
+    },
+    {
+      "name": "S_All_Ch26"
+    },
+    {
+      "name": "B_Ch26_MSB_4"
+    },
+    {
+      "name": "G_Elves_FactoryWood_40"
+    },
+    {
+      "name": "G_Elves_FactoryFabric_40"
+    },
+    {
+      "name": "G_Elves_FactoryGems_40"
+    },
+    {
+      "name": "tg_hr_5"
+    },
+    {
+      "name": "eb_hr_5"
+    },
+    {
+      "name": "mc_hr_5"
+    },
+    {
+      "name": "B_Ch26_AW1_1"
+    },
+    {
+      "name": "B_Ch26_AW2_1"
+    },
+    {
+      "name": "H_Elves_Townhall_58"
+    },
+    {
+      "name": "H_Elves_Townhall_59"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_27"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_27"
+    },
+    {
+      "name": "B_Ch27_AW1_1"
+    },
+    {
+      "name": "B_Ch27_AW2_1"
+    },
+    {
+      "name": "H_Elves_Townhall_60"
+    },
+    {
+      "name": "H_Elves_Townhall_61"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_28"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_28"
+    },
+    {
+      "name": "B_Ch28_AW1_1"
+    },
+    {
+      "name": "B_Ch28_AW2_1"
+    },
+    {
+      "name": "H_Elves_Townhall_62"
+    },
+    {
+      "name": "H_Elves_Townhall_63"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_29"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_29"
+    },
+    {
+      "name": "B_Ch29_AW1_1"
+    },
+    {
+      "name": "B_Ch29_AW2_1"
+    },
+    {
+      "name": "H_Elves_Townhall_64"
+    },
+    {
+      "name": "H_Elves_Townhall_65"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_30"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_30"
+    },
+    {
+      "name": "B_Ch30_AW1_1"
+    },
+    {
+      "name": "B_Ch30_AW2_1"
+    },
+    {
+      "name": "H_Elves_Townhall_66"
+    },
+    {
+      "name": "H_Elves_Townhall_67"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_31"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_31"
+    },
+    {
+      "name": "B_Ch31_AW1_1"
+    },
+    {
+      "name": "B_Ch31_AW2_1"
+    },
+    {
+      "name": "H_Elves_Townhall_68"
+    },
+    {
+      "name": "H_Elves_Townhall_69"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_32"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_32"
+    },
+    {
+      "name": "B_Ch32_AW1_1"
+    },
+    {
+      "name": "B_Ch32_AW2_1"
+    },
+    {
+      "name": "H_Elves_Townhall_70"
+    },
+    {
+      "name": "H_Elves_Townhall_71"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_33"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_33"
+    },
+    {
+      "name": "B_Ch33_AW1_1"
+    },
+    {
+      "name": "B_Ch33_AW2_1"
+    },
+    {
+      "name": "H_Elves_Townhall_72"
+    },
+    {
+      "name": "H_Elves_Townhall_73"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_34"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_34"
+    },
+    {
+      "name": "B_Ch34_AW1_1"
+    },
+    {
+      "name": "B_Ch34_AW2_1"
+    },
+    {
+      "name": "H_Elves_Townhall_74"
+    },
+    {
+      "name": "H_Elves_Townhall_75"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_35"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_35"
+    },
+    {
+      "name": "B_Ch35_AW1_1"
+    },
+    {
+      "name": "B_Ch35_AW2_1"
+    },
+    {
+      "name": "H_Elves_Townhall_76"
+    },
+    {
+      "name": "H_Elves_Townhall_77"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_36"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_36"
+    },
+    {
+      "name": "B_Ch36_AW1_1"
+    },
+    {
+      "name": "B_Ch36_AW2_1"
+    },
+    {
+      "name": "H_Elves_Townhall_78"
+    },
+    {
+      "name": "H_Elves_Townhall_79"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_37"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_37"
+    },
+    {
+      "name": "B_Ch37_AW1_1"
+    },
+    {
+      "name": "B_Ch37_AW2_1"
+    },
+    {
+      "name": "H_Elves_Townhall_80"
+    },
+    {
+      "name": "H_Elves_Townhall_81"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_38"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_38"
+    },
+    {
+      "name": "B_Ch38_AW1_1"
+    },
+    {
+      "name": "B_Ch38_AW2_1"
+    },
+    {
+      "name": "H_Elves_Townhall_82"
+    },
+    {
+      "name": "H_Elves_Townhall_83"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_39"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_39"
+    },
+    {
+      "name": "B_Ch39_AW1_1"
+    },
+    {
+      "name": "B_Ch39_AW2_1"
+    },
+    {
+      "name": "H_Elves_Townhall_84"
+    },
+    {
+      "name": "H_Elves_Townhall_85"
+    },
+    {
+      "name": "R_Elves_Premium_Residential_40"
+    },
+    {
+      "name": "P_Elves_Premium_Workshop_40"
+    },
+    {
+      "name": "B_Ch40_AW1_1"
+    },
+    {
+      "name": "B_Ch40_AW2_1"
+    }
+  ]
+}

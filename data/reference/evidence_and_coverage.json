@@ -1,0 +1,113 @@
+{
+  "audit_date": "2026-11-17",
+  "sources": [
+    {
+      "filename": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+      "size_bytes": 7821756,
+      "sha256": "e45245b475835fb37372f3832240f5d0d8c53959b06f145d3529048a9a7c5403"
+    },
+    {
+      "filename": "Elvenar_Build02_11_Katalog_und_Technikberichte.zip",
+      "size_bytes": 347632,
+      "sha256": "23b9e3815e3841f303551fdc6707d72f3a2318483ad4fffb71278b105cbbd778"
+    },
+    {
+      "filename": "Elvenar_Offline_Lab11_Engineering_Checkpoint.zip",
+      "size_bytes": 302910,
+      "sha256": "31af95b77bf00eb98074689a617b4cb6b76576afc8b558f7cd1c8bcf83874e75"
+    },
+    {
+      "filename": "Elvenar_Build02_AssetInventar.json",
+      "size_bytes": 1773925,
+      "sha256": "7b06496b81bf935daf7aa2455b99382039f1605539545ae5e3ceb42d205884af"
+    },
+    {
+      "filename": "Elvenar_Build02_04_Unity_Szenen_und_Ressourcen.zip",
+      "size_bytes": 47143661,
+      "sha256": "f629c321567269dace9faf03fa84100c9dbe17894d69bf440dca505a88cca0ef"
+    }
+  ],
+  "reference_sha256_verified": true,
+  "coverage": {
+    "source_reference_fields": 26,
+    "minimal_city_entity_count": 2,
+    "city_visual_references": 139,
+    "city_visual_references_with_variants": 138,
+    "city_visual_aliases_without_own_variants": 1,
+    "city_visual_variants": 272,
+    "resource_set_count": 245,
+    "unique_resource_ids": 557,
+    "item_unlock_observation_count": 1500,
+    "item_unlock_field_presence": {
+      "explicit_true": 7,
+      "explicit_false": 0,
+      "field_absent": 1493
+    },
+    "feature_technology_link_count": 13,
+    "unique_observed_technology_id_count": 11,
+    "knowledge_point_package_count": 6,
+    "production_boost_step_count": 61,
+    "premium_coefficient_row_count": 31,
+    "premium_coefficient_value_absent_count": 2,
+    "full_building_economy_table_found": false,
+    "production_recipe_table_found": false,
+    "complete_technology_graph_found": false,
+    "specific_missing_coordinates": [
+      "/city_map/unlocked_areas/0/y",
+      "/city_map/entities/0/y",
+      "/city_map/entities/1/y"
+    ],
+    "interpretation_warning": "Absent serialized fields may have original defaults, but this extraction does not assume or verify them."
+  },
+  "new_network_requests_to_game_service": false,
+  "apk_built": false,
+  "additional_textasset_review": {
+    "audit_date": "2026-11-17",
+    "source_archive": "Elvenar_Build02_04_Unity_Szenen_und_Ressourcen.zip",
+    "text_assets_reviewed": 44,
+    "source_files_verified_against_original_inventory": 44,
+    "approved_assets": 28,
+    "excluded_assets": 16,
+    "approved_unchanged_assets": 19,
+    "approved_sanitized_assets": 9,
+    "removed_absolute_editor_path_values": 8,
+    "categories": {
+      "spine_texture_atlas": 9,
+      "spine_skeleton_animation": 9,
+      "sound_routing_configuration": 6,
+      "excluded_build_or_sdk_metadata": 6,
+      "excluded_credential_storage": 3,
+      "text_layout_character_rules": 2,
+      "excluded_certificate_storage": 6,
+      "visual_asset_manifest": 1,
+      "sound_mix_settings": 1,
+      "excluded_development_environment_metadata": 1
+    },
+    "sound_configuration_rows": 214,
+    "spine_animation_names_total": 23,
+    "complete_research_tree_found": false,
+    "building_economy_table_found": false,
+    "production_recipe_table_found": false,
+    "localization_translation_table_found": false,
+    "all_unity_monobehaviours_semantically_reviewed": false,
+    "gameplay_balance_values_modified": false,
+    "game_service_network_requests": false
+  },
+  "additional_textasset_approval_index": "TEXTASSET_APPROVAL_INDEX.json or tools/textasset_approval_index.json, as listed in the package index",
+  "additional_monobehaviour_review": {
+    "total_monobehaviours": 45620,
+    "headers_inspected": 45620,
+    "header_read_errors": {},
+    "distinct_resolved_instantiated_script_classes": 1351,
+    "resolved_script_class_instances": 45617,
+    "unresolved_script_class_instances": 3,
+    "standard_unity_ui_instances": 34844,
+    "candidate_classes": 138,
+    "candidate_instances": 501,
+    "representatives_with_full_base_only_typetree": 14,
+    "representatives_with_undecoded_custom_payload": 124,
+    "all_objects_semantically_decoded": false,
+    "raw_object_values_published": false,
+    "details": "monobehaviour_scope.json"
+  }
+}

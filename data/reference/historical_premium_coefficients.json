@@ -1,0 +1,137 @@
+{
+  "_meta": {
+    "evidence_status": "HISTORICAL_EMBEDDED_REFERENCE",
+    "current_server_values_verified": false,
+    "approved_elvenland_balance": false,
+    "source_archive": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+    "source_entry": "assets/offline_lab/reference_start_v4_v5.json",
+    "source_entry_sha256": "3c4a3ef6a6bb3da5ff6da32480d6cea05052b908479b6e814b49faab952ec4cb",
+    "extracted_on": "2026-11-17",
+    "missing_fields_policy": "Preserve absence. Do not convert absence to false, zero, empty cost, or success.",
+    "source_json_pointer": "/premium_prices"
+  },
+  "data": [
+    {
+      "feature_id": "b_premium_expo2_insfin_training",
+      "premium_price": 0.35
+    },
+    {
+      "feature_id": "b_premium_expo_insfin_training",
+      "premium_price": 0.79
+    },
+    {
+      "feature_id": "b_premium_healing_modificator",
+      "premium_price": 1.5
+    },
+    {
+      "feature_id": "min_premium_training_costs",
+      "premium_price": 3
+    },
+    {
+      "feature_id": "instant_construction_modifier",
+      "premium_price": 0.84
+    },
+    {
+      "feature_id": "instant_construction_base",
+      "premium_price": 3
+    },
+    {
+      "feature_id": "instant_spell_production_modifier",
+      "premium_price": 0.6
+    },
+    {
+      "feature_id": "instant_spell_production_base",
+      "premium_price": 3
+    },
+    {
+      "feature_id": "instant_manual_production_modifier",
+      "premium_price": 0.6
+    },
+    {
+      "feature_id": "instant_manual_production_base",
+      "premium_price": 3
+    },
+    {
+      "feature_id": "instant_crafting_production_modifier",
+      "premium_price": 0.6
+    },
+    {
+      "feature_id": "instant_crafting_production_base",
+      "premium_price": 3
+    },
+    {
+      "feature_id": "instant_spire_open_gate_modifier",
+      "premium_price": 0.6
+    },
+    {
+      "feature_id": "instant_spire_open_gate_base",
+      "premium_price": 3
+    },
+    {
+      "feature_id": "instant_merchant_cooldown_modifier",
+      "premium_price": 0.6
+    },
+    {
+      "feature_id": "instant_merchant_cooldown_base",
+      "premium_price": 3
+    },
+    {
+      "feature_id": "instant_skip_order_cooldown_modifier",
+      "premium_price": 1
+    },
+    {
+      "feature_id": "instant_skip_order_cooldown_base"
+    },
+    {
+      "feature_id": "instant_level_purchase_value_modifier",
+      "premium_price": 3.5
+    },
+    {
+      "feature_id": "instant_level_purchase_value_base"
+    },
+    {
+      "feature_id": "instant_guardian_cooldown_modifier",
+      "premium_price": 0.84
+    },
+    {
+      "feature_id": "instant_guardian_cooldown_base",
+      "premium_price": 3
+    },
+    {
+      "feature_id": "resource_ratio",
+      "premium_price": 10
+    },
+    {
+      "feature_id": "buy_forge_point",
+      "premium_price": 45
+    },
+    {
+      "feature_id": "buy_knowledge_point",
+      "premium_price": 45
+    },
+    {
+      "feature_id": "buy_broken_shard",
+      "premium_price": 15
+    },
+    {
+      "feature_id": "base_buy_broken_shard",
+      "premium_price": 50
+    },
+    {
+      "feature_id": "aw_knowledge_point_cost",
+      "premium_price": 25
+    },
+    {
+      "feature_id": "inflationConstant",
+      "premium_price": 0.2
+    },
+    {
+      "feature_id": "premium_expo_scouting",
+      "premium_price": 0.84
+    },
+    {
+      "feature_id": "premium_base_scouting",
+      "premium_price": 3
+    }
+  ]
+}

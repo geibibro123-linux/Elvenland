@@ -1,0 +1,29 @@
+{
+  "results_by_type_and_status": {
+    "Material:metadata_exported": 81,
+    "Texture2D:exported": 2604,
+    "Sprite:exported": 2859,
+    "GameObject:metadata_exported": 27191,
+    "Animator:metadata_exported": 1927,
+    "CanvasRenderer:metadata_exported": 23112,
+    "RectTransform:metadata_exported": 27035,
+    "CanvasGroup:metadata_exported": 706,
+    "AudioClip:metadata_exported": 196,
+    "Canvas:metadata_exported": 722,
+    "AnimationClip:metadata_exported": 345,
+    "ParticleSystem:metadata_exported": 616,
+    "ParticleSystemRenderer:metadata_exported": 616,
+    "Transform:metadata_exported": 156,
+    "Animation:metadata_exported": 189,
+    "TextAsset:withheld_not_approved": 16,
+    "SpriteAtlas:metadata_exported": 35,
+    "TextAsset:exported_approved": 19,
+    "AnimatorController:metadata_exported": 116,
+    "Texture2D:empty_source_texture": 7,
+    "Font:exported": 6,
+    "SpriteRenderer:metadata_exported": 47,
+    "TextAsset:exported_approved_sanitized": 9,
+    "AnimatorOverrideController:metadata_exported": 3
+  },
+  "errors": []
+}

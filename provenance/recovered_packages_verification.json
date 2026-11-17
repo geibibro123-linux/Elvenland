@@ -1,0 +1,130 @@
+[
+  {
+    "file": "Elvenar_Build02_01_Gebaeude_Animationen_UnityFS.zip",
+    "sha256": "770decbb0aa8adc0cbce4cdceb0a973e22450152165ea3acd623ce65b97afa88",
+    "bytes": 77655937,
+    "entries": 318,
+    "crc_verified_on_extract": true,
+    "matches_previous_manifest": true
+  },
+  {
+    "file": "Elvenar_Build02_02_Audio_Rohdaten_FSB5.zip",
+    "sha256": "7cae33119cdc2c073a91e974e250f70c50f76b289092eb3c7b63bb1fd0ef33b3",
+    "bytes": 6203637,
+    "entries": 196,
+    "crc_verified_on_extract": true,
+    "matches_previous_manifest": true
+  },
+  {
+    "file": "Elvenar_Build02_03_Spielcode_IL2CPP_Android.zip",
+    "sha256": "6929b4a49d89c786b6c80f7241aa764aac4a2edb4ed9e2ae2819ab5d71f2c0ce",
+    "bytes": 67260201,
+    "entries": 22,
+    "crc_verified_on_extract": true,
+    "matches_previous_manifest": true
+  },
+  {
+    "file": "Elvenar_Build02_04_Unity_Szenen_und_Ressourcen.zip",
+    "sha256": "f629c321567269dace9faf03fa84100c9dbe17894d69bf440dca505a88cca0ef",
+    "bytes": 47143661,
+    "entries": 4633,
+    "crc_verified_on_extract": true,
+    "matches_previous_manifest": true
+  },
+  {
+    "file": "Elvenar_Build02_05_Android_UI_Texte_Konfiguration.zip",
+    "sha256": "e45245b475835fb37372f3832240f5d0d8c53959b06f145d3529048a9a7c5403",
+    "bytes": 7821756,
+    "entries": 1320,
+    "crc_verified_on_extract": true,
+    "matches_previous_manifest": true
+  },
+  {
+    "file": "Elvenar_Build02_06_Audio_WAV_konvertiert.zip",
+    "sha256": "ad9188e4783d27cc871d6763ffa52da9751f835bd77f401e5a66ee73d76a5d17",
+    "bytes": 12557343,
+    "entries": 195,
+    "crc_verified_on_extract": true,
+    "matches_previous_manifest": true
+  },
+  {
+    "file": "Elvenar_Build02_07_UnityFS_entpackte_Objektdateien.zip",
+    "sha256": "1b316c48af104ca3d1baf51ad521894076611dff1d1e24042886b471a5037df8",
+    "bytes": 99126034,
+    "entries": 631,
+    "crc_verified_on_extract": true,
+    "matches_previous_manifest": true
+  },
+  {
+    "file": "Elvenar_Build02_08a_Gebaeude_PNG.zip",
+    "sha256": "6cfc33a76d46c4f81e6efb1144c9830c0153946997ce1544706975cb3d03b19d",
+    "bytes": 34349213,
+    "entries": 140,
+    "crc_verified_on_extract": true,
+    "matches_previous_manifest": true
+  },
+  {
+    "file": "Elvenar_Build02_08b_Gebaeude_PNG.zip",
+    "sha256": "79d5cf375374aeeff20df4cb40c7b0d9729f1d23378bb679a7553356a1b8a094",
+    "bytes": 34981189,
+    "entries": 132,
+    "crc_verified_on_extract": true,
+    "matches_previous_manifest": true
+  },
+  {
+    "file": "Elvenar_Build02_09a_UI_PNG.zip",
+    "sha256": "369ce6842e476703e4684bebaabc63ecf81a0f4c57fc0a06be7e602b1bef943c",
+    "bytes": 18874569,
+    "entries": 329,
+    "crc_verified_on_extract": true,
+    "matches_previous_manifest": true
+  },
+  {
+    "file": "Elvenar_Build02_09b_UI_PNG.zip",
+    "sha256": "5a0c5ef390dd60a4016ae6a5d0916388996afae76ffad63678cb7c292432d652",
+    "bytes": 14031785,
+    "entries": 295,
+    "crc_verified_on_extract": true,
+    "matches_previous_manifest": true
+  },
+  {
+    "file": "Elvenar_Build02_09c_UI_PNG.zip",
+    "sha256": "791c0599f2c1da30d867c7595d56dee65e1e9b35736f417afbd3265c3029c2b7",
+    "bytes": 56325375,
+    "entries": 318,
+    "crc_verified_on_extract": true,
+    "matches_previous_manifest": true
+  },
+  {
+    "file": "Elvenar_Build02_09d_UI_PNG.zip",
+    "sha256": "2462ed141cb6feaab26c6efabe07130406c4e9514ede419897d05445f6ab97d3",
+    "bytes": 28152807,
+    "entries": 330,
+    "crc_verified_on_extract": true,
+    "matches_previous_manifest": true
+  },
+  {
+    "file": "Elvenar_Build02_10_Android_PNG.zip",
+    "sha256": "47d59e2a931bdb21497d75915675c42499c3ba1ef737ff901ad0e1d7ed49108b",
+    "bytes": 2304866,
+    "entries": 460,
+    "crc_verified_on_extract": true,
+    "matches_previous_manifest": true
+  },
+  {
+    "file": "Elvenar_Build02_11_Katalog_und_Technikberichte.zip",
+    "sha256": "23b9e3815e3841f303551fdc6707d72f3a2318483ad4fffb71278b105cbbd778",
+    "bytes": 347632,
+    "entries": 14,
+    "crc_verified_on_extract": true,
+    "matches_previous_manifest": true
+  },
+  {
+    "file": "Elvenar_Build02_12_Extraktionswerkzeuge.zip",
+    "sha256": "e08b928a48dd77c2db322c874bf5a67dde1eaa80233f99d787ee38af71917d22",
+    "bytes": 15113,
+    "entries": 7,
+    "crc_verified_on_extract": true,
+    "matches_previous_manifest": true
+  }
+]
