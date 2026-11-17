@@ -1,0 +1,10 @@
+# Elvenland
+
+Read START_HERE.md, STATUS.json, MASTER_PROMPT.md, AGENTS.md and INDEX.json first.
+Historical observations are not approved Elvenland balance values.
+Use data/reference/README_HISTORICAL_DATA.md for data completeness and missing-field semantics.
+Use small JSON files in indexes/ for selective media inspection.
+Use docs/PACKAGE_COVERAGE.md for combined UnityFS, Unity Data, audio, fonts and localization coverage.
+German and English reference strings are in data/localization/; all 20 languages are in the full media package.
+No complete research tree, building economy, production table or playable Android build is claimed.
+Read docs/ARCHITECTURE.md and docs/ROADMAP.md before implementing the next local game loop.
