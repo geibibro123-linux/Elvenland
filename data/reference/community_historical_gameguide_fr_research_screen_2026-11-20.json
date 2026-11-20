@@ -1,0 +1,82 @@
+{
+  "_meta": {
+    "type": "HISTORICAL_ORIGINAL_RESEARCH_SCREENSHOT",
+    "source_page": "https://game-guide.fr/39719-innogames-elvenar/",
+    "source_image": "https://game-guide.fr/wp-content/uploads/2015/02/elvenar-technology-tree.jpg",
+    "age_context": "Image filename dated February 2015, precise build not confirmed",
+    "chapter": "EARLY_CHAPTER_III_TO_V_CONTEXT_UNVERIFIED",
+    "race": "LIKELY_ELVES_NOT_PROVEN",
+    "observation_date": "2026-11-20",
+    "status": "HISTORICAL_VISUAL_REFERENCE_NOT_MODERN_GRAPH"
+  },
+  "nodes": [
+    {
+      "name_en": "Golems Promotion",
+      "research_wp": 63,
+      "progress": "63/63",
+      "confidence": "HIGH"
+    },
+    {
+      "name_en": "Ornate Street",
+      "research_wp": 69,
+      "progress": "69/69",
+      "confidence": "HIGH"
+    },
+    {
+      "name_en": "Map Expansion",
+      "research_wp": 50,
+      "progress": "50/50",
+      "confidence": "HIGH",
+      "position": "left_bottom"
+    },
+    {
+      "name_en": "Cluster Size Upgrade",
+      "research_wp": 48,
+      "progress": "48/48",
+      "confidence": "HIGH"
+    },
+    {
+      "name_en": "Altar of the Forefathers",
+      "research_wp": 63,
+      "progress": "63/63",
+      "confidence": "HIGH"
+    },
+    {
+      "name_en": "Map Expansion",
+      "research_wp": 52,
+      "progress": "52/52",
+      "confidence": "HIGH",
+      "position": "center_bottom"
+    },
+    {
+      "name_en": "Map Expansion",
+      "research_wp": 55,
+      "progress": "10/55",
+      "confidence": "HIGH",
+      "position": "right_top"
+    },
+    {
+      "name_en": "Superior Crystal Factory",
+      "research_wp": 63,
+      "progress": "63/63",
+      "confidence": "HIGH"
+    },
+    {
+      "name_en": "Superior Scrolls Factory",
+      "research_wp": 60,
+      "progress": "0/60",
+      "confidence": "HIGH"
+    },
+    {
+      "name_en": "Superior Silk Factory",
+      "research_wp": 68,
+      "progress": "68/68",
+      "confidence": "HIGH"
+    }
+  ],
+  "limits": [
+    "Chapter mapping is not verified for each visible node. Treat as source-specific screenshot observations only.",
+    "No exact technical IDs, activation costs, or parentIds extracted.",
+    "Not safe to merge screenshot link-lines with 2026 community graph."
+  ]
+}
