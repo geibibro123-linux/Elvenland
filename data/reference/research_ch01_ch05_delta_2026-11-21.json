@@ -1,0 +1,122 @@
+{
+  "_meta": {
+    "kind": "INCREMENTAL_SOURCE_VERIFICATION_AND_RESEARCH_RULES",
+    "observed_on": "2026-11-21",
+    "evidence_status": "PUBLIC_OFFICIAL_HELP_AND_COMMUNITY_GUIDE_WITH_SOURCE_LINKS",
+    "purpose": "Extend early research source coverage without inventing missing individual configuration rows",
+    "active_elvenland_balance_updated": false,
+    "original_research_config_rows_newly_recovered": 0,
+    "original_technical_parentids_newly_recovered": 0,
+    "new_activation_resource_amounts": 0,
+    "version_alignment": "NOT_PROVEN",
+    "license_note": "Source references, concise observations and user-owned metadata only; not a redistribution of full proprietary balancing datasets",
+    "source_guides_updated_at": "2026-10-23",
+    "public_repo_warning": "Elvenland is public as of this verification; do not add account/session data or proprietary full-source files"
+  },
+  "source_verified_minimum_path_chapter_breakdowns": [
+    {
+      "technology": "Fellowships",
+      "tech_id": "elves_fellowships",
+      "race": "elves",
+      "chapter": 2,
+      "observed_total_research_count_on_path": 21,
+      "observed_total_kp_on_path": 155,
+      "observed_tech_kp": 6,
+      "breakdown": [
+        {
+          "chapter": 1,
+          "count": 19
+        },
+        {
+          "chapter": 2,
+          "count": 2
+        }
+      ],
+      "source": "https://elvenarchy.fuzzalab.pt/en/guides/capitulo-2-a-evolucao",
+      "note": "These are aggregate path counts, not individual parentIds, and not the chapter total"
+    },
+    {
+      "technology": "Crafting",
+      "tech_id": "elves_crafting",
+      "race": "elves",
+      "chapter": 3,
+      "observed_total_research_count_on_path": 48,
+      "observed_total_kp_on_path": 493,
+      "observed_tech_kp": 28,
+      "breakdown": [
+        {
+          "chapter": 1,
+          "count": 19
+        },
+        {
+          "chapter": 2,
+          "count": 23
+        },
+        {
+          "chapter": 3,
+          "count": 6
+        }
+      ],
+      "source": "https://elvenarchy.fuzzalab.pt/en/guides/capitulo-3-descoberta-da-magia",
+      "note": "Aggregate minimum path counts only, no implied dependency ordering or exact parentIds"
+    }
+  ],
+  "official_mechanics": [
+    {
+      "rule": "research_diploma_from_full_chapter_completion",
+      "evidence_status": "OFFICIAL_HELP",
+      "meaning": "Researching every technology in a chapter grants one Research Diploma. More diplomas increase the number of Cauldron effects potentially available.",
+      "source": "https://support.innogames.com/kb/Elvenar/en_DK/1853",
+      "counting_warning": "Do not award this diploma merely for entering a chapter or finishing only the required main path.",
+      "status_in_elvenland": "REFERENCE_ONLY; LOCAL_OFFLINE_BEHAVIOR_OFFEN"
+    },
+    {
+      "rule": "cauldron_research_unlock_in_chapter_5",
+      "evidence_status": "OFFICIAL_HELP",
+      "meaning": "The Cauldron tab in the Magic Academy is unlocked by the specific Cauldron research in Chapter V.",
+      "source": "https://support.innogames.com/kb/Elvenar/en_DK/1843",
+      "technology_id": "elves_cauldron",
+      "note": "Technology ID derives from separate historical feature mapping, not from the official support page itself",
+      "status_in_elvenland": "REFERENCE_ONLY; LOCAL_OFFLINE_BEHAVIOR_OFFEN"
+    },
+    {
+      "rule": "research_progress_and_activation_are_separate",
+      "evidence_status": "OFFICIAL_HELP",
+      "meaning": "Knowledge points are invested in technology; the activation payment is distinct.",
+      "source": "https://support.innogames.com/kb/Elvenar/en_DK/219",
+      "status_in_elvenland": "REFERENCE_ONLY; NO_FREE_ACTIVATION_WHEN_COST_UNKNOWN"
+    }
+  ],
+  "independently_read_open_source_schema": {
+    "evidence_status": "PUBLIC_EXTENSION_CODE_SCHEMA_ONLY; NOT_THE_ORIGINAL_GAME_CONFIGURATION",
+    "response_shape": "JSON array of ResearchTechnologyConfigVO records",
+    "source": "https://github.com/paviad/elvenar-helper-extension/blob/master/src/elvenar/processResearchTechnologies.ts",
+    "source_model": "https://github.com/paviad/elvenar-helper-extension/blob/master/src/model/researchTechnology.ts",
+    "verified_fields": [
+      "id",
+      "name",
+      "race",
+      "section",
+      "maxSP",
+      "requirements.resources",
+      "parentIds",
+      "childrenIds",
+      "rewards",
+      "gate.completedProvinces",
+      "featureFlag"
+    ],
+    "known_root_anchor_exception": "maxSP can be absent: not automatically a free research",
+    "open_original_elves_config_url_hash": true,
+    "open_original_humans_config_url_hash": true,
+    "privacy": "Never import ResearchService/startup, player status, cookies, tokens or account identifiers"
+  },
+  "unresolved_next_data_gate": {
+    "early_expected_total_tech_count_from_community": 124,
+    "early_full_per_node_original_configs_recovered": 0,
+    "original_activation_costs_all_nodes": "OFFEN",
+    "chapter_1_to_5_original_parentIds": "OFFEN",
+    "race_specific_current_versions": "OFFEN",
+    "full_early_tech_id_list": "OFFEN",
+    "source_versions_should_not_be_merged_for_parent_graph": true
+  }
+}
