@@ -83,7 +83,22 @@
         "coverage_context": "historical screenshot only, not full chapter 1, race unverified",
         "early_research_graph_edges_verified": false,
         "version_mismatch_risk": "pre-/post-2023 tree redesign reported by player community"
-      }
+      },
+      "other_historical_visual_sources": [
+        {
+          "chapter": 4,
+          "path": "data/reference/community_ch04_historical_forum_screenshot_2026-11-20.json",
+          "visible_records": 5,
+          "low_confidence_records": 1
+        },
+        {
+          "chapter": "UNVERIFIED_EARLY",
+          "path": "data/reference/community_historical_gameguide_fr_research_screen_2026-11-20.json",
+          "visible_records": 10,
+          "approx_era": "2015"
+        }
+      ],
+      "total_visual_historical_observations": 26
     },
     "chapter_6_to_26": {
       "source_file": "data/reference/community_idavis_research_ch06_ch26_2026-11-20.json",
@@ -106,7 +121,10 @@
       "integration_and_runtime_tests",
       "historical_to_modern_tech_id_crosswalk",
       "ch01_2026_chapter_graph_consistency",
-      "native_or_server_research_config_rows"
+      "native_or_server_research_config_rows",
+      "chapter_I_to_V_complete_cost_columns",
+      "chapter_I_to_V_current_topology",
+      "race_humans_historical_and_modern_node_rows"
     ],
     "user_cost_policy": {
       "status": "FEST",
@@ -150,6 +168,19 @@
       "conclusion": "Static search finds UI/class names and tokens but not decoded rows for full chapter I-V; binary data or network config may still exist.",
       "original_unmodified_apk_verified": false,
       "do_not_confuse_string_tokens_with_research_nodes": true
+    },
+    "community_data_import_readiness_doc": "docs/RESEARCH_IMPORT_READINESS_2026-11-20.md",
+    "public_research_probe": {
+      "status": "PUBLIC_HTML_200_NO_INLINE_TECH_ROWS_CLIENT_JS_403",
+      "source": "https://elvenarchy.fuzzalab.pt/research",
+      "report": "https://github.com/geibibro123-linux/Farm-elvenar-/blob/main/docs/research_apk_scans/public_elvenarchy_html_probe_2026-11-20.json",
+      "note": "GitHub Actions could download the HTML (194691 bytes), not JS bundles. Do not infer missing data or bypass restrictions."
+    },
+    "version_caveat": {
+      "status": "COMMUNITY_REPORT",
+      "source": "https://www.reddit.com/r/Elvenar/comments/152i8a1",
+      "date": "2023-07-18",
+      "summary": "Early chapters I-V reportedly redesigned; keep historic and modern graph edge sets separate."
     }
   }
 }
