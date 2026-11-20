@@ -65,3 +65,14 @@ Keine alten Apps deinstallieren und keine alten Spielstände automatisch übersc
 Der Nutzer wünscht ungefähr 100 Minuten für die gesamte Kette aus Auslesen, Analyse, Datenübernahme, Neuaufbau und neuer APK. Ein vollständiges originalgetreues Spiel ist innerhalb dieses Gesamtbudgets nicht belastbar zusagbar. Den tatsächlichen Fortschritt und die verbleibenden Voraussetzungen benennen, ohne den Zeitwunsch als ausschließliches Analysebudget umzudeuten. Innerhalb einer Sitzung selbstständig bis zum nächsten belegbaren Ergebnis arbeiten. Keine neue Diagnoseserie ohne konkrete offene Frage erzeugen.
 
 Jeder Abschluss nennt knapp: **erledigt, nachgewiesen, offen, nächster Schritt und konkreter Nutzertest**. Wenn nichts sinnvoll auf dem Telefon getestet werden kann, dies direkt sagen und keinen ungeprüften Download als Testversion ausgeben.
+
+## FEST: Auswahl bei widerspruechlichen Forschungskosten (20.11.2026)
+
+Der Nutzer hat festgelegt: **Bei mehreren vergleichbaren, dokumentierten Original-/Community-Werten fuer dieselbe Forschung stets den kleinsten Wert als Elvenland-Auswahlwert nehmen.** Versionen duerfen dabei unterschiedlich sein. Historische Varianten mit jeweiliger Quelle vollstaendig erhalten.
+
+- Nur gleichartige Einheiten und Kosten vergleichen: dieselbe Technologie, Volk, Ressource und Schrittart (WP-Investition versus Forschungsaktivierung versus Gebaeudebau versus Produktion). Elfen- und Menschenwerte **nicht** gegeneinander minimieren.
+- Beispiel: Forschungs-KP fuer Elfen-Haendler **12** gemaess Elvenarchy statt frueher gemeldeter **19**. Der 19-WP-Bildbericht ist bislang nicht erneut unabhaengig bestaetigt.
+- Diese Auswahlregel ist **FEST**. Die daraus gewaehlt benannten Community-Daten sind als einzeln nachvollziehbare **ARBEITSWERTE** oder historische Quellenwerte gekennzeichnet, solange nicht explizit als FEST-Balance freigegeben.
+- Fehlende `parentIds`, Ressourcenmengen und Produktions-/Bauzeiten bleiben OFFEN. Abwesenheit ist kein kostenloser Preis und keine freie Freischaltung. Nicht vorhandene Kosten nicht zusammenphantasieren.
+- Quell- und Auswahlstand: `data/reference/community_early_research_ch01_ch05_2026-11-20.json`; Doku `docs/RESEARCH_CH01_CH05_EVIDENCE_2026-11-20.md`. Die 767 Elfen-Forschungen Kapitel VI-XXVI liegen in `data/reference/community_idavis_research_ch06_ch26_2026-11-20.json`.
+- Ein direkt lesbarer historischer Screenshot belegt Marmormanufaktur **8 WP und 2.500 Muenzen** als Forschungsaktivierung. Dessen Volk ist nicht gesichert, daher nicht ungeprueft auf beide Voelker anwenden. Separater Gebaeudebau wird nicht mit Forschungspreisen verrechnet.
