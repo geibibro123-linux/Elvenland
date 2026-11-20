@@ -55,5 +55,40 @@
     "gate_rules",
     "chapter_order"
   ],
-  "runtime_recommendation": "Do not invent a technology graph. Retain observed links as references until original rows or explicit design decisions exist."
+  "runtime_recommendation": "Do not invent a technology graph. Retain observed links as references until original rows or explicit design decisions exist.",
+  "reference_update_2026_11_20": {
+    "status": "RESEARCH_IN_PROGRESS",
+    "community_reference_scope_only": true,
+    "approval_as_elvenland_balance": false,
+    "chapter_1_to_5": {
+      "source_file": "data/reference/community_early_research_ch01_ch05_2026-11-20.json",
+      "documented_chapter_totals": 5,
+      "reported_total_technologies": 124,
+      "reported_total_kp_elves": 2785,
+      "verified_selected_per_node_kp": 9,
+      "complete_parent_graph": false,
+      "complete_resource_requirements": false,
+      "source_guide_status": "COMMUNITY_PUBLIC_GUIDE"
+    },
+    "chapter_6_to_26": {
+      "source_file": "data/reference/community_idavis_research_ch06_ch26_2026-11-20.json",
+      "chapters": 21,
+      "entries": 767,
+      "with_kp_requirements_parentIds": 767,
+      "chapter5_parent_outside_dataset": "elves_all3_aw",
+      "five_nonreciprocal_parent_child_links": true,
+      "source_status": "COMMUNITY_STRUCTURED_SOURCE"
+    },
+    "report": "docs/RESEARCH_CH01_CH05_EVIDENCE_2026-11-20.md",
+    "critical_note": "This object supplements historical embedded-reference status. Do not confuse community sources with verified original-APK config rows or approved Elvenland values.",
+    "missing_now": [
+      "ch01_ch05_per_technology_config_rows",
+      "ch01_ch05_parentIds_and_resource_requirements",
+      "ch01_ch05_and_ch06_ch26_version_alignment",
+      "race_humans_graph",
+      "complete_unlock_effects",
+      "offline_fallback_for_online_gameplay",
+      "integration_and_runtime_tests"
+    ]
+  }
 }
