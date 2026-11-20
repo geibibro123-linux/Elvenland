@@ -23,7 +23,13 @@
       "https://imag.malavida.com/mvimgbig/download-fs/elvenar-28484-12.jpg",
       "https://elvenar.fr.malavida.com/android/",
       "https://support.innogames.com/kb/Elvenar/en_DK/7006/Release-Notes-1244",
-      "https://elvenar-tools.com/buildings/manufactories"
+      "https://elvenar-tools.com/buildings/manufactories",
+      "https://spieletrend.com/medien/elvenar-wissen-forschung.jpg",
+      "https://files.homepagemodules.de/b916082/f59429t69p6402286n3_IvOiNzsw.png",
+      "https://game-guide.fr/wp-content/uploads/2015/02/elvenar-technology-tree.jpg",
+      "https://www.reddit.com/r/Elvenar/comments/152i8a1/",
+      "https://elvenarchy.fuzzalab.pt/research",
+      "https://support.innogames.com/kb/Elvenar/de_DE/4109"
     ],
     "note": "These are chapter totals and selected tech costs only; no complete tech graph or per-tech resource costs. Missing not zero.",
     "last_evidence_review": "2026-11-20",
@@ -567,6 +573,70 @@
       "visible": "Four early research nodes with 0/8 KP but labels absent",
       "status": "VISUAL_OBSERVED_TECH_IDS_UNKNOWN",
       "do_not_assign_to_tech_ids": true
+    }
+  ],
+  "historical_screenshot_source_indexes": [
+    {
+      "chapter": 1,
+      "file": "data/reference/community_ch01_historical_spieletrend_screenshot_2026-11-20.json",
+      "source": "https://spieletrend.com/medien/elvenar-wissen-forschung.jpg",
+      "visible_nodes": 11,
+      "site_version": "UNKNOWN_OLDER",
+      "active_graph_status": "NOT_MERGED"
+    },
+    {
+      "chapter": 4,
+      "file": "data/reference/community_ch04_historical_forum_screenshot_2026-11-20.json",
+      "source": "https://files.homepagemodules.de/b916082/f59429t69p6402286n3_IvOiNzsw.png",
+      "visible_nodes": 5,
+      "site_version": "UNKNOWN_OLDER",
+      "active_graph_status": "NOT_MERGED"
+    },
+    {
+      "chapter": null,
+      "file": "data/reference/community_historical_gameguide_fr_research_screen_2026-11-20.json",
+      "source": "https://game-guide.fr/wp-content/uploads/2015/02/elvenar-technology-tree.jpg",
+      "visible_nodes": 10,
+      "site_version": "EARLY_2015",
+      "active_graph_status": "NOT_MERGED",
+      "chapter_caution": "Chapter IV/V position may vary; no arbitrary mapping"
+    }
+  ],
+  "versions_tree_redesign_risk": {
+    "status": "COMMUNITY_REPORT_UNCONFIRMED_OFFICIAL",
+    "source": "https://www.reddit.com/r/Elvenar/comments/152i8a1/",
+    "date": "2023-07-18",
+    "observation": "Players report early chapter I-V tech tree redesign for new accounts around 2022 and migration of old accounts around July 2023.",
+    "implications": "Do not merge old screenshot parent relationships into post-redesign 2026 tree; minimum comparable costs are a separate user-approved policy.",
+    "affects_source_selection": "source_version must be explicit; missing source version remains UNKNOWN"
+  },
+  "latest_binary_inspection": {
+    "status": "VERIFIED_GITHUB_ACTIONS_STATIC_SCAN_SUCCESS",
+    "run": "https://github.com/geibibro123-linux/Farm-elvenar-/actions/runs/44831049326",
+    "scanned_apk": "Elvenar_Lab09_RequestRoute02.apk",
+    "source_sha256": "d9e36fa4beef2c6c5e3b196caa3eca9cc128af03a8d4add1290f4c6034fe0bf1",
+    "zip_entries": 6492,
+    "unity_textassets_scanned": 44,
+    "complete_tech_rows_extracted": 0,
+    "report": "https://github.com/geibibro123-linux/Farm-elvenar-/blob/main/docs/research_apk_scans/lab09_route02_structural_scan_2026-11-20.json",
+    "note": "This succeeds an earlier LOCAL ClientError. The APK lacks an immediately decoded complete research graph from this static text and Unity TextAsset pass; it does not prove no binary/server source exists."
+  },
+  "public_research_source_probe": {
+    "status": "HTML_ACCESSIBLE_JS_403_NO_MACHINE_READABLE_CHAPTER_DATA",
+    "source_page": "https://elvenarchy.fuzzalab.pt/research",
+    "run": "https://github.com/geibibro123-linux/Farm-elvenar-/actions/runs/44831608464",
+    "report": "https://github.com/geibibro123-linux/Farm-elvenar-/blob/main/docs/research_apk_scans/public_elvenarchy_html_probe_2026-11-20.json",
+    "observed": "Public Portuguese /research HTML accessible, no inline chapter JSON or parentIds; associated app.js and planeador.js returned 403 in probe. No authenticated scraping or protections bypassed."
+  },
+  "research_rewards_partial_evidence": [
+    {
+      "resource": "eldian_sapphire",
+      "source": "https://support.innogames.com/kb/Elvenar/de_DE/4109",
+      "scope": "chapters_2_to_5",
+      "fact": "Can be received as rewards for quests or technologies",
+      "specific_technology_ids": "OFFEN",
+      "amounts": "OFFEN",
+      "status": "OFFICIAL_RULE_ONLY"
     }
   ]
 }
