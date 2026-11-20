@@ -16,7 +16,10 @@
       "https://www.santastoybox.net/elvenar.htm",
       "https://support.innogames.com/kb/Elvenar/de_DE/219",
       "https://support.innogames.com/kb/Elvenar/de_DE/218",
-      "https://support.innogames.com/kb/Elvenar/en_DK/627"
+      "https://support.innogames.com/kb/Elvenar/en_DK/627",
+      "https://elvenarchy.fuzzalab.pt/en/guides/menus-das-manufaturas",
+      "https://support.innogames.com/kb/Elvenar/en_DK/297",
+      "https://www.bluestacks.com/blog/game-guides/elvenar/advanced-tips-and-tricks-en.html"
     ],
     "note": "These are chapter totals and selected tech costs only; no complete tech graph or per-tech resource costs. Missing not zero.",
     "last_evidence_review": "2026-11-20",
@@ -344,5 +347,172 @@
     "Elves-vs-Humans topology and KP differences",
     "Final Chapter V->VI predecessor technology id elves_all3_aw",
     "World-map province gate thresholds"
-  ]
+  ],
+  "min_conflict_policy_2026_11_20": {
+    "status": "FEST_AS_USER_CONFIRMED_SELECTION_RULE",
+    "description": "For conflicting comparable, sourced Elvenland research costs use the smallest documented value as the selected ARBEITSWERT; retain all source variants and provenance. Never invent unobserved values.",
+    "scope": "Research costs only, comparing the same technology identity, race, cost resource, unit and applicable unlock step. Never equate humans and elves or mix building costs with research activation costs.",
+    "missing_values": "OFFEN, never zero/free",
+    "not_source_truth": "Selected lower cost is an Elvenland design decision, not proof that source game's cheapest historical value was canonical.",
+    "user_confirmed_on": "2026-11-20",
+    "known_conflict": {
+      "technology": "Trader / Haendler",
+      "chapter": 1,
+      "race": "elves",
+      "cost_field": "knowledge_points",
+      "chosen": 12,
+      "source_values": [
+        {
+          "value": 12,
+          "source": "https://elvenarchy.fuzzalab.pt/en/guides/primeiros-capitulos-estrategia",
+          "verification": "WEB_VERIFIED_2026_11_20"
+        },
+        {
+          "value": 19,
+          "source": "Earlier conversation screenshot report attributed to historical Spieltrend image",
+          "verification": "PREVIOUS_CHAT_REPORT_UNVERIFIED_IMAGE"
+        }
+      ]
+    },
+    "preserve_original_values": true,
+    "enable_automatic_unpaid_unlock": false
+  },
+  "incomplete_research_working_selection": [
+    {
+      "chapter": 1,
+      "race": "elves",
+      "label": "Neighborhood",
+      "knowledge_points": 5,
+      "selected_cost_status": "ARBEITSWERT_FROM_COMMUNITY",
+      "source_url": "https://elvenarchy.fuzzalab.pt/en/guides/primeiros-capitulos-estrategia",
+      "tech_id": "elves_neighbourlyhelp",
+      "unlock_costs_status": "OFFEN",
+      "parent_ids_status": "OFFEN",
+      "activation_safe": false
+    },
+    {
+      "chapter": 1,
+      "race": "elves",
+      "label": "Trader",
+      "knowledge_points": 12,
+      "selected_cost_status": "ARBEITSWERT_FROM_COMMUNITY",
+      "source_url": "https://elvenarchy.fuzzalab.pt/en/guides/primeiros-capitulos-estrategia",
+      "unlock_costs_status": "OFFEN",
+      "parent_ids_status": "OFFEN",
+      "activation_safe": false
+    },
+    {
+      "chapter": 1,
+      "race": "elves",
+      "label": "Magic Academy",
+      "knowledge_points": 12,
+      "selected_cost_status": "ARBEITSWERT_FROM_COMMUNITY",
+      "source_url": "https://elvenarchy.fuzzalab.pt/en/guides/primeiros-capitulos-estrategia",
+      "unlock_costs_status": "OFFEN",
+      "parent_ids_status": "OFFEN",
+      "activation_safe": false
+    },
+    {
+      "chapter": 2,
+      "race": "elves",
+      "label": "Fellowships",
+      "knowledge_points": 6,
+      "selected_cost_status": "ARBEITSWERT_FROM_COMMUNITY",
+      "source_url": "https://elvenarchy.fuzzalab.pt/en/guides/primeiros-capitulos-estrategia",
+      "tech_id": "elves_fellowships",
+      "unlock_costs_status": "OFFEN",
+      "parent_ids_status": "OFFEN",
+      "activation_safe": false
+    },
+    {
+      "chapter": 2,
+      "race": "elves",
+      "label": "Fellowship Adventures",
+      "knowledge_points": 8,
+      "selected_cost_status": "ARBEITSWERT_FROM_COMMUNITY",
+      "source_url": "https://elvenarchy.fuzzalab.pt/en/guides/primeiros-capitulos-estrategia",
+      "tech_id": "elves_fellowship_adventures",
+      "unlock_costs_status": "OFFEN",
+      "parent_ids_status": "OFFEN",
+      "activation_safe": false
+    },
+    {
+      "chapter": 3,
+      "race": "elves",
+      "label": "Crafting",
+      "knowledge_points": 28,
+      "selected_cost_status": "ARBEITSWERT_FROM_COMMUNITY",
+      "source_url": "https://elvenarchy.fuzzalab.pt/en/guides/primeiros-capitulos-estrategia",
+      "tech_id": "elves_crafting",
+      "human_knowledge_points": 21,
+      "unlock_costs_status": "OFFEN",
+      "parent_ids_status": "OFFEN",
+      "activation_safe": false
+    },
+    {
+      "chapter": 4,
+      "race": "elves",
+      "label": "Tournaments",
+      "knowledge_points": 32,
+      "selected_cost_status": "ARBEITSWERT_FROM_COMMUNITY",
+      "source_url": "https://elvenarchy.fuzzalab.pt/en/guides/primeiros-capitulos-estrategia",
+      "tech_id": "elves_tournaments",
+      "human_knowledge_points": 35,
+      "unlock_costs_status": "OFFEN",
+      "parent_ids_status": "OFFEN",
+      "activation_safe": false
+    },
+    {
+      "chapter": 5,
+      "race": "elves",
+      "label": "Spire of Eternity",
+      "knowledge_points": 50,
+      "selected_cost_status": "ARBEITSWERT_FROM_COMMUNITY",
+      "source_url": "https://elvenarchy.fuzzalab.pt/en/guides/primeiros-capitulos-estrategia",
+      "tech_id": "elves_spire",
+      "human_knowledge_points": 45,
+      "unlock_costs_status": "OFFEN",
+      "parent_ids_status": "OFFEN",
+      "activation_safe": false
+    },
+    {
+      "chapter": 5,
+      "race": "elves",
+      "label": "Cauldron",
+      "knowledge_points": 30,
+      "selected_cost_status": "ARBEITSWERT_FROM_COMMUNITY",
+      "source_url": "https://elvenarchy.fuzzalab.pt/en/guides/primeiros-capitulos-estrategia",
+      "tech_id": "elves_cauldron",
+      "unlock_costs_status": "OFFEN",
+      "parent_ids_status": "OFFEN",
+      "activation_safe": false
+    }
+  ],
+  "community_production_duration_note": {
+    "chapter_scope": [
+      1,
+      2,
+      3
+    ],
+    "durations_seconds": [
+      10800,
+      32400,
+      86400,
+      172800
+    ],
+    "statuses": "COMMUNITY_PRODUCTION_OPTIONS_NOT_RESEARCH_TIME",
+    "source": "https://elvenarchy.fuzzalab.pt/en/guides/menus-das-manufaturas",
+    "detail": "These are manufactory goods-production choices in the original, not technology research durations or unlock costs"
+  },
+  "original_apk_inspection_attempt_2026_11_20": {
+    "original_apk_file": "Elvenar_Lab04_SkriptTest03.apk",
+    "bytes_reported_by_user_library": 232466424,
+    "expected_sha256_from_previous_release_metadata": "d77de38720bde3c0894493b519cdcca6183d7d020d3377d40e2096516d6d247c",
+    "expected_sha256_checked_on_this_library_copy": false,
+    "binary_materialization_to_container": true,
+    "binary_inspection_status": "BLOCKED_CONTAINER_CLIENT_ERROR",
+    "extra_extracted_tech_rows": 0,
+    "explicit_note": "Binary was located and materialized, but container/Python execution failed. This is an execution blocker, not evidence that APK has no tech configs. Earlier historical embedded reference still holds 11 unique IDs and 13 feature mappings.",
+    "prior_historical_apk_reference": "data/reference/historical_feature_technology_links.json"
+  }
 }
