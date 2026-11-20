@@ -1,0 +1,14 @@
+{
+  "kind": "ELVENLAND_RESEARCH_EXTRACTOR_SYNTHETIC_TEST",
+  "date": "2026-11-21",
+  "tests_discovered": 10,
+  "tests_run": 10,
+  "failures": 0,
+  "errors": 0,
+  "success": true,
+  "only_synthetic_test_fixtures": true,
+  "original_elvenar_config_rows_imported": 0,
+  "active_gameplay_research_definitions": 0,
+  "active_definitions_sha256": "5217f60ad2186984e48fabd774784f29c05d85ec3657d4faf972489a293d5251",
+  "screenshot_and_video_sources_not_decoded_by_this_test": true
+}
