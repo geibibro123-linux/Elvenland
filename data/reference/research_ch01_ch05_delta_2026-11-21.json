@@ -2,7 +2,7 @@
   "_meta": {
     "kind": "INCREMENTAL_SOURCE_VERIFICATION_AND_RESEARCH_RULES",
     "observed_on": "2026-11-21",
-    "evidence_status": "PUBLIC_OFFICIAL_HELP_AND_COMMUNITY_GUIDE_WITH_SOURCE_LINKS",
+    "evidence_status": "OFFICIAL_HELP_VERIFIED; COMMUNITY_PATH_BREAKDOWN_UNVERIFIED",
     "purpose": "Extend early research source coverage without inventing missing individual configuration rows",
     "active_elvenland_balance_updated": false,
     "original_research_config_rows_newly_recovered": 0,
@@ -10,8 +10,10 @@
     "new_activation_resource_amounts": 0,
     "version_alignment": "NOT_PROVEN",
     "license_note": "Source references, concise observations and user-owned metadata only; not a redistribution of full proprietary balancing datasets",
-    "source_guides_updated_at": "2026-10-23",
-    "public_repo_warning": "Elvenland is public as of this verification; do not add account/session data or proprietary full-source files"
+    "source_guides_updated_at": null,
+    "public_repo_warning": "Elvenland is public as of this verification; do not add account/session data or proprietary full-source files",
+    "source_guide_update_status": "NOT_VERIFIED",
+    "quality_correction": "Official help independently read. Community guide pages returned retrieval errors; do not represent their path chapter breakdown as newly verified."
   },
   "source_verified_minimum_path_chapter_breakdowns": [
     {
@@ -25,15 +27,18 @@
       "breakdown": [
         {
           "chapter": 1,
-          "count": 19
+          "count": 19,
+          "verification": "NOT_INDEPENDENTLY_RECHECKED"
         },
         {
           "chapter": 2,
-          "count": 2
+          "count": 2,
+          "verification": "NOT_INDEPENDENTLY_RECHECKED"
         }
       ],
       "source": "https://elvenarchy.fuzzalab.pt/en/guides/capitulo-2-a-evolucao",
-      "note": "These are aggregate path counts, not individual parentIds, and not the chapter total"
+      "note": "Decomposition not independently verified from linked page in this session; neither parentIds nor exact chapter-specific path counts are established",
+      "evidence_status": "UNVERIFIED_SECONDARY_BREAKDOWN_DO_NOT_IMPORT"
     },
     {
       "technology": "Crafting",
@@ -46,19 +51,23 @@
       "breakdown": [
         {
           "chapter": 1,
-          "count": 19
+          "count": 19,
+          "verification": "NOT_INDEPENDENTLY_RECHECKED"
         },
         {
           "chapter": 2,
-          "count": 23
+          "count": 23,
+          "verification": "NOT_INDEPENDENTLY_RECHECKED"
         },
         {
           "chapter": 3,
-          "count": 6
+          "count": 6,
+          "verification": "NOT_INDEPENDENTLY_RECHECKED"
         }
       ],
       "source": "https://elvenarchy.fuzzalab.pt/en/guides/capitulo-3-descoberta-da-magia",
-      "note": "Aggregate minimum path counts only, no implied dependency ordering or exact parentIds"
+      "note": "Decomposition not independently verified from linked page in this session; neither parentIds nor exact chapter-specific path counts are established",
+      "evidence_status": "UNVERIFIED_SECONDARY_BREAKDOWN_DO_NOT_IMPORT"
     }
   ],
   "official_mechanics": [
