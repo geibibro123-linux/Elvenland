@@ -1,0 +1,144 @@
+{
+  "_meta": {
+    "kind": "HISTORICAL_EARLY_RESEARCH_FEBRUARY_2022_COMMUNITY_REPORT",
+    "title": "Swagbucks: Elvenar",
+    "original_publication_date": "2022-02-01",
+    "verified_reference_review": "2026-11-21",
+    "source_url": "https://fatwalletrefugee.com/2022/02/01/swagbucks-elvenar/",
+    "status": "COMMUNITY_REPORTED_PRE_EARLY_TREE_MIGRATION",
+    "current_2026_live_tree": false,
+    "exact_client_build": "OFFEN",
+    "race": "OFFEN",
+    "original_config_ids": "OFFEN",
+    "parent_ids": "OFFEN",
+    "independent_original_config_verification": false,
+    "video_related": false,
+    "all_amounts_are_source_observations_not_current_elvenland_balance": true,
+    "explicit_zero_policy": "Zero reflects an explicit zero in historical printed materials table; missing fields are null and NOT zero.",
+    "reported_materials_transaction_type": "NOT_INDEPENDENTLY_VERIFIED_AS_RESEARCH_ACTIVATION_VS_OTHER_REQUIRED_MATERIALS",
+    "source_page_image_candidates": [
+      "https://fatwalletrefugee.com/wp-content/uploads/2022/02/screenshot_20220201-124607_elvenar.jpg",
+      "https://fatwalletrefugee.com/wp-content/uploads/2022/02/screenshot_20220201-124548_elvenar.jpg"
+    ],
+    "historical_mismatch_warning": "2022 blog says Secret Ancient Wonders in Chapter II, later 2026 Elvenarchy places it Chapter IV. Do not merge these node placements, dependencies, or path totals."
+  },
+  "reported_research": [
+    {
+      "name_source": "Advanced Scouts",
+      "chapter_as_reported": 2,
+      "knowledge_points": 25,
+      "material_amounts": null,
+      "original_tech_id": null,
+      "race": null,
+      "parent_ids": null,
+      "material_status": "OFFEN",
+      "source_url": "https://fatwalletrefugee.com/2022/02/01/swagbucks-elvenar/"
+    },
+    {
+      "name_source": "Advanced Residences",
+      "chapter_as_reported": 2,
+      "knowledge_points": 42,
+      "material_amounts_as_reported": {
+        "money": 30000,
+        "supplies": 0,
+        "marble": 75,
+        "steel": 210,
+        "planks": 0
+      },
+      "material_type_status": "UNVERIFIED_REQUIREMENTS_CATEGORY",
+      "original_tech_id": null,
+      "race": null,
+      "parent_ids": null,
+      "source_url": "https://fatwalletrefugee.com/2022/02/01/swagbucks-elvenar/"
+    },
+    {
+      "name_source": "Advanced Marble Manufactories",
+      "chapter_as_reported": 2,
+      "knowledge_points": 32,
+      "material_amounts_as_reported": {
+        "money": 32000,
+        "supplies": 0,
+        "marble": 0,
+        "steel": 160,
+        "planks": 70
+      },
+      "material_type_status": "UNVERIFIED_REQUIREMENTS_CATEGORY",
+      "original_tech_id": null,
+      "race": null,
+      "parent_ids": null,
+      "source_url": "https://fatwalletrefugee.com/2022/02/01/swagbucks-elvenar/"
+    },
+    {
+      "name_source": "Advanced Planks Manufactories",
+      "chapter_as_reported": 2,
+      "knowledge_points": 30,
+      "material_amounts_as_reported": {
+        "money": 17000,
+        "supplies": 2250,
+        "marble": 220,
+        "steel": 90,
+        "planks": 0
+      },
+      "material_type_status": "UNVERIFIED_REQUIREMENTS_CATEGORY",
+      "original_tech_id": null,
+      "race": null,
+      "parent_ids": null,
+      "source_url": "https://fatwalletrefugee.com/2022/02/01/swagbucks-elvenar/"
+    },
+    {
+      "name_source": "Advanced Steel Manufactories",
+      "chapter_as_reported": 2,
+      "knowledge_points": 28,
+      "material_amounts_as_reported": {
+        "money": 13000,
+        "supplies": 2400,
+        "marble": 90,
+        "steel": 0,
+        "planks": 190
+      },
+      "material_type_status": "UNVERIFIED_REQUIREMENTS_CATEGORY",
+      "original_tech_id": null,
+      "race": null,
+      "parent_ids": null,
+      "source_url": "https://fatwalletrefugee.com/2022/02/01/swagbucks-elvenar/"
+    },
+    {
+      "name_source": "Secret Ancient Wonders",
+      "chapter_as_reported": 2,
+      "knowledge_points": 35,
+      "material_amounts_as_reported": {
+        "money": 50000,
+        "supplies": 5000,
+        "marble": 0,
+        "steel": 0,
+        "planks": 0
+      },
+      "material_type_status": "UNVERIFIED_REQUIREMENTS_CATEGORY",
+      "original_tech_id": null,
+      "race": null,
+      "parent_ids": null,
+      "source_url": "https://fatwalletrefugee.com/2022/02/01/swagbucks-elvenar/"
+    }
+  ],
+  "historic_reported_path": {
+    "target": "Secret Ancient Wonders",
+    "chapter_as_reported": 2,
+    "path_total_knowledge_points": 343,
+    "source_wording": "total Knowledge Points to complete Secret Ancient Wonders",
+    "source_url": "https://fatwalletrefugee.com/2022/02/01/swagbucks-elvenar/",
+    "caveat": "Path-level reported sum not a single-technology requirement; not comparable to 2026 921 KP path without same version and race"
+  },
+  "conflicting_later_guide": {
+    "source_url": "https://elvenarchy.fuzzalab.pt/en/guides/primeiros-capitulos-estrategia",
+    "source_updated": "2026-10-23",
+    "topic": "Secret Ancient Wonders",
+    "chapter": 4,
+    "min_path_researches": 66,
+    "min_path_knowledge_points": 921,
+    "separate_technology_kp": "OFFEN",
+    "race": "elves",
+    "conflict_resolution": "KEEP_SEPARATE_HISTORICAL_VERSIONS"
+  },
+  "research_ready": false,
+  "gameplay_import_approved": false
+}
