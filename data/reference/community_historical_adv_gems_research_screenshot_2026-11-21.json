@@ -1,0 +1,54 @@
+{
+  "_meta": {
+    "kind": "HISTORICAL_SINGLE_RESEARCH_SCREENSHOT",
+    "source_page": "https://www.gamehobbies.de/Spielanleitungen/1002055863.html",
+    "source_image_url": "https://www.gamehobbies.de/article/uploadfiles/202211/2022112614475736.jpg",
+    "observed_on": "2026-11-21",
+    "source_client_build": "OFFEN",
+    "race": "OFFEN",
+    "chapter": "OFFEN",
+    "original_tech_id": "OFFEN",
+    "evidence_status": "SCREENSHOT_READABLE_PARTIAL_RESOURCE_IDENTIFICATION",
+    "date_from_image_path_hint": "2022-11 (not independently verified as game capture date)",
+    "current_original_values_proven": false,
+    "active_gameplay_impact": "NONE"
+  },
+  "node": {
+    "source_display_name": "Advanced Gems Manufactory",
+    "source_progress_text": "30 / 30",
+    "knowledge_points": 30,
+    "activation_costs_header_observed": true,
+    "activation_costs_confirmed_resource_ids": {
+      "money": 80000,
+      "supplies": 5500
+    },
+    "other_resource_icons_in_display_order": [
+      {
+        "display_index": 3,
+        "amount": 450,
+        "resource_id": null,
+        "identification_status": "OFFEN"
+      },
+      {
+        "display_index": 4,
+        "amount": 230,
+        "resource_id": null,
+        "identification_status": "OFFEN"
+      },
+      {
+        "display_index": 5,
+        "amount": 210,
+        "resource_id": null,
+        "identification_status": "OFFEN"
+      }
+    ],
+    "unlock_image_text": "4-7 (star level range; exact semantics not independently verified)",
+    "exact_parent_ids": null,
+    "exact_children_ids": null,
+    "source_race": null,
+    "source_chapter": null,
+    "technical_id": null,
+    "activation_ready": false
+  },
+  "interpretation": "The screenshot is an independently located activation-cost example for an advanced Gems manufactory. The unrecognized icons are not silently assigned to resources, and no chapter, race or original ID is guessed."
+}
