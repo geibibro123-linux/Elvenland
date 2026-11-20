@@ -1,0 +1,123 @@
+{
+  "_meta": {
+    "type": "ORIGINAL_BALANCING_SCHEMA_DERIVED_FROM_PUBLIC_OPEN_SOURCE_EXTENSION",
+    "retrieved_on": "2026-11-20",
+    "source_repo": "paviad/elvenar-helper-extension",
+    "source_paths": [
+      "src/model/researchTechnology.ts",
+      "src/elvenar/processResearchTechnologies.ts",
+      "src/inject/nonSpecificMatchers.ts",
+      "src/elvenar/buildChapterResearchGraph.ts",
+      "src/elvenar/processResearchStatus.ts",
+      "src/service-worker/researchResourcesReport.ts",
+      "src/elvenar/getResearchTechnologies.ts"
+    ],
+    "original_full_balancing_document_recovered": false,
+    "status": "SCHEMA_VERIFIED_VIA_SOURCE_CODE_NO_FULL_ORIGINAL_DATA",
+    "purpose": "Future source-aligned import and strict gating without invented research costs."
+  },
+  "network_file_source": {
+    "path_pattern": "/frontend//static/{locale}/xml.balancing.research.ResearchTechnologies{race}_{hash32}.json",
+    "race_suffix": [
+      "Humans",
+      "Elves"
+    ],
+    "file_hash": "32 lowercase hex chars, changes with version",
+    "example_historical_public_url": "https://oxen.innogamescdn.com/frontend//static/en_DK/xml.balancing.research.ResearchTechnologiesHumans_9fa701953369071f3962fd3ffe897522.json",
+    "example_access_check": {
+      "date": "2026-11-20",
+      "http_status": 404,
+      "interpretation": "Versioned URL cited in extension is obsolete/unavailable, NOT proof the balancing data no longer exist",
+      "report": "https://github.com/geibibro123-linux/Farm-elvenar-/blob/main/docs/research_apk_scans/public_balancing_source_probe_2026-11-20.json"
+    },
+    "need_current_hash_and_locale": true,
+    "login_secrets_not_required_for_public_file_url": true,
+    "do_not_save_cookies_or_session_tokens": true
+  },
+  "technology_raw_fields": {
+    "__class__": "ResearchTechnologyConfigVO",
+    "id": "string",
+    "name": "string optional",
+    "description": "string optional",
+    "race": "source racial enum/string",
+    "maxSP": "string optional (knowledge point cost)",
+    "section": "integer chapter number",
+    "requirements": {
+      "__class__": "CityResourceVO",
+      "resources": "dictionary of resource_id -> integer or numeric string"
+    },
+    "parentIds": "list of source technology IDs optional",
+    "childrenIds": "list of source technology IDs optional",
+    "rewards": {
+      "__class__": "ResearchRewardVO",
+      "type": [
+        "building",
+        "unit_type_id",
+        "expansion",
+        "clustersize",
+        "spells",
+        "resource",
+        "portal_production",
+        "avatar"
+      ],
+      "value": "string",
+      "buildingId": "string optional"
+    },
+    "gate": {
+      "__class__": "ResearchGateVO",
+      "completedProvinces": "numeric string",
+      "rewards": {
+        "__class__": "CityResourceVO",
+        "resources": "resource->cost/reward"
+      }
+    },
+    "category": [
+      "building",
+      "expansion",
+      "clustersize",
+      "unit",
+      "bonusgood",
+      "unlock_feature",
+      "scouting",
+      "unit_upgrade",
+      "spells",
+      "avatar"
+    ],
+    "level": "integer optional",
+    "score": "integer optional",
+    "premiumMax": "integer optional",
+    "expectedProductionBoost": "number optional",
+    "iconId": "string optional",
+    "featureFlag": "string optional"
+  },
+  "individual_player_progress_source": {
+    "service": "ResearchService",
+    "method": "startup",
+    "object_class": "TechnologyVO",
+    "progress_class": "ResearchTechnologyProgressVO",
+    "fields": {
+      "id": "string",
+      "progress": {
+        "tech_id": "string",
+        "currentSP": "number optional",
+        "gate_unlocked": "boolean optional",
+        "is_paid": "boolean optional"
+      },
+      "boosted_good": "string optional"
+    },
+    "warning": "This contains personal player progress and MUST NOT be mixed into generic research definitions or shared in public source archives."
+  },
+  "validated_future_import_policy": {
+    "source_versions_separate": true,
+    "race_is_explicit": true,
+    "min_comparable_cost_rule": "FEST, user-confirmed",
+    "costs_source": "requirements.resources",
+    "knowledge_points_source": "maxSP",
+    "parents_source": "parentIds",
+    "category_and_effect_source": "rewards and category",
+    "chapter_scout_gate_source": "gate.completedProvinces",
+    "missing_data": "OFFEN, never assumed zero or free",
+    "source_entries_are_not_yet_approved_elvenland_balance": true,
+    "chapter_1_5_records_recovered": 0
+  }
+}
