@@ -19,7 +19,11 @@
       "https://support.innogames.com/kb/Elvenar/en_DK/627",
       "https://elvenarchy.fuzzalab.pt/en/guides/menus-das-manufaturas",
       "https://support.innogames.com/kb/Elvenar/en_DK/297",
-      "https://www.bluestacks.com/blog/game-guides/elvenar/advanced-tips-and-tricks-en.html"
+      "https://www.bluestacks.com/blog/game-guides/elvenar/advanced-tips-and-tricks-en.html",
+      "https://imag.malavida.com/mvimgbig/download-fs/elvenar-28484-12.jpg",
+      "https://elvenar.fr.malavida.com/android/",
+      "https://support.innogames.com/kb/Elvenar/en_DK/7006/Release-Notes-1244",
+      "https://elvenar-tools.com/buildings/manufactories"
     ],
     "note": "These are chapter totals and selected tech costs only; no complete tech graph or per-tech resource costs. Missing not zero.",
     "last_evidence_review": "2026-11-20",
@@ -315,14 +319,6 @@
   "previous_chat_image_claims_not_independently_rechecked": [
     {
       "chapter": 1,
-      "research": "Marble manufactory",
-      "claimed_kp": 8,
-      "claimed_money": 2500,
-      "status": "PRIOR_CHAT_VISUAL_REPORT_NOT_REVERIFIED_2026_11_20",
-      "note": "Do not promote to verified data until the original image and version are persisted."
-    },
-    {
-      "chapter": 1,
       "research": "Trader",
       "claimed_kp": 19,
       "other_documented_kp": 12,
@@ -513,6 +509,64 @@
     "binary_inspection_status": "BLOCKED_CONTAINER_CLIENT_ERROR",
     "extra_extracted_tech_rows": 0,
     "explicit_note": "Binary was located and materialized, but container/Python execution failed. This is an execution blocker, not evidence that APK has no tech configs. Earlier historical embedded reference still holds 11 unique IDs and 13 feature mappings.",
-    "prior_historical_apk_reference": "data/reference/historical_feature_technology_links.json"
-  }
+    "prior_historical_apk_reference": "data/reference/historical_feature_technology_links.json",
+    "original_apk_game_version_reported_in_old_project": "1.244.0",
+    "release_note_url": "https://support.innogames.com/kb/Elvenar/en_DK/7006/Release-Notes-1244",
+    "release_note_date": "2020-10-27/29",
+    "mixed_source_versions_warning": "The APK is 2020-era; chapter-22 historical sidecar ids reflect later material and are not proven to be embedded in the original APK binary."
+  },
+  "verified_visual_research_unlock_costs": [
+    {
+      "chapter": 1,
+      "technology_name": "Marble Manufactory",
+      "research_sp": 8,
+      "activation_costs": {
+        "money": 2500
+      },
+      "race": "NOT_VISIBLE_UNCONFIRMED",
+      "status": "HISTORICAL_SCREENSHOT_DIRECTLY_OBSERVED",
+      "source_page": "https://elvenar.fr.malavida.com/android/",
+      "source_image": "https://imag.malavida.com/mvimgbig/download-fs/elvenar-28484-12.jpg",
+      "observed_on": "2026-11-20",
+      "visible_details": "Progress 0/8; Activation costs 2500 coins",
+      "exclude_from_race_specific_automated_values": true,
+      "notes": "Technology activation cost, not manufactory construction cost."
+    }
+  ],
+  "separate_building_reference_not_research_cost": [
+    {
+      "source": "https://elvenar-tools.com/buildings/manufactories",
+      "building": "Marble Manufactory",
+      "race": "elves",
+      "level": 1,
+      "costs": {
+        "money": 200,
+        "supplies": 10
+      },
+      "build_time_seconds": 40,
+      "note": "Building construction cost only."
+    },
+    {
+      "source": "https://elvenar-tools.com/buildings/manufactories",
+      "building": "Marble Manufactory",
+      "race": "humans",
+      "level": 1,
+      "costs": {
+        "money": 200,
+        "supplies": 10
+      },
+      "build_time_seconds": 40,
+      "note": "Building construction cost only."
+    }
+  ],
+  "visual_unmapped_research_evidence": [
+    {
+      "source": "https://cdn-www.bluestacks.com/bs-images/Tips-and-tricksElvenar-5.png",
+      "article": "https://www.bluestacks.com/blog/game-guides/elvenar/advanced-tips-and-tricks-en.html",
+      "observed_on": "2026-11-20",
+      "visible": "Four early research nodes with 0/8 KP but labels absent",
+      "status": "VISUAL_OBSERVED_TECH_IDS_UNKNOWN",
+      "do_not_assign_to_tech_ids": true
+    }
+  ]
 }
