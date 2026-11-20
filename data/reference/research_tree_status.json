@@ -124,7 +124,11 @@
       "native_or_server_research_config_rows",
       "chapter_I_to_V_complete_cost_columns",
       "chapter_I_to_V_current_topology",
-      "race_humans_historical_and_modern_node_rows"
+      "race_humans_historical_and_modern_node_rows",
+      "active_hashed_research_balancing_file_for_elves",
+      "active_hashed_research_balancing_file_for_humans",
+      "original_balancing_file_version_alignment",
+      "early_i_v_actual_source_rows"
     ],
     "user_cost_policy": {
       "status": "FEST",
@@ -181,6 +185,64 @@
       "source": "https://www.reddit.com/r/Elvenar/comments/152i8a1",
       "date": "2023-07-18",
       "summary": "Early chapters I-V reportedly redesigned; keep historic and modern graph edge sets separate."
+    },
+    "original_balancing_schema": {
+      "status": "VERIFIED_SOURCE_CODE_SCHEMA_NOT_ACTUAL_DATA",
+      "source_repo": "paviad/elvenar-helper-extension",
+      "pattern": "/frontend//static/{locale}/xml.balancing.research.ResearchTechnologies{Elves|Humans}_{hash32}.json",
+      "fields": [
+        "id",
+        "race",
+        "section",
+        "maxSP",
+        "requirements.resources",
+        "parentIds",
+        "childrenIds",
+        "rewards",
+        "gate.completedProvinces"
+      ],
+      "schema_file": "data/reference/research_balancing_schema_provenance_2026-11-20.json",
+      "report": "docs/RESEARCH_BALANCING_ORIGINAL_SOURCE_2026-11-20.md",
+      "test": {
+        "example_humans_url": "https://oxen.innogamescdn.com/frontend//static/en_DK/xml.balancing.research.ResearchTechnologiesHumans_9fa701953369071f3962fd3ffe897522.json",
+        "http_status": 404,
+        "run": "https://github.com/geibibro123-linux/Farm-elvenar-/actions/runs/44832391105",
+        "usable_human_data": 0,
+        "usable_elf_data": 0,
+        "interpretation": "Historic hash stale/unavailable; current hash not known"
+      },
+      "next_step": "Acquire active Elves and Humans versioned balancing JSON filenames or source copies via lawful, privacy-safe game-client request observation."
+    },
+    "rechecked_two_binary_analyses": {
+      "status": "BOTH_GITHUB_ACTIONS_SUCCESS",
+      "lab04": {
+        "run": "https://github.com/geibibro123-linux/Farm-elvenar-/actions/runs/44832009895",
+        "sha256": "d77de38720bde3c0894493b519cdcca6183d7d020d3377d40e2096516d6d247c",
+        "zip_entries": 6494,
+        "unity_textassets": 44,
+        "tech_like_string_tokens": 240,
+        "complete_research_config_rows": 0
+      },
+      "lab09": {
+        "run": "https://github.com/geibibro123-linux/Farm-elvenar-/actions/runs/44831049326",
+        "sha256": "d9e36fa4beef2c6c5e3b196caa3eca9cc128af03a8d4add1290f4c6034fe0bf1",
+        "zip_entries": 6492,
+        "unity_textassets": 44,
+        "tech_like_string_tokens": 232,
+        "complete_research_config_rows": 0
+      },
+      "note": "Same counts of research ConfigVO and UI references, but no binary research tree identity proven."
+    },
+    "readonly_preview": {
+      "status": "COMPILED_AND_VERIFIED_CI",
+      "path": "data/reference/compiled_research_readonly_preview_2026-11-20.json",
+      "ci_run": "https://github.com/geibibro123-linux/Elvenland/actions/runs/44832731386",
+      "total_records": 776,
+      "early_individual_community_records": 9,
+      "later_structured_community_records": 767,
+      "activation_ready": 0,
+      "active_runtime_research_definitions": 0,
+      "source_missing_price_policy": "null means OFFEN, not zero"
     }
   }
 }
