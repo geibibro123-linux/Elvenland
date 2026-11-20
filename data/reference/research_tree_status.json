@@ -76,6 +76,13 @@
         "money": 2500,
         "race": "UNCONFIRMED",
         "source": "https://imag.malavida.com/mvimgbig/download-fs/elvenar-28484-12.jpg"
+      },
+      "historical_visual_source": {
+        "file": "data/reference/community_ch01_historical_spieletrend_screenshot_2026-11-20.json",
+        "observed_named_nodes": 11,
+        "coverage_context": "historical screenshot only, not full chapter 1, race unverified",
+        "early_research_graph_edges_verified": false,
+        "version_mismatch_risk": "pre-/post-2023 tree redesign reported by player community"
       }
     },
     "chapter_6_to_26": {
@@ -96,7 +103,10 @@
       "race_humans_graph",
       "complete_unlock_effects",
       "offline_fallback_for_online_gameplay",
-      "integration_and_runtime_tests"
+      "integration_and_runtime_tests",
+      "historical_to_modern_tech_id_crosswalk",
+      "ch01_2026_chapter_graph_consistency",
+      "native_or_server_research_config_rows"
     ],
     "user_cost_policy": {
       "status": "FEST",
@@ -115,6 +125,31 @@
       "new_direct_apk_config_rows_extracted": 0,
       "notes": "No new binary data read. Old parsed historical sidecar and MonoBehaviour inspection remain available. 1.244 was October 2020 era."
     },
-    "latest_evidence_document": "docs/RESEARCH_CH01_CH05_EVIDENCE_2026-11-20.md"
+    "latest_evidence_document": "docs/RESEARCH_CH01_CH05_EVIDENCE_2026-11-20.md",
+    "latest_apk_scan": {
+      "status": "GITHUB_ACTIONS_EXECUTED_SUCCESSFULLY",
+      "source_repository": "geibibro123-linux/Farm-elvenar-",
+      "source_run_url": "https://github.com/geibibro123-linux/Farm-elvenar-/actions/runs/44831049326",
+      "source_file": "Elvenar_Lab09_RequestRoute02.apk",
+      "apk_size_bytes": 231770000,
+      "sha256": "d9e36fa4beef2c6c5e3b196caa3eca9cc128af03a8d4add1290f4c6034fe0bf1",
+      "zip_entries": 6492,
+      "unity_data_entries": 4830,
+      "unity_textassets_read": 44,
+      "tech_like_ascii_tokens_found": 232,
+      "class_keyword_occurrences": {
+        "ResearchTechnologyConfigVO": 6,
+        "ResearchTechnologyProgressVO": 6,
+        "TechTreeTechnology": 115,
+        "parentIds": 1,
+        "requirements": 45
+      },
+      "complete_research_config_rows_extracted": 0,
+      "structural_report": "https://github.com/geibibro123-linux/Farm-elvenar-/blob/main/docs/research_apk_scans/lab09_route02_structural_scan_2026-11-20.json",
+      "historical_local_exec_failure_explained": "Container service itself returns ClientError on trivial command, unrelated to verified APK read. Root cause undetermined.",
+      "conclusion": "Static search finds UI/class names and tokens but not decoded rows for full chapter I-V; binary data or network config may still exist.",
+      "original_unmodified_apk_verified": false,
+      "do_not_confuse_string_tokens_with_research_nodes": true
+    }
   }
 }
