@@ -1,0 +1,50 @@
+{
+  "kind": "RESEARCH_REFERENCE_CONSISTENCY_AUDIT",
+  "date": "2026-11-20",
+  "validation_success": true,
+  "late_chapters": 21,
+  "late_technology_records": 767,
+  "late_unique_ids": 767,
+  "late_kp_sum": 82540,
+  "late_graph_topologically_sortable": true,
+  "late_external_missing_parent_links": [
+    {
+      "id": "elves_scouting_6",
+      "missing_parent": "elves_all3_aw"
+    }
+  ],
+  "late_parent_without_reciprocal_child_links": [
+    {
+      "id": "elves_ch24_residence_1",
+      "parent": "elves_ch23_aw_1"
+    },
+    {
+      "id": "elves_ch24_residence_1",
+      "parent": "elves_ch23_aw_2"
+    },
+    {
+      "id": "elves_ch25_culture_1",
+      "parent": "elves_ch24_mainhall_2"
+    },
+    {
+      "id": "elves_ch26_squadsizeupgrade_1",
+      "parent": "elves_ch25_aw_1"
+    },
+    {
+      "id": "elves_ch26_squadsizeupgrade_1",
+      "parent": "elves_ch25_aw_2"
+    }
+  ],
+  "early_chapter_count": 5,
+  "early_reported_technology_total": 124,
+  "early_reported_kp_sum": 2785,
+  "early_individual_selected_community_research": 9,
+  "historical_visual_observations": 26,
+  "current_live_definitions": 0,
+  "early_parentids_complete": false,
+  "early_activation_costs_complete": false,
+  "whole_tree_approved_for_gameplay": false,
+  "no_automatic_free_research_when_missing": true,
+  "source_provenance_policy": "Historic versions separate; user selects minimum comparable cost per race and resource",
+  "errors": []
+}
