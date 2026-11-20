@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "evidence_status": "COMMUNITY_PUBLIC_GUIDE",
+    "approved_as_elvenland_balance": false,
+    "original_apk_version_verified": false,
+    "retrieved_on": "2026-11-20",
+    "source": [
+      "https://elvenarchy.fuzzalab.pt/en/guides/primeiros-capitulos-estrategia",
+      "https://elvenarchy.fuzzalab.pt/en/guides/capitulo-1-a-chegada",
+      "https://elvenarchy.fuzzalab.pt/en/guides/capitulo-2-a-evolucao",
+      "https://elvenarchy.fuzzalab.pt/en/guides/capitulo-5-caminho-para-o-passado"
+    ],
+    "note": "These are chapter totals and selected tech costs only; no complete tech graph or per-tech resource costs. Missing not zero."
+  },
+  "chapter_summary": [
+    {
+      "chapter": 1,
+      "race": "elves",
+      "tech_count": 21,
+      "kp_sum": 155
+    },
+    {
+      "chapter": 2,
+      "race": "elves",
+      "tech_count": 25,
+      "kp_sum": 275
+    },
+    {
+      "chapter": 3,
+      "race": "elves",
+      "tech_count": 27,
+      "kp_sum": 578
+    },
+    {
+      "chapter": 4,
+      "race": "elves",
+      "tech_count": 25,
+      "kp_sum": 747
+    },
+    {
+      "chapter": 5,
+      "race": "elves",
+      "tech_count": 26,
+      "kp_sum": 1030
+    }
+  ],
+  "selected_tech": [
+    {
+      "chapter": 1,
+      "name": "Neighborhood",
+      "kp": 5,
+      "min_path_research_count": 13,
+      "min_path_kp": 70,
+      "apk_matched_tech_id": "elves_neighbourlyhelp"
+    },
+    {
+      "chapter": 1,
+      "name": "Trader",
+      "kp": 12,
+      "min_path_research_count": 8,
+      "min_path_kp": 39
+    },
+    {
+      "chapter": 1,
+      "name": "Magic Academy",
+      "kp": 12,
+      "min_path_research_count": 16,
+      "min_path_kp": 107
+    },
+    {
+      "chapter": 2,
+      "name": "Fellowships",
+      "kp": 6,
+      "min_path_research_count": 21,
+      "min_path_kp": 155,
+      "apk_matched_tech_id": "elves_fellowships"
+    },
+    {
+      "chapter": 2,
+      "name": "Fellowship Adventures",
+      "kp": 8,
+      "min_path_research_count": 28,
+      "min_path_kp": 227,
+      "apk_matched_tech_id": "elves_fellowship_adventures"
+    },
+    {
+      "chapter": 3,
+      "name": "Crafting",
+      "kp": 28,
+      "human_kp": 21,
+      "min_path_research_count": 48,
+      "min_path_kp": 493,
+      "apk_matched_tech_id": "elves_crafting"
+    },
+    {
+      "chapter": 4,
+      "name": "Tournaments",
+      "kp": 32,
+      "human_kp": 35,
+      "min_path_research_count": 73,
+      "min_path_kp": 1119,
+      "apk_matched_tech_id": "elves_tournaments"
+    },
+    {
+      "chapter": 5,
+      "name": "Spire of Eternity",
+      "kp": 50,
+      "human_kp": 45,
+      "min_path_research_count": 90,
+      "min_path_kp": 1684,
+      "apk_matched_tech_id": "elves_spire"
+    },
+    {
+      "chapter": 5,
+      "name": "Cauldron",
+      "kp": 30,
+      "min_path_research_count": 96,
+      "min_path_kp": 1914,
+      "apk_matched_tech_id": "elves_cauldron"
+    }
+  ],
+  "missing": [
+    "chapter_1_to_5_complete_technology_ids",
+    "all_parentIds",
+    "per_technology_requirements",
+    "unlock_effects",
+    "human_complete_graph",
+    "source_game_build_consistency"
+  ],
+  "research_time_note": "Official InnoGames help: 1 KP per hour, max storage 10, or temporary 20 with enchantments. This is generation cadence, not fixed technology duration.",
+  "official_sources": [
+    "https://support.innogames.com/kb/Elvenar/en_DK/218/What-are-Knowledge-Points-and-how-do-I-get-them",
+    "https://support.innogames.com/kb/Elvenar/en_DK/219"
+  ]
+}
