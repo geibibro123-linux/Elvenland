@@ -14,7 +14,8 @@
     ],
     "original_full_balancing_document_recovered": false,
     "status": "SCHEMA_VERIFIED_VIA_SOURCE_CODE_NO_FULL_ORIGINAL_DATA",
-    "purpose": "Future source-aligned import and strict gating without invented research costs."
+    "purpose": "Future source-aligned import and strict gating without invented research costs.",
+    "research_capture_instructions": "docs/RESEARCH_BALANCING_ORIGINAL_SOURCE_2026-11-20.md"
   },
   "network_file_source": {
     "path_pattern": "/frontend//static/{locale}/xml.balancing.research.ResearchTechnologies{race}_{hash32}.json",
@@ -31,8 +32,15 @@
       "report": "https://github.com/geibibro123-linux/Farm-elvenar-/blob/main/docs/research_apk_scans/public_balancing_source_probe_2026-11-20.json"
     },
     "need_current_hash_and_locale": true,
-    "login_secrets_not_required_for_public_file_url": true,
-    "do_not_save_cookies_or_session_tokens": true
+    "do_not_save_cookies_or_session_tokens": true,
+    "authentication_requirement_for_current_file": "UNVERIFIED",
+    "new_research_hash_status": "OFFEN",
+    "public_probe": {
+      "status": "HTTP_404_FOR_OBSOLETE_EXAMPLE_HASH",
+      "run": "https://github.com/geibibro123-linux/Farm-elvenar-/actions/runs/44832391105",
+      "current_document_recovered": false,
+      "example_url_retrieved": false
+    }
   },
   "technology_raw_fields": {
     "__class__": "ResearchTechnologyConfigVO",
@@ -118,6 +126,8 @@
     "chapter_scout_gate_source": "gate.completedProvinces",
     "missing_data": "OFFEN, never assumed zero or free",
     "source_entries_are_not_yet_approved_elvenland_balance": true,
-    "chapter_1_5_records_recovered": 0
+    "chapter_1_5_records_recovered": 0,
+    "parent_missing_handling": "UNRESOLVED; never auto-mark as researched unless verified root or source rules",
+    "original_source_published_vs_user_balance": "Historical numbers retained, user minimum-cost rule selects separate working values"
   }
 }
