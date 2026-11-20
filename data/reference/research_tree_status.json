@@ -244,5 +244,62 @@
       "active_runtime_research_definitions": 0,
       "source_missing_price_policy": "null means OFFEN, not zero"
     }
+  },
+  "research_update_2026_11_21": {
+    "status": "SOURCE_COVERAGE_EXPANDED_IMPORTER_SYNTHETIC_TESTED",
+    "all_active_gameplay_definitions_still_empty": true,
+    "full_original_chapter_I_V_config_rows_imported": 0,
+    "expected_early_chapter_node_count_from_elvenarchy": 124,
+    "new_video_metadata": {
+      "id": "tF7h1gaTfes",
+      "verified_title": "Elvenar All research",
+      "verified_channel": "Drumuri și Ținuturi",
+      "oembed_http_status": 200,
+      "full_video_frames_retrieved": false,
+      "video_technology_rows_recovered": 0,
+      "report": "https://github.com/geibibro123-linux/Farm-elvenar-/blob/main/docs/research_apk_scans/youtube_tF7h1gaTfes_public_probe_2026-11-21.json"
+    },
+    "additional_2022_historical_source": {
+      "path": "data/reference/community_early_research_2022_fatwalletrefugee.json",
+      "reported_early_research_technologies": 6,
+      "with_reported_material_matrix": 5,
+      "original_race_verified": false,
+      "original_ids_verified": false,
+      "chapter_2022_secret_ancient_wonders": 2,
+      "later_guide_chapter_2026_secret_ancient_wonders": 4,
+      "version_conflict_requires_separation": true,
+      "activation_material_matrix_transaction_type_verified": false
+    },
+    "additional_screenshot_source": {
+      "path": "data/reference/community_historical_adv_gems_research_screenshot_2026-11-21.json",
+      "independently_read_wp": 30,
+      "independently_read_money": 80000,
+      "independently_read_supplies": 5500,
+      "other_goods_icons_three_resource_ids_unresolved": true,
+      "race_and_chapter_unresolved": true
+    },
+    "new_minimum_path_2026": {
+      "source": "https://elvenarchy.fuzzalab.pt/en/guides/primeiros-capitulos-estrategia",
+      "research_topic": "Secret Ancient Wonders",
+      "chapter": 4,
+      "race": "elves",
+      "min_researches": 66,
+      "min_kp": 921,
+      "individual_technology_kp": "OFFEN",
+      "not_comparable_with_2022_path_without_version_alignment": true
+    },
+    "original_data_extractor": {
+      "script": "tools/extract_research_balancing_reference.py",
+      "tests": "tests/test_extract_research_balancing_reference.py",
+      "ci_report": "docs/research_extractor_synthetic_validation_2026-11-21.json",
+      "synthetic_tests_executed": 10,
+      "passed": 10,
+      "errors": 0,
+      "live_definition_changed": false,
+      "user_supplied_original_json_actually_imported": 0
+    },
+    "screenshot_intake_protocol": "docs/RESEARCH_SCREENSHOT_CAPTURE_GUIDE_2026-11-21.md",
+    "remaining_main_blocker": "Source-complete consistent Elves and Humans chapter I-V dataset including original IDs, parentIds, activation requirements, rewards and gates",
+    "no_2026_source_graph_edges_inferred_from_2022_material": true
   }
 }
