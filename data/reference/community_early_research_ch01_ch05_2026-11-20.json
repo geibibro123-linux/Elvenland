@@ -8,9 +8,19 @@
       "https://elvenarchy.fuzzalab.pt/en/guides/primeiros-capitulos-estrategia",
       "https://elvenarchy.fuzzalab.pt/en/guides/capitulo-1-a-chegada",
       "https://elvenarchy.fuzzalab.pt/en/guides/capitulo-2-a-evolucao",
-      "https://elvenarchy.fuzzalab.pt/en/guides/capitulo-5-caminho-para-o-passado"
+      "https://elvenarchy.fuzzalab.pt/en/guides/capitulo-5-caminho-para-o-passado",
+      "https://www.elvenar-fan-forum.de/t674f64649-Kapitel.html",
+      "https://www.elvenar-fan-forum.de/t676f64649-Kapitel.html",
+      "https://www.elvenar-fan-forum.de/t677f64649-Kapitel.html",
+      "https://www.elvenar-fan-forum.de/t678f64649-Kapitel.html",
+      "https://www.santastoybox.net/elvenar.htm",
+      "https://support.innogames.com/kb/Elvenar/de_DE/219",
+      "https://support.innogames.com/kb/Elvenar/de_DE/218",
+      "https://support.innogames.com/kb/Elvenar/en_DK/627"
     ],
-    "note": "These are chapter totals and selected tech costs only; no complete tech graph or per-tech resource costs. Missing not zero."
+    "note": "These are chapter totals and selected tech costs only; no complete tech graph or per-tech resource costs. Missing not zero.",
+    "last_evidence_review": "2026-11-20",
+    "data_append_only_explanation": "Bestehende KP-/Kapitelwerte nicht geaendert. Zusatzbefunde sind Quellenbeobachtungen, nicht vollstaendige Original-Konfigurationen."
   },
   "chapter_summary": [
     {
@@ -125,11 +135,214 @@
     "per_technology_requirements",
     "unlock_effects",
     "human_complete_graph",
-    "source_game_build_consistency"
+    "source_game_build_consistency",
+    "chapter_1_to_5_all_technology_images_with_verified_costs",
+    "separate_research_expansion_placement_prices",
+    "chapter_entry_province_gate_requirements"
   ],
   "research_time_note": "Official InnoGames help: 1 KP per hour, max storage 10, or temporary 20 with enchantments. This is generation cadence, not fixed technology duration.",
   "official_sources": [
     "https://support.innogames.com/kb/Elvenar/en_DK/218/What-are-Knowledge-Points-and-how-do-I-get-them",
     "https://support.innogames.com/kb/Elvenar/en_DK/219"
+  ],
+  "chapter_observations": [
+    {
+      "chapter": 1,
+      "race": "elves",
+      "status": "SOURCED_CHAPTER_CONTENT_NOT_TECH_GRAPH",
+      "recommended_sequence_from_guide": [
+        "Main Hall / Hauptgebaeude",
+        "Workshop / Werkstatt",
+        "Bright Signpost / Leuchtender Wegweiser (Kultur)",
+        "Basic manufactories: marble / steel / planks",
+        "Individual production boost (one of three goods)",
+        "Trader / Haendler",
+        "Neighbourly Help / Nachbarschaft",
+        "Magic Academy / Magische Akademie",
+        "Advanced Scouts chapter transition"
+      ],
+      "evidence_urls": [
+        "https://www.elvenar-fan-forum.de/t674f64649-Kapitel.html",
+        "https://elvenarchy.fuzzalab.pt/en/guides/capitulo-1-a-chegada"
+      ],
+      "separate_building_facts": [
+        {
+          "building": "Trader",
+          "elves_tiles": [
+            3,
+            4
+          ],
+          "humans_tiles": [
+            4,
+            4
+          ]
+        },
+        {
+          "building": "Magic Academy",
+          "elves_tiles": [
+            5,
+            5
+          ],
+          "humans_tiles": [
+            5,
+            4
+          ]
+        }
+      ],
+      "warning": "Guide order is NOT a proved parentIds graph. Building tile sizes are NOT technology costs."
+    },
+    {
+      "chapter": 2,
+      "race": "elves",
+      "status": "SOURCED_CHAPTER_CONTENT_NOT_TECH_GRAPH",
+      "known_topics": [
+        "Fellowships",
+        "Fellowship Adventures",
+        "Crystal manufactory",
+        "Scrolls manufactory",
+        "Silk manufactory",
+        "Training Grounds",
+        "Advanced building upgrades",
+        "Advanced Scouts chapter transition"
+      ],
+      "evidence_urls": [
+        "https://elvenarchy.fuzzalab.pt/en/guides/capitulo-2-a-evolucao"
+      ],
+      "warning": "No complete technical IDs / parentIds / per-tech requirements."
+    },
+    {
+      "chapter": 3,
+      "race": "elves",
+      "status": "SOURCED_CHAPTER_CONTENT_NOT_TECH_GRAPH",
+      "known_topics": [
+        "Elixir manufactory",
+        "Magic Dust manufactory",
+        "Gems manufactory",
+        "Production boost for assigned precious good",
+        "Crafting",
+        "Magical Inspiration",
+        "Golems / Sorceresses (military)",
+        "Further manufactory and city upgrades",
+        "Advanced Scouts chapter transition"
+      ],
+      "reported_unlock_effects": [
+        {
+          "research": "Magical Inspiration",
+          "effect": "Two additional enchantments in Magic Academy",
+          "status": "SOURCED_FEATURE_DESCRIPTION"
+        },
+        {
+          "research": "Crafting",
+          "effect": "Crafting user interface in Magic Academy",
+          "status": "SOURCED_FEATURE_DESCRIPTION"
+        }
+      ],
+      "evidence_urls": [
+        "https://www.elvenar-fan-forum.de/t676f64649-Kapitel.html",
+        "https://elvenarchy.fuzzalab.pt/en/guides/capitulo-3-descoberta-da-magia"
+      ],
+      "warning": "Do not assign numeric KP or new IDs to these topic names unless independently sourced."
+    },
+    {
+      "chapter": 4,
+      "race": "elves",
+      "status": "SOURCED_CHAPTER_CONTENT_NOT_TECH_GRAPH",
+      "known_topics": [
+        "Advanced Scouts",
+        "Improved manufactories",
+        "Secret Ancient Wonders (Tome of Secrets and Golden Abyss)",
+        "Tournaments",
+        "Tempest Ancient Wonders (Endless Excavation, Needles of Tempest)",
+        "Race-specific Ancient Wonders (Martial Monastery and Crystal Lighthouse for elves; Sanctuary and Great Bell Tower for humans)"
+      ],
+      "evidence_urls": [
+        "https://www.elvenar-fan-forum.de/t677f64649-Kapitel.html",
+        "https://elvenarchy.fuzzalab.pt/en/guides/capitulo-4-sabedoria-e-conhecimento"
+      ],
+      "warning": "Named wonders are unlock effects/categories; they may not be 1:1 technology nodes."
+    },
+    {
+      "chapter": 5,
+      "race": "elves",
+      "status": "SOURCED_CHAPTER_CONTENT_NOT_TECH_GRAPH",
+      "known_topics": [
+        "Advanced Scouts",
+        "Spire of Eternity",
+        "Cauldron",
+        "Forgotten Ancient Wonders (Ruins of Growth, Thrones of the High Men)",
+        "Manufactories and higher upgrades"
+      ],
+      "evidence_urls": [
+        "https://www.elvenar-fan-forum.de/t678f64649-Kapitel.html",
+        "https://elvenarchy.fuzzalab.pt/en/guides/capitulo-5-caminho-para-o-passado"
+      ],
+      "warning": "Spire/Cauldron are original online system unlocks; offline replacement remains a distinct design decision."
+    }
+  ],
+  "research_runtime_observations": [
+    {
+      "fact": "Knowledge points (KP) replenish by 1 each hour, base stored cap is 10, temporary spell cap may be 20",
+      "status": "OFFICIAL_SUPPORTED",
+      "source": "https://support.innogames.com/kb/Elvenar/de_DE/218",
+      "not_fixed_per_technology_duration": true
+    },
+    {
+      "fact": "Research requires investing KP and then paying resources to activate a technology",
+      "status": "OFFICIAL_SUPPORTED",
+      "source": "https://support.innogames.com/kb/Elvenar/de_DE/219"
+    },
+    {
+      "fact": "First technology of each later chapter also requires world-map province progress; specific early-chapter province thresholds NOT verified",
+      "status": "COMMUNITY_SUPPORTED",
+      "source": "https://www.santastoybox.net/elvenar.htm",
+      "province_thresholds_status": "OFFEN"
+    },
+    {
+      "fact": "A research-unlocked city expansion can incur a second coin cost when actually placed",
+      "status": "OFFICIAL_SUPPORTED",
+      "source": "https://support.innogames.com/kb/Elvenar/en_DK/627",
+      "placement_cost_values_status": "OFFEN"
+    },
+    {
+      "fact": "Production boosts in original game depend on the city's assigned boosted good, not a universal fixed tech value",
+      "status": "COMMUNITY_SUPPORTED",
+      "source": "https://www.elvenar-fan-forum.de/t674f64649-Kapitel.html"
+    }
+  ],
+  "previous_chat_image_claims_not_independently_rechecked": [
+    {
+      "chapter": 1,
+      "research": "Marble manufactory",
+      "claimed_kp": 8,
+      "claimed_money": 2500,
+      "status": "PRIOR_CHAT_VISUAL_REPORT_NOT_REVERIFIED_2026_11_20",
+      "note": "Do not promote to verified data until the original image and version are persisted."
+    },
+    {
+      "chapter": 1,
+      "research": "Trader",
+      "claimed_kp": 19,
+      "other_documented_kp": 12,
+      "status": "PRIOR_CHAT_SCREENSHOT_CONFLICT_NOT_REVERIFIED",
+      "note": "12 KP is separately documented by 2026 Elvenarchy guide; earlier 19 KP screenshot needs durable evidence."
+    }
+  ],
+  "integration_policy": {
+    "status": "HISTORICAL_REFERENCE_ONLY",
+    "current_definitions_file": "data/definitions/research_nodes.json",
+    "current_definitions_should_remain_empty_until_user_approval": true,
+    "missing_is_not_zero": true,
+    "do_not_turn_guide_order_into_parentIds": true,
+    "do_not_treat_recommended_gameplay_order_as_unlock_rule": true,
+    "source_versions_are_not_canonical": true,
+    "online_features_need_distinct_local_design": true
+  },
+  "next_technical_acquisition_targets": [
+    "Full Chapter I-V technology object rows (ID, race, section, maxSP/KP, requirements and parentIds)",
+    "Chapter I-V original research screenshot set with durable source URL and version",
+    "All Chapter I-V resource payment amounts and per-tech completion effects",
+    "Elves-vs-Humans topology and KP differences",
+    "Final Chapter V->VI predecessor technology id elves_all3_aw",
+    "World-map province gate thresholds"
   ]
 }
