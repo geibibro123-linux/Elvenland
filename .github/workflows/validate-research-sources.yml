@@ -1,0 +1,30 @@
+name: Elvenland research references validation
+on:
+  push:
+    paths:
+      - '.github/workflows/validate-research-sources.yml'
+      - 'tools/validate_research_sources.py'
+      - 'data/reference/community*research*2026-11-20.json'
+      - 'data/reference/community_ch0*2026-11-20.json'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Cross-check archived research and avoid silent free technologies
+        run: |
+          set -euo pipefail
+          python tools/validate_research_sources.py
+          python -m json.tool docs/research_data_validation_2026-11-20.json >/dev/null
+      - name: Persist validation summary to private repository
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/research_data_validation_2026-11-20.json
+          git commit -m "research: record verified chapter dataset validation" || true
+          git push
