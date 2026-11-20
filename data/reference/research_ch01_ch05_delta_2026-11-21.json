@@ -2,7 +2,7 @@
   "_meta": {
     "kind": "INCREMENTAL_SOURCE_VERIFICATION_AND_RESEARCH_RULES",
     "observed_on": "2026-11-21",
-    "evidence_status": "OFFICIAL_HELP_VERIFIED; COMMUNITY_PATH_BREAKDOWN_UNVERIFIED",
+    "evidence_status": "MIXED: OFFICIAL_HELP_VERIFIED; VIDEO_METADATA_VERIFIED; COMMUNITY_CHAPTER2_PATH_VERIFIED; CHAPTER3_BREAKDOWN_STILL_UNVERIFIED",
     "purpose": "Extend early research source coverage without inventing missing individual configuration rows",
     "active_elvenland_balance_updated": false,
     "original_research_config_rows_newly_recovered": 0,
@@ -13,7 +13,9 @@
     "source_guides_updated_at": null,
     "public_repo_warning": "Elvenland is public as of this verification; do not add account/session data or proprietary full-source files",
     "source_guide_update_status": "NOT_VERIFIED",
-    "quality_correction": "Official help independently read. Community guide pages returned retrieval errors; do not represent their path chapter breakdown as newly verified."
+    "quality_correction": "Official help independently read. Community guide pages returned retrieval errors; do not represent their path chapter breakdown as newly verified.",
+    "updated_on": "2026-11-21",
+    "update_note": "Added confirmed video metadata, unverified video frames, and community minimum-path observation. No original research config rows obtained."
   },
   "source_verified_minimum_path_chapter_breakdowns": [
     {
@@ -28,17 +30,17 @@
         {
           "chapter": 1,
           "count": 19,
-          "verification": "NOT_INDEPENDENTLY_RECHECKED"
+          "verification": "CONFIRMED_BY_ARTICLE_WITH_SIMPLE_SUBTRACTION"
         },
         {
           "chapter": 2,
           "count": 2,
-          "verification": "NOT_INDEPENDENTLY_RECHECKED"
+          "verification": "CONFIRMED_BY_ARTICLE_WITH_SIMPLE_SUBTRACTION"
         }
       ],
       "source": "https://elvenarchy.fuzzalab.pt/en/guides/capitulo-2-a-evolucao",
-      "note": "Decomposition not independently verified from linked page in this session; neither parentIds nor exact chapter-specific path counts are established",
-      "evidence_status": "UNVERIFIED_SECONDARY_BREAKDOWN_DO_NOT_IMPORT"
+      "note": "Elvenarchy chapter 2 article explicitly states 21 research / 155 KP path with 19 research in chapter 1; 21 minus 19 = 2 in chapter 2. This is only a path count, not exact technical parents.",
+      "evidence_status": "COMMUNITY_GUIDE_VERIFIED_2026_11_21"
     },
     {
       "technology": "Crafting",
@@ -127,5 +129,41 @@
     "race_specific_current_versions": "OFFEN",
     "full_early_tech_id_list": "OFFEN",
     "source_versions_should_not_be_merged_for_parent_graph": true
-  }
+  },
+  "video_public_evidence": {
+    "source_video_url": "https://www.youtube.com/watch?v=tF7h1gaTfes",
+    "video_id": "tF7h1gaTfes",
+    "title": "Elvenar All research",
+    "channel": "Drumuri și Ținuturi",
+    "title_channel_verification": "YOUTUBE_OEMBED_HTTP_200_2026_11_21",
+    "archive_private_report": "https://github.com/geibibro123-linux/Farm-elvenar-/blob/main/docs/research_apk_scans/youtube_tF7h1gaTfes_public_probe_2026-11-21.json",
+    "available_thumbnail": "https://github.com/geibibro123-linux/Farm-elvenar-/blob/main/docs/research_apk_scans/youtube_tF7h1gaTfes_thumbnail_2026-11-21.jpg",
+    "thumbnail_observation": "An Elvenar technology tree interface with multiple completed/locked research nodes; thumbnail is insufficient to read a full node catalog or costs.",
+    "bot_challenge_on_video_extractor": true,
+    "full_video_frames_checked": false,
+    "verified_technology_cost_rows_from_video": 0,
+    "verified_parent_ids_from_video": 0,
+    "video_original_game_build": "OFFEN",
+    "source_race": "OFFEN",
+    "risk": "Video title alone does not confirm that every research chapter is shown, nor align versions with the original 2020 APK.",
+    "requires_user_video_frames_or_full_access": true,
+    "gameplay_balance_impact": "NONE"
+  },
+  "community_minimum_path_additional_evidence": [
+    {
+      "research_topic": "Secret Ancient Wonders",
+      "chapter": 4,
+      "race": "elves",
+      "observed_minimum_path_research_count": 66,
+      "observed_minimum_path_kp": 921,
+      "standalone_technology_kp": null,
+      "original_tech_id": null,
+      "activation_requirements": null,
+      "parent_ids": null,
+      "source_url": "https://elvenarchy.fuzzalab.pt/en/guides/primeiros-capitulos-estrategia",
+      "source_evidence_status": "COMMUNITY_GUIDE_VERIFIED_2026_11_21",
+      "warning": "This is an aggregate minimum research path and an unlock topic, NOT proof of a single 921-KP technology or its parentIds. No cost-minimum applied.",
+      "gameplay_balance_impact": "NONE"
+    }
+  ]
 }
