@@ -1,0 +1,59 @@
+{
+  "_meta": {
+    "type": "HISTORICAL_ORIGINAL_RESEARCH_SCREENSHOT",
+    "source_page": "https://www.elvenar-fan-forum.de/t69f59429-Antike-Wunder-1.html",
+    "source_image": "https://files.homepagemodules.de/b916082/f59429t69p6402286n3_IvOiNzsw.png",
+    "chapter": "IV_WISDOM_AND_WONDERS",
+    "race": "UNKNOWN",
+    "game_build": "UNVERIFIED",
+    "observation_date": "2026-11-20",
+    "scope": "Only visible labels and research-point denominators; not validated parentIds or activation resources",
+    "status": "HISTORICAL_VISUAL_REFERENCE"
+  },
+  "nodes": [
+    {
+      "name_de": "Geheime Antike Wunder",
+      "research_wp": 25,
+      "progress": "0/25",
+      "confidence": "HIGH"
+    },
+    {
+      "name_de": "Überragende Werkstatt",
+      "research_wp": 26,
+      "progress": "0/26",
+      "confidence": "HIGH"
+    },
+    {
+      "name_de": "Verbesserte Elixiermanufaktur",
+      "research_wp": 21,
+      "progress": "0/21",
+      "confidence": "HIGH"
+    },
+    {
+      "name_de": "Verbesserte Magiestaubmanufaktur",
+      "research_wp": 20,
+      "progress": "0/20",
+      "confidence": "HIGH"
+    },
+    {
+      "name_de": "Verbesserte Edelsteinmanufaktur",
+      "research_wp": 18,
+      "progress": "0/18",
+      "confidence": "LOW_IMAGE_CROP",
+      "note": "Figure edge/third-party description; visually cropped, do not use in automatic selector before separate verification."
+    }
+  ],
+  "chapter_entry_gate_observation": {
+    "name": "Verbesserte Kundschafter",
+    "province_counter_visible": "11/45",
+    "status": "VISUAL_NOT_YET_PROVEN_NUMERICAL_THRESHOLD_FOR_ELVENLAND",
+    "note": "Screenshot shows province denominator 45; does not prove the current game threshold for all versions."
+  },
+  "missing": [
+    "all_exact_technical_ids",
+    "all_resources_and_activation_costs",
+    "all_parentIds",
+    "race",
+    "historical_version"
+  ]
+}
