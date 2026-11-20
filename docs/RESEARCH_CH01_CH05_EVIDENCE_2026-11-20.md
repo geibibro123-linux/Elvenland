@@ -224,3 +224,33 @@ Die Datenpipeline muss kuenftig diese Felder getrennt erhalten: `source_version`
 
 Ein Knoten darf nur dann als originalgetreu freischaltbar in den Laufzeitbaum importiert werden, wenn seine benoetigten Kosten und Kanten bekannt oder als separate, vom Nutzer freigegebene Elvenland-Alternative vorhanden sind. Onlinefunktionen bleiben fuer die aktuelle APK **OFFEN**, siehe [separates Offline-Konzept](ONLINEFUNKTIONEN_OFFLINE_KONZEPT_OFFEN_2026-11-20.md).
 
+## 16. Direktvergleich von zwei APK-Testversionen, 20.11.2026
+
+Zweiter GitHub-Actions-Lauf [44832009895](https://github.com/geibibro123-linux/Farm-elvenar-/actions/runs/44832009895) **erfolgreich**. Nun wurden zwei APK-Dateien durch denselben reproduzierbaren, read-only Scanner untersucht und vorab per SHA-256 gegen den jeweiligen Release-Beleg geprueft.
+
+| Messwert | Lab04 SkriptTest03-1 | Lab09 RequestRoute02 |
+|---|---:|---:|
+| APK-Dateigroesse in Bytes | 232.466.424 | 231.770.000 |
+| ZIP-Eintraege | 6.494 | 6.492 |
+| Unity-Daten-Dateien geprueft | 4.830 | 4.830 |
+| Gelesene Unity-TextAssets | 44 | 44 |
+| TextAssets mit Forschung/Technologie im Namen | 0 | 0 |
+| unterschiedliche technologieaehnliche Text-Tokens | 240 | 232 |
+| Vorkommen `ResearchTechnologyConfigVO` | 6 | 6 |
+| Vorkommen `ResearchTechnologyProgressVO` | 6 | 6 |
+| Vorkommen `TechTreeTechnology` | 115 | 115 |
+| Vorkommen `parentIds` | 1 | 1 |
+| Vorkommen `requirements` | 45 | 45 |
+| Vollstaendige Technologie-Konfigurationszeilen dekodiert | **0** | **0** |
+
+Hashes:
+- Lab04: `d77de38720bde3c0894493b519cdcca6183d7d020d3377d40e2096516d6d247c`
+- Lab09: `d9e36fa4beef2c6c5e3b196caa3eca9cc128af03a8d4add1290f4c6034fe0bf1`
+
+Berichte:
+- [Lab04 JSON](https://github.com/geibibro123-linux/Farm-elvenar-/blob/main/docs/research_apk_scans/lab04_baseline_structural_scan_2026-11-20.json)
+- [Lab09 JSON](https://github.com/geibibro123-linux/Farm-elvenar-/blob/main/docs/research_apk_scans/lab09_route02_structural_scan_2026-11-20.json)
+
+**Interpretation:** Die textuell identifizierten TechTree-/ResearchVO-Klassen und der TextAsset-Umfang sind gleich. Die acht Differenz-Tokens **beweisen keine acht geaenderten Forschungsknoten**, weil der Scanner zahlreiche UI-, Text- und Provinzkennungen mitzaehlt. Die Aussagen des Nutzers, dass modifizierter Client und Original denselben Forschungsbaum zeigen, passen hierzu, sind durch den Klasse-/Tokenvergleich aber **noch nicht als Voll-Datenidentitaet nachgewiesen**. Die modifizierten APKs wurden nicht mit einer unveraenderten Original-APK im Binärvergleich abgeglichen.
+
+**Naechste sinnvolle APK-Quelle:** fuer reale `id/maxSP/requirements/parentIds` zuerst pruefen, ob die Forschungskonfiguration im Server-Response `StartupService.getData` bzw. in weiteren durch den Originalclient empfangenen Definitionen vorkommt. Vorher ein sauberes Response-Schema gewinnen und personenbezogene Felder entfernen. Klassennamen und UI-Assets allein reichen nicht, um Kostenzeilen zu rekonstruieren. Kein live-Spielserverzugriff wird durch diesen Vergleich behauptet.
