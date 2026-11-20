@@ -180,3 +180,47 @@ Bestehende belegte Ergebnisse frueherer APK-/Archivuntersuchungen:
 - Ein Forschungsbaum ohne bewiesene Ressourcenanforderungen darf keine unbeabsichtigte Gratisaktivierung zulassen.
 
 **Roadmap:** Zuerst die verbliebenen Kapitel-I-Knoten und deren freigegebene Zahlen, dann Kapitel II-V, dann den Anschluss `elves_all3_aw` zu `elves_scouting_6` aufbauen; die aktualisierte Original-APK nach Wiederherstellung der Ausfuehrungsumgebung gesondert pruefen.
+
+## 13. Erfolgreicher APK-Ausweichscan ueber GitHub Actions, 20.11.2026
+
+**Warum fruehere Versuche scheiterten:** Die lokale Ausfuehrungsumgebung gab `ClientError` selbst auf einfache Shellbefehle wie `pwd` zurueck. Dieser Test beweist eine Ausfuehrungs-/Infrastrukturstoerung; er beweist weder eine kaputte APK noch eine bestimmte Ursache des Fehlerdienstes. Wiederholte identische Containeraufrufe allein konnten das nicht beheben.
+
+**Erfolgreiche Alternative:** GitHub Actions im privaten Repository `geibibro123-linux/Farm-elvenar-`. Beleg: [erfolgreicher Lauf 44831049326](https://github.com/geibibro123-linux/Farm-elvenar-/actions/runs/44831049326). Pinning: `Elvenar_Lab09_RequestRoute02.apk`, SHA-256 `d9e36fa4beef2c6c5e3b196caa3eca9cc128af03a8d4add1290f4c6034fe0bf1`. APK-Groesse 231.770.000 Bytes. **Nicht** identisch mit der urspruenglich materialisierten Lab04-Datei oder mit der zuvor verlinkten Lab09 RequestRoute01 auf Google Drive.
+
+- 6.492 ZIP-Eintraege; 451.253.390 Bytes unkomprimierter Inhalt.
+- 4.830 Unity-Daten-Dateien; UnityPy hat erfolgreich **44 TextAssets** geprueft, jedoch **0 TextAsset-Namen mit Forschung/Technologie-Bezug** gefunden.
+- Der einfache Stringscan fand 232 unterschiedliche **technologieaehnliche Textkennungen**, darunter viele UI-/Lokalisierungs-/Weltnamen und einige historische `elves_...`-Featurebezeichnungen. **Nicht mit 232 echten Forschungen verwechseln.**
+- Technische Strings: `ResearchTechnologyConfigVO` 6 Treffer, `ResearchTechnologyProgressVO` 6, `TechTreeTechnology` 115, `parentIds` 1, `requirements` 45, `technologySection` 6. Fundorte liegen vorwiegend in IL2CPP-Metadaten, UI-Assets und im historischen beigefuegten Referenz-JSON.
+- `elves_all3_aw` und `elves_scouting_6` wurden als rohe Klartextkennungen **nicht** gefunden. Dies ist kein Beweis fuer die Abwesenheit aus versteckten / serverseitigen / kodierten Daten.
+- **Vollstaendige Konfigurationszeilen aus APK: 0.** Der Scan ist bewusst eine Bestandsaufnahme der Datenorte und nicht der Nachweis einer vollstaendigen Forschungsdatenbank.
+
+Dauerhaft lesbare Rohberichte in privatem GitHub:
+[JSON-SCAN](https://github.com/geibibro123-linux/Farm-elvenar-/blob/main/docs/research_apk_scans/lab09_route02_structural_scan_2026-11-20.json),
+[MARKDOWN-SCAN](https://github.com/geibibro123-linux/Farm-elvenar-/blob/main/docs/research_apk_scans/lab09_route02_structural_scan_2026-11-20.md).
+
+**Folgerung:** Ein weitergehender Versuch muss gezielt die originalen ConfigVO-Datenquellen (ggf. Serverantwort statt APK-Assets), IL2CPP-Binaer-Layouts und Graphformate identifizieren. Ein UI-Klassenname reicht nicht aus. Keine fehlenden Aktivierungspreise erfinden.
+
+## 14. Zusaetzliche historische Kapitel-I-Knoten mit Bildquelle
+
+Neu gespeichert:
+[`data/reference/community_ch01_historical_spieletrend_screenshot_2026-11-20.json`](../data/reference/community_ch01_historical_spieletrend_screenshot_2026-11-20.json)
+
+Primaerbeleg: [Spieletrend, historischer Forschungsbaum](https://spieletrend.com/medien/elvenar-wissen-forschung.jpg), [urspruengliche Artikelseite](https://spieletrend.com/spiele/elvenar/).
+
+Einzelne eindeutig erkennbare sichtbare Forschungsanforderungen:
+`Leuchtender Wegweiser 5 WP`; `Kaserne 8 WP`; `Marmormanufaktur 8 WP`; `Stahlmanufaktur 8 WP`; `Holzmanufaktur 8 WP`; `Stadterweiterung I 10 WP`; `Erweiterung der Truppgroesse I 11 WP`; `Bogenschuetzen 15 WP`; `Marmor-Produktionsbonus 14 WP`; `Haendler 19 WP`. `Ruestkammer 13 WP` ist zusaetzlich notiert, **mit mittlerer Lesesicherheit**.
+
+Das Bild liefert fuer einige Knoten sichtbare Verbindungslinien. Diese wurden **nur** als visuelle historische Hinweise abgelegt, nicht als technische `parentIds`.
+
+**Wichtiges Versionsrisiko:** In [einer Elvenar-Redditdiskussion vom 18.07.2023](https://www.reddit.com/r/Elvenar/comments/152i8a1) berichten mehrere Spieler, dass die Forschungen der Kapitel I bis V zuvor umgestaltet und alte Konten Mitte Juli 2023 auf die neue Struktur migriert wurden. Dies ist ein **Communitybericht**, keine direkt bestaetigte InnoGames-Migrationsliste. Er erklaert moegliche Unterschiede wie `Haendler 19 WP` im alten Bild versus `12 WP` im modernen Elvenarchy-Guide, beweist aber nicht allein die Ursache dieses konkreten Unterschieds.
+
+**FEST bleibt:** Bei vergleichbaren Kosten den kleinsten belegten Zahlenwert auswaehlen; die abweichenden historischen Werte und Quellen erhalten. **NICHT FEST:** Kombination unterschiedlicher Topologien, denn diese darf spaeter zu unspielbaren oder unhistorischen Voraussetzungen fuehren.
+
+## 15. Vorbereiten fuer Build-Integration
+
+Bestaetigte Quellenwerte und ihr Provenienzstatus bleiben in `data/reference/`; die aktive Laufzeitdatei `data/definitions/research_nodes.json` bleibt unveraendert ohne freie Original-Erfindungen.
+
+Die Datenpipeline muss kuenftig diese Felder getrennt erhalten: `source_version`, `race`, `tech_id` (nullable), `name`, `knowledge_points` (nullable), `activation_requirements` (nullable), `parentIds` (nullable), `unlock_effect` (nullable), `source_url`, `source_confidence`, `user_selected_cost`, `import_ready`.
+
+Ein Knoten darf nur dann als originalgetreu freischaltbar in den Laufzeitbaum importiert werden, wenn seine benoetigten Kosten und Kanten bekannt oder als separate, vom Nutzer freigegebene Elvenland-Alternative vorhanden sind. Onlinefunktionen bleiben fuer die aktuelle APK **OFFEN**, siehe [separates Offline-Konzept](ONLINEFUNKTIONEN_OFFLINE_KONZEPT_OFFEN_2026-11-20.md).
+
