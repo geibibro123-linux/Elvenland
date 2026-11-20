@@ -1,0 +1,112 @@
+{
+  "_meta": {
+    "type": "HISTORICAL_GAME_SCREENSHOT_TRANSCRIPTION",
+    "source_url": "https://spieletrend.com/spiele/elvenar/",
+    "source_image_url": "https://spieletrend.com/medien/elvenar-wissen-forschung.jpg",
+    "observed_on": "2026-11-20",
+    "race": "UNVERIFIED",
+    "game_build": "UNKNOWN_OLDER_SCREENSHOT",
+    "status": "HISTORICAL_VISUAL_EVIDENCE_NOT_CURRENT_CONFIG",
+    "transcription_scope": "Only visible early chapter I node labels and progress denominators",
+    "no_direct_technical_ids": true,
+    "parentids_directly_verified": false,
+    "selection_rule": "Lowest documented comparable value per technology, race and cost resource; preserve versions separately",
+    "notes": "Do not merge old screenshot connection lines with modern 2026 graph without version alignment. 2016-era research layouts may differ from newer post-2023 layouts."
+  },
+  "nodes": [
+    {
+      "label_de": "Leuchtender Wegweiser",
+      "observed_research_sp": 5,
+      "progress_display": "5/5",
+      "progress_state": "completed"
+    },
+    {
+      "label_de": "Kaserne",
+      "observed_research_sp": 8,
+      "progress_display": "0/8"
+    },
+    {
+      "label_de": "Marmormanufaktur",
+      "observed_research_sp": 8,
+      "progress_display": "0/8"
+    },
+    {
+      "label_de": "Stahlmanufaktur",
+      "observed_research_sp": 8,
+      "progress_display": "0/8"
+    },
+    {
+      "label_de": "Holzmanufaktur",
+      "observed_research_sp": 8,
+      "progress_display": "0/8"
+    },
+    {
+      "label_de": "Stadterweiterung I",
+      "observed_research_sp": 10,
+      "progress_display": "0/10"
+    },
+    {
+      "label_de": "Erweiterung der Truppengröße I",
+      "observed_research_sp": 11,
+      "progress_display": "0/11"
+    },
+    {
+      "label_de": "Bogenschützen",
+      "observed_research_sp": 15,
+      "progress_display": "0/15"
+    },
+    {
+      "label_de": "Marmor-Produktionsbonus",
+      "observed_research_sp": 14,
+      "progress_display": "0/14"
+    },
+    {
+      "label_de": "Rüstkammer",
+      "observed_research_sp": 13,
+      "progress_display": "0/13",
+      "transcription_confidence": "MEDIUM_DUE_SMALL_IMAGE"
+    },
+    {
+      "label_de": "Händler",
+      "observed_research_sp": 19,
+      "progress_display": "0/19",
+      "lowest_cost_selection_not_applied": "modern Elvenarchy elf trader has 12 KP; screenshot race not verified"
+    }
+  ],
+  "visible_topology_observations": [
+    {
+      "from": "Leuchtender Wegweiser",
+      "to": [
+        "Kaserne",
+        "Marmormanufaktur",
+        "Stahlmanufaktur",
+        "Holzmanufaktur"
+      ],
+      "status": "VISUAL_BRANCH_OBSERVATION_NOT_TECHNICAL_PARENT_IDS",
+      "confidence": "MEDIUM"
+    }
+  ],
+  "unknown": [
+    "full_21_node_chapter_list",
+    "technical_ids",
+    "all_exact_parentIds",
+    "most_activation_costs",
+    "volk_of_screenshot",
+    "game_version"
+  ],
+  "version_context": [
+    {
+      "source": "https://www.reddit.com/r/Elvenar/comments/152i8a1/",
+      "date": "2023-07-18",
+      "type": "COMMUNITY_REPORT",
+      "content": "Players report that chapters I-V research trees had been redesigned around 2022 and remaining old accounts migrated around July 2023. Treat as community report, not official confirmation."
+    }
+  ],
+  "known_separate_visual_activation_example": {
+    "name": "Marmormanufaktur",
+    "sp": 8,
+    "money": 2500,
+    "source_image": "https://imag.malavida.com/mvimgbig/download-fs/elvenar-28484-12.jpg",
+    "same_build_proven": false
+  }
+}
