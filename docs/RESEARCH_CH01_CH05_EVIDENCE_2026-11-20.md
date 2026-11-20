@@ -130,3 +130,53 @@ Die folgenden Bausteine sind **Quellenhinweise auf Forschungsinhalte oder Wirkun
 - [Community: Forschungs-Menue und Kapitelgrenzen](https://www.santastoybox.net/elvenar.htm)
 
 **Hinweis zur Nutzung:** Externe Bilder sind nicht in dieser Datei kopiert, sondern ueber die Quellseiten referenziert. Fuer veroeffentlichte Eigennutzung gelten die jeweiligen Rechte der Medien. Das GitHub-Repository bleibt privat.
+
+## 9. Auswahlregel FEST: niedrigster vergleichbarer Quellenwert (Nutzerentscheidung 20.11.2026)
+
+Der Nutzer hat verbindlich entschieden, bei mehreren dokumentierten Forschungswerten den **kleinsten Wert** als Elvenland-Auswahlwert zu verwenden, auch wenn die Belege aus unterschiedlichen Originalspiel-Versionen stammen. Die Regel gilt nur bei *vergleichbaren* Kosten: identische Forschung, identisches Volk, identische Waehrung/Ressource und derselbe Zahlvorgang. Es ist **kein** Beleg dafuer, dass dieser niedrigste Wert im gesamten historischen Originalzeitraum gueltig war.
+
+| Forschung / Vergleich | Belege | Elvenland-Auswahl |
+|---|---|---|
+| Haendler, Elfen, Forschung-WP | 12 WP: [Elvenarchy](https://elvenarchy.fuzzalab.pt/en/guides/primeiros-capitulos-estrategia); 19 WP: ungesicherter frueherer Bildbericht | **12 WP** |
+| Handwerk, Kapitel III | Elfen 28 WP, Menschen 21 WP: unterschiedliche Voelker | **28 WP Elfen**, **21 WP Menschen** |
+| Turniere, Kapitel IV | Elfen 32 WP, Menschen 35 WP: unterschiedliche Voelker | **32 WP Elfen**, **35 WP Menschen** |
+| Turm der Ewigkeit, Kapitel V | Elfen 50 WP, Menschen 45 WP: unterschiedliche Voelker | **50 WP Elfen**, **45 WP Menschen** |
+
+Der ausgewaehlte Wert ist zunaechst **ARBEITSWERT** fuer die Spielentwicklung. Die Auswahlregel selbst ist **FEST**. Die oeffentlichen/community Quellen und alle abweichenden historischen Werte werden erhalten. Unbekannte `requirements` und `parentIds` bleiben OFFEN; sie werden niemals als Nullpreis bzw. leere Elternliste gedeutet. Die neun belegten Einzel-WP-Werte sind in der Referenz-JSON einzeln als Arbeitsauswahl gespiegelt.
+
+## 10. Direkt verifizierter Screenshot: Marmormanufaktur
+
+Bildbeleg: [Original-Spielansicht auf Malavida](https://imag.malavida.com/mvimgbig/download-fs/elvenar-28484-12.jpg), [Quellseite](https://elvenar.fr.malavida.com/android/).
+
+- Technologie: `Marble Manufactory` (Marmormanufaktur), fruehes Kapitel I.
+- Forschung: **8 Wissenspunkte** (Anzeige `0/8`).
+- **Forschungs-Aktivierungskosten: 2.500 Muenzen**.
+- Die sichtbare Sofortfreischaltung mit 360 Diamanten ist eine separate Premiumoption, **nicht** die regulaere Forschungskosten-Summe.
+- Volk und exakter Screenshot-Build sind im Bild nicht sicher identifiziert. Deshalb ist der technische Anschluss an eine Elf-/Mensch-ID weiterhin OFFEN.
+- Zum Vergleich nennt [Elvenar Tools](https://elvenar-tools.com/buildings/manufactories) fuer den Neubau einer **Marmormanufaktur Stufe 1** 200 Muenzen, 10 Vorraete und 40 Sekunden Bauzeit. **Diese Bauwerte duerfen nicht mit den 2.500 Muenzen fuer die Technologiefreischaltung verwechselt werden.**
+
+Zusaetzlicher [Screenshot von BlueStacks](https://cdn-www.bluestacks.com/bs-images/Tips-and-tricksElvenar-5.png) zeigt vier fruehe Forschungen mit je `0/8` Wissenspunkten. Die Knotennamen sind dort nicht ablesbar. Daher wird daraus **keine** Zuweisung zu bestimmten IDs erstellt.
+
+## 11. Original-APK: vorhanden, erneute Binaerpruefung unterbrochen
+
+Die Datei `Elvenar_Lab04_SkriptTest03.apk` wurde am 20.11.2026 in der verbundenen Dateibibliothek mit **232.466.424 Bytes** gefunden und zur lokalen Analyse materialisiert. Die in einem frueheren GitHub-Release gemeldete SHA-256 lautet `d77de38720bde3c0894493b519cdcca6183d7d020d3377d40e2096516d6d247c`. **Eine erneute SHA-256-Berechnung auf den jetzt gefundenen Bibliotheksbytes ist nicht gelungen.**
+
+Alle lokalen Shell- und Python-Versuche brachen mit `ClientError` ab. Deshalb wurden **keine neuen Original-Technologiezeilen direkt aus der APK gewonnen** und keine Negativaussage ueber den Inhalt getroffen.
+
+Bestehende belegte Ergebnisse frueherer APK-/Archivuntersuchungen:
+- 13 Feature-Technologie-Zuordnungen zu 11 eindeutigen technischen IDs in `data/reference/historical_feature_technology_links.json`.
+- `ResearchTechnologyConfigVO` verlangt `id`, `maxSP`, `parentIds`, `requirements`, der historische Offline-Planer liefert aber keine vollstaendigen Konfigurationszeilen.
+- `TechTreeTechnologyView`, `TechTreeTechnologyMediator`, `TechTreeTechnologyConnectionsView` und `ResearchWindowMediator` belegen Client-UI-Komponenten, **keinen** vollstaendigen Kosten-/Kantensatz.
+- Die bisherige [MonoBehaviour-Pruefung](MONOBEHAVIOUR_SCOPE.md) erfasste 45.620 Objekt-Header, konnte aber zahlreiche nutzdatentragende TypeTrees nicht vollstaendig dekodieren.
+- [Offizielle Versionshinweise 1.244](https://support.innogames.com/kb/Elvenar/en_DK/7006/Release-Notes-1244) datieren den Originalclient auf Oktober 2020. Spaetere Kapitel-22-Featurelinks in einem historischen Referenz-Archiv duerfen **nicht** ungeprueft als eingebettete Daten dieser APK-Version ausgegeben werden.
+
+**Fortsetzung der Binaerpruefung:** Erneut SHA-256 und ZIP-Inventar der materialisierten APK ausfuehren; enthaltene Unity-Assets und IL2CPP-Metadaten nach Forschungsdefinitionen/Typen durchsuchen; echte Konfigurationszeilen, falls vorhanden, mit Provenienz gesondert exportieren. Fehlt eine clientseitige Konfiguration, offen als moeglichen serverseitigen Inhalt behandeln.
+
+## 12. Verifizierte externe Spielregeln fuer die Offline-Abbildung
+
+- [InnoGames](https://support.innogames.com/kb/Elvenar/de_DE/218): 1 WP je Stunde, Speicher regulär 10, temporaer 20; weitere WP ueber alternative Quellen.
+- [InnoGames](https://support.innogames.com/kb/Elvenar/en_DK/297): ein zugewiesenes Produktionsbonus-Gut je Gueterklasse. Forschungsbonus gilt erst nach Freischaltung der jeweiligen Technologie.
+- [Elvenarchy](https://elvenarchy.fuzzalab.pt/en/guides/menus-das-manufaturas): Urspruengliche Gueterproduktion bietet 3 h, 9 h, 1 Tag und 2 Tage. **Das sind Produktionsdauern, keine Forschungslaufzeiten.**
+- Ein Forschungsbaum ohne bewiesene Ressourcenanforderungen darf keine unbeabsichtigte Gratisaktivierung zulassen.
+
+**Roadmap:** Zuerst die verbliebenen Kapitel-I-Knoten und deren freigegebene Zahlen, dann Kapitel II-V, dann den Anschluss `elves_all3_aw` zu `elves_scouting_6` aufbauen; die aktualisierte Original-APK nach Wiederherstellung der Ausfuehrungsumgebung gesondert pruefen.
