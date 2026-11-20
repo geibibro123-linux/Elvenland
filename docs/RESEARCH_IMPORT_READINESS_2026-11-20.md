@@ -68,3 +68,26 @@ Fuer einen spaeteren Import je Technologie mindestens vorsehen:
 5. **Aktivierter Spielkreislauf:** Erst nach Quellenvollstaendigkeit oder einer ausdruecklich bestaetigten lokalen Alternativregel den Forschungszustand und Ressourcenabbuchungen implementieren und automatisiert testen.
 
 **Abschluss:** Kein neuer Android-Test aus dieser Recherche. GitHub-Datenbasis und reproduzierbare technische Scans sind bereit; vollstaendige historische Fruehkapitel-Kosten sind weiterhin OFFEN.
+
+## F. Neuer Original-Balancing-Quellenbeleg: Dateiformat statt geratenem Baum
+
+Am 20.11.2026 wurde im oeffentlichen Quellcode `paviad/elvenar-helper-extension` eine **nicht-personenbezogene Original-Konfigurationsquelle** identifiziert:
+`xml.balancing.research.ResearchTechnologiesElves_<hash>.json` bzw.
+`ResearchTechnologiesHumans_<hash>.json`. Das erklaert den Befund, warum in den beiden APK-Schnellscans zwar TechTree-UI- und ConfigVO-Klassen, aber nicht die 124 echten Kostenzeilen nachgewiesen wurden. Es ist **noch nicht belegt**, dass die Android-App exakt denselben Dateipfad nutzt.
+
+Das nachgewiesene Original-Schema enthaelt die bisher fehlenden Felder `section`, `maxSP`, `requirements.resources`, `parentIds`, `childrenIds`, `rewards` und `gate.completedProvinces`.
+
+- [Ausfuehrliche Quellenanalyse und datensparsame Beschaffungsanleitung](RESEARCH_BALANCING_ORIGINAL_SOURCE_2026-11-20.md)
+- [Maschinenlesbare Schema-/Provenienzreferenz](../data/reference/research_balancing_schema_provenance_2026-11-20.json)
+- [Quell-Code fuer das Modell](https://github.com/paviad/elvenar-helper-extension/blob/master/src/model/researchTechnology.ts)
+- [Quell-Code fuer den Balancing-Datei-Matcher](https://github.com/paviad/elvenar-helper-extension/blob/master/src/inject/nonSpecificMatchers.ts)
+
+Der direkte [GitHub-Actions-Abrufversuch](https://github.com/geibibro123-linux/Farm-elvenar-/actions/runs/44832391105) der historisch im Matcher belegten Menschen-Datei mit dem 32-stelligen Hash `9fa701953369071f3962fd3ffe897522` erhielt **HTTP 404**. Dies bedeutet: dieser eine Dateistand ist unter der historischen URL nicht mehr abrufbar. Keine aktuellen Elfen- oder Menschenzeilen aus dem Originalnetz gefunden.
+
+**Fuer einen wirklichen Build relevant:** Wenn ein aktueller URL-Hash einmal ermittelt ist und die Datei legal zugaenglich bleibt, kann ein automatisierter Import die 124 fruehen Konfigurationsobjekte aus einem konsistenten Originalstand extrahieren. Fehlende Kinder-/Elternbeziehungen weiterhin als OFFEN behandeln, solange keine Quellzeile sie belegt. **Keine** Inventar-, Konten-, Forschungsfortschritts- oder Sessiondaten mit dem Forschungsreferenzbestand vermischen.
+
+## G. Zwei reale APK-Scans statt Infrastrukturfehler
+
+[GitHub Actions Lab04-Vergleich](https://github.com/geibibro123-linux/Farm-elvenar-/actions/runs/44832009895) jetzt ebenfalls **erfolgreich**: 232.466.424 Bytes Lab04, 6.494 ZIP-Eintraege, 44 TextAssets, 240 technologieaehnliche Tokens, 0 vollstaendige Forschungszeilen. Die Lab09-Reihe hatte 231.770.000 Bytes, 6.492 ZIP-Eintraege, 44 TextAssets, 232 Tokens, ebenfalls 0 komplette Zeilen. Alle genannten Forschungs-VO-Klassen haben in beiden Scans gleiche Fundzahlen. Der Screenshot-/Clientklasse-Nachweis ist vom Origial-Gesamtschema getrennt.
+
+Alle Rohberichte und Versionsgrenzen: [Forschungsbaum-Bericht Kapitel I-V](RESEARCH_CH01_CH05_EVIDENCE_2026-11-20.md).
