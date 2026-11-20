@@ -1,0 +1,47 @@
+name: Elvenland compile read-only research preview
+on:
+  push:
+    paths:
+      - '.github/workflows/compile-research-reference-preview.yml'
+      - 'tools/compile_research_reference_preview.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compile reference without promoting to live gameplay
+        shell: bash
+        run: |
+          set -euo pipefail
+          python tools/compile_research_reference_preview.py
+          python - <<'PY'
+          import json
+          p="data/reference/compiled_research_readonly_preview_2026-11-20.json"
+          x=json.load(open(p,encoding="utf8"))
+          assert x["_meta"]["gameplay_activation_forbidden_without_specific_approval"]
+          assert len(x["nodes"])==776
+          assert all(not r["activation_ready"] for r in x["nodes"])
+          assert x["summary"]["late_source_records"]==767
+          assert x["summary"]["early_individual_reference_records"]==9
+          assert x["summary"]["active_gameplay_records_added"]==0
+          assert all(r["parent_ids"] is None and r["activation_requirements"] is None for r in x["nodes"][:9])
+          assert len([r for r in x["nodes"] if r["unresolved_parent_ids"]])==1
+          assert x["nodes"][9]["tech_id"]=="elves_scouting_6"
+          assert x["nodes"][9]["knowledge_points"]==94
+          assert x["nodes"][9]["activation_requirements"]=={"money":250000,"supplies":20000,"silk":4200,"magic_dust":5000}
+          assert x["nodes"][9]["unresolved_parent_ids"]==["elves_all3_aw"]
+          print("REFERENCE_PREVIEW_VALIDATED",x["summary"])
+          PY
+      - name: Commit verified preview to private repo
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/reference/compiled_research_readonly_preview_2026-11-20.json
+          git commit -m "research: save validated readonly 776-node research preview" || true
+          git push
