@@ -1,0 +1,353 @@
+{
+  "_meta": {
+    "kind": "USER_UPLOADED_ORIGINAL_GAME_SCREENSHOT_TRANSCRIPTION",
+    "date": "2026-11-21",
+    "source": "Three screenshots supplied directly in the chat by user",
+    "input_files": [
+      {
+        "filename": "1000118713(1).jpg",
+        "sha256": "2348647939b4aa882e185278451906c1d1a2a550a18bf78a5aad53c420714a2a",
+        "role": "start graph"
+      },
+      {
+        "filename": "1000118715(1).jpg",
+        "sha256": "e9f7817e9ada22adff0cd4dc32b19008e61a9cf5f3c1c4f9ed8c8d364135c1ce",
+        "role": "Kaserne detail and overlapping graph"
+      },
+      {
+        "filename": "1000118717(1).jpg",
+        "sha256": "4e103099fcb4d38dc65fd3c2536051e43c46ae9814eb255271604349703e26d9",
+        "role": "middle and right graph"
+      }
+    ],
+    "source_quality": "DIRECT_USER_SCREENSHOTS_READABLE",
+    "screenshot_size": "2048x945",
+    "game_build": "UNKNOWN",
+    "captured_race": "UNVERIFIED",
+    "current_game_2026_server_version": "UNVERIFIED",
+    "originals_not_embedded_in_github": true,
+    "source_graph_family": "USER_2026_SOURCE_UNALIGNED_TO_OLDER_COMMUNITY_EDGES",
+    "technical_ids_verified": false,
+    "actual_parentIds_verified": false,
+    "node_reference_ids_not_original": true,
+    "chapter": "I / Ankunft",
+    "user_cost_minimum_policy": "FEST; only apply where like-for-like race/version/tech is comparable. Do not infer any missing cost.",
+    "active_definitions_updated": false,
+    "historical_reference_only": true
+  },
+  "nodes": [
+    {
+      "reference_id": "hauptgebaeude",
+      "display_name_de": "Hauptgebäude",
+      "chapter": 1,
+      "wp_cost_from_screenshot": 1,
+      "wp_observation_status": "IMAGE_DIRECT",
+      "visible_progress": "1/1",
+      "progress_status": "complete",
+      "tech_id": null,
+      "race": null,
+      "activation_costs": null,
+      "activation_costs_status": "NOT_SHOWN",
+      "parent_ids": null,
+      "game_balance_approved": false
+    },
+    {
+      "reference_id": "werkstatt",
+      "display_name_de": "Werkstatt",
+      "chapter": 1,
+      "wp_cost_from_screenshot": 3,
+      "wp_observation_status": "IMAGE_DIRECT",
+      "visible_progress": "3/3",
+      "progress_status": "complete",
+      "tech_id": null,
+      "race": null,
+      "activation_costs": null,
+      "activation_costs_status": "NOT_SHOWN",
+      "parent_ids": null,
+      "game_balance_approved": false
+    },
+    {
+      "reference_id": "leuchtender_wegweiser",
+      "display_name_de": "Leuchtender Wegweiser",
+      "chapter": 1,
+      "wp_cost_from_screenshot": 3,
+      "wp_observation_status": "IMAGE_DIRECT",
+      "visible_progress": "3/3",
+      "progress_status": "complete",
+      "tech_id": null,
+      "race": null,
+      "activation_costs": null,
+      "activation_costs_status": "NOT_SHOWN",
+      "parent_ids": null,
+      "game_balance_approved": false
+    },
+    {
+      "reference_id": "kaserne",
+      "display_name_de": "Kaserne",
+      "chapter": 1,
+      "wp_cost_from_screenshot": 4,
+      "wp_observation_status": "IMAGE_DIRECT",
+      "visible_progress": "0/4",
+      "progress_status": "not_researched",
+      "tech_id": null,
+      "race": null,
+      "activation_costs": {
+        "money": 500,
+        "supplies": 125
+      },
+      "activation_costs_status": "IMAGE_DIRECT_EXACT",
+      "parent_ids": null,
+      "game_balance_approved": false
+    },
+    {
+      "reference_id": "marmormanufaktur",
+      "display_name_de": "Marmormanufaktur",
+      "chapter": 1,
+      "wp_cost_from_screenshot": 4,
+      "wp_observation_status": "IMAGE_DIRECT",
+      "visible_progress": "0/4",
+      "progress_status": "not_researched",
+      "tech_id": null,
+      "race": null,
+      "activation_costs": null,
+      "activation_costs_status": "NOT_SHOWN",
+      "parent_ids": null,
+      "game_balance_approved": false
+    },
+    {
+      "reference_id": "stahlmanufaktur",
+      "display_name_de": "Stahlmanufaktur",
+      "chapter": 1,
+      "wp_cost_from_screenshot": 4,
+      "wp_observation_status": "IMAGE_DIRECT",
+      "visible_progress": "0/4",
+      "progress_status": "not_researched",
+      "tech_id": null,
+      "race": null,
+      "activation_costs": null,
+      "activation_costs_status": "NOT_SHOWN",
+      "parent_ids": null,
+      "game_balance_approved": false
+    },
+    {
+      "reference_id": "holzmanufaktur",
+      "display_name_de": "Holzmanufaktur",
+      "chapter": 1,
+      "wp_cost_from_screenshot": 4,
+      "wp_observation_status": "IMAGE_DIRECT",
+      "visible_progress": "0/4",
+      "progress_status": "not_researched",
+      "tech_id": null,
+      "race": null,
+      "activation_costs": null,
+      "activation_costs_status": "NOT_SHOWN",
+      "parent_ids": null,
+      "game_balance_approved": false
+    },
+    {
+      "reference_id": "stadterweiterung_1",
+      "display_name_de": "Stadterweiterung 1",
+      "chapter": 1,
+      "wp_cost_from_screenshot": 5,
+      "wp_observation_status": "IMAGE_DIRECT",
+      "visible_progress": "0/5",
+      "progress_status": "locked",
+      "tech_id": null,
+      "race": null,
+      "activation_costs": null,
+      "activation_costs_status": "NOT_SHOWN",
+      "parent_ids": null,
+      "game_balance_approved": false
+    },
+    {
+      "reference_id": "truppengroesse_1",
+      "display_name_de": "Erweiterung der Truppgröße 1",
+      "chapter": 1,
+      "wp_cost_from_screenshot": 6,
+      "wp_observation_status": "IMAGE_DIRECT",
+      "visible_progress": "0/6",
+      "progress_status": "locked",
+      "tech_id": null,
+      "race": null,
+      "activation_costs": null,
+      "activation_costs_status": "NOT_SHOWN",
+      "parent_ids": null,
+      "game_balance_approved": false
+    },
+    {
+      "reference_id": "bogenschuetzen",
+      "display_name_de": "Bogenschützen",
+      "chapter": 1,
+      "wp_cost_from_screenshot": 8,
+      "wp_observation_status": "IMAGE_DIRECT",
+      "visible_progress": "0/8",
+      "progress_status": "locked",
+      "tech_id": null,
+      "race": null,
+      "activation_costs": null,
+      "activation_costs_status": "NOT_SHOWN",
+      "parent_ids": null,
+      "game_balance_approved": false
+    },
+    {
+      "reference_id": "produktionsbonus_gueter",
+      "display_name_de": "Produktionsbonus für Güter",
+      "chapter": 1,
+      "wp_cost_from_screenshot": 8,
+      "wp_observation_status": "IMAGE_DIRECT",
+      "visible_progress": "0/8",
+      "progress_status": "locked",
+      "tech_id": null,
+      "race": null,
+      "activation_costs": null,
+      "activation_costs_status": "NOT_SHOWN",
+      "parent_ids": null,
+      "game_balance_approved": false
+    },
+    {
+      "reference_id": "ruestkammer",
+      "display_name_de": "Rüstkammer",
+      "chapter": 1,
+      "wp_cost_from_screenshot": 8,
+      "wp_observation_status": "IMAGE_DIRECT",
+      "visible_progress": "0/8",
+      "progress_status": "locked",
+      "tech_id": null,
+      "race": null,
+      "activation_costs": null,
+      "activation_costs_status": "NOT_SHOWN",
+      "parent_ids": null,
+      "game_balance_approved": false
+    },
+    {
+      "reference_id": "marktplatz",
+      "display_name_de": "Marktplatz",
+      "chapter": 1,
+      "wp_cost_from_screenshot": 12,
+      "wp_observation_status": "IMAGE_DIRECT",
+      "visible_progress": "0/12",
+      "progress_status": "locked",
+      "tech_id": null,
+      "race": null,
+      "activation_costs": null,
+      "activation_costs_status": "NOT_SHOWN",
+      "parent_ids": null,
+      "game_balance_approved": false
+    }
+  ],
+  "sum_visible_node_wp": 70,
+  "visible_directed_graph_connections": [
+    {
+      "from_reference_id": "hauptgebaeude",
+      "to_reference_id": "werkstatt",
+      "confidence": "HIGH_VISUAL_CONNECTION",
+      "screenshot_observation_only": true,
+      "original_parent_tech_ids": null,
+      "note": "Line is visible in user game tree. Does not prove whether other parallel prerequisite edges also exist."
+    },
+    {
+      "from_reference_id": "werkstatt",
+      "to_reference_id": "leuchtender_wegweiser",
+      "confidence": "HIGH_VISUAL_CONNECTION",
+      "screenshot_observation_only": true,
+      "original_parent_tech_ids": null,
+      "note": "Line is visible in user game tree. Does not prove whether other parallel prerequisite edges also exist."
+    },
+    {
+      "from_reference_id": "leuchtender_wegweiser",
+      "to_reference_id": "kaserne",
+      "confidence": "HIGH_VISUAL_CONNECTION",
+      "screenshot_observation_only": true,
+      "original_parent_tech_ids": null,
+      "note": "Line is visible in user game tree. Does not prove whether other parallel prerequisite edges also exist."
+    },
+    {
+      "from_reference_id": "leuchtender_wegweiser",
+      "to_reference_id": "marmormanufaktur",
+      "confidence": "HIGH_VISUAL_CONNECTION",
+      "screenshot_observation_only": true,
+      "original_parent_tech_ids": null,
+      "note": "Line is visible in user game tree. Does not prove whether other parallel prerequisite edges also exist."
+    },
+    {
+      "from_reference_id": "leuchtender_wegweiser",
+      "to_reference_id": "stahlmanufaktur",
+      "confidence": "HIGH_VISUAL_CONNECTION",
+      "screenshot_observation_only": true,
+      "original_parent_tech_ids": null,
+      "note": "Line is visible in user game tree. Does not prove whether other parallel prerequisite edges also exist."
+    },
+    {
+      "from_reference_id": "leuchtender_wegweiser",
+      "to_reference_id": "holzmanufaktur",
+      "confidence": "HIGH_VISUAL_CONNECTION",
+      "screenshot_observation_only": true,
+      "original_parent_tech_ids": null,
+      "note": "Line is visible in user game tree. Does not prove whether other parallel prerequisite edges also exist."
+    },
+    {
+      "from_reference_id": "kaserne",
+      "to_reference_id": "stadterweiterung_1",
+      "confidence": "HIGH_VISUAL_CONNECTION",
+      "screenshot_observation_only": true,
+      "original_parent_tech_ids": null,
+      "note": "Line is visible in user game tree. Does not prove whether other parallel prerequisite edges also exist."
+    },
+    {
+      "from_reference_id": "kaserne",
+      "to_reference_id": "truppengroesse_1",
+      "confidence": "HIGH_VISUAL_CONNECTION",
+      "screenshot_observation_only": true,
+      "original_parent_tech_ids": null,
+      "note": "Line is visible in user game tree. Does not prove whether other parallel prerequisite edges also exist."
+    },
+    {
+      "from_reference_id": "kaserne",
+      "to_reference_id": "bogenschuetzen",
+      "confidence": "HIGH_VISUAL_CONNECTION",
+      "screenshot_observation_only": true,
+      "original_parent_tech_ids": null,
+      "note": "Line is visible in user game tree. Does not prove whether other parallel prerequisite edges also exist."
+    }
+  ],
+  "additional_graph_connections_pending_confirmation": [
+    {
+      "screenshot_description": "Grey horizontal line from Marmormanufaktur overlaps green highlighted branch toward Erweiterung der Truppgröße 1",
+      "possible_from": "marmormanufaktur",
+      "possible_to": "truppengroesse_1",
+      "status": "POTENTIAL_CONNECTION_OVERLAPPED_NOT_CONFIRMED"
+    },
+    {
+      "screenshot_description": "Grey horizontal line from Stahlmanufaktur overlaps green highlighted branch toward Bogenschützen",
+      "possible_from": "stahlmanufaktur",
+      "possible_to": "bogenschuetzen",
+      "status": "POTENTIAL_CONNECTION_OVERLAPPED_NOT_CONFIRMED"
+    },
+    {
+      "screenshot_description": "Grey line from Holzmanufaktur leads to Produktionsbonus für Güter",
+      "possible_from": "holzmanufaktur",
+      "possible_to": "produktionsbonus_gueter",
+      "status": "VISIBLE_GREY_LINK_GRAPH_HIGHLIGHT_NOT_CONFIRMED_AS_TECHNICAL_PARENT"
+    },
+    {
+      "screenshot_description": "Grey lines between second group and Rüstkammer / Marktplatz appear as shared intersections and must not be expanded into parentIds without separate selection.",
+      "status": "FURTHER_SCREENSHOTS_NEEDED"
+    }
+  ],
+  "direct_cost_comparison_warning": {
+    "old_historical_screenshot": "Marmormanufaktur 8 WP and 2500 coins; race, build and screenshot version uncertain",
+    "uploaded_user_game": "Marmormanufaktur 4 WP, activation price NOT VISIBLE",
+    "interpretation": "4 WP is direct evidence for the uploaded screenshot. Old 2500 coin price must NOT be assigned to current original screenshot.",
+    "separate_kaserne_price": "4 WP, 500 coins, 125 supplies; as shown in detail screenshot",
+    "alternative_diamond_button": "180 premium currency to unlock immediately, not the normal coin/supply research activation price"
+  },
+  "unresolved": [
+    "research activation costs for 12 other visible technologies",
+    "all original technical IDs",
+    "race and client build",
+    "full 21 node tree alignment",
+    "precise multi-parent semantics at intersections",
+    "all further node links right of Marktplatz",
+    "graph completeness"
+  ]
+}
