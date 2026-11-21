@@ -301,5 +301,31 @@
     "screenshot_intake_protocol": "docs/RESEARCH_SCREENSHOT_CAPTURE_GUIDE_2026-11-21.md",
     "remaining_main_blocker": "Source-complete consistent Elves and Humans chapter I-V dataset including original IDs, parentIds, activation requirements, rewards and gates",
     "no_2026_source_graph_edges_inferred_from_2022_material": true
+  },
+  "user_original_ch01_image_review_2026_11_21": {
+    "source": "Three original-game screenshots uploaded directly in chat",
+    "reference_file": "data/reference/user_original_ch01_research_screenshots_2026-11-21.json",
+    "visible_labeled_nodes": 13,
+    "total_visible_wp_across_nodes": 70,
+    "screenshot_visible_edges_high_confidence": 9,
+    "exact_original_tech_ids_from_images": 0,
+    "active_research_definitions_changed": false,
+    "kaserne": {
+      "wp": 4,
+      "activation_money": 500,
+      "activation_supplies": 125,
+      "source": "DIRECT_USER_IMAGE"
+    },
+    "marmormanufaktur": {
+      "wp": 4,
+      "activation_money": null,
+      "activation_supplies": null,
+      "source": "DIRECT_USER_IMAGE",
+      "activation_amounts_status": "NOT_SHOWN"
+    },
+    "version_conflict": "Earlier historical screenshot marble 8 WP / 2500 coins must not be automatically applied to user's current screenshots",
+    "screenshot_race": "UNVERIFIED",
+    "screenshot_client_build": "UNKNOWN",
+    "additional_multi_parent_edges": "OFFEN"
   }
 }
